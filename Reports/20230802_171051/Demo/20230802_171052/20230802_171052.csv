@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo,Chrome 107.0.0.0,,,2023-08-02 17:11:17,2023-08-02 17:12:49,1m - 31.911s,PASSED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_001,Chrome 107.0.0.0,,,2023-08-02 17:11:18,2023-08-02 17:12:49,1m - 30.659s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2023-08-02 17:11:20,2023-08-02 17:11:41,21.023s,PASSED
+navigateToUrl(url),Chrome 107.0.0.0,,,2023-08-02 17:11:41,2023-08-02 17:12:45,1m - 3.955s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 107.0.0.0,,,2023-08-02 17:12:45,2023-08-02 17:12:47,1.532s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2023-08-02 17:12:47,2023-08-02 17:12:49,1.969s,PASSED

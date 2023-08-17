@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the user able to add new Personal shipping address</description>
+   <name>TS_SMOKE_SUITE_017</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07c1a85a-47d0-4853-88f1-28e136f6dc0f</testCaseGuid>
+</TestCaseEntity>

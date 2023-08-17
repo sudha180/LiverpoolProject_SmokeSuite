@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search" time="141.565" tests="1" failures="0" errors="0">
+   <testsuite name="Search" tests="1" failures="0" errors="0" time="141.565" skipped="0" timestamp="2023-08-16 16:01:41" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230816_154111\\Search\\20230816_160137"/>
+         <property name="logFiles" value="D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230816_154111\\Search\\20230816_160137\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.204"/>
+         <property name="sessionId" value="696c5b4bd558d91e0034f16e8c5d3a2e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_059" time="141.171" classname="Test Cases/Search/TS_SMOKE_SUITE_059" status="PASSED">
+         <system-out><![CDATA[2023-08-16 16:01:41 - [TEST_CASE][PASSED] - Test Cases/Search/TS_SMOKE_SUITE_059: Test Cases/Search/TS_SMOKE_SUITE_059
+
+2023-08-16 16:01:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-16 16:01:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 16:01:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 16:01:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-16 16:01:45 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-16 16:02:31 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-16 16:02:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 16:02:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 16:02:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-16 16:02:31 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-16 16:02:32 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-16 16:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-16 16:02:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 16:02:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 16:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-16 16:02:36 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-16 16:02:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 16:02:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 16:02:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-16 16:02:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-16 16:02:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-16 16:02:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PDPPage/product_56_PDP"), 0): Object 'Object Repository/PDPPage/product_56_PDP' is present
+
+2023-08-16 16:02:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 16:04:01 - [MESSAGE][PASSED] - Object 'Object Repository/PDPPage/product_56_PDP' is present
+
+2023-08-16 16:04:01 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("PDPPage/product_57_PDP"), 0): Web element with id: 'Object Repository/PDPPage/product_57_PDP' located by 'By.xpath: //ul[@class="m-product__listingPlp"]//li[57]' is not present after '30' second(s)
+
+2023-08-16 16:04:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 16:04:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PDPPage/product_57_PDP' located by 'By.xpath: //ul[@class="m-product__listingPlp"]//li[57]' is not present after '30' second(s)
+
+2023-08-16 16:04:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 16:04:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 16:01:41 - [TEST_SUITE][PASSED] - Search: Test Cases/Search/TS_SMOKE_SUITE_059]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

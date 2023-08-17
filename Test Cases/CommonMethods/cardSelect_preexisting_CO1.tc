@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>use for card selection fro</description>
+   <name>cardSelect_preexisting_CO1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8fe947c-c257-4762-af5d-e4c8adc59d6f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 115.0.0.0,,,2023-08-16 00:13:13,2023-08-16 00:21:44,8m - 30.672s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_060,Chrome 115.0.0.0,To verify the functionality of facet selection in search result page.,,2023-08-16 00:13:13,2023-08-16 00:15:55,2m - 41.545s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 00:13:14,2023-08-16 00:13:17,3.013s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 00:13:17,2023-08-16 00:14:07,50.042s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 00:14:07,2023-08-16 00:14:07,0.277s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:14:07,2023-08-16 00:14:18,10.343s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-16 00:14:18,2023-08-16 00:14:18,0.833s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:14:18,2023-08-16 00:15:46,1m - 27.496s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-16 00:15:46,2023-08-16 00:15:50,3.797s,PASSED
+"a = getText(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:15:50,2023-08-16 00:15:50,0.389s,PASSED
+"click(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:15:50,2023-08-16 00:15:51,0.679s,PASSED
+"b = getText(findTestObject(""PLPPage/facetes/selectedfacet1_PLP""))",Chrome 115.0.0.0,,,2023-08-16 00:15:51,2023-08-16 00:15:54,3.250s,PASSED
+if (a == b),Chrome 115.0.0.0,,,2023-08-16 00:15:54,2023-08-16 00:15:54,0.001s,PASSED
+else,Chrome 115.0.0.0,,,2023-08-16 00:15:54,2023-08-16 00:15:54,0.013s,FAILED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-16 00:15:54,2023-08-16 00:15:55,0.880s,PASSED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_061,Chrome 115.0.0.0,To verify the functionality of pagination in search result page.,search,2023-08-16 00:15:55,2023-08-16 00:18:24,2m - 28.664s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 00:15:55,2023-08-16 00:15:57,1.526s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 00:15:57,2023-08-16 00:16:46,49.084s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 00:16:46,2023-08-16 00:16:46,0.237s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:16:46,2023-08-16 00:16:57,10.531s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-16 00:16:57,2023-08-16 00:16:58,1.725s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:16:58,2023-08-16 00:18:18,1m - 19.718s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 00:18:18,2023-08-16 00:18:23,5.017s,PASSED
+a1 = getUrl(),Chrome 115.0.0.0,,,2023-08-16 00:18:23,2023-08-16 00:18:23,0.021s,PASSED
+out.println(a1),Chrome 115.0.0.0,,,2023-08-16 00:18:23,2023-08-16 00:18:23,0.016s,PASSED
+"a = a1.contains(""page-2"")",Chrome 115.0.0.0,,,2023-08-16 00:18:23,2023-08-16 00:18:23,0.001s,PASSED
+out.println(a),Chrome 115.0.0.0,,,2023-08-16 00:18:23,2023-08-16 00:18:23,0.001s,PASSED
+acceptAlert(),Chrome 115.0.0.0,,,2023-08-16 00:18:23,2023-08-16 00:18:24,0.458s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_070,Chrome 115.0.0.0,to verify the pagination in the search result page,,2023-08-16 00:18:24,2023-08-16 00:21:44,3m - 20.019s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 00:18:24,2023-08-16 00:18:26,2.312s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 00:18:26,2023-08-16 00:19:19,52.485s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 00:19:19,2023-08-16 00:19:19,0.248s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:19:19,2023-08-16 00:19:27,8.069s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-16 00:19:27,2023-08-16 00:19:29,1.379s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:19:29,2023-08-16 00:21:01,1m - 32.438s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 00:21:01,2023-08-16 00:21:06,5.011s,PASSED
+"scrollToElement(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-16 00:21:06,2023-08-16 00:21:06,0.381s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 00:21:06,2023-08-16 00:21:11,5.007s,PASSED
+"click(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:21:11,2023-08-16 00:21:12,0.490s,PASSED
+delay(10),Chrome 115.0.0.0,,,2023-08-16 00:21:12,2023-08-16 00:21:22,10.018s,PASSED
+a1 = getUrl(),Chrome 115.0.0.0,,,2023-08-16 00:21:22,2023-08-16 00:21:22,0.012s,PASSED
+out.println(a1),Chrome 115.0.0.0,,,2023-08-16 00:21:22,2023-08-16 00:21:22,0.001s,PASSED
+"a = a1.contains(""page-2"")",Chrome 115.0.0.0,,,2023-08-16 00:21:22,2023-08-16 00:21:22,0.000s,PASSED
+out.println(a),Chrome 115.0.0.0,,,2023-08-16 00:21:22,2023-08-16 00:21:22,0.001s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 00:21:22,2023-08-16 00:21:27,5.004s,PASSED
+if (a == true),Chrome 115.0.0.0,,,2023-08-16 00:21:27,2023-08-16 00:21:27,0.001s,PASSED
+"scrollToElement(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-16 00:21:27,2023-08-16 00:21:27,0.367s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 00:21:27,2023-08-16 00:21:32,5.003s,PASSED
+"click(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 00:21:32,2023-08-16 00:21:33,0.462s,PASSED
+delay(10),Chrome 115.0.0.0,,,2023-08-16 00:21:33,2023-08-16 00:21:43,10.013s,PASSED
+b1 = getUrl(),Chrome 115.0.0.0,,,2023-08-16 00:21:43,2023-08-16 00:21:43,0.015s,PASSED
+"b = b1.contains(""page-1"")",Chrome 115.0.0.0,,,2023-08-16 00:21:43,2023-08-16 00:21:43,0.001s,PASSED
+out.println(b1),Chrome 115.0.0.0,,,2023-08-16 00:21:43,2023-08-16 00:21:43,0.001s,PASSED
+if (b == true),Chrome 115.0.0.0,,,2023-08-16 00:21:43,2023-08-16 00:21:43,0.001s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-16 00:21:43,2023-08-16 00:21:44,0.891s,PASSED

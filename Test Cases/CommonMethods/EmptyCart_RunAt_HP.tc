@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to empty whole cart so can perform test case without issue.</description>
+   <name>EmptyCart_RunAt_HP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25cf8627-5078-4e03-a637-565dc6ebdcf4</testCaseGuid>
+</TestCaseEntity>

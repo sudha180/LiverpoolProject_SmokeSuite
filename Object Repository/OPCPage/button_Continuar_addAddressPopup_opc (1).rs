@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continuar_addAddressPopup_opc (1)</name>
+   <tag></tag>
+   <elementGuidId>b3c2d0f6-9674-40bd-819b-ca2e285ad93f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='opc_selectAddressModal']/div[3]/div[2]/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-btn.a-btn--primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>89f54851-a7ed-438d-a800-990338a9e2bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-btn a-btn--primary</value>
+      <webElementGuid>798a9b9f-ecb7-4138-8454-7136154d2259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continuar</value>
+      <webElementGuid>eb9e6e51-1322-4175-908a-906483a4f4c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_selectAddressModal&quot;)/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row opc_addressContinueModal&quot;]/div[@class=&quot;col-sm-6 col-lg-2 mt-2 mt-lg-0&quot;]/button[@class=&quot;a-btn a-btn--primary&quot;]</value>
+      <webElementGuid>a8f9bf7f-5807-4b13-af01-f847f4dcfaea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_selectAddressModal']/div[3]/div[2]/div[2]/button</value>
+      <webElementGuid>fb3d895d-db12-4ef6-9af0-f083c8b1a01e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regresar'])[1]/following::button[1]</value>
+      <webElementGuid>4815c221-6d76-479c-a004-61da02d6904f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Establecer dirección predeterminada'])[1]/following::button[2]</value>
+      <webElementGuid>9b4bcb8a-f338-4efd-8bbc-87281b62ad14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tienes un cupón disponible en tu bolsa'])[1]/preceding::button[1]</value>
+      <webElementGuid>8595cb11-60d2-4af3-86d0-04f74b35c8d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver mis cupones'])[1]/preceding::button[1]</value>
+      <webElementGuid>ea0aa8b1-3624-4d2c-b121-6b3e073c9a21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
+      <webElementGuid>41176c5a-a4e4-4b4c-a532-983d9e08a85b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>000a42d3-4f1d-4a0b-90fa-7029d9078aa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Continuar' or . = 'Continuar')]</value>
+      <webElementGuid>b08c4ae9-5ca8-48f7-b808-1ec34b8affe0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

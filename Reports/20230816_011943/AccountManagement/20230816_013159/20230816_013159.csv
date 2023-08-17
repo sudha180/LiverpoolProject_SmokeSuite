@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AccountManagement,Chrome 115.0.0.0,,,2023-08-16 01:32:03,2023-08-16 01:44:54,12m - 51.450s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_016,Chrome 115.0.0.0,To Verify logged in user is able to view the profile inforamtion from Actualizar datos personales link in my account page after Updating personal information,,2023-08-16 01:32:03,2023-08-16 01:34:20,2m - 16.767s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:32:04,2023-08-16 01:32:07,3.186s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 01:32:07,2023-08-16 01:32:59,51.867s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 01:32:59,2023-08-16 01:32:59,0.268s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-16 01:32:59,2023-08-16 01:33:00,1.012s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 01:33:00,2023-08-16 01:33:27,27.206s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 01:33:27,2023-08-16 01:33:32,5.015s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 115.0.0.0,,,2023-08-16 01:33:32,2023-08-16 01:34:12,39.303s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:34:12,2023-08-16 01:34:12,0.543s,PASSED
+"click(findTestObject(""AccountManagement/UpdatePeronalData_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:34:12,2023-08-16 01:34:18,5.919s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/updatePage_Account""), 0)",Chrome 115.0.0.0,,,2023-08-16 01:34:18,2023-08-16 01:34:20,1.545s,PASSED
+name = customkeywords.myKeywords.randomString(),Chrome 115.0.0.0,,,2023-08-16 01:34:20,2023-08-16 01:34:20,0.059s,PASSED
+"setText(findTestObject(""AccountManagement/UpdatePeronalData_Account""), name)",Chrome 115.0.0.0,,,2023-08-16 01:34:20,2023-08-16 01:34:20,0.266s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_017,Chrome 115.0.0.0,Verify the user able to add new Personal shipping address,,2023-08-16 01:34:20,2023-08-16 01:37:48,3m - 27.600s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:34:20,2023-08-16 01:34:23,2.229s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 01:34:23,2023-08-16 01:35:16,53.419s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 01:35:16,2023-08-16 01:35:16,0.256s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-16 01:35:16,2023-08-16 01:35:17,0.938s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 01:35:17,2023-08-16 01:35:38,20.951s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 115.0.0.0,,,2023-08-16 01:35:38,2023-08-16 01:37:07,1m - 28.410s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:37:07,2023-08-16 01:37:07,0.586s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:37:07,2023-08-16 01:37:16,9.109s,PASSED
+"click(findTestObject(""OPCPage/AddAddressButtonPopup_checkout""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 01:37:16,2023-08-16 01:37:48,31.354s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_018,Chrome 115.0.0.0,Verify the user able to add new Click & Collect address address,,2023-08-16 01:37:48,2023-08-16 01:40:56,3m - 8.038s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:37:48,2023-08-16 01:37:51,2.610s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 01:37:51,2023-08-16 01:38:57,1m - 5.835s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 01:38:57,2023-08-16 01:38:57,0.278s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-16 01:38:57,2023-08-16 01:38:58,0.961s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 01:38:58,2023-08-16 01:39:32,33.626s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 115.0.0.0,,,2023-08-16 01:39:32,2023-08-16 01:40:14,41.920s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:40:14,2023-08-16 01:40:14,0.573s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:40:14,2023-08-16 01:40:20,5.403s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 115.0.0.0,,,2023-08-16 01:40:20,2023-08-16 01:40:24,4.722s,PASSED
+"click(findTestObject(""AccountManagement/SelectStateClickNCollection_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:40:24,2023-08-16 01:40:56,31.393s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_019,Chrome 115.0.0.0,Verify the last added Store address is displayed in the top section as a priority,,2023-08-16 01:40:56,2023-08-16 01:44:16,3m - 20.572s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:40:56,2023-08-16 01:40:58,2.193s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 01:40:58,2023-08-16 01:42:08,1m - 9.748s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 01:42:08,2023-08-16 01:42:08,0.346s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-16 01:42:08,2023-08-16 01:42:09,0.914s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 01:42:09,2023-08-16 01:42:49,39.335s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 115.0.0.0,,,2023-08-16 01:42:49,2023-08-16 01:43:30,41.195s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:43:30,2023-08-16 01:43:31,1.686s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 115.0.0.0,,,2023-08-16 01:43:31,2023-08-16 01:43:44,12.477s,PASSED
+"click(findTestObject(""OPCPage/AddAddressButtonPopup_checkout""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 01:43:44,2023-08-16 01:44:16,32.250s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_020,Chrome 115.0.0.0,Verify if the user able to make C&C store address as default address,,2023-08-16 01:44:16,2023-08-16 01:44:21,4.569s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:44:17,2023-08-16 01:44:21,3.576s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:44:21,2023-08-16 01:44:21,0.008s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_021,Chrome 115.0.0.0,Verify the user is able to navigate to forma de pago page and view the payment menthods,,2023-08-16 01:44:21,2023-08-16 01:44:29,8.270s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:44:22,2023-08-16 01:44:29,6.706s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:44:29,2023-08-16 01:44:29,0.002s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_022,Chrome 115.0.0.0,Verify the user able to update the payment methods as default in forma de pago page,,2023-08-16 01:44:29,2023-08-16 01:44:38,9.286s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:44:30,2023-08-16 01:44:38,8.081s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:44:38,2023-08-16 01:44:38,0.005s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_023,Chrome 115.0.0.0,"To Verify Logged in user is able to Add ,Edit and remove  credit card from my account from my account",,2023-08-16 01:44:38,2023-08-16 01:44:46,7.610s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:44:40,2023-08-16 01:44:46,5.779s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_024,Chrome 115.0.0.0,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,2023-08-16 01:44:46,2023-08-16 01:44:51,5.052s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:44:47,2023-08-16 01:44:51,4.234s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_025,Chrome 115.0.0.0,To Verify Logged in user is able to change the password,,2023-08-16 01:44:51,2023-08-16 01:44:54,3.222s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:44:52,2023-08-16 01:44:54,2.061s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:44:54,2023-08-16 01:44:54,0.002s,ERROR

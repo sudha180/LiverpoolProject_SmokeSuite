@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Place an order with Bancomer payment</description>
+   <name>EndToEndTestCase - QA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>006b851b-bcbf-43c8-a36a-6beb5cf1266d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbf3b207-3e67-457d-8075-bced66d8db79</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ce56e8e-2a41-4064-81c4-921753c515b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>257f4454-41a3-4ea5-8d86-1feed7efcded</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94e95df5-9fbe-4c42-8e72-f563e2f7d099</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.liverpool.com.mx/tienda/oneCheckout'</defaultValue>
+      <description></description>
+      <id>dbf3b207-3e67-457d-8075-bced66d8db79</id>
+      <masked>false</masked>
+      <name>expectedOPCPageUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.liverpool.com.mx/tienda/checkoutOrderConfirmation'</defaultValue>
+      <description></description>
+      <id>1ce56e8e-2a41-4064-81c4-921753c515b0</id>
+      <masked>false</masked>
+      <name>expectedConfirmationUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>257f4454-41a3-4ea5-8d86-1feed7efcded</id>
+      <masked>false</masked>
+      <name>actualMisComprasUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>94e95df5-9fbe-4c42-8e72-f563e2f7d099</id>
+      <masked>false</masked>
+      <name>referenceNumber_confirmation</name>
+   </variable>
+</TestCaseEntity>

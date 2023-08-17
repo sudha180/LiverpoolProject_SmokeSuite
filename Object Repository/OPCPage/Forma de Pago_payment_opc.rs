@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Forma de Pago_payment_opc</name>
+   <tag></tag>
+   <elementGuidId>389c66a5-0e17-47b7-bcea-69dcbbd2c239</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='opc_paymentMethod']/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#opc_paymentMethod > h6.undefined</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>ec278856-0884-44b0-b827-a0940339329e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>undefined</value>
+      <webElementGuid>a8eb306d-f923-4073-a002-35b91e8c8f88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2. Forma de Pago</value>
+      <webElementGuid>993376ce-c4aa-4eef-be96-a0b080654a89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_paymentMethod&quot;)/h6[@class=&quot;undefined&quot;]</value>
+      <webElementGuid>9312bc36-5e22-4087-b17b-f169f44f63dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_paymentMethod']/h6</value>
+      <webElementGuid>e633cf2f-fb3c-4972-a6dc-a3414f8d6a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar'])[1]/following::h6[1]</value>
+      <webElementGuid>2682ab84-4125-4922-91ec-f467ea6ef31d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*9488'])[1]/preceding::h6[1]</value>
+      <webElementGuid>d19ee6f9-fe9e-4504-ae0d-8324cbedde23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2. Forma de Pago']/parent::*</value>
+      <webElementGuid>d0223415-3019-4c00-8585-fb765fbb9b69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h6</value>
+      <webElementGuid>4620e8f0-b43e-41ef-b489-68673b97b883</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = '2. Forma de Pago' or . = '2. Forma de Pago')]</value>
+      <webElementGuid>048d529a-bf5b-4b8e-9b5c-e4f326fe5ff2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

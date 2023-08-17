@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Place an order with Bancomer payment</description>
+   <name>EndToEndTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>972054ed-6596-4eeb-8f5e-af272a544e0a</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.liverpool.com.mx/tienda/oneCheckout'</defaultValue>
+      <description></description>
+      <id>cd8afc71-6088-4a51-9cc5-ad4551fc3193</id>
+      <masked>false</masked>
+      <name>expectedOPCPageUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.liverpool.com.mx/tienda/checkoutOrderConfirmation'</defaultValue>
+      <description></description>
+      <id>711cd0ad-a8e4-41f1-9acb-7927a272e6fa</id>
+      <masked>false</masked>
+      <name>expectedConfirmationUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca481c65-e8a6-4fa8-9a10-4806c03973fa</id>
+      <masked>false</masked>
+      <name>actualMisComprasUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e05f100-cac5-4544-84ee-b1d3c66965e9</id>
+      <masked>false</masked>
+      <name>referenceNumber_confirmation</name>
+   </variable>
+</TestCaseEntity>

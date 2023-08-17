@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user</description>
+   <name>TS_SMOKE_SUITE_087</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a00f0873-a392-49cc-ade4-11a368562b84</testCaseGuid>
+</TestCaseEntity>

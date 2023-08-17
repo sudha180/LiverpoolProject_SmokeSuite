@@ -1,0 +1,105 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 115.0.0.0,,,2023-08-14 08:47:01,2023-08-14 09:04:16,17m - 14.578s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_059,Chrome 115.0.0.0,To verify the default display of the products per page in the search result page,search,2023-08-14 08:47:02,2023-08-14 08:49:24,2m - 22.395s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 08:47:02,2023-08-14 08:47:05,2.948s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 08:47:05,2023-08-14 08:47:53,47.892s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:47:53,2023-08-14 08:48:03,9.515s,PASSED
+"verifyElementPresent(findTestObject(""PDPPage/product_56_PDP""), 0)",Chrome 115.0.0.0,"last product at a page  not 45
+
+",,2023-08-14 08:48:03,2023-08-14 08:49:23,1m - 20.344s,PASSED
+"verifyElementNotPresent(findTestObject(""PDPPage/product_57_PDP""), 0)",Chrome 115.0.0.0,,,2023-08-14 08:49:23,2023-08-14 08:49:23,0.478s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-14 08:49:23,2023-08-14 08:49:24,0.811s,PASSED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_060,Chrome 115.0.0.0,To verify the functionality of facet selection in search result page.,,2023-08-14 08:49:24,2023-08-14 08:51:55,2m - 30.586s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 08:49:24,2023-08-14 08:49:26,1.433s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 08:49:26,2023-08-14 08:50:14,48.087s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:50:14,2023-08-14 08:50:24,10.410s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-14 08:50:24,2023-08-14 08:50:25,0.728s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:50:25,2023-08-14 08:51:43,1m - 18.340s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 08:51:43,2023-08-14 08:51:49,5.507s,PASSED
+"a = getText(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:51:49,2023-08-14 08:51:50,0.807s,PASSED
+"click(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:51:50,2023-08-14 08:51:50,0.477s,PASSED
+"b = getText(findTestObject(""PLPPage/facetes/selectedfacet1_PLP""))",Chrome 115.0.0.0,,,2023-08-14 08:51:50,2023-08-14 08:51:54,3.638s,PASSED
+if (a == b),Chrome 115.0.0.0,,,2023-08-14 08:51:54,2023-08-14 08:51:54,0.001s,PASSED
+else,Chrome 115.0.0.0,,,2023-08-14 08:51:54,2023-08-14 08:51:54,0.008s,FAILED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-14 08:51:54,2023-08-14 08:51:55,0.835s,PASSED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_061,Chrome 115.0.0.0,To verify the functionality of pagination in search result page.,search,2023-08-14 08:51:55,2023-08-14 08:54:22,2m - 27.103s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 08:51:55,2023-08-14 08:51:57,1.521s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 08:51:57,2023-08-14 08:52:45,48.167s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:52:45,2023-08-14 08:52:55,10.586s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-14 08:52:55,2023-08-14 08:52:56,0.959s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:52:56,2023-08-14 08:54:16,1m - 20.040s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-14 08:54:16,2023-08-14 08:54:21,5.015s,PASSED
+a1 = getUrl(),Chrome 115.0.0.0,,,2023-08-14 08:54:21,2023-08-14 08:54:21,0.082s,PASSED
+out.println(a1),Chrome 115.0.0.0,,,2023-08-14 08:54:21,2023-08-14 08:54:21,0.014s,PASSED
+"a = a1.contains(""page-2"")",Chrome 115.0.0.0,,,2023-08-14 08:54:21,2023-08-14 08:54:21,0.001s,PASSED
+out.println(a),Chrome 115.0.0.0,,,2023-08-14 08:54:21,2023-08-14 08:54:21,0.001s,PASSED
+acceptAlert(),Chrome 115.0.0.0,,,2023-08-14 08:54:21,2023-08-14 08:54:22,0.381s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_062,Chrome 115.0.0.0,To verify display of price for the product in search result page.,,2023-08-14 08:54:22,2023-08-14 08:56:50,2m - 28.139s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 08:54:22,2023-08-14 08:54:25,2.199s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 08:54:25,2023-08-14 08:55:13,48.329s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:55:13,2023-08-14 08:55:24,10.610s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-14 08:55:24,2023-08-14 08:55:24,0.604s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:55:24,2023-08-14 08:56:45,1m - 20.790s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/product1_cardPrice_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 08:56:45,2023-08-14 08:56:49,3.586s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/product1_discountPrice_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 08:56:49,2023-08-14 08:56:49,0.763s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-14 08:56:49,2023-08-14 08:56:50,0.792s,PASSED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_063,Chrome 115.0.0.0,To verify the display of the color swatches in search result page,,2023-08-14 08:56:50,2023-08-14 08:59:28,2m - 38.095s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 08:56:50,2023-08-14 08:56:52,1.473s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 08:56:52,2023-08-14 08:57:49,57.224s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:57:49,2023-08-14 08:58:04,15.202s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-14 08:58:04,2023-08-14 08:58:05,1.069s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 08:58:05,2023-08-14 08:59:22,1m - 17.177s,PASSED
+"scrollToElement(findTestObject(""PLPPage/facetes/ColorTitleFacet_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 08:59:22,2023-08-14 08:59:27,4.449s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/Color_1_facet_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 08:59:27,2023-08-14 08:59:27,0.409s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-14 08:59:27,2023-08-14 08:59:28,0.833s,PASSED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_069,Chrome 115.0.0.0,To verify the search result page when user selects the price as sorting option,,2023-08-14 08:59:28,2023-08-14 09:01:11,1m - 42.502s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 08:59:29,2023-08-14 08:59:30,1.312s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 08:59:30,2023-08-14 09:00:39,1m - 9.664s,PASSED
+"setText(findTestObject(""HomePage/MainSearchbar_HP""), ""vaso"")",Chrome 115.0.0.0,,,2023-08-14 09:00:39,2023-08-14 09:00:41,1.283s,PASSED
+"click(findTestObject(""HomePage/searchbar_searchbutton_HP""))",Chrome 115.0.0.0,,,2023-08-14 09:00:41,2023-08-14 09:00:41,0.521s,PASSED
+"click(findTestObject(""PLPPage/Sortby_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:00:41,2023-08-14 09:00:58,17.128s,PASSED
+"click(findTestObject(""PLPPage/LowPricetoHighSortBy_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:00:58,2023-08-14 09:00:59,0.543s,PASSED
+"productcardprice1 = getText(findTestObject(""PLPPage/product1_cardPrice_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:00:59,2023-08-14 09:01:05,5.734s,PASSED
+"productcardprice2 = getText(findTestObject(""PLPPage/product2_cardPrice_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:01:05,2023-08-14 09:01:05,0.366s,PASSED
+"productcardprice3 = getText(findTestObject(""PLPPage/product3_cardPrice_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:01:05,2023-08-14 09:01:05,0.335s,PASSED
+if (productcardprice1 <= productcardprice2 && productcardprice2 <= productcardprice3),Chrome 115.0.0.0,,,2023-08-14 09:01:05,2023-08-14 09:01:05,0.002s,PASSED
+"click(findTestObject(""PLPPage/Sortby_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:01:05,2023-08-14 09:01:06,0.399s,PASSED
+"click(findTestObject(""PLPPage/HighToLowPriceSortby_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:01:06,2023-08-14 09:01:06,0.527s,PASSED
+"productcardprice1 = getText(findTestObject(""PLPPage/product1_cardPrice_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:01:06,2023-08-14 09:01:09,2.807s,PASSED
+"productcardprice2 = getText(findTestObject(""PLPPage/product2_cardPrice_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:01:09,2023-08-14 09:01:09,0.356s,PASSED
+"productcardprice3 = getText(findTestObject(""PLPPage/product3_cardPrice_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:01:09,2023-08-14 09:01:10,0.337s,PASSED
+if (productcardprice1 >= productcardprice2 && productcardprice2 >= productcardprice3),Chrome 115.0.0.0,,,2023-08-14 09:01:10,2023-08-14 09:01:10,0.000s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-14 09:01:10,2023-08-14 09:01:11,0.857s,PASSED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_070,Chrome 115.0.0.0,to verify the pagination in the search result page,,2023-08-14 09:01:11,2023-08-14 09:04:16,3m - 5.285s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 09:01:11,2023-08-14 09:01:12,1.313s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 09:01:12,2023-08-14 09:02:01,48.816s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:02:01,2023-08-14 09:02:11,10.160s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-14 09:02:11,2023-08-14 09:02:12,0.830s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:02:12,2023-08-14 09:03:32,1m - 20.358s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-14 09:03:32,2023-08-14 09:03:37,5.001s,PASSED
+"scrollToElement(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 09:03:37,2023-08-14 09:03:39,1.148s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-14 09:03:39,2023-08-14 09:03:44,5.016s,PASSED
+"click(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:03:44,2023-08-14 09:03:44,0.463s,PASSED
+delay(10),Chrome 115.0.0.0,,,2023-08-14 09:03:44,2023-08-14 09:03:54,10.009s,PASSED
+a1 = getUrl(),Chrome 115.0.0.0,,,2023-08-14 09:03:54,2023-08-14 09:03:54,0.019s,PASSED
+out.println(a1),Chrome 115.0.0.0,,,2023-08-14 09:03:54,2023-08-14 09:03:54,0.001s,PASSED
+"a = a1.contains(""page-2"")",Chrome 115.0.0.0,,,2023-08-14 09:03:54,2023-08-14 09:03:54,0.001s,PASSED
+out.println(a),Chrome 115.0.0.0,,,2023-08-14 09:03:54,2023-08-14 09:03:54,0.000s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-14 09:03:54,2023-08-14 09:03:59,5.018s,PASSED
+if (a == true),Chrome 115.0.0.0,,,2023-08-14 09:03:59,2023-08-14 09:03:59,0.001s,PASSED
+"scrollToElement(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 09:03:59,2023-08-14 09:04:00,0.406s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-14 09:04:00,2023-08-14 09:04:05,5.012s,PASSED
+"click(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:04:05,2023-08-14 09:04:05,0.515s,PASSED
+delay(10),Chrome 115.0.0.0,,,2023-08-14 09:04:05,2023-08-14 09:04:15,10.013s,PASSED
+b1 = getUrl(),Chrome 115.0.0.0,,,2023-08-14 09:04:15,2023-08-14 09:04:15,0.012s,PASSED
+"b = b1.contains(""page-1"")",Chrome 115.0.0.0,,,2023-08-14 09:04:15,2023-08-14 09:04:15,0.000s,PASSED
+out.println(b1),Chrome 115.0.0.0,,,2023-08-14 09:04:15,2023-08-14 09:04:15,0.000s,PASSED
+if (b == true),Chrome 115.0.0.0,,,2023-08-14 09:04:15,2023-08-14 09:04:15,0.001s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-14 09:04:15,2023-08-14 09:04:16,0.870s,PASSED

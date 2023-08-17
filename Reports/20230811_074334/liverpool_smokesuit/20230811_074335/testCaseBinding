@@ -1,0 +1,129 @@
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_016","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_016","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_017","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_017","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_018","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_018","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_019","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_019","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_020","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_020","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_021","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_021","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_022","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_022","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_023","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_023","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_024","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_024","iterationVariableName":""}
+{"testCaseName":"Test Cases/AccountManagement/TS_SMOKE_SUITE_025","testCaseId":"Test Cases/AccountManagement/TS_SMOKE_SUITE_025","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_039","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_039","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_047","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_047","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_048","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_048","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_049","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_049","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_054","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_054","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_055","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_055","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_056","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_056","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_057","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_057","iterationVariableName":""}
+{"testCaseName":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_058","testCaseId":"Test Cases/Browse and Shop/TS_SMOKE_SUITE_058","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_072","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_072","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_073","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_073","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_075","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_075","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_076","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_076","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_077","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_077","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_078","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_078","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_080","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_080","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_082","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_082","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_083","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_083","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_086","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_086","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_087","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_087","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TS_SMOKE_SUITE_088","testCaseId":"Test Cases/Checkout/TS_SMOKE_SUITE_088","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/AccountCreation","testCaseId":"Test Cases/CommonMethods/AccountCreation","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/addAddress_fillform_opc","testCaseId":"Test Cases/CommonMethods/addAddress_fillform_opc","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/add_Product1_checkout_to_event_veda","testCaseId":"Test Cases/CommonMethods/add_Product1_checkout_to_event_veda","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/AssertGID_PDP","testCaseId":"Test Cases/CommonMethods/AssertGID_PDP","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assertplp","testCaseId":"Test Cases/CommonMethods/assertplp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assertProductDetails_pdp (1)","testCaseId":"Test Cases/CommonMethods/assertProductDetails_pdp (1)","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assertProductDetails_pdp","testCaseId":"Test Cases/CommonMethods/assertProductDetails_pdp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assertSearchResults_srp","testCaseId":"Test Cases/CommonMethods/assertSearchResults_srp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assertSearchTypeahead","testCaseId":"Test Cases/CommonMethods/assertSearchTypeahead","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assert_L1_CLP","testCaseId":"Test Cases/CommonMethods/assert_L1_CLP","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assert_L2_CLP","testCaseId":"Test Cases/CommonMethods/assert_L2_CLP","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/assert_OPC(CheckoutPage)","testCaseId":"Test Cases/CommonMethods/assert_OPC(CheckoutPage)","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/BrowseAndNavigate_plp","testCaseId":"Test Cases/CommonMethods/BrowseAndNavigate_plp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/cardSelect_card1_CO1","testCaseId":"Test Cases/CommonMethods/cardSelect_card1_CO1","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/cardSelect_preexisting_CO1","testCaseId":"Test Cases/CommonMethods/cardSelect_preexisting_CO1","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/checkITRFunctionality_pdp","testCaseId":"Test Cases/CommonMethods/checkITRFunctionality_pdp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/Check_gift_product_PDP","testCaseId":"Test Cases/CommonMethods/Check_gift_product_PDP","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickAddToCart","testCaseId":"Test Cases/CommonMethods/clickAddToCart","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickChangepayment_opc","testCaseId":"Test Cases/CommonMethods/clickChangepayment_opc","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/ClickDelivery_MyAccount","testCaseId":"Test Cases/CommonMethods/ClickDelivery_MyAccount","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickIniciarSession_Header","testCaseId":"Test Cases/CommonMethods/clickIniciarSession_Header","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickLogoutFromHeader","testCaseId":"Test Cases/CommonMethods/clickLogoutFromHeader","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickMyAccountFromHeader","testCaseId":"Test Cases/CommonMethods/clickMyAccountFromHeader","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickMyOrdersFromHeader","testCaseId":"Test Cases/CommonMethods/clickMyOrdersFromHeader","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickMyTarjetasFromHeader","testCaseId":"Test Cases/CommonMethods/clickMyTarjetasFromHeader","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickMyTiempoAireFromHeader","testCaseId":"Test Cases/CommonMethods/clickMyTiempoAireFromHeader","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/clickPayment_leftNav_myAccount","testCaseId":"Test Cases/CommonMethods/clickPayment_leftNav_myAccount","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/close any pop up","testCaseId":"Test Cases/CommonMethods/close any pop up","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/create_new_CARD_OPC","testCaseId":"Test Cases/CommonMethods/create_new_CARD_OPC","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/deleteCARD_NEWCRETED","testCaseId":"Test Cases/CommonMethods/deleteCARD_NEWCRETED","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/delete_Product1_OPC2","testCaseId":"Test Cases/CommonMethods/delete_Product1_OPC2","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/delete_product_cart","testCaseId":"Test Cases/CommonMethods/delete_product_cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/EmptyCart_RunAt_HP","testCaseId":"Test Cases/CommonMethods/EmptyCart_RunAt_HP","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/facet(liverpool)_CheckBox_selected_check_PLP","testCaseId":"Test Cases/CommonMethods/facet(liverpool)_CheckBox_selected_check_PLP","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/GiftTable","testCaseId":"Test Cases/CommonMethods/GiftTable","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/HP_to_veda_GR_detail_page","testCaseId":"Test Cases/CommonMethods/HP_to_veda_GR_detail_page","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/Liverpool/Datadriven-login","testCaseId":"Test Cases/CommonMethods/Liverpool/Datadriven-login","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/Liverpool/Datadriven-searchForAProduct","testCaseId":"Test Cases/CommonMethods/Liverpool/Datadriven-searchForAProduct","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/Liverpool/EndToEndTestCase - QA","testCaseId":"Test Cases/CommonMethods/Liverpool/EndToEndTestCase - QA","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/Liverpool/EndToEndTestCase","testCaseId":"Test Cases/CommonMethods/Liverpool/EndToEndTestCase","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/Liverpool/login-lambaTest","testCaseId":"Test Cases/CommonMethods/Liverpool/login-lambaTest","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/loginFromHomePage","testCaseId":"Test Cases/CommonMethods/loginFromHomePage","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/login_dtaqa","testCaseId":"Test Cases/CommonMethods/login_dtaqa","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/login_GR_dtaqa","testCaseId":"Test Cases/CommonMethods/login_GR_dtaqa","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/login_newUser","testCaseId":"Test Cases/CommonMethods/login_newUser","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/login_odtaqab","testCaseId":"Test Cases/CommonMethods/login_odtaqab","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/login_odtaqab_randomNewEmail","testCaseId":"Test Cases/CommonMethods/login_odtaqab_randomNewEmail","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/logout","testCaseId":"Test Cases/CommonMethods/logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/makePaypalAsDefault_myAccount","testCaseId":"Test Cases/CommonMethods/makePaypalAsDefault_myAccount","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy (1)","testCaseId":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy (1)","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy (2)","testCaseId":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy (2)","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy (3)","testCaseId":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy (3)","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy","testCaseId":"Test Cases/CommonMethods/MyAccount/TC_001 - Copy","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/MyAccount/TC_001","testCaseId":"Test Cases/CommonMethods/MyAccount/TC_001","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/paypal(changepaymentmethod)pay","testCaseId":"Test Cases/CommonMethods/paypal(changepaymentmethod)pay","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/removesymbol (1)","testCaseId":"Test Cases/CommonMethods/removesymbol (1)","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/removesymbol","testCaseId":"Test Cases/CommonMethods/removesymbol","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/SaveAddress_AccountManagment","testCaseId":"Test Cases/CommonMethods/SaveAddress_AccountManagment","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/SearchForAProduct_search","testCaseId":"Test Cases/CommonMethods/SearchForAProduct_search","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/selectCardasPayment_opc","testCaseId":"Test Cases/CommonMethods/selectCardasPayment_opc","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/selectCIEPayment_opc","testCaseId":"Test Cases/CommonMethods/selectCIEPayment_opc","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/selectDifferentPromotion_opc","testCaseId":"Test Cases/CommonMethods/selectDifferentPromotion_opc","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/SelectHomeDeliveryDefault_MyAccount","testCaseId":"Test Cases/CommonMethods/SelectHomeDeliveryDefault_MyAccount","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/SelectStoreAddressDefault_MyAccount","testCaseId":"Test Cases/CommonMethods/SelectStoreAddressDefault_MyAccount","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/SingleProductSelectSearch_hp","testCaseId":"Test Cases/CommonMethods/SingleProductSelectSearch_hp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/SortBY_highTOlow_check_search_plp","testCaseId":"Test Cases/CommonMethods/SortBY_highTOlow_check_search_plp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/SortBY_lowTOhigh_check_search_plp","testCaseId":"Test Cases/CommonMethods/SortBY_lowTOhigh_check_search_plp","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/Submit_Rating_PDP","testCaseId":"Test Cases/CommonMethods/Submit_Rating_PDP","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/TotalNoOfProductInCart","testCaseId":"Test Cases/CommonMethods/TotalNoOfProductInCart","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/updateQuantity_cart","testCaseId":"Test Cases/CommonMethods/updateQuantity_cart","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/updateQuantity_opc","testCaseId":"Test Cases/CommonMethods/updateQuantity_opc","iterationVariableName":""}
+{"testCaseName":"Test Cases/CommonMethods/UpdateQuantity_PDP","testCaseId":"Test Cases/CommonMethods/UpdateQuantity_PDP","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_001","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_001","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_002","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_002","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_003","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_003","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_004","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_004","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_006","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_006","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_007","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_007","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_008","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_008","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_009","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_009","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_010","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_010","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_011","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_011","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_012","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_012","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_013","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_013","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_014","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_014","iterationVariableName":""}
+{"testCaseName":"Test Cases/HomePage/TS_SMOKE_SUITE_015","testCaseId":"Test Cases/HomePage/TS_SMOKE_SUITE_015","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search/TS_SMOKE_SUITE_059","testCaseId":"Test Cases/Search/TS_SMOKE_SUITE_059","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search/TS_SMOKE_SUITE_060","testCaseId":"Test Cases/Search/TS_SMOKE_SUITE_060","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search/TS_SMOKE_SUITE_061","testCaseId":"Test Cases/Search/TS_SMOKE_SUITE_061","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search/TS_SMOKE_SUITE_062","testCaseId":"Test Cases/Search/TS_SMOKE_SUITE_062","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search/TS_SMOKE_SUITE_063","testCaseId":"Test Cases/Search/TS_SMOKE_SUITE_063","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search/TS_SMOKE_SUITE_069","testCaseId":"Test Cases/Search/TS_SMOKE_SUITE_069","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search/TS_SMOKE_SUITE_070","testCaseId":"Test Cases/Search/TS_SMOKE_SUITE_070","iterationVariableName":""}
+{"testCaseName":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_026","testCaseId":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_026","iterationVariableName":""}
+{"testCaseName":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_027","testCaseId":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_027","iterationVariableName":""}
+{"testCaseName":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_028","testCaseId":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_028","iterationVariableName":""}
+{"testCaseName":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_029","testCaseId":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_029","iterationVariableName":""}
+{"testCaseName":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_030","testCaseId":"Test Cases/ShoppingCart/TS_SMOKE_SUITE_030","iterationVariableName":""}

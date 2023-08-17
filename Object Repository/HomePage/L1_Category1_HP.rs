@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>L1_Category1_HP</name>
+   <tag></tag>
+   <elementGuidId>25d0b878-f62e-4b2b-9231-b7b79e5acb52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@class='a-dekstop__categoryLink']//span)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>b693547c-b1f4-4816-bf90-17bb58d032b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1678033965677</value>
+      <webElementGuid>4e13558a-8f4a-4e51-b732-fd9d14a43670</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

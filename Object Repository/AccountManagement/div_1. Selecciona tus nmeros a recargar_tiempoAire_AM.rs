@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_1. Selecciona tus nmeros a recargar_tiempoAire_AM</name>
+   <tag></tag>
+   <elementGuidId>411e20e5-3818-417b-aa08-8aa050bfa50d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='o-box-airTime__cellphones']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#o-box-airTime__cellphones</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7702c488-291a-494d-b97e-8c8cfbcc1cac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-box mb-5</value>
+      <webElementGuid>d2d3bf9a-4ee3-4f60-ab6b-dcc300c1e3ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>o-box-airTime__cellphones</value>
+      <webElementGuid>6d3c7231-6634-410f-8713-5d5c71f774dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1. Selecciona tus números a recargarNandhu4343535454TelcelEditarEliminarnandu6576586876ATTEditarEliminarMOVI5553535353MovistarEditarEliminarUNIFOOON6636363636UnefonEditarEliminaraaRRRrrrTttt8747474747ATTEditarEliminarNandu9866612345TelcelEditarEliminardsa9866612346TelcelEditarEliminarasdf9886612399TelcelEditarEliminardsfas9866699678TelcelEditarEliminarsadsdafa9866612777TelcelEditarEliminarsafa9886612876TelcelEditarEliminarRgand7536653633TelcelEditarEliminartest5455454555TelcelEditarEliminarsdsdsd4554545454TelcelEditarEliminartestnew9638527410ATTEditarEliminarsomaraju1234567890TelcelEditarEliminarAgregar teléfonoAgregar teléfono</value>
+      <webElementGuid>1be91575-0308-4e14-91dc-1ef272617a59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;o-box-airTime__cellphones&quot;)</value>
+      <webElementGuid>898b0655-170f-497c-87d2-6b63ef07d77d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='o-box-airTime__cellphones']</value>
+      <webElementGuid>ac58c311-20e1-46a6-92ed-4161f3aed0ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mobileAirTimeCellphone']/div</value>
+      <webElementGuid>3a8ae696-e5b1-49c7-a888-e5e58674fc66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiempo Aire'])[2]/following::div[3]</value>
+      <webElementGuid>c55906fc-2e17-4009-990e-5d2f447c026a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiempo Aire'])[1]/following::div[5]</value>
+      <webElementGuid>66c6fb9b-a434-42d3-947e-e736e135d6e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div/div</value>
+      <webElementGuid>2b390eda-2ce6-4c71-acfc-ddcda98661f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'o-box-airTime__cellphones' and (text() = '1. Selecciona tus números a recargarNandhu4343535454TelcelEditarEliminarnandu6576586876ATTEditarEliminarMOVI5553535353MovistarEditarEliminarUNIFOOON6636363636UnefonEditarEliminaraaRRRrrrTttt8747474747ATTEditarEliminarNandu9866612345TelcelEditarEliminardsa9866612346TelcelEditarEliminarasdf9886612399TelcelEditarEliminardsfas9866699678TelcelEditarEliminarsadsdafa9866612777TelcelEditarEliminarsafa9886612876TelcelEditarEliminarRgand7536653633TelcelEditarEliminartest5455454555TelcelEditarEliminarsdsdsd4554545454TelcelEditarEliminartestnew9638527410ATTEditarEliminarsomaraju1234567890TelcelEditarEliminarAgregar teléfonoAgregar teléfono' or . = '1. Selecciona tus números a recargarNandhu4343535454TelcelEditarEliminarnandu6576586876ATTEditarEliminarMOVI5553535353MovistarEditarEliminarUNIFOOON6636363636UnefonEditarEliminaraaRRRrrrTttt8747474747ATTEditarEliminarNandu9866612345TelcelEditarEliminardsa9866612346TelcelEditarEliminarasdf9886612399TelcelEditarEliminardsfas9866699678TelcelEditarEliminarsadsdafa9866612777TelcelEditarEliminarsafa9886612876TelcelEditarEliminarRgand7536653633TelcelEditarEliminartest5455454555TelcelEditarEliminarsdsdsd4554545454TelcelEditarEliminartestnew9638527410ATTEditarEliminarsomaraju1234567890TelcelEditarEliminarAgregar teléfonoAgregar teléfono')]</value>
+      <webElementGuid>efa987b5-265c-4f2d-ab6d-20e823b94bf7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

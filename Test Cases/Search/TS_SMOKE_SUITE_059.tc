@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the default display of the products per page in the search result page</description>
+   <name>TS_SMOKE_SUITE_059</name>
+   <tag>search</tag>
+   <comment></comment>
+   <testCaseGuid>e9bc3e2f-6b13-4239-841f-7b7f4eb8d2cb</testCaseGuid>
+</TestCaseEntity>

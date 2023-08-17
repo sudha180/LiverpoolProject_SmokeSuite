@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Cambiar_Address_opc</name>
+   <tag></tag>
+   <elementGuidId>5f40ce97-3cac-4e97-aa77-fc44604b163c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@class='text-shutdown-card cambiarLabelTxt']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.text-shutdown-card.cambiarLabelTxt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c5537895-8684-4bc5-91cd-09a613da2f67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-shutdown-card cambiarLabelTxt</value>
+      <webElementGuid>d70f5491-ef2d-4ce8-a5bb-8a861951cfd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cambiar</value>
+      <webElementGuid>9fb9261b-a111-4ad8-bf48-a49a01f59826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_addressButton_select&quot;)/div[@class=&quot;a-box__accordionIcon float-right&quot;]/label[@class=&quot;text-shutdown-card cambiarLabelTxt&quot;]</value>
+      <webElementGuid>3a525ba5-85f3-45b9-8bfa-f343405f112d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='opc_addressButton_select']/div[2]/label</value>
+      <webElementGuid>1c41596e-2fc0-4769-8bbf-7a57b8ec4a58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirma tu compra'])[1]/following::label[1]</value>
+      <webElementGuid>296f2229-1808-46f9-9102-8e589dfa2cef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*9488'])[1]/preceding::label[1]</value>
+      <webElementGuid>86891057-a280-4252-8a4e-8cf351f2a489</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cambiar']/parent::*</value>
+      <webElementGuid>e81416ca-3f3b-4901-995d-f15c07fe53ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>1bf7cc89-d7f4-4136-bbad-75c22bebf1c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Cambiar' or . = 'Cambiar')]</value>
+      <webElementGuid>41e75c2e-a85d-431b-81b5-54217b9aa5eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

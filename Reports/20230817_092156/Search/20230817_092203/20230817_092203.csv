@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 115.0.0.0,,,2023-08-17 09:46:05,2023-08-17 10:06:51,20m - 46.557s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_059,Chrome 115.0.0.0,To verify the default display of the products per page in the search result page,search,2023-08-17 09:46:05,2023-08-17 09:48:15,2m - 9.573s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 09:46:06,2023-08-17 09:46:09,3.625s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 09:46:09,2023-08-17 09:47:41,1m - 32.003s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 09:47:41,2023-08-17 09:47:42,0.406s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-17 09:47:42,2023-08-17 09:48:15,33.011s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_060,Chrome 115.0.0.0,To verify the functionality of facet selection in search result page.,,2023-08-17 09:48:15,2023-08-17 09:51:33,3m - 18.491s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 09:48:16,2023-08-17 09:48:19,2.656s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 09:48:19,2023-08-17 09:50:17,1m - 58.213s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 09:50:17,2023-08-17 09:50:17,0.452s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-17 09:50:17,2023-08-17 09:50:40,22.542s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-17 09:50:40,2023-08-17 09:51:33,53.311s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_061,Chrome 115.0.0.0,To verify the functionality of pagination in search result page.,search,2023-08-17 09:51:33,2023-08-17 09:54:01,2m - 27.681s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 09:51:34,2023-08-17 09:51:37,2.692s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 09:51:37,2023-08-17 09:53:28,1m - 51.191s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 09:53:28,2023-08-17 09:53:28,0.373s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-17 09:53:28,2023-08-17 09:54:01,32.470s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_062,Chrome 115.0.0.0,To verify display of price for the product in search result page.,,2023-08-17 09:54:01,2023-08-17 09:58:52,4m - 51.059s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 09:54:04,2023-08-17 09:54:15,10.473s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 09:54:15,2023-08-17 09:58:17,4m - 2.461s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 09:58:17,2023-08-17 09:58:18,0.365s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-17 09:58:18,2023-08-17 09:58:52,34.215s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_063,Chrome 115.0.0.0,To verify the display of the color swatches in search result page,,2023-08-17 09:58:52,2023-08-17 10:01:29,2m - 37.253s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 09:58:54,2023-08-17 09:58:57,3.645s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 09:58:57,2023-08-17 10:00:57,1m - 59.654s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:00:57,2023-08-17 10:00:57,0.290s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-17 10:00:57,2023-08-17 10:01:29,31.986s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_069,Chrome 115.0.0.0,To verify the search result page when user selects the price as sorting option,,2023-08-17 10:01:29,2023-08-17 10:03:55,2m - 25.130s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:01:32,2023-08-17 10:01:36,3.727s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:01:36,2023-08-17 10:03:22,1m - 46.315s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:03:22,2023-08-17 10:03:23,0.283s,PASSED
+"setText(findTestObject(""HomePage/MainSearchbar_HP""), ""vaso"")",Chrome 115.0.0.0,,,2023-08-17 10:03:23,2023-08-17 10:03:55,31.931s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_070,Chrome 115.0.0.0,to verify the pagination in the search result page,,2023-08-17 10:03:55,2023-08-17 10:06:51,2m - 56.590s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:03:58,2023-08-17 10:04:03,4.893s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:04:03,2023-08-17 10:06:19,2m - 16.442s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:06:19,2023-08-17 10:06:19,0.283s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-17 10:06:19,2023-08-17 10:06:51,31.883s,FAILED

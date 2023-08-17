@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 115.0.0.0,,,2023-08-16 15:51:30,2023-08-16 15:57:32,6m - 2.091s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_011,Chrome 115.0.0.0,"To verify that the user is navigated to  ""Ayuda""( Help) page by clicking on the  “Ayuda"" link on the header section.",,2023-08-16 15:51:31,2023-08-16 15:53:55,2m - 24.681s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 15:51:31,2023-08-16 15:51:34,3.037s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 15:51:34,2023-08-16 15:52:32,58.022s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 15:52:32,2023-08-16 15:52:33,0.536s,PASSED
+"click(findTestObject(""HomePage/Mis Compras_hp""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 15:52:33,2023-08-16 15:52:34,0.745s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 115.0.0.0,,,2023-08-16 15:52:34,2023-08-16 15:53:30,56.734s,PASSED
+"click(findTestObject(""HomePage/Ayuda_HP""))",Chrome 115.0.0.0,,,2023-08-16 15:53:30,2023-08-16 15:53:47,17.130s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/img_Cmo podemos ayudarte_logoAyuda""), 0)",Chrome 115.0.0.0,,,2023-08-16 15:53:47,2023-08-16 15:53:54,6.661s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage""), 0)",Chrome 115.0.0.0,,,2023-08-16 15:53:54,2023-08-16 15:53:54,0.389s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-16 15:53:54,2023-08-16 15:53:55,0.893s,PASSED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_014,Chrome 115.0.0.0,"To verify the display of user first name (as ""Hola abc! "") in the header when logged in user successfully logged in to the site",,2023-08-16 15:53:55,2023-08-16 15:57:32,3m - 37.041s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 15:53:56,2023-08-16 15:53:58,1.832s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-16 15:53:58,2023-08-16 15:54:53,55.431s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 15:54:53,2023-08-16 15:54:53,0.229s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 115.0.0.0,,,2023-08-16 15:54:53,2023-08-16 15:55:30,36.592s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 115.0.0.0,,,2023-08-16 15:55:30,2023-08-16 15:56:26,56.084s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 115.0.0.0,,,2023-08-16 15:56:26,2023-08-16 15:56:27,0.698s,PASSED
+"click(findTestObject(""AccountManagement/UpdatePeronalData_Account""))",Chrome 115.0.0.0,,,2023-08-16 15:56:27,2023-08-16 15:56:33,6.295s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/firstName_update_accountManagement""), 0)",Chrome 115.0.0.0,,,2023-08-16 15:56:33,2023-08-16 15:57:25,51.674s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 15:57:25,2023-08-16 15:57:30,5.015s,PASSED
+"Name = ""harish""",Chrome 115.0.0.0,,,2023-08-16 15:57:30,2023-08-16 15:57:30,0.001s,PASSED
+"click(findTestObject(""AccountManagement/firstName_update_accountManagement""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 15:57:30,2023-08-16 15:57:30,0.451s,PASSED
+"clearText(findTestObject(""AccountManagement/firstName_update_accountManagement""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 15:57:30,2023-08-16 15:57:31,0.521s,PASSED
+"sendKeys(findTestObject(""AccountManagement/firstName_update_accountManagement""), Keys.chord(CONTROL, ""a""))",Chrome 115.0.0.0,,,2023-08-16 15:57:31,2023-08-16 15:57:31,0.535s,PASSED
+"sendKeys(findTestObject(""AccountManagement/firstName_update_accountManagement""), Name)",Chrome 115.0.0.0,,,2023-08-16 15:57:31,2023-08-16 15:57:32,0.439s,PASSED
+out.println(Name),Chrome 115.0.0.0,,,2023-08-16 15:57:32,2023-08-16 15:57:32,0.016s,PASSED
+"verifyElementText(findTestObject(""HomePage/header_Hola_text_HP""), ""Hola "" + Name)",Chrome 115.0.0.0,,,2023-08-16 15:57:32,2023-08-16 15:57:32,0.740s,FAILED

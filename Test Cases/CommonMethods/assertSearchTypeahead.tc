@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>assertSearchTypeahead</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07ef1cbe-f6f6-4e78-8cac-a2813eba15f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e25d9da-5925-4d32-85e4-8cb29d3973c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e25d9da-5925-4d32-85e4-8cb29d3973c3</id>
+      <masked>false</masked>
+      <name>searchTerm</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mis tarjetas</name>
+   <tag></tag>
+   <elementGuidId>9b40c2fe-6d82-496d-8575-a906c4f1968c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='4']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#4 > a.a-header__sessionLink</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>912750b7-f82e-4e0b-995a-a7785da4c47e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-header__sessionLink</value>
+      <webElementGuid>97479b95-38cd-4c18-aa27-6bce6dcac608</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tienda/users/creditCards</value>
+      <webElementGuid>39a9e748-f269-4daf-a3cc-ab29a348f3cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mis tarjetas</value>
+      <webElementGuid>777e4a54-2118-4864-b062-f7561cd4af98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;4&quot;)/a[@class=&quot;a-header__sessionLink&quot;]</value>
+      <webElementGuid>622881c1-8d5e-4afd-8eb3-22c6c8151d55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='4']/a</value>
+      <webElementGuid>bb45ba1b-3f27-40e4-ad3c-d0063d814d07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Mis tarjetas')]</value>
+      <webElementGuid>4273b141-8f42-4c97-9405-862d1371754c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi tiempo aire'])[1]/following::a[1]</value>
+      <webElementGuid>639e53a0-ff1a-4167-9306-340729b50d8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cupones'])[1]/following::a[2]</value>
+      <webElementGuid>d45d5027-1a83-4da3-b137-cbaffd89cb1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerrar sesión'])[1]/preceding::a[1]</value>
+      <webElementGuid>90f393ef-b6c2-465a-ad24-f27139440250</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi Cuenta'])[2]/preceding::a[2]</value>
+      <webElementGuid>41aa2ebb-2215-4bcb-9374-79d608eed096</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mis tarjetas']/parent::*</value>
+      <webElementGuid>24bd45a4-3692-43b3-b788-8b95d98b8f5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/tienda/users/creditCards')]</value>
+      <webElementGuid>6e3977a8-af0b-493d-8715-eb27a7ba8b26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a</value>
+      <webElementGuid>f8e5fa7f-cc07-455d-a89f-be554a0e0b00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tienda/users/creditCards' and (text() = 'Mis tarjetas' or . = 'Mis tarjetas')]</value>
+      <webElementGuid>6fa70f73-f469-4b81-81d3-b7acdd064c40</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

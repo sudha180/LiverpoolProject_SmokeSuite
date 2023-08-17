@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Alternate_Img_pdp</name>
+   <tag></tag>
+   <elementGuidId>de7a91b9-aefe-4474-82c6-da0152bf5182</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class='slideInner___2mfX9 carousel__inner-slide'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.img-viewer.active-thumb > div.slide___3-Nqo.carousel__slide.carousel__slide--visible > div.slideInner___2mfX9.carousel__inner-slide > img.pdpthumb.lazyloaded</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c8498fad-773f-4243-8f4d-b715d6f67068</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pdpthumb lazyloaded</value>
+      <webElementGuid>ea365fae-60ce-4de7-9ea4-a58186333fd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-src</name>
+      <type>Main</type>
+      <value>https://ss237.liverpool.com.mx/lg/1114907117_1p.jpg</value>
+      <webElementGuid>8066dafd-e614-4db4-a19f-a7e131b8520c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Bota corta Quirelli para hombre 2</value>
+      <webElementGuid>3ed8fc95-de15-47a2-aacd-ae2a31982e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>c1c8436f-3c70-422e-b290-d79ebe875392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://ss237.liverpool.com.mx/lg/1114907117_1p.jpg</value>
+      <webElementGuid>4d87b7a0-833d-4336-918b-d9f4f207c296</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;listBeforeEtalage&quot;)/div[@class=&quot;verticalSlider___34ZFD carousel__slider carousel__slider--vertical&quot;]/div[@class=&quot;carousel__slider-tray-wrapper verticalSlideTrayWrap___2nO7o carousel__slider-tray-wrap--vertical&quot;]/div[@class=&quot;sliderTray___-vHFQ sliderAnimation___300FY carousel__slider-tray verticalTray___12Key carousel__slider-tray--vertical&quot;]/li[@class=&quot;img-viewer active-thumb&quot;]/div[@class=&quot;slide___3-Nqo carousel__slide carousel__slide--visible&quot;]/div[@class=&quot;slideInner___2mfX9 carousel__inner-slide&quot;]/img[@class=&quot;pdpthumb lazyloaded&quot;]</value>
+      <webElementGuid>5dd83ce0-0596-4c7d-8d7b-3a9bda4bc57e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='listBeforeEtalage']/div/div/div/li[2]/div/div/img</value>
+      <webElementGuid>e402fbd9-3026-4b5c-a2d0-d122c01a32b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Bota corta Quirelli para hombre 2']</value>
+      <webElementGuid>ba07a4e6-e5dc-40a9-8583-f2b4e5d0c720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/img</value>
+      <webElementGuid>10786b87-1a51-4bc6-93e5-f7ea6b19f05d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Bota corta Quirelli para hombre 2' and @src = 'https://ss237.liverpool.com.mx/lg/1114907117_1p.jpg']</value>
+      <webElementGuid>8db545fd-032c-481b-8f26-a2f742c5f739</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

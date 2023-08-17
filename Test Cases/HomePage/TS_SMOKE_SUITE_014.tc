@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of user first name (as &quot;Hola abc! &quot;) in the header when logged in user successfully logged in to the site</description>
+   <name>TS_SMOKE_SUITE_014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>baf64bf1-8fc2-4af6-aba1-ea4c51921237</testCaseGuid>
+</TestCaseEntity>

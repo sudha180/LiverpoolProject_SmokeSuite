@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>paypal(changepaymentmethod)pay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a25665c-7374-444e-94f1-830223a1a64d</testCaseGuid>
+</TestCaseEntity>

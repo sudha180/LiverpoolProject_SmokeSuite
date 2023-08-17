@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to verify we are at checkout page</description>
+   <name>assert_OPC(CheckoutPage)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a40abb64-2148-45a4-9246-fd213dd1ce28</testCaseGuid>
+</TestCaseEntity>

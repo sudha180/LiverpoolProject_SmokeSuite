@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>breadCrumb_PLP</name>
+   <tag></tag>
+   <elementGuidId>4ff36c40-2cb1-4d97-8ff0-69cd5badc9ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='m-breadcrumb']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>1a54e3ca-33b5-4c8d-bb07-e222f261d1e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1677461583389</value>
+      <webElementGuid>b9e67ebf-5f22-463f-99c9-2da1562502cb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

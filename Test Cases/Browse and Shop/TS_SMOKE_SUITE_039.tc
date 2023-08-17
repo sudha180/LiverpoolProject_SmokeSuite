@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that the breadcrumbs are clickable when user has landed on L1 category page.</description>
+   <name>TS_SMOKE_SUITE_039</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4539e6ac-1fef-44c5-86d2-05d41efbec38</testCaseGuid>
+</TestCaseEntity>

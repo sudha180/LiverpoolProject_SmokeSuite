@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Cmo podemos ayudarte_logoAyuda</name>
+   <tag></tag>
+   <elementGuidId>d4ce5939-b4b0-485b-a635-3b4a1b2d17d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.logoAyuda</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainContent']/div/header-web/div/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3a905118-2b7c-47f0-be28-6c144023e4e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logoAyuda</value>
+      <webElementGuid>b914ce10-83fb-4f8b-867f-977a49c296d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/images/logoAyuda.png</value>
+      <webElementGuid>467dc27e-db30-476f-b555-38866218c581</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Ayuda Liverpool logo</value>
+      <webElementGuid>f36e4be2-a5b7-44a3-97ff-c6dd40cecefa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;grid-container ng-scope&quot;]/header-web[1]/div[@class=&quot;grid-80 prefix-10 sufix-10 header-ayuda&quot;]/div[@class=&quot;logaA&quot;]/a[1]/img[@class=&quot;logoAyuda&quot;]</value>
+      <webElementGuid>48d73e78-598b-4b56-97e1-f966f9db4556</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainContent']/div/header-web/div/div/a/img</value>
+      <webElementGuid>ee95e1fd-e8da-4511-9559-2cf592019fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Ayuda Liverpool logo']</value>
+      <webElementGuid>efdcf0d3-770e-4484-93e8-b45fc73f6411</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>96bd9288-633e-4d48-8f24-644fa971ee54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/images/logoAyuda.png' and @alt = 'Ayuda Liverpool logo']</value>
+      <webElementGuid>36ea39ec-128c-46ea-990a-ca65a3436dbc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

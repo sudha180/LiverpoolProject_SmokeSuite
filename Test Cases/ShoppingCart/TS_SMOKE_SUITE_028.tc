@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that user is able to login from Shopping Cart page</description>
+   <name>TS_SMOKE_SUITE_028</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d153d1e-1fe2-4d85-8eaa-4a9615f85c09</testCaseGuid>
+</TestCaseEntity>

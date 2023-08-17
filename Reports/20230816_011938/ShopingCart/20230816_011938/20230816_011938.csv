@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ShopingCart,Chrome 115.0.0.0,,,2023-08-16 01:19:47,2023-08-16 01:20:14,27.211s,ERROR
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_026,Chrome 115.0.0.0,"To verify that for Anonymous user system display the Login overlay after clicking on the ""Pagar"" button during checkout",,2023-08-16 01:19:48,2023-08-16 01:19:58,10.192s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:19:49,2023-08-16 01:19:58,9.022s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:19:58,2023-08-16 01:19:58,0.044s,ERROR
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_027,Chrome 115.0.0.0,To verify that the user is able to create account from shopping cart page,,2023-08-16 01:19:58,2023-08-16 01:20:03,5.168s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:19:59,2023-08-16 01:20:03,4.369s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:20:03,2023-08-16 01:20:03,0.003s,ERROR
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_028,Chrome 115.0.0.0,To verify that user is able to login from Shopping Cart page,,2023-08-16 01:20:03,2023-08-16 01:20:07,3.695s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:20:04,2023-08-16 01:20:07,2.992s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:20:07,2023-08-16 01:20:07,0.004s,ERROR
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_029,Chrome 115.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar"" button in the shopping cart page",,2023-08-16 01:20:07,2023-08-16 01:20:11,3.465s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:20:08,2023-08-16 01:20:11,2.556s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:20:11,2023-08-16 01:20:11,0.003s,ERROR
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_030,Chrome 115.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar Ahor"" button displayed for individual items in the shopping cart page",,2023-08-16 01:20:11,2023-08-16 01:20:14,3.667s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-16 01:20:11,2023-08-16 01:20:14,3.080s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-16 01:20:14,2023-08-16 01:20:14,0.003s,ERROR

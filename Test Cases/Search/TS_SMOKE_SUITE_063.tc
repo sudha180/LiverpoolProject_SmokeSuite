@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of the color swatches in search result page</description>
+   <name>TS_SMOKE_SUITE_063</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6443425-4c2f-486b-b778-d5dd8db75efd</testCaseGuid>
+</TestCaseEntity>

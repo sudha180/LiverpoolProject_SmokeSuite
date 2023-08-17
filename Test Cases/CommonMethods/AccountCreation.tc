@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccountCreation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31386e38-df3d-46d7-9fb0-d9551ff27341</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>581fc6b2-1f09-44cc-be01-61d483c27ffa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>581fc6b2-1f09-44cc-be01-61d483c27ffa</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

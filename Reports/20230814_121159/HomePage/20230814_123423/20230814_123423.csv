@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 115.0.0.0,,,2023-08-14 12:34:27,2023-08-14 12:38:33,4m - 5.550s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_008,Chrome 115.0.0.0,"To verify that the user is navigated to  ""Tiendas""( Store locator) page by clicking on the  “Ubica tu tienda "" link on the header section.",,2023-08-14 12:34:28,2023-08-14 12:36:03,1m - 35.469s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 12:34:28,2023-08-14 12:34:31,3.006s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 12:34:31,2023-08-14 12:35:24,52.294s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-14 12:35:24,2023-08-14 12:35:24,0.221s,PASSED
+"click(findTestObject(""HomePage/Tiendas_HP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 12:35:24,2023-08-14 12:35:25,1.081s,PASSED
+"verifyElementPresent(findTestObject(""SLP/breadCrumb_SLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 12:35:25,2023-08-14 12:35:26,1.363s,PASSED
+"verifyElementPresent(findTestObject(""SLP/Map_Verify_slp""), 0)",Chrome 115.0.0.0,,,2023-08-14 12:35:26,2023-08-14 12:35:32,5.432s,PASSED
+"verifyElementPresent(findTestObject(""SLP/Store_location_slp""), 0)",Chrome 115.0.0.0,,,2023-08-14 12:35:32,2023-08-14 12:36:03,31.518s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_014,Chrome 115.0.0.0,"To verify the display of user first name (as ""Hola abc! "") in the header when logged in user successfully logged in to the site",,2023-08-14 12:36:03,2023-08-14 12:38:33,2m - 29.613s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 12:36:03,2023-08-14 12:36:06,2.196s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 12:36:06,2023-08-14 12:37:10,1m - 4.355s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-14 12:37:10,2023-08-14 12:37:10,0.222s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 115.0.0.0,,,2023-08-14 12:37:10,2023-08-14 12:38:05,55.042s,PASSED
+"verifyElementText(findTestObject(""HomePage/header_Hola_text_HP""), ""Hola harish"")",Chrome 115.0.0.0,,,2023-08-14 12:38:05,2023-08-14 12:38:33,27.519s,FAILED

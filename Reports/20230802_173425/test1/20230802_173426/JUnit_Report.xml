@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test1" time="67.794" tests="1" failures="0" errors="0">
+   <testsuite name="test1" tests="1" failures="0" errors="0" time="67.794" skipped="0" timestamp="2023-08-02 17:34:36" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\Liverpool_SmokeSuite\\Reports\\20230802_173425\\test1\\20230802_173426"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\Liverpool_SmokeSuite\\Reports\\20230802_173425\\test1\\20230802_173426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.185"/>
+         <property name="sessionId" value="8d42f0820cd00e445a0582e7bd2d5f7c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_001" time="66.867" classname="Test Cases/HomePage/TS_SMOKE_SUITE_001" status="PASSED">
+         <system-out><![CDATA[2023-08-02 17:34:37 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_001: Test Cases/HomePage/TS_SMOKE_SUITE_001
+
+2023-08-02 17:34:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-02 17:34:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-02 17:34:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-02 17:34:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-02 17:34:46 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://odtaqab.liverpool.com.mx/tienda/home' successfully
+
+2023-08-02 17:35:42 - [MESSAGE][PASSED] - Navigate to 'https://odtaqab.liverpool.com.mx/tienda/home' successfully
+
+2023-08-02 17:35:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Logo_hp"), 0): Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-02 17:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-02 17:35:43 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-02 17:35:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-02 17:35:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-02 17:34:36 - [TEST_SUITE][PASSED] - test1: Test Cases/HomePage/TS_SMOKE_SUITE_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

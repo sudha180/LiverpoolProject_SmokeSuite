@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to verify that present in GID collection</description>
+   <name>AssertGID_PDP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90c1520d-bfd8-4071-b2fd-80ea21b6f6cb</testCaseGuid>
+</TestCaseEntity>

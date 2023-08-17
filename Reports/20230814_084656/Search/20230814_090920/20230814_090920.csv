@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 115.0.0.0,,,2023-08-14 09:09:24,2023-08-14 09:13:11,3m - 47.216s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_060,Chrome 115.0.0.0,To verify the functionality of facet selection in search result page.,,2023-08-14 09:09:24,2023-08-14 09:12:01,2m - 36.397s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 09:09:25,2023-08-14 09:09:28,3.298s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 09:09:28,2023-08-14 09:10:18,50.140s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:10:18,2023-08-14 09:10:29,11.049s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-14 09:10:29,2023-08-14 09:10:30,0.852s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:10:30,2023-08-14 09:11:50,1m - 19.324s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), 0)",Chrome 115.0.0.0,,,2023-08-14 09:11:50,2023-08-14 09:11:53,3.426s,PASSED
+"a = getText(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:11:53,2023-08-14 09:11:54,0.780s,PASSED
+"click(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:11:54,2023-08-14 09:11:54,0.546s,PASSED
+"b = getText(findTestObject(""PLPPage/facetes/selectedfacet1_PLP""))",Chrome 115.0.0.0,,,2023-08-14 09:11:54,2023-08-14 09:12:00,5.519s,PASSED
+if (a == b),Chrome 115.0.0.0,,,2023-08-14 09:12:00,2023-08-14 09:12:00,0.001s,PASSED
+else,Chrome 115.0.0.0,,,2023-08-14 09:12:00,2023-08-14 09:12:00,0.016s,FAILED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-14 09:12:00,2023-08-14 09:12:01,0.925s,PASSED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_061,Chrome 115.0.0.0,To verify the functionality of pagination in search result page.,search,2023-08-14 09:12:01,2023-08-14 09:13:11,1m - 10.391s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-14 09:12:01,2023-08-14 09:12:03,1.404s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-14 09:12:03,2023-08-14 09:12:46,43.480s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:12:46,2023-08-14 09:12:54,8.428s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 115.0.0.0,,,2023-08-14 09:12:54,2023-08-14 09:12:56,1.260s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-14 09:12:56,2023-08-14 09:13:06,10.012s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-14 09:13:06,2023-08-14 09:13:11,5.012s,PASSED
+a1 = getUrl(),Chrome 115.0.0.0,,,2023-08-14 09:13:11,2023-08-14 09:13:11,0.115s,PASSED
+out.println(a1),Chrome 115.0.0.0,,,2023-08-14 09:13:11,2023-08-14 09:13:11,0.014s,PASSED
+"a = a1.contains(""page-2"")",Chrome 115.0.0.0,,,2023-08-14 09:13:11,2023-08-14 09:13:11,0.001s,PASSED
+out.println(a),Chrome 115.0.0.0,,,2023-08-14 09:13:11,2023-08-14 09:13:11,0.001s,PASSED
+acceptAlert(),Chrome 115.0.0.0,,,2023-08-14 09:13:11,2023-08-14 09:13:11,0.333s,FAILED

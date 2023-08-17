@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePage" time="1335.34" tests="12" failures="2" errors="0">
+   <testsuite name="HomePage" tests="12" failures="2" errors="0" time="1335.34" skipped="0" timestamp="2023-08-14 12:12:06" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/HomePage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200"/>
+         <property name="logFiles" value="D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\execution0.log"/>
+         <property name="attachments" value="D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691995758647.png, D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691995758957.png, D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691996478417.png, D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691996478934.png"/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.76"/>
+         <property name="sessionId" value="25a66262925d714732e70bf2bc2e755e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_001" time="69.529" classname="Test Cases/HomePage/TS_SMOKE_SUITE_001" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:12:07 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_001: Test Cases/HomePage/TS_SMOKE_SUITE_001
+
+2023-08-14 12:12:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:12:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:12:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:12:11 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:13:15 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:13:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:13:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:13:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Logo_hp"), 0): Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-14 12:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-14 12:13:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:13:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_002" time="56.984" classname="Test Cases/HomePage/TS_SMOKE_SUITE_002" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:13:16 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_002: Test Cases/HomePage/TS_SMOKE_SUITE_002
+
+2023-08-14 12:13:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:13:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:13:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:13:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:13:18 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:14:07 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:14:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:14:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:14:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Logo_hp"), 0): Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-14 12:14:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:08 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-14 12:14:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Departamentos"), 0): Object 'Object Repository/HomePage/Departamentos' is present
+
+2023-08-14 12:14:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:09 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Departamentos' is present
+
+2023-08-14 12:14:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/brand1_HP"), 0): Object 'Object Repository/HomePage/brand1_HP' is present
+
+2023-08-14 12:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:09 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/brand1_HP' is present
+
+2023-08-14 12:14:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/brand2_HP"), 0): Object 'Object Repository/HomePage/brand2_HP' is present
+
+2023-08-14 12:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:10 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/brand2_HP' is present
+
+2023-08-14 12:14:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/brand3_HP"), 0): Object 'Object Repository/HomePage/brand3_HP' is present
+
+2023-08-14 12:14:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:10 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/brand3_HP' is present
+
+2023-08-14 12:14:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/brand4_HP"), 0): Object 'Object Repository/HomePage/brand4_HP' is present
+
+2023-08-14 12:14:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:10 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/brand4_HP' is present
+
+2023-08-14 12:14:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/mesa_de_regalos_HP"), 0): Object 'Object Repository/HomePage/mesa_de_regalos_HP' is present
+
+2023-08-14 12:14:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:11 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/mesa_de_regalos_HP' is present
+
+2023-08-14 12:14:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/credito_HP"), 0): Object 'Object Repository/HomePage/credito_HP' is present
+
+2023-08-14 12:14:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:11 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/credito_HP' is present
+
+2023-08-14 12:14:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/MainSearchbar_HP"), 0): Object 'Object Repository/HomePage/MainSearchbar_HP' is present
+
+2023-08-14 12:14:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:11 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/MainSearchbar_HP' is present
+
+2023-08-14 12:14:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Iniciar sesion"), 0): Object 'Object Repository/HomePage/Iniciar sesion' is present
+
+2023-08-14 12:14:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:12 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Iniciar sesion' is present
+
+2023-08-14 12:14:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Tiendas_HP"), 0): Object 'Object Repository/HomePage/Tiendas_HP' is present
+
+2023-08-14 12:14:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:12 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Tiendas_HP' is present
+
+2023-08-14 12:14:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Mis Compras_hp"), 0): Object 'Object Repository/HomePage/Mis Compras_hp' is present
+
+2023-08-14 12:14:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:12 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Mis Compras_hp' is present
+
+2023-08-14 12:14:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Ayuda_HP"), 0): Object 'Object Repository/HomePage/Ayuda_HP' is present
+
+2023-08-14 12:14:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:14:13 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Ayuda_HP' is present
+
+2023-08-14 12:14:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:14:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_003" time="57.907" classname="Test Cases/HomePage/TS_SMOKE_SUITE_003" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:14:13 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_003: Test Cases/HomePage/TS_SMOKE_SUITE_003
+
+2023-08-14 12:14:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:14:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:14:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:14:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:14:15 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:15:07 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:15:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:15:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:15:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/Logo_hp"), 0): Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-14 12:15:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:15:08 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Logo_hp' is present
+
+2023-08-14 12:15:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/Departamentos")): Object: 'Object Repository/HomePage/Departamentos' is hovered
+
+2023-08-14 12:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Departamentos' is hovered
+
+2023-08-14 12:15:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("HomePage/L1_Category1_HP")): Object 'Object Repository/HomePage/L1_Category1_HP' is clickable
+
+2023-08-14 12:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/L1_Category1_HP' is clickable
+
+2023-08-14 12:15:09 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/L1_Category1_HP")): Object: 'Object Repository/HomePage/L1_Category1_HP' is hovered
+
+2023-08-14 12:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/L1_Category1_HP' is hovered
+
+2023-08-14 12:15:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("HomePage/L2CategoryInFlyout_HP")): Object 'Object Repository/HomePage/L2CategoryInFlyout_HP' is clickable
+
+2023-08-14 12:15:10 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/L2CategoryInFlyout_HP' is clickable
+
+2023-08-14 12:15:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("HomePage/L3CategoriesInFlyout_HP")): Object 'Object Repository/HomePage/L3CategoriesInFlyout_HP' is clickable
+
+2023-08-14 12:15:11 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/L3CategoriesInFlyout_HP' is clickable
+
+2023-08-14 12:15:11 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-08-14 12:15:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_006" time="85.139" classname="Test Cases/HomePage/TS_SMOKE_SUITE_006" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:15:11 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_006: Test Cases/HomePage/TS_SMOKE_SUITE_006
+
+2023-08-14 12:15:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:15:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:15:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:15:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:15:13 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:16:02 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:16:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:16:02 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:16:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("HomePage/Mesa de regalos_HP")): Object 'Object Repository/HomePage/Mesa de regalos_HP' is clickable
+
+2023-08-14 12:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Mesa de regalos_HP' is clickable
+
+2023-08-14 12:16:03 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Mesa de regalos_HP")): Object: 'Object Repository/HomePage/Mesa de regalos_HP' is clicked on
+
+2023-08-14 12:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Mesa de regalos_HP' is clicked on
+
+2023-08-14 12:16:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/gr/Find_gift_table_GR"), 0): Object 'Object Repository/HomePage/gr/Find_gift_table_GR' is present
+
+2023-08-14 12:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:16:35 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/gr/Find_gift_table_GR' is present
+
+2023-08-14 12:16:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/gr/Search_event_button_GR"), 0): Object 'Object Repository/HomePage/gr/Search_event_button_GR' is present
+
+2023-08-14 12:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/gr/Search_event_button_GR' is present
+
+2023-08-14 12:16:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:16:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_007" time="57.886" classname="Test Cases/HomePage/TS_SMOKE_SUITE_007" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:16:36 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_007: Test Cases/HomePage/TS_SMOKE_SUITE_007
+
+2023-08-14 12:16:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:16:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:16:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:16:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:16:38 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:17:22 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:17:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:17:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:17:23 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:17:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/EnterUsername_LP"), 0): Object 'Object Repository/HomePage/EnterUsername_LP' is present
+
+2023-08-14 12:17:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/EnterUsername_LP' is present
+
+2023-08-14 12:17:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/EnterPassword_LP"), 0): Object 'Object Repository/HomePage/EnterPassword_LP' is present
+
+2023-08-14 12:17:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/EnterPassword_LP' is present
+
+2023-08-14 12:17:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:17:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_008" time="104.322" classname="Test Cases/HomePage/TS_SMOKE_SUITE_008" status="FAILED">
+         <failure type="FAILED" message="Test Cases/HomePage/TS_SMOKE_SUITE_008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SLP/Store_location_slp' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-14 12:17:34 - [TEST_CASE][FAILED] - Test Cases/HomePage/TS_SMOKE_SUITE_008: Test Cases/HomePage/TS_SMOKE_SUITE_008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SLP/Store_location_slp' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-14 12:17:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:17:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:17:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:17:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:17:36 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:18:26 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:18:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:18:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:18:27 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Tiendas_HP"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Tiendas_HP' is clicked on
+
+2023-08-14 12:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Tiendas_HP' is clicked on
+
+2023-08-14 12:18:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SLP/breadCrumb_SLP"), 0): Object 'Object Repository/SLP/breadCrumb_SLP' is present
+
+2023-08-14 12:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:18:47 - [MESSAGE][PASSED] - Object 'Object Repository/SLP/breadCrumb_SLP' is present
+
+2023-08-14 12:18:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SLP/Map_Verify_slp"), 0): Object 'Object Repository/SLP/Map_Verify_slp' is present
+
+2023-08-14 12:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:18:47 - [MESSAGE][PASSED] - Object 'Object Repository/SLP/Map_Verify_slp' is present
+
+2023-08-14 12:18:47 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("SLP/Store_location_slp"), 0): Unable to verify object 'Object Repository/SLP/Store_location_slp' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SLP/Store_location_slp' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-14 12:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:19:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-14 12:19:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691995758647.png]]
+
+2023-08-14 12:19:19 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/SLP/Store_location_slp' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SLP/Store_location_slp' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691995758957.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-14 12:17:34 - [TEST_CASE][FAILED] - Test Cases/HomePage/TS_SMOKE_SUITE_008: Test Cases/HomePage/TS_SMOKE_SUITE_008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SLP/Store_location_slp' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_009" time="71.358" classname="Test Cases/HomePage/TS_SMOKE_SUITE_009" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:19:19 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_009: Test Cases/HomePage/TS_SMOKE_SUITE_009
+
+2023-08-14 12:19:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:19:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-14 12:19:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:19:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:19:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:19:21 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:20:09 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:20:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:20:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:20:09 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Mis Compras_hp"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Mis Compras_hp' is clicked on
+
+2023-08-14 12:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Mis Compras_hp' is clicked on
+
+2023-08-14 12:20:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/EnterUsername_LP"), 0): Object 'Object Repository/HomePage/EnterUsername_LP' is present
+
+2023-08-14 12:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:20:29 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/EnterUsername_LP' is present
+
+2023-08-14 12:20:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/EnterPassword_LP"), 0): Object 'Object Repository/HomePage/EnterPassword_LP' is present
+
+2023-08-14 12:20:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:20:29 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/EnterPassword_LP' is present
+
+2023-08-14 12:20:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:20:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_010" time="173.336" classname="Test Cases/HomePage/TS_SMOKE_SUITE_010" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:20:30 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_010: Test Cases/HomePage/TS_SMOKE_SUITE_010
+
+2023-08-14 12:20:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:20:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:20:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:20:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:20:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:21:23 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:21:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:21:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:21:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:21:24 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-14 12:21:24 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:21:25 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:22:03 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:22:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:22:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:22:05 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:22:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:22:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:22:08 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:22:08 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:22:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:22:24 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Mis Compras_hp")): Object: 'Object Repository/HomePage/Mis Compras_hp' is clicked on
+
+2023-08-14 12:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Mis Compras_hp' is clicked on
+
+2023-08-14 12:23:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MyOrdersPage/aside_leftNavigation_misCompras"), 0): Object 'Object Repository/MyOrdersPage/aside_leftNavigation_misCompras' is present
+
+2023-08-14 12:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:23:22 - [MESSAGE][PASSED] - Object 'Object Repository/MyOrdersPage/aside_leftNavigation_misCompras' is present
+
+2023-08-14 12:23:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MyOrdersPage/breadCrumb_misCompras"), 0): Object 'Object Repository/MyOrdersPage/breadCrumb_misCompras' is present
+
+2023-08-14 12:23:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:23:23 - [MESSAGE][PASSED] - Object 'Object Repository/MyOrdersPage/breadCrumb_misCompras' is present
+
+2023-08-14 12:23:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:23:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_011" time="178.551" classname="Test Cases/HomePage/TS_SMOKE_SUITE_011" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:23:23 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_011: Test Cases/HomePage/TS_SMOKE_SUITE_011
+
+2023-08-14 12:23:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:23:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:23:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:23:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:23:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:24:12 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:24:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:24:12 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:24:12 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Mis Compras_hp"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Mis Compras_hp' is clicked on
+
+2023-08-14 12:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Mis Compras_hp' is clicked on
+
+2023-08-14 12:24:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], OPTIONAL): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:24:13 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-14 12:24:13 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:24:15 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:24:23 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:24:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:24:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:24:25 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:24:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:24:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:24:28 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:24:28 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:24:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:24:38 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Ayuda_HP")): Object: 'Object Repository/HomePage/Ayuda_HP' is clicked on
+
+2023-08-14 12:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Ayuda_HP' is clicked on
+
+2023-08-14 12:26:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/img_Cmo podemos ayudarte_logoAyuda"), 0): Object 'Object Repository/HomePage/img_Cmo podemos ayudarte_logoAyuda' is present
+
+2023-08-14 12:26:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:26:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/img_Cmo podemos ayudarte_logoAyuda' is present
+
+2023-08-14 12:26:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage"), 0): Object 'Object Repository/HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage' is present
+
+2023-08-14 12:26:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:26:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage' is present
+
+2023-08-14 12:26:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:26:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_012" time="128.549" classname="Test Cases/HomePage/TS_SMOKE_SUITE_012" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:26:22 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_012: Test Cases/HomePage/TS_SMOKE_SUITE_012
+
+2023-08-14 12:26:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:26:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:26:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:26:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:26:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:27:04 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:27:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:27:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:27:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], OPTIONAL): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:27:04 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-14 12:27:04 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:27:05 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:27:16 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:27:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:27:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:27:18 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:27:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:27:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:27:20 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:27:21 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:27:21 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:27:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:27:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/span_HolaUser_hp"), 0): Object 'Object Repository/HomePage/span_HolaUser_hp' is present
+
+2023-08-14 12:27:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:28:30 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/span_HolaUser_hp' is present
+
+2023-08-14 12:28:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:28:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_014" time="168.466" classname="Test Cases/HomePage/TS_SMOKE_SUITE_014" status="FAILED">
+         <failure type="FAILED" message="Test Cases/HomePage/TS_SMOKE_SUITE_014 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/header_Hola_text_HP' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at TS_SMOKE_SUITE_014.run(TS_SMOKE_SUITE_014:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Hola harishas...' and expected text 'Hola harish' of test object 'Object Repository/HomePage/header_Hola_text_HP' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-14 12:28:30 - [TEST_CASE][FAILED] - Test Cases/HomePage/TS_SMOKE_SUITE_014: Test Cases/HomePage/TS_SMOKE_SUITE_014 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/header_Hola_text_HP' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at TS_SMOKE_SUITE_014.run(TS_SMOKE_SUITE_014:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Hola harishas...' and expected text 'Hola harish' of test object 'Object Repository/HomePage/header_Hola_text_HP' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-14 12:28:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:28:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:28:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:28:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:28:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:29:20 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:29:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:29:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:29:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], OPTIONAL): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:29:21 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-14 12:29:21 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:29:22 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:29:43 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:29:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:29:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:29:45 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:29:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:29:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:29:48 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:29:48 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:30:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:30:31 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("HomePage/header_Hola_text_HP"), "Hola harish"): Verify element text of test object 'Object Repository/HomePage/header_Hola_text_HP' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/header_Hola_text_HP' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at TS_SMOKE_SUITE_014.run(TS_SMOKE_SUITE_014:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Hola harishas...' and expected text 'Hola harish' of test object 'Object Repository/HomePage/header_Hola_text_HP' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-14 12:31:18 - [MESSAGE][FAILED] - Actual text 'Hola harishas...' and expected text 'Hola harish' of test object 'Object Repository/HomePage/header_Hola_text_HP' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Hola harishas...' and expected text 'Hola harish' of test object 'Object Repository/HomePage/header_Hola_text_HP' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at TS_SMOKE_SUITE_014.run(TS_SMOKE_SUITE_014:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691996478417.png]]
+
+2023-08-14 12:31:19 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/HomePage/header_Hola_text_HP' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/header_Hola_text_HP' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at TS_SMOKE_SUITE_014.run(TS_SMOKE_SUITE_014:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Hola harishas...' and expected text 'Hola harish' of test object 'Object Repository/HomePage/header_Hola_text_HP' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\Liverpool_SmokeSuite1\\Reports\\20230814_121159\\HomePage\\20230814_121200\\1691996478934.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-14 12:28:30 - [TEST_CASE][FAILED] - Test Cases/HomePage/TS_SMOKE_SUITE_014: Test Cases/HomePage/TS_SMOKE_SUITE_014 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/header_Hola_text_HP' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at TS_SMOKE_SUITE_014.run(TS_SMOKE_SUITE_014:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Hola harishas...' and expected text 'Hola harish' of test object 'Object Repository/HomePage/header_Hola_text_HP' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/TS_SMOKE_SUITE_015" time="182.672" classname="Test Cases/HomePage/TS_SMOKE_SUITE_015" status="PASSED">
+         <system-out><![CDATA[2023-08-14 12:31:19 - [TEST_CASE][PASSED] - Test Cases/HomePage/TS_SMOKE_SUITE_015: Test Cases/HomePage/TS_SMOKE_SUITE_015
+
+2023-08-14 12:31:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-14 12:31:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-14 12:31:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-14 12:31:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-14 12:31:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-14 12:31:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:32:50 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-14 12:32:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-14 12:32:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-14 12:32:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], OPTIONAL): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:32:51 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-14 12:32:51 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-14 12:32:52 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-14 12:33:01 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:33:01 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-14 12:33:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:33:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:33:03 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-14 12:33:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-14 12:33:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-14 12:33:06 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:33:07 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-14 12:33:07 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-14 12:33:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-14 12:33:15 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/header_Hola_text_HP"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/header_Hola_text_HP' is hovered
+
+2023-08-14 12:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/header_Hola_text_HP' is hovered
+
+2023-08-14 12:34:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/a_Mis Compras"), 0): Object 'Object Repository/HomePage/a_Mis Compras' is present
+
+2023-08-14 12:34:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:34:19 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/a_Mis Compras' is present
+
+2023-08-14 12:34:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/a_Mi Cuenta"), 0): Object 'Object Repository/HomePage/a_Mi Cuenta' is present
+
+2023-08-14 12:34:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:34:20 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/a_Mi Cuenta' is present
+
+2023-08-14 12:34:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/a_Mi tiempo aire"), 0): Object 'Object Repository/HomePage/a_Mi tiempo aire' is present
+
+2023-08-14 12:34:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:34:20 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/a_Mi tiempo aire' is present
+
+2023-08-14 12:34:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/a_Mis tarjetas"), 0): Object 'Object Repository/HomePage/a_Mis tarjetas' is present
+
+2023-08-14 12:34:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:34:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/a_Mis tarjetas' is present
+
+2023-08-14 12:34:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/a_Cerrar sesin_hp"), 0): Object 'Object Repository/HomePage/a_Cerrar sesin_hp' is present
+
+2023-08-14 12:34:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-14 12:34:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/a_Cerrar sesin_hp' is present
+
+2023-08-14 12:34:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-14 12:34:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-14 12:12:06 - [TEST_SUITE][FAILED] - HomePage: Test Cases/HomePage/TS_SMOKE_SUITE_008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SLP/Store_location_slp' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-14 12:12:06 - [TEST_SUITE][FAILED] - HomePage: Test Cases/HomePage/TS_SMOKE_SUITE_008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/SLP/Store_location_slp' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_008.run(TS_SMOKE_SUITE_008:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691995320777.run(TempTestSuite1691995320777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SLP/Store_location_slp' located by '//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div[2]/div/ul/li/a' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

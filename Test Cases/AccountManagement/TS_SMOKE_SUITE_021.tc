@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the user is able to navigate to forma de pago page and view the payment menthods</description>
+   <name>TS_SMOKE_SUITE_021</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de2211c0-c730-40b8-9d9e-864a5fd21ff2</testCaseGuid>
+</TestCaseEntity>

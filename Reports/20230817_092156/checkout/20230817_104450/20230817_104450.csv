@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkout,Chrome 115.0.0.0,,,2023-08-17 10:44:56,2023-08-17 11:06:34,21m - 37.813s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_072,Chrome 115.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-17 10:44:57,2023-08-17 10:47:13,2m - 16.506s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:44:58,2023-08-17 10:45:02,4.574s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:45:02,2023-08-17 10:45:03,0.183s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:45:03,2023-08-17 10:46:41,1m - 38.880s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:46:41,2023-08-17 10:47:13,31.881s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_073,Chrome 115.0.0.0,To verify the functionality of editing the Personal shipping address  in checkout flow for logged in user,,2023-08-17 10:47:13,2023-08-17 10:50:29,3m - 15.220s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:47:14,2023-08-17 10:47:17,2.582s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:47:17,2023-08-17 10:49:23,2m - 5.884s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:49:23,2023-08-17 10:49:23,0.529s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:49:23,2023-08-17 10:49:24,0.620s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":Username, ""password"":Password], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-17 10:49:24,2023-08-17 10:50:29,1m - 4.913s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_075,Chrome 115.0.0.0,"For a login client, if a Click & Collect store is configured in the profile as default, it must appear preselected in One Page checkout",,2023-08-17 10:50:29,2023-08-17 10:52:06,1m - 37.351s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:50:30,2023-08-17 10:50:33,3.301s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:50:33,2023-08-17 10:51:34,1m - 1.017s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:51:34,2023-08-17 10:51:34,0.302s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:51:34,2023-08-17 10:52:06,31.851s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_076,Chrome 115.0.0.0,To verify the display of payment page for the for logged in user,,2023-08-17 10:52:06,2023-08-17 10:54:05,1m - 59.009s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:52:07,2023-08-17 10:52:11,4.079s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:52:11,2023-08-17 10:53:29,1m - 17.762s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:53:29,2023-08-17 10:53:29,0.739s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:53:29,2023-08-17 10:54:05,35.650s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_077,Chrome 115.0.0.0,To verify the functionality of new  adding card  in checkout flow for logged in user,,2023-08-17 10:54:05,2023-08-17 10:56:00,1m - 55.123s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:54:09,2023-08-17 10:54:13,4.475s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:54:13,2023-08-17 10:55:28,1m - 14.562s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:55:28,2023-08-17 10:55:28,0.603s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:55:28,2023-08-17 10:56:00,31.776s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_078,Chrome 115.0.0.0,To verify the display of Order confirmation page for logged in user,,2023-08-17 10:56:00,2023-08-17 10:57:42,1m - 41.956s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:56:05,2023-08-17 10:56:09,3.820s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:56:09,2023-08-17 10:57:28,1m - 18.326s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:57:28,2023-08-17 10:57:28,0.311s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:57:28,2023-08-17 10:57:42,14.319s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_080,Chrome 115.0.0.0,To verify that the display of the applied Coupon details in the order success page,,2023-08-17 10:57:42,2023-08-17 10:59:00,1m - 18.059s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:57:43,2023-08-17 10:57:45,2.632s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:57:45,2023-08-17 10:58:28,42.959s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:58:28,2023-08-17 10:58:29,0.192s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:58:29,2023-08-17 10:59:00,31.641s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_082,Chrome 115.0.0.0,To verify the functionality of   editing the card  in checkout flow for loggedin user,,2023-08-17 10:59:00,2023-08-17 11:00:29,1m - 28.337s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 10:59:01,2023-08-17 10:59:04,3.162s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 10:59:04,2023-08-17 10:59:57,52.315s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 10:59:57,2023-08-17 10:59:57,0.329s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 10:59:57,2023-08-17 11:00:29,31.483s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_083,Chrome 115.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-17 11:00:29,2023-08-17 11:01:34,1m - 5.762s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 11:00:29,2023-08-17 11:00:32,2.749s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 11:00:32,2023-08-17 11:01:34,1m - 2.340s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 11:01:34,2023-08-17 11:01:34,0.100s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_086,Chrome 115.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-17 11:01:34,2023-08-17 11:03:21,1m - 46.453s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 11:01:35,2023-08-17 11:01:37,2.496s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 11:01:37,2023-08-17 11:02:49,1m - 11.740s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 11:02:49,2023-08-17 11:02:49,0.153s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 11:02:49,2023-08-17 11:03:21,31.426s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_087,Chrome 115.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-17 11:03:21,2023-08-17 11:05:06,1m - 45.448s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 11:03:21,2023-08-17 11:03:24,2.600s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 11:03:24,2023-08-17 11:04:34,1m - 10.567s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 11:04:34,2023-08-17 11:04:35,0.140s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 11:04:35,2023-08-17 11:05:06,31.700s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_088,Chrome 115.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-17 11:05:06,2023-08-17 11:06:34,1m - 27.951s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 11:05:07,2023-08-17 11:05:09,2.569s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 11:05:09,2023-08-17 11:06:01,51.345s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 11:06:01,2023-08-17 11:06:01,0.312s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 11:06:01,2023-08-17 11:06:34,33.170s,FAILED

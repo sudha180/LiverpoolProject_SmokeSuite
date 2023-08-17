@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>delete new created card so to use the creation of card automatable</description>
+   <name>deleteCARD_NEWCRETED</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d02b658-506c-4a4e-b370-8a454a40096c</testCaseGuid>
+</TestCaseEntity>

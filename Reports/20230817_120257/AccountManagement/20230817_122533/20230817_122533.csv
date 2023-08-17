@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AccountManagement,Chrome 115.0.0.0,,,2023-08-17 13:44:39,2023-08-17 13:47:33,2m - 53.679s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_016,Chrome 115.0.0.0,To Verify logged in user is able to view the profile inforamtion from Actualizar datos personales link in my account page after Updating personal information,,2023-08-17 13:44:40,2023-08-17 13:45:20,40.748s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:44:40,2023-08-17 13:44:43,2.661s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 13:44:43,2023-08-17 13:44:48,5.878s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 13:44:48,2023-08-17 13:44:49,0.167s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 13:44:49,2023-08-17 13:45:20,31.634s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_017,Chrome 115.0.0.0,Verify the user able to add new Personal shipping address,,2023-08-17 13:45:20,2023-08-17 13:46:01,40.947s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:45:21,2023-08-17 13:45:23,2.097s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 13:45:23,2023-08-17 13:45:30,6.842s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 13:45:30,2023-08-17 13:45:30,0.152s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 13:45:30,2023-08-17 13:46:01,31.455s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_018,Chrome 115.0.0.0,Verify the user able to add new Click & Collect address address,,2023-08-17 13:46:01,2023-08-17 13:46:40,38.497s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:46:02,2023-08-17 13:46:04,2.031s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 13:46:04,2023-08-17 13:46:08,4.481s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 13:46:08,2023-08-17 13:46:08,0.140s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 13:46:08,2023-08-17 13:46:40,31.459s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_019,Chrome 115.0.0.0,Verify the last added Store address is displayed in the top section as a priority,,2023-08-17 13:46:40,2023-08-17 13:47:19,39.116s,FAILED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:46:40,2023-08-17 13:46:42,1.973s,PASSED
+navigateToUrl(URL),Chrome 115.0.0.0,,,2023-08-17 13:46:42,2023-08-17 13:46:47,5.215s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-17 13:46:47,2023-08-17 13:46:47,0.147s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 115.0.0.0,,,2023-08-17 13:46:47,2023-08-17 13:47:19,31.410s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_020,Chrome 115.0.0.0,Verify if the user able to make C&C store address as default address,,2023-08-17 13:47:19,2023-08-17 13:47:21,2.372s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:47:19,2023-08-17 13:47:21,1.996s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-17 13:47:21,2023-08-17 13:47:21,0.005s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_021,Chrome 115.0.0.0,Verify the user is able to navigate to forma de pago page and view the payment menthods,,2023-08-17 13:47:21,2023-08-17 13:47:24,2.347s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:47:22,2023-08-17 13:47:24,2.028s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-17 13:47:24,2023-08-17 13:47:24,0.002s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_022,Chrome 115.0.0.0,Verify the user able to update the payment methods as default in forma de pago page,,2023-08-17 13:47:24,2023-08-17 13:47:26,2.285s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:47:24,2023-08-17 13:47:26,2.009s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-17 13:47:26,2023-08-17 13:47:26,0.001s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_023,Chrome 115.0.0.0,"To Verify Logged in user is able to Add ,Edit and remove  credit card from my account from my account",,2023-08-17 13:47:26,2023-08-17 13:47:28,2.303s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:47:26,2023-08-17 13:47:28,1.948s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-17 13:47:28,2023-08-17 13:47:28,0.002s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_024,Chrome 115.0.0.0,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,2023-08-17 13:47:28,2023-08-17 13:47:31,2.466s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:47:29,2023-08-17 13:47:31,2.131s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-17 13:47:31,2023-08-17 13:47:31,0.002s,ERROR
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_025,Chrome 115.0.0.0,To Verify Logged in user is able to change the password,,2023-08-17 13:47:31,2023-08-17 13:47:33,2.246s,ERROR
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-17 13:47:31,2023-08-17 13:47:33,1.953s,PASSED
+navigateToUrl(LiverpoolURL),Chrome 115.0.0.0,,,2023-08-17 13:47:33,2023-08-17 13:47:33,0.002s,ERROR

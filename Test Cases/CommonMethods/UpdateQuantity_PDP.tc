@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to update and check changes</description>
+   <name>UpdateQuantity_PDP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87ba50e3-fb02-478c-a09e-b0285e5cb93c</testCaseGuid>
+</TestCaseEntity>

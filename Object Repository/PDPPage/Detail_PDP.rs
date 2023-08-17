@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Detail_PDP</name>
+   <tag></tag>
+   <elementGuidId>320c624d-51fb-485e-a597-96b4dab5798d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='productDetailTab']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.a-product__paragraphProductDescriptionContentWeb.d-none.d-lg-block.m-0.mt-2.hidedesc</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4dfa05b6-c013-4c8f-ab5e-df9b1985e3b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-product__paragraphProductDescriptionContentWeb d-none d-lg-block m-0 mt-2 hidedesc</value>
+      <webElementGuid>f7320a55-c8d5-4b8c-a0c4-ba336a7eeb43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Elegante y exclusiva fragancia para la mujer . Para que todos a tu alrededor noten tu presencia desde el momento en el que llegas, Un perfume, atrevido, seductor y provocador que cautiva tanto por su aspecto indescifrable como por su ...</value>
+      <webElementGuid>eda93f70-9f2e-4fd1-8ef0-cd94f31a8a79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;min-vh-100&quot;]/section[@class=&quot;o-product__detail&quot;]/div[@class=&quot;container o-product__mainContainer&quot;]/main[1]/div[@class=&quot;o-product__description&quot;]/div[@class=&quot;a-product__paragraphProductDescriptionContentWeb d-none d-lg-block m-0 mt-2 hidedesc&quot;]</value>
+      <webElementGuid>a9802d0c-7982-48ab-b5fa-7985bf19908c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/section/div/main/div[2]/div[11]</value>
+      <webElementGuid>02df1228-8aad-4cc6-8a73-4543a6f5d072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[3]/following::div[1]</value>
+      <webElementGuid>a7f36666-c1e1-4d8c-8a1b-b525a972cc94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[3]/following::div[1]</value>
+      <webElementGuid>270a0ffc-c02c-4a32-8558-f6b878abde24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Más información'])[1]/preceding::div[1]</value>
+      <webElementGuid>37c724ea-053c-490e-a87e-3076e76d686a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compartir'])[1]/preceding::div[1]</value>
+      <webElementGuid>97bfd8ea-b6bb-42a5-87c2-44b0c62540ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Elegante y exclusiva fragancia para la mujer . Para que todos a tu alrededor noten tu presencia desde el momento en el que llegas, Un perfume, atrevido, seductor y provocador que cautiva tanto por su aspecto indescifrable como por su ...']/parent::*</value>
+      <webElementGuid>ba411df2-f57c-438e-80a7-fcab5670f5a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]</value>
+      <webElementGuid>966cafad-866d-4b09-83f0-d48d7cd038af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Elegante y exclusiva fragancia para la mujer . Para que todos a tu alrededor noten tu presencia desde el momento en el que llegas, Un perfume, atrevido, seductor y provocador que cautiva tanto por su aspecto indescifrable como por su ...' or . = 'Elegante y exclusiva fragancia para la mujer . Para que todos a tu alrededor noten tu presencia desde el momento en el que llegas, Un perfume, atrevido, seductor y provocador que cautiva tanto por su aspecto indescifrable como por su ...')]</value>
+      <webElementGuid>03125480-163f-4673-b817-cee541771fbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

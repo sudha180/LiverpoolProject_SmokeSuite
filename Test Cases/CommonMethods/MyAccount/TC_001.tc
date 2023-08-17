@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the option &quot;Agregar una tienda Click &amp; Collect&quot; is displayed parallel to Agregar direccion in add shipping address page</description>
+   <name>TC_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44193333-1700-4c40-8ff9-5c03db020f31</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>addAddress_fillform_opc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2758929-2cbf-4a28-a239-a434e3fe54ce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f22d9fe1-7c66-4c90-a8ce-ecfdfac04a07</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f22d9fe1-7c66-4c90-a8ce-ecfdfac04a07</id>
+      <masked>false</masked>
+      <name>StoreValue</name>
+   </variable>
+</TestCaseEntity>

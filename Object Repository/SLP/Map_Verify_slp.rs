@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Map_Verify_slp</name>
+   <tag></tag>
+   <elementGuidId>33d62de2-d8a3-4b1d-929f-31bc8ed405eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-lg-8.m-storeLocator-map.px-0.px-lg-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d6ab1da1-021e-4e50-883f-e753d896210d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-lg-8 m-storeLocator-map px-0 px-lg-3</value>
+      <webElementGuid>adcbe335-7e28-40c7-be2f-b04bf9f314cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Busca una tiendaFiltrarTo navigate, press the arrow keys.←Move left→Move right↑Move up↓Move down+Zoom in-Zoom outHomeJump left by 75%EndJump right by 75%Page UpJump up by 75%Page DownJump down by 75%MapTerrainSatelliteLabelsKeyboard shortcutsMap DataMap data ©2023 INEGIMap data ©2023 INEGI200 m Click to toggle between metric and imperial unitsTerms of UseReport a map errorUsar mi ubicación</value>
+      <webElementGuid>85276afa-794f-4431-9981-46d4df9b5c44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container p-0&quot;]/div[@class=&quot;row mt-lg-3 mb-lg-5 mb-0&quot;]/div[@class=&quot;col-lg-8 m-storeLocator-map px-0 px-lg-3&quot;]</value>
+      <webElementGuid>17625b9e-e5bd-47ed-bb2d-97abc44eebd1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[2]/div</value>
+      <webElementGuid>3d754edd-14f9-41ab-b47b-4e40dc94abe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div</value>
+      <webElementGuid>f0afd3a4-5119-4a65-b8a1-5d08e3b5d3c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Busca una tiendaFiltrarTo navigate, press the arrow keys.←Move left→Move right↑Move up↓Move down+Zoom in-Zoom outHomeJump left by 75%EndJump right by 75%Page UpJump up by 75%Page DownJump down by 75%MapTerrainSatelliteLabelsKeyboard shortcutsMap DataMap data ©2023 INEGIMap data ©2023 INEGI200 m Click to toggle between metric and imperial unitsTerms of UseReport a map errorUsar mi ubicación' or . = 'Busca una tiendaFiltrarTo navigate, press the arrow keys.←Move left→Move right↑Move up↓Move down+Zoom in-Zoom outHomeJump left by 75%EndJump right by 75%Page UpJump up by 75%Page DownJump down by 75%MapTerrainSatelliteLabelsKeyboard shortcutsMap DataMap data ©2023 INEGIMap data ©2023 INEGI200 m Click to toggle between metric and imperial unitsTerms of UseReport a map errorUsar mi ubicación')]</value>
+      <webElementGuid>1d1d22a0-805e-4605-b9dc-b3f773683f78</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

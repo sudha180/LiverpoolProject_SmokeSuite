@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Datadriven-login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fda37920-52e1-4bb0-a08a-e7a60682f8a0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>deaf771f-8deb-447f-86ba-9fd866e57344</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Logincredentials</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

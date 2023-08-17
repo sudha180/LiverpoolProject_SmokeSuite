@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of price range on the item listing page for multi sku items.</description>
+   <name>TS_SMOKE_SUITE_048</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be67d48f-90bf-4f95-b4e3-fc8d1cbe3c5f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of PDP for single sku</description>
+   <name>TS_SMOKE_SUITE_056</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f26eca15-13e5-4b58-b2dc-d95ad8fd141f</testCaseGuid>
+</TestCaseEntity>

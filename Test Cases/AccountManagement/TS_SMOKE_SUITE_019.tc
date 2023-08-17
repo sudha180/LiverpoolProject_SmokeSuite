@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the last added Store address is displayed in the top section as a priority</description>
+   <name>TS_SMOKE_SUITE_019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42d0900b-e5d7-4ea7-8ec4-8a3e279bb677</testCaseGuid>
+</TestCaseEntity>

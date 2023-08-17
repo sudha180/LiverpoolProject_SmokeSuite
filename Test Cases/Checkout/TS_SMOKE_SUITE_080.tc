@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that the display of the applied Coupon details in the order success page</description>
+   <name>TS_SMOKE_SUITE_080</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d0543f9-5c48-47f3-84f0-a6ee3b0b3772</testCaseGuid>
+</TestCaseEntity>

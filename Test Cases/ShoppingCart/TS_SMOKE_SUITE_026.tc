@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that for Anonymous user system display the Login overlay after clicking on the &quot;Pagar&quot; button during checkout</description>
+   <name>TS_SMOKE_SUITE_026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c704f29b-97ea-4bb5-b9ea-47bdfec90d31</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_single</name>
+   <tag></tag>
+   <elementGuidId>d4ff700b-d103-4bf6-8e27-0b03fddb3c76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'billing_country' and @id = 'billing_country']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billing_country</value>
+      <webElementGuid>44194a74-fdd3-45dc-a33a-93d2a1a6da57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billing_country</value>
+      <webElementGuid>4409d240-6f60-4391-ae3c-e31cf4e029e4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

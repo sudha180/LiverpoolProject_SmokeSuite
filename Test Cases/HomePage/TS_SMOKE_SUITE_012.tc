@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to verify that user is able to login by giving the valid credentials in the login overlay by clicking on the Inicar session link in the header</description>
+   <name>TS_SMOKE_SUITE_012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a6b8ecf-eb43-4762-b56c-42e4f5f64878</testCaseGuid>
+</TestCaseEntity>

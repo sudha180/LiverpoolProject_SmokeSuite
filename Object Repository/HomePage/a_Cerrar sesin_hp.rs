@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cerrar sesin_hp</name>
+   <tag></tag>
+   <elementGuidId>e2156f24-2780-456d-ab56-cfed037fa344</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#5 > a.a-header__sessionLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@id='5']/a)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b615ec1b-ec6a-491e-bb93-36ed2c86c1b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-header__sessionLink</value>
+      <webElementGuid>0c15ae3f-2f94-48d8-991b-6c9ba65a3425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tienda/home#!</value>
+      <webElementGuid>eaff1623-1794-4683-b010-eae04131cfde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cerrar sesión</value>
+      <webElementGuid>7ef8fc4c-225a-4aaa-b029-dfdcdc779483</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header&quot;]/div[@class=&quot;o-container__fluid container-fluid&quot;]/div[@class=&quot;o-container container p-0&quot;]/div[@class=&quot;m-searchBar&quot;]/div[@class=&quot;o-checkout__header o-row row align-items-center no-gutters py-3 py-lg-2&quot;]/div[@class=&quot;o-col col-lg-auto d-none d-lg-flex text-center order-lg-4 sessionMinWidth&quot;]/div[@class=&quot;popover bs-popover-bottom align-arrow  show-menu&quot;]/div[@class=&quot;popover-body&quot;]/div[@class=&quot;m-session__popover&quot;]/ul[1]/li[@id=&quot;5&quot;]/a[@class=&quot;a-header__sessionLink&quot;]</value>
+      <webElementGuid>168cb808-01a0-4cdd-b8a3-a68f0e183ed9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='5']/a</value>
+      <webElementGuid>193a465c-31af-4831-b53a-de8f6515715a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cerrar sesión')]</value>
+      <webElementGuid>7e69f789-720e-4633-8797-002af6a32858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis tarjetas'])[1]/following::a[1]</value>
+      <webElementGuid>100b835a-3b5f-437a-820a-b4ef98f007ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cupones'])[1]/following::a[2]</value>
+      <webElementGuid>226948d4-700a-4fef-8f2b-9a17abfbcd40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi Cuenta'])[2]/preceding::a[1]</value>
+      <webElementGuid>d3cab913-afc7-4878-8611-52d9bbe725fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Compras'])[3]/preceding::a[2]</value>
+      <webElementGuid>830e0deb-72e0-402f-bd98-8d0afcc7494c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cerrar sesión']/parent::*</value>
+      <webElementGuid>deed0081-584e-4387-80b3-26d78056c01c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/tienda/home#!')])[3]</value>
+      <webElementGuid>a6541c9c-6148-49a7-b6f0-808688ac01bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a</value>
+      <webElementGuid>98f2b109-d9f3-4668-b50f-842273a868a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tienda/home#!' and (text() = 'Cerrar sesión' or . = 'Cerrar sesión')]</value>
+      <webElementGuid>fc3945c0-21a5-45e0-8bdd-88befb3118fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

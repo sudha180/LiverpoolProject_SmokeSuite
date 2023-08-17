@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>makePaypalAsDefault_myAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2227240-4dd8-4f8d-b5f2-4c1326cf6383</testCaseGuid>
+</TestCaseEntity>
