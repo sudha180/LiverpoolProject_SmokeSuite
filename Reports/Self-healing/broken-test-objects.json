@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/EnterUsername_LP",
+      "brokenLocator": "//input[@id\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027username\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/EnterUsername_LP_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/EnterUsername_LP",
+      "brokenLocator": "//input[@id\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/EnterUsername_LP_position.png"
+    }
+  ]
 }

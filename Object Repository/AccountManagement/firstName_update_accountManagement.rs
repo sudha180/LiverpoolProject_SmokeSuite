@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='mdc-ripple-upgraded'])[2]//input</value>
+         <value>//input[@id='input-update__name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

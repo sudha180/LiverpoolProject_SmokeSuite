@@ -56,12 +56,6 @@ Profile default : digital product </p>
     public static Object eventQATest
      
     /**
-     * <p>Profile smoke : telefono-fijo&#47;1007253555
-Profile default : telefono-fijo&#47;1007253555</p>
-     */
-    public static Object PreOrderProduct
-     
-    /**
      * <p></p>
      */
     public static Object exclusiveProductId
@@ -251,6 +245,11 @@ Profile default : pwaqa</p>
      * <p></p>
      */
     public static Object SLProduct2Id
+     
+    /**
+     * <p>Profile default : telefono-fijo&#47;1007253555</p>
+     */
+    public static Object PreOrderProduct
      
     /**
      * <p></p>
@@ -447,7 +446,7 @@ Profile default : pwaqa</p>
         try {
             def selectedVariables = TestCaseMain.getGlobalVariables("default")
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
-            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
+            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
             url = selectedVariables['url']
             SLProduct = selectedVariables['SLProduct']
@@ -458,7 +457,6 @@ Profile default : pwaqa</p>
             minimumPurchaseProdut = selectedVariables['minimumPurchaseProdut']
             PreorderItem = selectedVariables['PreorderItem']
             eventQATest = selectedVariables['eventQATest']
-            PreOrderProduct = selectedVariables['PreOrderProduct']
             exclusiveProductId = selectedVariables['exclusiveProductId']
             search2price = selectedVariables['search2price']
             MotherName = selectedVariables['MotherName']
@@ -497,6 +495,7 @@ Profile default : pwaqa</p>
             SL_Product1 = selectedVariables['SL_Product1']
             BigTicket = selectedVariables['BigTicket']
             SLProduct2Id = selectedVariables['SLProduct2Id']
+            PreOrderProduct = selectedVariables['PreOrderProduct']
             gwpSearchWord = selectedVariables['gwpSearchWord']
             gwpGiftOOS = selectedVariables['gwpGiftOOS']
             gwpSLwithSingleGift = selectedVariables['gwpSLwithSingleGift']
