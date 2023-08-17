@@ -1,0 +1,206 @@
+No.,Name
+1,Object Repository/AccountManagement/AcceptButton_Account
+2,Object Repository/AccountManagement/AddressCard_Account
+3,Object Repository/AccountManagement/AddressTitleSecound_Account
+4,Object Repository/AccountManagement/AddStoreClickNCollection_Account
+5,Object Repository/AccountManagement/AlreadyAddressPresent_Account
+6,Object Repository/AccountManagement/aside_Mi Cuenta_leftnav_AM
+7,Object Repository/AccountManagement/a_Mi Cuenta
+8,Object Repository/AccountManagement/a_Mi tiempo aire
+9,Object Repository/AccountManagement/button_Crear cuenta (1)
+10,Object Repository/AccountManagement/button_Crear cuenta
+11,Object Repository/AccountManagement/button_Iniciar sesin_loginOverlay_AM
+12,Object Repository/AccountManagement/CardNickname_Account
+13,Object Repository/AccountManagement/CardNumber_Account
+14,Object Repository/AccountManagement/CardStatusPopup_Account
+15,Object Repository/AccountManagement/CartFullNameUser_Account
+16,Object Repository/AccountManagement/CartNumber_Account
+17,Object Repository/AccountManagement/div_Correo electrnicodiv_loginOverlay_AM
+18,Object Repository/AccountManagement/ExteriorNumber_Account
+19,Object Repository/AccountManagement/ForgotPasswordPage_Account
+20,Object Repository/AccountManagement/ForgotPassword_Account
+21,Object Repository/AccountManagement/form_Correo electrnico_loginOverlay_AM
+22,Object Repository/AccountManagement/FullNameUser_Account
+23,Object Repository/AccountManagement/Iniciar sesin_hp
+24,Object Repository/AccountManagement/input_gender_AM
+25,Object Repository/AccountManagement/IsDefaultCheckbox_Account
+26,Object Repository/AccountManagement/MyCardFromDropdown_Account
+27,Object Repository/AccountManagement/NameFieldProfile_Account
+28,Object Repository/AccountManagement/PaymentMethod_Account
+29,Object Repository/AccountManagement/PostalCodeCard_Account
+30,Object Repository/AccountManagement/SelectAddressRadioButton_Account
+31,Object Repository/AccountManagement/SelectStateDropdown_Account
+32,Object Repository/AccountManagement/SelectState_Account
+33,Object Repository/AccountManagement/select_day_AM
+34,Object Repository/AccountManagement/select_month_AM
+35,Object Repository/AccountManagement/select_year_AM
+36,Object Repository/AccountManagement/span_Hola sudha_AM
+37,Object Repository/AccountManagement/TiendasClickNCollect
+38,Object Repository/AccountManagement/user_firstName_AM
+39,Object Repository/AccountManagement/user_lastName_AM
+40,Object Repository/AccountManagement/WrongCredential_Account
+41,Object Repository/HomePage/a_Ayuda_footer
+42,Object Repository/HomePage/a_Ayuda_HP
+43,Object Repository/HomePage/a_Tiendas_HP
+44,Object Repository/HomePage/CategorasDropDown_HP
+45,Object Repository/HomePage/cupones_HP
+46,Object Repository/HomePage/WishList_HP
+47,Object Repository/MyOrdersPage/img_product__image_misCompras
+48,Object Repository/MyOrdersPage/productName_misCompras
+49,Object Repository/OPCPage/accept_text_area_OPC
+50,Object Repository/OPCPage/aceptar
+51,Object Repository/OPCPage/AddQuntityButton_Checkout
+52,Object Repository/OPCPage/AddressAlertMessage_Checkout
+53,Object Repository/OPCPage/AddressAliase_checkout
+54,Object Repository/OPCPage/AddressButton_Checkout
+55,Object Repository/OPCPage/AddressSection_card_popup_OPC
+56,Object Repository/OPCPage/AddressStatusPopup_Checkout
+57,Object Repository/OPCPage/address_method_option1_OPC
+58,Object Repository/OPCPage/add_A_Cart_payment_metod_OPC
+59,Object Repository/OPCPage/add_to_wishlist1_OPC1
+60,Object Repository/OPCPage/AlertMessage_Checkout
+61,Object Repository/OPCPage/BestpromotionScrolldown_OPC
+62,Object Repository/OPCPage/BestpromotionScrolldown_option1_OPC
+63,Object Repository/OPCPage/BestpromotionScrolldown_option2_OPC
+64,Object Repository/OPCPage/billingAddress_OPC
+65,Object Repository/OPCPage/button_Continuar_addAddressPopup_opc (1) (1)
+66,Object Repository/OPCPage/button_Continuar_addAddressPopup_opc (1)
+67,Object Repository/OPCPage/button_Continuar_addAddressPopup_opc
+68,Object Repository/OPCPage/button_Cupones_opc (2)
+69,Object Repository/OPCPage/button_Cupones_opc
+70,Object Repository/OPCPage/button_Eliminar_opc
+71,Object Repository/OPCPage/button_Finalizar compra_opc
+72,Object Repository/OPCPage/button_Mover a Wishlist_opc
+73,Object Repository/OPCPage/card3Name_OPC
+74,Object Repository/OPCPage/CardIncorrectCVV_erroe_OPC
+75,Object Repository/OPCPage/CardLast4Digit_OPC
+76,Object Repository/OPCPage/card_img_americanExpress_OPC
+77,Object Repository/OPCPage/card_pink_radiobutton_OPC
+78,Object Repository/OPCPage/CellPhone_Checkout
+79,Object Repository/OPCPage/CheckBoxAddAddressPopup_Checkout
+80,Object Repository/OPCPage/ClickAndCollect_option1_OPC
+81,Object Repository/OPCPage/ClickNCollectAddressPopup_Checkout
+82,Object Repository/OPCPage/ClickNCollectionDefaultAddress_Checkout
+83,Object Repository/OPCPage/ClickNCollectionSelectEvent_Checkout
+84,Object Repository/OPCPage/ContinueButtonClickNCollectPopup_Checkout
+85,Object Repository/OPCPage/DefaultAddress_Checkout (1)
+86,Object Repository/OPCPage/DeleteAddressPopup_Checkout
+87,Object Repository/OPCPage/digitalDownload_OPC
+88,Object Repository/OPCPage/DigitalItemDevlieryAlert_Checkout
+89,Object Repository/OPCPage/DigitalItemShippingMethodMessage_Checkout
+90,Object Repository/OPCPage/digital_product_verify_flag_OPC
+91,Object Repository/OPCPage/discountPriceP1_OPC
+92,Object Repository/OPCPage/EDD_Checkout
+93,Object Repository/OPCPage/edit_event_Message_textArea_popup_checkout
+94,Object Repository/OPCPage/Edit_Message_button_Event_Checkoutpage
+95,Object Repository/OPCPage/errorOfSamecard_OPC
+96,Object Repository/OPCPage/EventOptionSelection_Checkout
+97,Object Repository/OPCPage/EventSelectionClickNCollection_Checkout
+98,Object Repository/OPCPage/Event_number_Product1_OPC
+99,Object Repository/OPCPage/ExtNumber_Checkout
+100,Object Repository/OPCPage/final_confirm_order_button_OPC
+101,Object Repository/OPCPage/FirstAddressDefault_Checkout
+102,Object Repository/OPCPage/FirstAddress_Checkout
+103,Object Repository/OPCPage/img_alias(visa)_OPC
+104,Object Repository/OPCPage/img_alias_OPC
+105,Object Repository/OPCPage/MakeAsDefault3DotDropDown_Checkout
+106,Object Repository/OPCPage/MinimumPurchaseFlag_checkout
+107,Object Repository/OPCPage/newCard_alias_Addnew_cardPOPUP
+108,Object Repository/OPCPage/option1DropDown_setDefault_card_OPC
+109,Object Repository/OPCPage/OptionOfSelectEvent_Checkout
+110,Object Repository/OPCPage/Page_/totalPriceLabel_opc
+111,Object Repository/OPCPage/paymentCard_aliasName_OPC
+112,Object Repository/OPCPage/paymentCard_CVV_OPC
+113,Object Repository/OPCPage/PaymentMethod_Checkout
+114,Object Repository/OPCPage/PaymentPopupCashNTransfers_Checkout
+115,Object Repository/OPCPage/PaymentPopupContinueButton_checkout
+116,Object Repository/OPCPage/paypal_label_checkout
+117,Object Repository/OPCPage/popUP_questionmark_OPC
+118,Object Repository/OPCPage/PostalCode_Checkout
+119,Object Repository/OPCPage/predefinedPayment_OPC
+120,Object Repository/OPCPage/pre_used_Adress_CardAdd_cardpopup_OPC
+121,Object Repository/OPCPage/product1_promotionDropDown_OPC
+122,Object Repository/OPCPage/promoCombo1_popup_OPC (1)
+123,Object Repository/OPCPage/promoCombo1_popup_OPC
+124,Object Repository/OPCPage/promoCombo2_popup_OPC (1)
+125,Object Repository/OPCPage/promoCombo2_popup_OPC
+126,Object Repository/OPCPage/promoCombo3_popup_OPC (1)
+127,Object Repository/OPCPage/promoCombo3_popup_OPC
+128,Object Repository/OPCPage/promoCombo4_popup_OPC (1)
+129,Object Repository/OPCPage/promoCombo4_popup_OPC
+130,Object Repository/OPCPage/promoCombo5_popup_OPC (1)
+131,Object Repository/OPCPage/promoCombo5_popup_OPC
+132,Object Repository/OPCPage/promotionSection_opc
+133,Object Repository/OPCPage/promotionUpdatedMessage_afterCardSelection
+134,Object Repository/OPCPage/promotionUpdatedtoMonederoDigitalmessage_opc
+135,Object Repository/OPCPage/purchaseSummary_opc (1)
+136,Object Repository/OPCPage/purchaseSummary_opc
+137,Object Repository/OPCPage/questionMark_OPC (1)
+138,Object Repository/OPCPage/questionMark_OPC
+139,Object Repository/OPCPage/Regalo_flag_OPC2 (1)
+140,Object Repository/OPCPage/Regalo_flag_OPC2
+141,Object Repository/OPCPage/ResultGiftTable_Checkout (1)
+142,Object Repository/OPCPage/ResultGiftTable_Checkout
+143,Object Repository/OPCPage/saveChanges_CandC_OPC (1)
+144,Object Repository/OPCPage/saveChanges_CandC_OPC
+145,Object Repository/OPCPage/ScrollDown_event_address_CandC_OPC (1)
+146,Object Repository/OPCPage/ScrollDown_event_address_CandC_OPC
+147,Object Repository/OPCPage/ScrollDown_event_address_CandC_option5_OPC (1)
+148,Object Repository/OPCPage/ScrollDown_event_address_CandC_option5_OPC
+149,Object Repository/OPCPage/SearchEventField_GRPopup
+150,Object Repository/OPCPage/SeleccionUNA_Tienda(CNC)_OPC
+151,Object Repository/OPCPage/SelectAddress2RadioButton_Checkout (1)
+152,Object Repository/OPCPage/SelectAddress2RadioButton_Checkout
+153,Object Repository/OPCPage/SelectAddressRadioButton_Checkout
+154,Object Repository/OPCPage/selectCard1Option_cardpopup_OPC
+155,Object Repository/OPCPage/selectCardOption_default_cardpopup_OPC (1)
+156,Object Repository/OPCPage/selectCardOption_default_cardpopup_OPC
+157,Object Repository/OPCPage/selectCardOption_save_cardpopup_OPC
+158,Object Repository/OPCPage/selecte_card _PAYmentChange_OPC
+159,Object Repository/OPCPage/SelectPartyRadioButton_Checkout
+160,Object Repository/OPCPage/selectPromotion2InPromotionpopup_opc
+161,Object Repository/OPCPage/SelectStateClickNCollection_Checkout (1)
+162,Object Repository/OPCPage/SelectStateClickNCollection_Checkout
+163,Object Repository/OPCPage/select_single (1)
+164,Object Repository/OPCPage/select_single
+165,Object Repository/OPCPage/select_Whom_To_Address_Event_popup (1)
+166,Object Repository/OPCPage/sendMessageToCelebratedGiftTable_Checkout
+167,Object Repository/OPCPage/SetCity_Checkout (1)
+168,Object Repository/OPCPage/SetCity_Checkout
+169,Object Repository/OPCPage/ShippingAddress1_Checkout (1)
+170,Object Repository/OPCPage/ShippingAddress1_Checkout
+171,Object Repository/OPCPage/ShippingAddress2_Checkout (1)
+172,Object Repository/OPCPage/ShippingAddress2_Checkout
+173,Object Repository/OPCPage/ShippingAddress3_Checkout (1)
+174,Object Repository/OPCPage/ShippingAddress3_Checkout
+175,Object Repository/OPCPage/ShippingDetails_Checkout (1)
+176,Object Repository/OPCPage/ShippingDetails_Checkout
+177,Object Repository/OPCPage/shop_For_Event_product1_OPC
+178,Object Repository/OPCPage/ShortNameAddress_Checkout (1)
+179,Object Repository/OPCPage/ShortNameAddress_Checkout
+180,Object Repository/OPCPage/shortName_addAddress_opc (1) (1)
+181,Object Repository/OPCPage/shortName_addAddress_opc (2)
+182,Object Repository/OPCPage/shortName_addAddress_opc - Copy
+183,Object Repository/OPCPage/StateOptionsClickNCollection_Checkout (1)
+184,Object Repository/OPCPage/StateOptionsClickNCollection_Checkout
+185,Object Repository/OPCPage/StateSelectionClickNCollection_Checkout (1)
+186,Object Repository/OPCPage/StateSelectionClickNCollection_Checkout
+187,Object Repository/OPCPage/StoreButton_Checkout (1)
+188,Object Repository/OPCPage/StoreButton_Checkout
+189,Object Repository/OPCPage/StreetAddress_Checkout (1)
+190,Object Repository/OPCPage/StreetAddress_Checkout
+191,Object Repository/OPCPage/TerminarComparar_Checkout (1)
+192,Object Repository/OPCPage/TerminarComparar_Checkout
+193,Object Repository/OPCPage/ToYourAddress_Checkout (1)
+194,Object Repository/OPCPage/ToYourAddress_Checkout
+195,Object Repository/OPCPage/VerifyAddressOPC_Checkout (1)
+196,Object Repository/OPCPage/VerifyAddressOPC_Checkout
+197,Object Repository/PLPPage/BreadCrumbCurrentPage_PLP
+198,Object Repository/PLPPage/breadCrumb_PLP
+199,Object Repository/PLPPage/discountPrice_PLP
+200,Object Repository/PLPPage/div_Marcas_PLP
+201,Object Repository/PLPPage/facetes/CalificacionTitleFacet_PLP
+202,Object Repository/PLPPage/pagenationClickable1_PLP
+203,Object Repository/PLPPage/Price_facet_1_plp
+204,Object Repository/PLPPage/Price_facet_2_plp
+205,Object Repository/SLP/Store_location_slp

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('OPCPage/Find_Gift_by_Code_Event_POPUP'))
 
 WebUI.click(findTestObject('OPCPage/event_select_ceremony_event_popUP_OPC'))
 
-WebUI.click(findTestObject('OPCPage/select_Whom_To_Address_Event_popup (1)'))
+WebUI.click(findTestObject('OPCPage/select_Whom_To_Address_Event_popup'))
 
 WebUI.click(findTestObject('OPCPage/Event_whom_to_Address_Accept_button_Eventpopup_OPC'))
 
