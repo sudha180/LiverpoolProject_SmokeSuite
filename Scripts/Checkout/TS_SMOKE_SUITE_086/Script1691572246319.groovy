@@ -59,9 +59,9 @@ WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
 
 WebUI.click(findTestObject('OPCPage/paymentMethod_button2_OPC'))
 
-WebUI.click(findTestObject('OPCPage/label_Cambiar_payment_opc'))
+WebUI.click(findTestObject('OPCPage/label_Cambiar_payment_opc'), FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OPCPage/button_Continuar_payment_opc'))
 

@@ -1,0 +1,191 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+total_smokeSuit,,,,2023-08-18 09:46:36,2023-08-18 09:49:35,2m - 58.499s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_016,,To Verify logged in user is able to view the profile inforamtion from Actualizar datos personales link in my account page after Updating personal information,,2023-08-18 09:46:36,2023-08-18 09:46:44,7.358s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:46:37,2023-08-18 09:46:44,6.522s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_017,,Verify the user able to add new Personal shipping address,,2023-08-18 09:46:44,2023-08-18 09:46:47,3.199s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:46:44,2023-08-18 09:46:47,2.520s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_018,,Verify the user able to add new Click & Collect address address,,2023-08-18 09:46:47,2023-08-18 09:46:50,2.669s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:46:47,2023-08-18 09:46:50,2.162s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_019,,Verify the last added Store address is displayed in the top section as a priority,,2023-08-18 09:46:50,2023-08-18 09:46:52,2.651s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:46:50,2023-08-18 09:46:52,2.084s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_020,,Verify if the user able to make C&C store address as default address,,2023-08-18 09:46:52,2023-08-18 09:46:56,3.246s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:46:53,2023-08-18 09:46:56,2.609s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_021,,Verify the user is able to navigate to forma de pago page and view the payment menthods,,2023-08-18 09:46:56,2023-08-18 09:46:59,3.101s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:46:56,2023-08-18 09:46:59,2.509s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_022,,Verify the user able to update the payment methods as default in forma de pago page,,2023-08-18 09:46:59,2023-08-18 09:47:01,2.771s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:46:59,2023-08-18 09:47:01,2.304s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_023,,"To Verify Logged in user is able to Add ,Edit and remove  credit card from my account from my account",,2023-08-18 09:47:01,2023-08-18 09:47:05,3.527s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:02,2023-08-18 09:47:05,2.720s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_024,,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,2023-08-18 09:47:05,2023-08-18 09:47:08,2.716s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:06,2023-08-18 09:47:08,2.082s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_025,,To Verify Logged in user is able to change the password,,2023-08-18 09:47:08,2023-08-18 09:47:11,3.031s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:08,2023-08-18 09:47:11,2.268s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_039,,To verify that the breadcrumbs are clickable when user has landed on L1 category page.,,2023-08-18 09:47:11,2023-08-18 09:47:14,3.414s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:12,2023-08-18 09:47:14,2.634s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_047,,To verify the display of facets on the item listing page,,2023-08-18 09:47:14,2023-08-18 09:47:17,3.037s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:15,2023-08-18 09:47:17,2.516s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_048,,To verify the display of price range on the item listing page for multi sku items.,,2023-08-18 09:47:17,2023-08-18 09:47:20,2.876s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:18,2023-08-18 09:47:20,2.358s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_049,,To verify the display of list price & sale price on the item listing page for single sku items.,,2023-08-18 09:47:20,2023-08-18 09:47:24,3.512s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:21,2023-08-18 09:47:24,2.969s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_054,,To verify the display of product price on PDP page for single sku item.,,2023-08-18 09:47:24,2023-08-18 09:47:27,3.267s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:24,2023-08-18 09:47:27,2.711s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_055,,To verify the display of product price range on PDP page for multi sku item.,,2023-08-18 09:47:27,2023-08-18 09:47:30,2.993s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:27,2023-08-18 09:47:30,2.573s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_056,,To verify the display of PDP for single sku,,2023-08-18 09:47:30,2023-08-18 09:47:33,2.792s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:30,2023-08-18 09:47:33,2.341s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_057,,To verify the display of PDP for multi  sku item,,2023-08-18 09:47:33,2023-08-18 09:47:35,2.644s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:33,2023-08-18 09:47:35,2.084s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_058,,"To verify the display of Description slot in PDP with following tabs. 
+
+Long Description
+Manual
+Delivery Details
+Size/Dimensions
+LP Card Promotion
+Other Card Promotion",,2023-08-18 09:47:35,2023-08-18 09:47:39,3.361s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:36,2023-08-18 09:47:39,2.591s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_072,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-18 09:47:39,2023-08-18 09:47:42,3.452s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:40,2023-08-18 09:47:42,2.340s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_073,,To verify the functionality of editing the Personal shipping address  in checkout flow for logged in user,,2023-08-18 09:47:42,2023-08-18 09:47:45,3.249s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:43,2023-08-18 09:47:45,2.475s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_075,,"For a login client, if a Click & Collect store is configured in the profile as default, it must appear preselected in One Page checkout",,2023-08-18 09:47:45,2023-08-18 09:47:49,3.407s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:46,2023-08-18 09:47:49,2.878s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_076,,To verify the display of payment page for the for logged in user,,2023-08-18 09:47:49,2023-08-18 09:47:52,2.743s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:49,2023-08-18 09:47:52,2.241s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_077,,To verify the functionality of new  adding card  in checkout flow for logged in user,,2023-08-18 09:47:52,2023-08-18 09:47:55,3.050s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:52,2023-08-18 09:47:55,2.472s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_078,,To verify the display of Order confirmation page for logged in user,,2023-08-18 09:47:55,2023-08-18 09:47:57,2.706s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:55,2023-08-18 09:47:57,2.102s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_080,,To verify that the display of the applied Coupon details in the order success page,,2023-08-18 09:47:57,2023-08-18 09:48:01,3.343s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:47:58,2023-08-18 09:48:01,2.664s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_082,,To verify the functionality of   editing the card  in checkout flow for loggedin user,,2023-08-18 09:48:01,2023-08-18 09:48:04,3.094s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:01,2023-08-18 09:48:04,2.485s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_083,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-18 09:48:04,2023-08-18 09:48:07,2.981s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:04,2023-08-18 09:48:07,2.395s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_086,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-18 09:48:07,2023-08-18 09:48:10,2.973s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:07,2023-08-18 09:48:10,2.454s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_087,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-18 09:48:10,2023-08-18 09:48:13,3.343s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:10,2023-08-18 09:48:13,2.801s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_088,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-18 09:48:13,2023-08-18 09:48:16,2.991s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:14,2023-08-18 09:48:16,2.498s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_001,,To Verify that user is able to the access the site by typing Redesign URL in the browse.,,2023-08-18 09:48:16,2023-08-18 09:48:19,3.194s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:17,2023-08-18 09:48:19,2.777s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_002,,"To verify  that system display the following link in the header
+1.Departmentos
+2.Marcas
+3.Credito
+4.Mesa de regalosa 
+5.Search text box
+6.Iniciar sesion
+7.Ubica tu tienda 
+8.Mis pedidos
+9.Ayuda",,2023-08-18 09:48:19,2023-08-18 09:48:22,3.115s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:20,2023-08-18 09:48:22,2.608s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_003,,To verify the display of L1 category flyout on mouse hover the Departmentos link,,2023-08-18 09:48:22,2023-08-18 09:48:25,2.885s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:23,2023-08-18 09:48:25,2.381s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_006,,"To verify that the user is navigated to  “Mesa de Regalos"" page by clicking on the  “Mesa de Regalos"" link on the header section.",,2023-08-18 09:48:25,2023-08-18 09:48:29,3.217s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:26,2023-08-18 09:48:29,2.547s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_007,,To verify the display of Login overlay when Anonymous user click on  Iniciar sesion link,,2023-08-18 09:48:29,2023-08-18 09:48:31,2.555s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:29,2023-08-18 09:48:31,2.066s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_008,,"To verify that the user is navigated to  ""Tiendas""( Store locator) page by clicking on the  “Ubica tu tienda "" link on the header section.",,2023-08-18 09:48:31,2023-08-18 09:48:35,3.450s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:32,2023-08-18 09:48:35,2.884s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_009,,"To verify that an Anonymous user is navigated to Login page by clicking on the  “Mis pedidos"" link on the header section.",,2023-08-18 09:48:35,2023-08-18 09:48:38,3.452s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:35,2023-08-18 09:48:38,2.923s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_010,,"To verify that the logged in user is navigated to  “Mis pedidos"" page by clicking on the  “Mis pedidos"" link on the header section.",,2023-08-18 09:48:38,2023-08-18 09:48:41,3.339s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:39,2023-08-18 09:48:41,2.819s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_011,,"To verify that the user is navigated to  ""Ayuda""( Help) page by clicking on the  “Ayuda"" link on the header section.",,2023-08-18 09:48:41,2023-08-18 09:48:44,2.891s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:42,2023-08-18 09:48:44,2.401s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_012,,to verify that user is able to login by giving the valid credentials in the login overlay by clicking on the Inicar session link in the header,,2023-08-18 09:48:44,2023-08-18 09:48:47,3.133s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:45,2023-08-18 09:48:47,2.580s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_013,,To verify that the user is able to create account from Login overlay,,2023-08-18 09:48:47,2023-08-18 09:48:50,2.638s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:48,2023-08-18 09:48:50,2.189s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_014,,"To verify the display of user first name (as ""Hola abc! "") in the header when logged in user successfully logged in to the site",,2023-08-18 09:48:50,2023-08-18 09:48:53,3.183s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:51,2023-08-18 09:48:53,2.556s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_015,,"To verify the display of following links by mouse over on the ""User name""  link on the header section.
+ -  Mi cuenta
+-  Mis pedidos
+-  Mi tiempo Aire
+-  Mis tarjetas
+-  Cerrar sesion",,2023-08-18 09:48:53,2023-08-18 09:48:57,3.324s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:54,2023-08-18 09:48:57,2.782s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_059,,To verify the default display of the products per page in the search result page,search,2023-08-18 09:48:57,2023-08-18 09:49:00,2.957s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:48:57,2023-08-18 09:49:00,2.448s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_060,,To verify the functionality of facet selection in search result page.,,2023-08-18 09:49:00,2023-08-18 09:49:03,2.944s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:00,2023-08-18 09:49:02,2.341s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_061,,To verify the functionality of pagination in search result page.,search,2023-08-18 09:49:03,2023-08-18 09:49:05,2.872s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:03,2023-08-18 09:49:05,2.273s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_062,,To verify display of price for the product in search result page.,,2023-08-18 09:49:05,2023-08-18 09:49:08,2.722s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:06,2023-08-18 09:49:08,2.149s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_063,,To verify the display of the color swatches in search result page,,2023-08-18 09:49:08,2023-08-18 09:49:11,3.351s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:09,2023-08-18 09:49:11,2.589s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_069,,To verify the search result page when user selects the price as sorting option,,2023-08-18 09:49:11,2023-08-18 09:49:15,3.092s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:12,2023-08-18 09:49:15,2.419s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_070,,to verify the pagination in the search result page,,2023-08-18 09:49:15,2023-08-18 09:49:18,3.268s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:15,2023-08-18 09:49:18,2.593s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_026,,"To verify that for Anonymous user system display the Login overlay after clicking on the ""Pagar"" button during checkout",,2023-08-18 09:49:18,2023-08-18 09:49:21,3.027s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:18,2023-08-18 09:49:21,2.500s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_027,,To verify that the user is able to create account from shopping cart page,,2023-08-18 09:49:21,2023-08-18 09:49:24,3.500s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:22,2023-08-18 09:49:24,2.710s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_028,,To verify that user is able to login from Shopping Cart page,,2023-08-18 09:49:24,2023-08-18 09:49:28,3.153s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:25,2023-08-18 09:49:28,2.518s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_029,,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar"" button in the shopping cart page",,2023-08-18 09:49:28,2023-08-18 09:49:31,3.621s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:28,2023-08-18 09:49:31,2.700s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_030,,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar Ahor"" button displayed for individual items in the shopping cart page",,2023-08-18 09:49:31,2023-08-18 09:49:35,3.357s,FAILED
+"openBrowser("""")",,,,2023-08-18 09:49:32,2023-08-18 09:49:35,2.599s,FAILED

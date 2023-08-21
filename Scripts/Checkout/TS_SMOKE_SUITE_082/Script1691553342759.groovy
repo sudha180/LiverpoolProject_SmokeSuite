@@ -34,7 +34,9 @@ WebUI.click(findTestObject('HomePage/Logo_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(3)
+
 WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
@@ -44,37 +46,50 @@ WebUI.click(findTestObject('HomePage/bag_header_HP'))
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 //WebUI.callTestCase(findTestCase('CommonMethods/create_new_CARD_OPC'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
 
 WebUI.scrollToElement(findTestObject('OPCPage/card3_Option_OPC'), 0)
+
 WebUI.delay(3)
+
 WebUI.click(findTestObject('OPCPage/card3_Option_OPC'))
+
 WebUI.delay(3)
+
 WebUI.click(findTestObject('OPCPage/option2DropDown_editos_card_OPC'))
 
-
 WebUI.sendKeys(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), Keys.chord(Keys.CONTROL, 'a'))
+
 WebUI.delay(5)
+
 WebUI.sendKeys(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), Keys.chord(Keys.BACK_SPACE))
+
 WebUI.clearText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
+
 cpCode = '11011'
 
 WebUI.setText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), cpCode)
 
 WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'))
+
 //verifying the edited pincode
 WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
+
 WebUI.scrollToElement(findTestObject('OPCPage/card3_Option_OPC'), 0)
+
 WebUI.delay(3)
+
 WebUI.click(findTestObject('OPCPage/card3_Option_OPC'))
+
 WebUI.delay(3)
+
 WebUI.click(findTestObject('OPCPage/option2DropDown_editos_card_OPC'))
+
 WebUI.delay(2)
 
-assert WebUI.getText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'))==cpCode
+assert WebUI.getText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC')) == cpCode
 
 WebUI.closeBrowser()
 
