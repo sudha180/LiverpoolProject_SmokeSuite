@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RemoveCardDetails_Account</name>
+   <name>NameFieldProfile_Account</name>
    <tag></tag>
-   <elementGuidId>3c9e0357-185d-412d-9757-3ca42de49dd0</elementGuidId>
+   <elementGuidId>b4da8ac8-b8e6-4caf-b670-a9aef582b66d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@name='firstName']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(), 'Eliminar')])[2]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RemoveCardDetails_Account</name>
+   <name>SelectState_Account</name>
    <tag></tag>
-   <elementGuidId>3c9e0357-185d-412d-9757-3ca42de49dd0</elementGuidId>
+   <elementGuidId>3a118f0c-1b3b-41bd-bf65-f5dc8aa84dd1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(), 'Eliminar')])[2]</value>
+         <value>//select[@id='stateId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

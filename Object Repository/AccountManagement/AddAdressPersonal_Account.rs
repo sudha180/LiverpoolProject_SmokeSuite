@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RemoveCardDetails_Account</name>
+   <name>AddAdressPersonal_Account</name>
    <tag></tag>
-   <elementGuidId>3c9e0357-185d-412d-9757-3ca42de49dd0</elementGuidId>
+   <elementGuidId>0fa7e97b-d12c-4dd1-a62b-7198696c5780</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(), 'Eliminar')])[2]</value>
+         <value>//button[contains(text(), 'Agregar dirección')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

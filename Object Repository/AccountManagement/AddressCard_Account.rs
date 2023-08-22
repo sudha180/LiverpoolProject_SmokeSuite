@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RemoveCardDetails_Account</name>
+   <name>AddressCard_Account</name>
    <tag></tag>
-   <elementGuidId>3c9e0357-185d-412d-9757-3ca42de49dd0</elementGuidId>
+   <elementGuidId>3e12b111-8aa3-4e37-8332-4d7c6d39cbe1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='address1']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(), 'Eliminar')])[2]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

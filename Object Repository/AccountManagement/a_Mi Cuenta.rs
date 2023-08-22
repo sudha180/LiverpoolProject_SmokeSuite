@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mi Cuenta</name>
+   <tag></tag>
+   <elementGuidId>1bd44ab2-9112-4970-904e-66c050be0e3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='0']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-header__sessionLink</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0d2c6820-eb86-4601-bd01-264bc12c488d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-header__sessionLink</value>
+      <webElementGuid>b42a683b-91f6-4749-ba5f-5724502af662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tienda/home#!</value>
+      <webElementGuid>0f463793-86cd-47ac-b3fc-f0edc97781a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mi Cuenta</value>
+      <webElementGuid>fe4cda81-4a43-442b-99e7-72e052340ca1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;0&quot;)/a[@class=&quot;a-header__sessionLink&quot;]</value>
+      <webElementGuid>51e7231e-3713-4a4e-a6c0-b1eb0c2879db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='0']/a</value>
+      <webElementGuid>24031f3e-98ac-4a20-9b2d-c4a874e2e9b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Mi Cuenta')]</value>
+      <webElementGuid>1e7ac1be-e103-4d63-9426-5c6d93ab7232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hola SAMRAJ'])[1]/following::a[1]</value>
+      <webElementGuid>3d967519-86ee-4060-99b5-ff559ab80910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Compras'])[1]/following::a[1]</value>
+      <webElementGuid>9b2a1bf9-768b-4c34-b8fa-71710af2a4f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Compras'])[2]/preceding::a[1]</value>
+      <webElementGuid>b8aafb3b-fabf-419b-9a7c-eeac2041e096</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cupones'])[1]/preceding::a[2]</value>
+      <webElementGuid>93ab4e5a-6345-4d31-8bc8-4b9b373858f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mi Cuenta']/parent::*</value>
+      <webElementGuid>201df0ca-1f40-4515-a97e-1bdbe74341c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/tienda/home#!')])[2]</value>
+      <webElementGuid>0e1f5cf9-3a72-4a5f-87cf-a41556b98d9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a</value>
+      <webElementGuid>fad33ec2-d79f-481d-ad65-9591af2e2cd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tienda/home#!' and (text() = 'Mi Cuenta' or . = 'Mi Cuenta')]</value>
+      <webElementGuid>1f4332d5-a1a2-4be7-ac2c-cb8a5820be18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

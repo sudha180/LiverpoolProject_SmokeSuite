@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RemoveCardDetails_Account</name>
+   <name>AcceptButton_Account</name>
    <tag></tag>
-   <elementGuidId>3c9e0357-185d-412d-9757-3ca42de49dd0</elementGuidId>
+   <elementGuidId>b8aeea7a-31a4-4032-9a6a-23cc1389887d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(), 'Eliminar')])[2]</value>
+         <value>(//font[contains(text(), 'Accept')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

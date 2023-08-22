@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mi tiempo aire</name>
+   <tag></tag>
+   <elementGuidId>62f3e5f0-456a-4db3-968f-f0e0ec514962</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='3']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#3 > a.a-header__sessionLink</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>967069d3-5465-4190-865a-99470e920e8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-header__sessionLink</value>
+      <webElementGuid>ca581c0a-1d9f-4908-afcc-b5198121e110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tienda/home#!</value>
+      <webElementGuid>c9f88d0c-1f14-4f36-b360-38c6bb441f06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mi tiempo aire</value>
+      <webElementGuid>9689d37d-7414-4772-9787-38bcfa9981ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;3&quot;)/a[@class=&quot;a-header__sessionLink&quot;]</value>
+      <webElementGuid>bea99542-d8e9-458a-ac21-c77327856bed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='3']/a</value>
+      <webElementGuid>0a231913-8618-41d1-8118-ed34fe9e3a82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Mi tiempo aire')]</value>
+      <webElementGuid>4aefed49-6f3c-430b-88fd-7efddb1d8cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cupones'])[1]/following::a[1]</value>
+      <webElementGuid>4da280d5-ac2e-41d2-9c0f-de99c2885905</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Compras'])[2]/following::a[2]</value>
+      <webElementGuid>bb9baf67-a4f9-4f5e-af22-3c3478357999</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis tarjetas'])[1]/preceding::a[1]</value>
+      <webElementGuid>169b9eea-dd87-42bb-b675-aa13dbf89a14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerrar sesión'])[1]/preceding::a[2]</value>
+      <webElementGuid>f12647b9-4e08-4f09-9099-61c0838af502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mi tiempo aire']/parent::*</value>
+      <webElementGuid>737b1b4d-9cdc-4653-b020-9bd0ea51ffbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/tienda/home#!')])[3]</value>
+      <webElementGuid>e5032518-3c0a-40cd-ba0d-46f16c060f1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>4fc920b1-f172-4aff-ab29-a6b64e168d28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tienda/home#!' and (text() = 'Mi tiempo aire' or . = 'Mi tiempo aire')]</value>
+      <webElementGuid>7baeedf2-1c04-47ee-a072-a86bb46a2ffb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
