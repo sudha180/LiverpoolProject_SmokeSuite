@@ -68,11 +68,21 @@ WebUI.clearText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_O
 
 WebUI.delay(5)
 
-cpCode = '11011'
+cpCode1 = '12000'
+cpCode2 = '11100'
 
+cpCode = WebUI.getText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), FailureHandling.STOP_ON_FAILURE)
+
+if(cpCode == cpCode1) {
 WebUI.setText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), cpCode)
-
+}
+else {
+WebUI.setText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), cpCode2)
+	
+}
 WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'))
+
+WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'), FailureHandling.OPTIONAL)
 
 //verifying the edited pincode
 WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
