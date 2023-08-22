@@ -16,69 +16,129 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+ 
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverpoolURL)
+ 
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+ 
 
 WebUI.maximizeWindow()
 
+ 
+
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
+ 
+
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
+ 
+
+WebUI.delay(10)
+
+ 
+
+WebUI.click(findTestObject('HomePage/AfterLogin_Homepage'))
+
+ 
 
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
 
+ 
+
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
 
-WebUI.click(findTestObject('OPCPage/AddAddressButtonPopup_checkout'), FailureHandling.STOP_ON_FAILURE)
+ 
 
-WebUI.callTestCase(findTestCase('CommonMethods/Address_Filling_AM'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/AddAdressPersonal_Account'), FailureHandling.STOP_ON_FAILURE)
 
-Address1 = WebUI.getText(findTestObject('AccountManagement/AddressTitleFirst_Account'))
+ 
 
-if (GlobalVariable.TempAddress == Address1) {
-    println('Address Added Successful')
-}
-else
-	{
-	KeywordUtil.markFailed('Address is not Added !')
-}
-WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+WebUI.callTestCase(findTestCase('CommonMethods/SaveAddress_AccountManagment'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
-
-name = CustomKeywords.'customkeywords.myKeywords.randomString'()
-
-GlobalVariable.TempAddress = name
-
-WebUI.setText(findTestObject('AccountManagement/ShortName_Account'), name)
+ 
 
 WebUI.click(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'))
 
+ 
+
 Address1 = WebUI.getText(findTestObject('AccountManagement/AddressTitleFirst_Account'))
+
+ 
+
+if (GlobalVariable.TempAddress == Address1) {
+    println('Address Added Successful')
+} else {
+    KeywordUtil.markFailed('Address is not Added !')
+}
+
+ 
+
+WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+
+ 
+
+WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
+
+ 
+
+name = CustomKeywords.'customkeywords.myKeywords.randomString'()
+
+ 
+
+GlobalVariable.TempAddress = name
+
+ 
+
+WebUI.clearText(findTestObject('AccountManagement/ShortName_Account'), FailureHandling.STOP_ON_FAILURE)
+
+ 
+
+WebUI.sendKeys(findTestObject('AccountManagement/ShortName_Account'), Keys.chord(Keys.CONTROL, 'a'))
+
+ 
+
+WebUI.sendKeys(findTestObject('AccountManagement/ShortName_Account'), name)
+
+ 
+
+WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
+
+ 
+
+Address1 = WebUI.getText(findTestObject('AccountManagement/AddressTitleFirst_Account'))
+
+ 
 
 if (GlobalVariable.TempAddress == Address1) {
     println('Address update Successful')
+} else {
+    KeywordUtil.markFailed('Address is not Updated !')
 }
-else
-	{
-	KeywordUtil.markFailed('Address is not Updated !')
-}
+
+ 
+
 WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+
+ 
 
 WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
 
+ 
+
 if (GlobalVariable.TempAddress == null) {
     println('Address Remove Successful')
+} else {
+    KeywordUtil.markFailed('Address is not Removed !')
 }
-else
-	{
-	KeywordUtil.markFailed('Address is not Removed !')
-}
-WebUI.closeBrowser()
 
+ 
+
+WebUI.closeBrowser()

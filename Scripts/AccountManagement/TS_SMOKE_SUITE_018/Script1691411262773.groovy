@@ -18,36 +18,88 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+ 
+
 WebUI.openBrowser('')
+
+ 
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+ 
+
 WebUI.maximizeWindow()
+
+ 
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
+ 
+
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
     FailureHandling.STOP_ON_FAILURE)
+
+ 
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
+ 
+
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+
+ 
 
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
 
+ 
+
 WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
+
+ 
+
+WebUI.click(findTestObject('AccountManagement/AddClickNCollectionAddress_Account'))
+
+ 
 
 WebUI.click(findTestObject('AccountManagement/SelectStateClickNCollection_Account'))
 
+ 
+
 WebUI.click(findTestObject('AccountManagement/StateOptionClickNCollection_Account'))
+
+ 
+
+WebUI.click(findTestObject('AccountManagement/SelectAddressRadioButton_Account'))
+
+ 
 
 StoreAddress = WebUI.getText(findTestObject('AccountManagement/StoreNameClickNCollection_Account'))
 
+ 
+
+WebUI.scrollToElement(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'), 0)
+
+ 
+
 WebUI.click(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'))
+
+ 
+
+WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
+
+ 
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/ClickNCollectionFirstAddress_Account'), 0)
 
+ 
+
 address = WebUI.getText(findTestObject('AccountManagement/ClickNCollectionFirstAddress_Account'), FailureHandling.STOP_ON_FAILURE)
+
+ 
+
+println(address)
+
+ 
 
 if (StoreAddress == address) {
     println('Address is Added !')
@@ -55,5 +107,6 @@ if (StoreAddress == address) {
     KeywordUtil.markFailed('Address is not Added !')
 }
 
-WebUI.closeBrowser()
+ 
 
+not_run: WebUI.closeBrowser()

@@ -39,7 +39,7 @@ WebUI.click(findTestObject('PLPPage/ProtectYourPurchase_plp'))
 
 WebUI.click(findTestObject('HomePage/Cart_header'))
 
-WebUI.click(findTestObject('CartPage/ComprarAroraButton_Cart'))
+WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 CheckoutURL = WebUI.getUrl()
 

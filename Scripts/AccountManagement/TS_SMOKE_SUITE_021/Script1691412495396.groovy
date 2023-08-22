@@ -17,22 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+ 
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverpoolURL)
+ 
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+ 
 
 WebUI.maximizeWindow()
 
+ 
+
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
+ 
+
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
     FailureHandling.STOP_ON_FAILURE)
+
+ 
+
+WebUI.delay(10)
+
+ 
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
+ 
+
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+
+ 
 
 WebUI.click(findTestObject('AccountManagement/MyPaymentMethod_Account'))
 
+ 
+
 WebUI.verifyElementPresent(findTestObject('AccountManagement/PaymentMethodsSection_Account'), 0)
 
+ 
+
+WebUI.closeBrowser()
+
+ 
