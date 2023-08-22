@@ -25,11 +25,14 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/header_Hola_text_HP'))
 
 WebUI.click(findTestObject('HomePage/a_Mis Compras'))
+
+WebUI.scrollToElement(findTestObject('AccountManagement/Tiempo_aire_MyAccount'), 0)
 
 WebUI.click(findTestObject('AccountManagement/Tiempo_aire_MyAccount'))
 
