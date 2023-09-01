@@ -32,10 +32,10 @@ WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], Failur
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
 
@@ -69,27 +69,29 @@ WebUI.clearText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_O
 WebUI.delay(5)
 
 cpCode1 = '12000'
+
 cpCode2 = '11100'
 
 cpCode = WebUI.getText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), FailureHandling.STOP_ON_FAILURE)
 
-if(cpCode == cpCode1) {
-WebUI.setText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), cpCode)
+if (cpCode == cpCode1) {
+    WebUI.setText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), cpCode)
+} else {
+    WebUI.setText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), cpCode2)
 }
-else {
-WebUI.setText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), cpCode2)
-	
-}
+
 WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'))
 
 WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'), FailureHandling.OPTIONAL)
+
+WebUI.waitForPageLoad(0)
 
 //verifying the edited pincode
 WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
 
 WebUI.scrollToElement(findTestObject('OPCPage/card3_Option_OPC'), 0)
 
-WebUI.delay(3)
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('OPCPage/card3_Option_OPC'))
 
@@ -97,7 +99,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('OPCPage/option2DropDown_editos_card_OPC'))
 
-WebUI.delay(2)
+WebUI.waitForPageLoad(0)
 
 assert WebUI.getText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC')) == cpCode
 

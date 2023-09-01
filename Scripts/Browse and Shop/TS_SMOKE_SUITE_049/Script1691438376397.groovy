@@ -24,11 +24,11 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jean'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 'verify selling price\r\n'
 WebUI.verifyElementVisible(findTestObject('PLPPage/product1_cardPrice_PLP'))

@@ -26,9 +26,13 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/Facet_Seller_liverpool_PLP'), 0)
 

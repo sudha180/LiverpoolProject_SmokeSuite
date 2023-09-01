@@ -25,7 +25,11 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1000719079'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementClickable(findTestObject('PDPPage/mas detalis(more detail)'))
 

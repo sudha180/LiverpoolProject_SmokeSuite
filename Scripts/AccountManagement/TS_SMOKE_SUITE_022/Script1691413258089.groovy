@@ -17,59 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
- 
-
 WebUI.openBrowser('')
-
- 
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
- 
-
 WebUI.maximizeWindow()
-
- 
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
- 
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
-    FailureHandling.STOP_ON_FAILURE)
-
- 
-
-WebUI.delay(10)
-
- 
+WebUI.waitForPageLoad(0)
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
-
- 
 
 WebUI.click(findTestObject('AccountManagement/MyPaymentMethod_Account'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/MyCardButton_Account'))
 
- 
+WebUI.enhancedClick(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
 
-WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+WebUI.delay(3)
 
- 
-
-WebUI.click(findTestObject('AccountManagement/MakeCardAsDefault_Account'))
-
- 
+WebUI.enhancedClick(findTestObject('AccountManagement/MakeCardAsDefault_Account'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/DefaultCard_Account'), 0)
 
- 
-
 WebUI.closeBrowser()
+

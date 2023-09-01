@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='submitForOther']</value>
+         <value>//div[@class='confirmation-section__gratitude']</value>
       </entry>
       <entry>
          <key>BASIC</key>

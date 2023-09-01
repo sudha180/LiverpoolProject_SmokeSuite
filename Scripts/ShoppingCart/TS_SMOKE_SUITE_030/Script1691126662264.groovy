@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.LiverpoolURL)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
@@ -28,14 +28,18 @@ WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 
 WebUI.click(findTestObject('PDPPage/AddToCart_pdp'))
 
-WebUI.click(findTestObject('PLPPage/ProtectYourPurchase_plp'))
+WebUI.click(findTestObject('PLPPage/ProtectYourPurchase_plp'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Cart_header'))
 

@@ -18,19 +18,36 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 name = CustomKeywords.'customkeywords.myKeywords.randomString'()
-WebUI.setText(findTestObject('AccountManagement/AddressAliases_Account'),name)
 
-WebUI.setText(findTestObject('AccountManagement/PostalCode_Account'), '14000')
+GlobalVariable.TempAddress = name
 
-WebUI.setText(findTestObject('AccountManagement/City_Account'), 'maxico')
+WebUI.setText(findTestObject('AccountManagement/AddressAliases_Account'), name)
 
-WebUI.setText(findTestObject('AccountManagement/StreetName_Account'), 'kmpt road')
+WebUI.setText(findTestObject('AccountManagement/PostalCode_Account'), '14000', FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('AccountManagement/ExtNumber_Account'), '9823958982')
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('AccountManagement/CellPhoneNumber_Account'), '9823459823')
+WebUI.click(findTestObject('AccountManagement/City_Account'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('AccountManagement/lada_Account'), '239')
+WebUI.setText(findTestObject('AccountManagement/City_Account'), 'maxico', FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('AccountManagement/personalNumber_Account'), '9358585')
+WebUI.click(findTestObject('AccountManagement/StreetName_Account'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('AccountManagement/StreetName_Account'), 'kmpt road', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('AccountManagement/ExtNumber_Account'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('AccountManagement/ExtNumber_Account'), '9823958982', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('AccountManagement/CellPhoneNumber_Account'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('AccountManagement/CellPhoneNumber_Account'), '9823459823', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('AccountManagement/lada_Account'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('AccountManagement/lada_Account'), '239', FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('AccountManagement/personalNumber_Account'), FailureHandling.OPTIONAL)
+
+WebUI.setText(findTestObject('AccountManagement/personalNumber_Account'), '9358585', FailureHandling.OPTIONAL)
 

@@ -17,59 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
- 
-
 WebUI.openBrowser('')
-
- 
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
- 
-
 WebUI.maximizeWindow()
 
- 
-
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
-
- 
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
     FailureHandling.STOP_ON_FAILURE)
 
- 
-
-WebUI.delay(10)
-
- 
+WebUI.waitForPageLoad(0)
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
-
- 
 
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
-
- 
 
 WebUI.click(findTestObject('AccountManagement/ClickNCollection1stAddress_Account'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/SetDefaultAddressClickNCollection'))
-
- 
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/VerifyDefaultPresent_Account'), 0)
 
- 
-
 WebUI.closeBrowser()
+

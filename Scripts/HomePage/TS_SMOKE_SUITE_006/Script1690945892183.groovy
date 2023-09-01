@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.maximizeWindow()
+
+WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementClickable(findTestObject('HomePage/Mesa de regalos_HP'))
 

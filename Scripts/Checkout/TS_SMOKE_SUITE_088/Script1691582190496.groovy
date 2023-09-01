@@ -25,8 +25,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('HomePage/header_Hola_text_HP'))
 

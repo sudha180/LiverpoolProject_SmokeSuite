@@ -31,6 +31,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHand
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.click(findTestObject('PLPPage/product2_cardPrice_PLP'))
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))

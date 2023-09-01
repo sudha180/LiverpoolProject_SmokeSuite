@@ -28,11 +28,13 @@ WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)

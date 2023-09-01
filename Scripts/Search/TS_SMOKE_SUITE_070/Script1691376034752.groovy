@@ -26,19 +26,21 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 WebUI.scrollToElement(findTestObject('PLPPage/ForwardArrow_Pagenation_PLP'), 0)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('PLPPage/ForwardArrow_Pagenation_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.waitForPageLoad(0)
 
 a1 = WebUI.getUrl()
 
@@ -58,11 +60,11 @@ if (a == true) {
 
 WebUI.scrollToElement(findTestObject('PLPPage/BackArrow_Pagenation_PLP'), 0)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('PLPPage/BackArrow_Pagenation_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.waitForPageLoad(0)
 
 b1 = WebUI.getUrl()
 

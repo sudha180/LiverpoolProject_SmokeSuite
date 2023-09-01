@@ -25,9 +25,13 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 WebUI.scrollToElement(findTestObject('PLPPage/facetes/ColorTitleFacet_PLP'), 0)
 

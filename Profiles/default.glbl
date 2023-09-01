@@ -434,4 +434,14 @@
       <initValue>'MAC'</initValue>
       <name>SL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sjagtap@digisprint.com'</initValue>
+      <name>AMUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Shubham@123'</initValue>
+      <name>AMpassord</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

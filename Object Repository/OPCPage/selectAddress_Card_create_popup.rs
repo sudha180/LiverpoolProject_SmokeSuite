@@ -6,12 +6,11 @@
    <elementGuidId>316ee748-3766-4cad-9695-8fa5d56f7301</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@class='a-radio__input mdc-radio__native-control'][1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='card_3676340658']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -30,6 +30,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
@@ -51,7 +53,7 @@ WebUI.click(findTestObject('OPCPage/EditAddress_Checkout'))
 
 WebUI.setText(findTestObject('OPCPage/shortName_addAddress_opc'), GlobalVariable.ShortName)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 WebUI.enhancedClick(findTestObject('OPCPage/ContinueButtonAddAddress_Checkout'))
 

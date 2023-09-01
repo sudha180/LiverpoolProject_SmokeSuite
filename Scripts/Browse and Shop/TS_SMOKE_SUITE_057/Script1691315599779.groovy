@@ -25,11 +25,13 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 'verify price range\r\n'
 WebUI.click(findTestObject('PLPPage/product1_PLP'))

@@ -25,6 +25,8 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.verifyElementPresent(findTestObject('HomePage/span_HolaUser_hp'), 0)
 
 WebUI.closeBrowser()

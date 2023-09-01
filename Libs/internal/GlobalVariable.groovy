@@ -123,6 +123,26 @@ Profile default : digital product </p>
     /**
      * <p></p>
      */
+    public static Object AMpassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object AMUsername
+     
+    /**
+     * <p></p>
+     */
+    public static Object TempAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object name
+     
+    /**
+     * <p></p>
+     */
     public static Object URL
      
     /**
@@ -441,6 +461,11 @@ Profile default : pwaqa</p>
      */
     public static Object SL
      
+    /**
+     * <p></p>
+     */
+    public static Object AMpassord
+     
 
     static {
         try {
@@ -470,6 +495,10 @@ Profile default : pwaqa</p>
             ShortName = selectedVariables['ShortName']
             EventNumber = selectedVariables['EventNumber']
             CartPageURL = selectedVariables['CartPageURL']
+            AMpassword = selectedVariables['AMpassword']
+            AMUsername = selectedVariables['AMUsername']
+            TempAddress = selectedVariables['TempAddress']
+            name = selectedVariables['name']
             URL = selectedVariables['URL']
             newuser = selectedVariables['newuser']
             GIDcollection = selectedVariables['GIDcollection']
@@ -534,6 +563,7 @@ Profile default : pwaqa</p>
             GRpassword = selectedVariables['GRpassword']
             CheckoutLink = selectedVariables['CheckoutLink']
             SL = selectedVariables['SL']
+            AMpassord = selectedVariables['AMpassord']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

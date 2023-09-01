@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AccountManagement,Chrome 116.0.0.0,,,2023-08-29 17:23:10,2023-08-29 17:32:37,9m - 26.353s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_018,Chrome 116.0.0.0,Verify the user able to add new Click & Collect address address,,2023-08-29 17:23:11,2023-08-29 17:26:09,2m - 58.880s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-29 17:23:11,2023-08-29 17:23:14,3.160s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-29 17:23:14,2023-08-29 17:23:58,44.143s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-29 17:23:58,2023-08-29 17:23:59,0.264s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-29 17:23:59,2023-08-29 17:23:59,0.636s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-29 17:23:59,2023-08-29 17:24:34,35.096s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-08-29 17:24:34,2023-08-29 17:25:14,40.026s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-29 17:25:14,2023-08-29 17:25:15,0.730s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:15,2023-08-29 17:25:16,0.541s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:16,2023-08-29 17:25:21,5.455s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 116.0.0.0,,,2023-08-29 17:25:21,2023-08-29 17:25:27,5.427s,PASSED
+"click(findTestObject(""AccountManagement/AddClickNCollectionAddress_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:27,2023-08-29 17:25:28,1.703s,PASSED
+"click(findTestObject(""AccountManagement/SelectStateClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:28,2023-08-29 17:25:35,6.332s,PASSED
+"click(findTestObject(""AccountManagement/StateOptionClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:35,2023-08-29 17:25:35,0.412s,PASSED
+"click(findTestObject(""AccountManagement/SelectAddressRadioButton_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:35,2023-08-29 17:25:37,1.830s,PASSED
+"StoreAddress = getText(findTestObject(""AccountManagement/StoreNameClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:37,2023-08-29 17:25:37,0.378s,PASSED
+"scrollToElement(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""), 0)",Chrome 116.0.0.0,,,2023-08-29 17:25:37,2023-08-29 17:25:38,0.371s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:25:38,2023-08-29 17:25:38,0.378s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 116.0.0.0,,,2023-08-29 17:25:38,2023-08-29 17:26:09,31.460s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_022,Chrome 116.0.0.0,Verify the user able to update the payment methods as default in forma de pago page,,2023-08-29 17:26:09,2023-08-29 17:28:36,2m - 26.957s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-29 17:26:10,2023-08-29 17:26:12,2.276s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-29 17:26:12,2023-08-29 17:26:58,45.944s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-29 17:26:58,2023-08-29 17:26:58,0.254s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-29 17:26:58,2023-08-29 17:26:59,0.939s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-08-29 17:26:59,2023-08-29 17:28:11,1m - 12.051s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-08-29 17:28:11,2023-08-29 17:28:11,0.072s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-29 17:28:11,2023-08-29 17:28:12,0.845s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:28:12,2023-08-29 17:28:13,0.711s,PASSED
+"click(findTestObject(""AccountManagement/MyPaymentMethod_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:28:13,2023-08-29 17:28:19,6.136s,PASSED
+"click(findTestObject(""AccountManagement/MyCardButton_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:28:19,2023-08-29 17:28:28,9.210s,PASSED
+"click(findTestObject(""AccountManagement/Select3DotAddress2Nd_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:28:28,2023-08-29 17:28:32,3.671s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-08-29 17:28:32,2023-08-29 17:28:32,0.018s,PASSED
+"click(findTestObject(""AccountManagement/MakeCardAsDefault_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:28:32,2023-08-29 17:28:32,0.386s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/DefaultCard_Account""), 0)",Chrome 116.0.0.0,,,2023-08-29 17:28:32,2023-08-29 17:28:36,3.407s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-29 17:28:36,2023-08-29 17:28:36,0.797s,PASSED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_023,Chrome 116.0.0.0,"To Verify Logged in user is able to Add ,Edit and remove credit card from my account from my account",,2023-08-29 17:28:36,2023-08-29 17:31:23,2m - 46.623s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-29 17:28:37,2023-08-29 17:28:38,1.456s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-29 17:28:38,2023-08-29 17:29:23,44.305s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-29 17:29:23,2023-08-29 17:29:23,0.251s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-29 17:29:23,2023-08-29 17:29:24,0.623s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-29 17:29:24,2023-08-29 17:29:53,29.355s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-08-29 17:29:53,2023-08-29 17:29:53,0.036s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-29 17:29:53,2023-08-29 17:30:34,41.185s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:30:34,2023-08-29 17:30:35,0.549s,PASSED
+"click(findTestObject(""AccountManagement/MyPaymentMethod_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:30:35,2023-08-29 17:30:45,10.111s,PASSED
+"click(findTestObject(""AccountManagement/MyCardButton_Account""))",Chrome 116.0.0.0,,,2023-08-29 17:30:45,2023-08-29 17:30:52,6.984s,PASSED
+"click(findTestObject(""AccountManagement/clickNcollect_address_AM""))",Chrome 116.0.0.0,,,2023-08-29 17:30:52,2023-08-29 17:31:23,31.273s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_024,Chrome 116.0.0.0,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,2023-08-29 17:31:23,2023-08-29 17:32:37,1m - 13.525s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-29 17:31:23,2023-08-29 17:31:26,2.226s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-29 17:31:26,2023-08-29 17:32:11,45.290s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-29 17:32:11,2023-08-29 17:32:11,0.251s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-29 17:32:11,2023-08-29 17:32:12,0.587s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-29 17:32:12,2023-08-29 17:32:36,24.416s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-08-29 17:32:36,2023-08-29 17:32:36,0.052s,PASSED
+acceptAlert(),Chrome 116.0.0.0,,,2023-08-29 17:32:36,2023-08-29 17:32:37,0.420s,FAILED

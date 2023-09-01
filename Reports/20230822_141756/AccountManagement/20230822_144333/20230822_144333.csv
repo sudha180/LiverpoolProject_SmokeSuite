@@ -1,0 +1,103 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AccountManagement,Chrome 116.0.0.0,,,2023-08-22 14:43:37,2023-08-22 15:04:16,20m - 39.539s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_016,Chrome 116.0.0.0,To Verify logged in user is able to view the profile inforamtion from Actualizar datos personales link in my account page after Updating personal information,,2023-08-22 14:43:37,2023-08-22 14:46:25,2m - 47.530s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 14:43:38,2023-08-22 14:43:40,2.536s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 14:43:40,2023-08-22 14:44:29,49.145s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 14:44:29,2023-08-22 14:44:30,0.215s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 14:44:30,2023-08-22 14:44:30,0.548s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:44:30,2023-08-22 14:45:11,40.616s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-22 14:45:11,2023-08-22 14:45:16,5.014s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 14:45:16,2023-08-22 14:46:13,57.555s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:46:13,2023-08-22 14:46:14,0.543s,PASSED
+"click(findTestObject(""AccountManagement/UpdatePeronalData_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:46:14,2023-08-22 14:46:19,5.587s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/updatePage_Account""), 0)",Chrome 116.0.0.0,,,2023-08-22 14:46:19,2023-08-22 14:46:22,2.572s,PASSED
+name = customkeywords.myKeywords.randomString(),Chrome 116.0.0.0,,,2023-08-22 14:46:22,2023-08-22 14:46:22,0.034s,PASSED
+"clearText(findTestObject(""AccountManagement/FirstNameProfile_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:46:22,2023-08-22 14:46:24,1.675s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FirstNameProfile_Account""), Keys.chord(CONTROL, ""a""))",Chrome 116.0.0.0,,,2023-08-22 14:46:24,2023-08-22 14:46:24,0.512s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FirstNameProfile_Account""), name)",Chrome 116.0.0.0,,,2023-08-22 14:46:24,2023-08-22 14:46:25,0.576s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_017,Chrome 116.0.0.0,Verify the user able to add new Personal shipping address,,2023-08-22 14:46:25,2023-08-22 14:49:08,2m - 43.071s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 14:46:25,2023-08-22 14:46:27,2.072s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 14:46:27,2023-08-22 14:47:17,49.428s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 14:47:17,2023-08-22 14:47:17,0.205s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 14:47:17,2023-08-22 14:47:18,1.027s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:47:18,2023-08-22 14:47:58,40.267s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-22 14:47:58,2023-08-22 14:48:08,10.013s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 14:48:08,2023-08-22 14:48:55,46.934s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:48:55,2023-08-22 14:48:56,0.542s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:48:56,2023-08-22 14:49:01,5.820s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:49:01,2023-08-22 14:49:07,5.886s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:49:07,2023-08-22 14:49:08,0.572s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_018,Chrome 116.0.0.0,Verify the user able to add new Click & Collect address address,,2023-08-22 14:49:08,2023-08-22 14:52:37,3m - 29.254s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 14:49:08,2023-08-22 14:49:10,2.197s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 14:49:10,2023-08-22 14:50:19,1m - 8.982s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 14:50:19,2023-08-22 14:50:20,0.845s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 14:50:20,2023-08-22 14:50:21,0.602s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:50:21,2023-08-22 14:50:50,29.451s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 14:50:50,2023-08-22 14:51:39,48.983s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:51:39,2023-08-22 14:51:40,0.525s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:51:40,2023-08-22 14:51:47,7.146s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 116.0.0.0,,,2023-08-22 14:51:47,2023-08-22 14:51:53,5.903s,PASSED
+"click(findTestObject(""AccountManagement/AddClickNCollectionAddress_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:51:53,2023-08-22 14:51:56,3.378s,PASSED
+"click(findTestObject(""AccountManagement/SelectStateClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:51:56,2023-08-22 14:52:02,5.812s,PASSED
+"click(findTestObject(""AccountManagement/StateOptionClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:52:02,2023-08-22 14:52:02,0.370s,PASSED
+"click(findTestObject(""AccountManagement/SelectAddressRadioButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:52:02,2023-08-22 14:52:05,2.249s,PASSED
+"StoreAddress = getText(findTestObject(""AccountManagement/StoreNameClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:52:05,2023-08-22 14:52:05,0.373s,PASSED
+"scrollToElement(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""), 0)",Chrome 116.0.0.0,,,2023-08-22 14:52:05,2023-08-22 14:52:05,0.337s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:52:05,2023-08-22 14:52:06,0.352s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 116.0.0.0,,,2023-08-22 14:52:06,2023-08-22 14:52:37,31.427s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_019,Chrome 116.0.0.0,Verify the last added Store address is displayed in the top section as a priority,,2023-08-22 14:52:37,2023-08-22 14:55:21,2m - 44.124s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 14:52:37,2023-08-22 14:52:40,2.203s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 14:52:40,2023-08-22 14:53:25,45.733s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 14:53:25,2023-08-22 14:53:26,0.228s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 14:53:26,2023-08-22 14:53:26,0.624s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:53:26,2023-08-22 14:54:03,37.195s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 14:54:03,2023-08-22 14:55:06,1m - 2.637s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:55:06,2023-08-22 14:55:06,0.492s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:55:06,2023-08-22 14:55:13,6.559s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:55:13,2023-08-22 14:55:21,7.932s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:55:21,2023-08-22 14:55:21,0.259s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_022,Chrome 116.0.0.0,Verify the user able to update the payment methods as default in forma de pago page,,2023-08-22 14:55:21,2023-08-22 14:58:34,3m - 12.364s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 14:55:21,2023-08-22 14:55:24,2.179s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 14:55:24,2023-08-22 14:56:44,1m - 20.493s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 14:56:44,2023-08-22 14:56:44,0.225s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 14:56:44,2023-08-22 14:56:45,1.041s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:56:45,2023-08-22 14:57:14,29.074s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-22 14:57:14,2023-08-22 14:57:24,10.014s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 14:57:24,2023-08-22 14:58:08,43.025s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:58:08,2023-08-22 14:58:08,0.587s,PASSED
+"click(findTestObject(""AccountManagement/MyPaymentMethod_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:58:08,2023-08-22 14:58:17,8.392s,PASSED
+"click(findTestObject(""AccountManagement/MyCardButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:58:17,2023-08-22 14:58:19,2.301s,PASSED
+"click(findTestObject(""AccountManagement/Select3DotAddress2Nd_Account""))",Chrome 116.0.0.0,,,2023-08-22 14:58:19,2023-08-22 14:58:34,14.787s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_023,Chrome 116.0.0.0,"To Verify Logged in user is able to Add ,Edit and remove  credit card from my account from my account",,2023-08-22 14:58:34,2023-08-22 15:01:23,2m - 48.944s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 14:58:34,2023-08-22 14:58:36,2.067s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 14:58:36,2023-08-22 14:59:24,48.435s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 14:59:24,2023-08-22 14:59:25,0.236s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 14:59:25,2023-08-22 14:59:26,1.024s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 14:59:26,2023-08-22 15:00:09,43.349s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-22 15:00:09,2023-08-22 15:00:19,10.004s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 15:00:19,2023-08-22 15:01:05,46.452s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 15:01:05,2023-08-22 15:01:06,0.563s,PASSED
+"click(findTestObject(""AccountManagement/MyPaymentMethod_Account""))",Chrome 116.0.0.0,,,2023-08-22 15:01:06,2023-08-22 15:01:13,7.306s,PASSED
+"click(findTestObject(""AccountManagement/MyCardButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 15:01:13,2023-08-22 15:01:20,6.493s,PASSED
+"click(findTestObject(""AccountManagement/AddCardButton_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 15:01:20,2023-08-22 15:01:22,2.491s,PASSED
+Cardname = customkeywords.myKeywords.randomString(),Chrome 116.0.0.0,,,2023-08-22 15:01:22,2023-08-22 15:01:22,0.001s,PASSED
+"setText(findTestObject(""AccountManagement/CardName_Account""), Cardname)",Chrome 116.0.0.0,,,2023-08-22 15:01:22,2023-08-22 15:01:23,0.191s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_024,Chrome 116.0.0.0,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,2023-08-22 15:01:23,2023-08-22 15:04:16,2m - 53.933s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 15:01:23,2023-08-22 15:01:25,2.253s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 15:01:25,2023-08-22 15:02:13,48.002s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 15:02:13,2023-08-22 15:02:13,0.220s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 15:02:13,2023-08-22 15:02:14,0.614s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 15:02:14,2023-08-22 15:03:52,1m - 37.975s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-22 15:03:52,2023-08-22 15:04:02,10.016s,PASSED
+"click(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 15:04:02,2023-08-22 15:04:02,0.431s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-08-22 15:04:02,2023-08-22 15:04:03,0.632s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-08-22 15:04:03,2023-08-22 15:04:09,6.348s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 15:04:09,2023-08-22 15:04:16,6.809s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 15:04:16,2023-08-22 15:04:16,0.291s,FAILED

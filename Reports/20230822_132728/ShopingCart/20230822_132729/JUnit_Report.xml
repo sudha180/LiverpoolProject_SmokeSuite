@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ShopingCart" time="462.465" tests="5" failures="1" errors="1">
+   <testsuite name="ShopingCart" tests="5" failures="1" errors="1" time="462.465" skipped="0" timestamp="2023-08-22 13:27:33" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/ShopingCart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230822_132728\\ShopingCart\\20230822_132729"/>
+         <property name="logFiles" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230822_132728\\ShopingCart\\20230822_132729\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.167"/>
+         <property name="sessionId" value="9c8d10305b5434fc11d41ddf123f8b22"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ShoppingCart/TS_SMOKE_SUITE_026" time="193.574" classname="Test Cases/ShoppingCart/TS_SMOKE_SUITE_026" status="PASSED">
+         <system-out><![CDATA[2023-08-22 13:27:33 - [TEST_CASE][PASSED] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_026: Test Cases/ShoppingCart/TS_SMOKE_SUITE_026
+
+2023-08-22 13:27:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-22 13:27:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-22 13:27:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-22 13:27:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-22 13:27:38 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-22 13:28:51 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-22 13:28:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-22 13:28:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-22 13:28:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":SL], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-22 13:28:52 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-22 13:28:52 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-22 13:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-22 13:28:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-22 13:28:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 13:28:56 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'MAC' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-22 13:28:57 - [MESSAGE][PASSED] - Text 'MAC' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-22 13:28:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-22 13:29:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 13:29:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-22 13:29:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-22 13:29:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-22 13:29:05 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/FirstProduct_plp")): Object: 'Object Repository/HomePage/FirstProduct_plp' is clicked on
+
+2023-08-22 13:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/FirstProduct_plp' is clicked on
+
+2023-08-22 13:29:33 - [TEST_STEP][PASSED] - click(findTestObject("PDPPage/AddToCart_pdp")): Object: 'Object Repository/PDPPage/AddToCart_pdp' is clicked on
+
+2023-08-22 13:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PDPPage/AddToCart_pdp' is clicked on
+
+2023-08-22 13:30:13 - [TEST_STEP][NOT_RUN] - click(findTestObject("PLPPage/ProtectYourPurchase_plp")): NOT_RUN: click(findTestObject("PLPPage/ProtectYourPurchase_plp"))
+
+2023-08-22 13:30:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("PLPPage/ProtectYourPurchase_plp"))
+
+2023-08-22 13:30:13 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Cart_header")): Object: 'Object Repository/HomePage/Cart_header' is clicked on
+
+2023-08-22 13:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Cart_header' is clicked on
+
+2023-08-22 13:30:21 - [TEST_STEP][PASSED] - click(findTestObject("CartPage/BuyButton_Cart")): Object: 'Object Repository/CartPage/BuyButton_Cart' is clicked on
+
+2023-08-22 13:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CartPage/BuyButton_Cart' is clicked on
+
+2023-08-22 13:30:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/LoginPage_hp"), 0): Object 'Object Repository/HomePage/LoginPage_hp' is present
+
+2023-08-22 13:30:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-22 13:30:46 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/LoginPage_hp' is present
+
+2023-08-22 13:30:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-22 13:30:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ShoppingCart/TS_SMOKE_SUITE_027" time="133.833" classname="Test Cases/ShoppingCart/TS_SMOKE_SUITE_027" status="PASSED">
+         <system-out><![CDATA[2023-08-22 13:30:47 - [TEST_CASE][PASSED] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_027: Test Cases/ShoppingCart/TS_SMOKE_SUITE_027
+
+2023-08-22 13:30:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-22 13:30:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-22 13:30:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-22 13:30:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-22 13:30:49 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-22 13:31:44 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-22 13:31:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-22 13:31:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-22 13:31:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":SL], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-22 13:31:45 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-22 13:31:45 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-22 13:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-22 13:31:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-22 13:31:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 13:31:48 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'MAC' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-22 13:31:49 - [MESSAGE][PASSED] - Text 'MAC' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-22 13:31:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-22 13:31:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 13:31:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-22 13:31:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-22 13:31:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-22 13:31:53 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/FirstProduct_plp")): Object: 'Object Repository/HomePage/FirstProduct_plp' is clicked on
+
+2023-08-22 13:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/FirstProduct_plp' is clicked on
+
+2023-08-22 13:32:18 - [TEST_STEP][PASSED] - click(findTestObject("PDPPage/AddToCart_pdp")): Object: 'Object Repository/PDPPage/AddToCart_pdp' is clicked on
+
+2023-08-22 13:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PDPPage/AddToCart_pdp' is clicked on
+
+2023-08-22 13:32:42 - [TEST_STEP][NOT_RUN] - click(findTestObject("PLPPage/ProtectYourPurchase_plp")): NOT_RUN: click(findTestObject("PLPPage/ProtectYourPurchase_plp"))
+
+2023-08-22 13:32:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("PLPPage/ProtectYourPurchase_plp"))
+
+2023-08-22 13:32:42 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Cart_header")): Object: 'Object Repository/HomePage/Cart_header' is clicked on
+
+2023-08-22 13:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Cart_header' is clicked on
+
+2023-08-22 13:32:47 - [TEST_STEP][PASSED] - click(findTestObject("CartPage/BuyButton_Cart")): Object: 'Object Repository/CartPage/BuyButton_Cart' is clicked on
+
+2023-08-22 13:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CartPage/BuyButton_Cart' is clicked on
+
+2023-08-22 13:32:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/LoginPage_hp"), 0): Object 'Object Repository/HomePage/LoginPage_hp' is present
+
+2023-08-22 13:32:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-22 13:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/LoginPage_hp' is present
+
+2023-08-22 13:33:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-22 13:33:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ShoppingCart/TS_SMOKE_SUITE_028" time="130.787" classname="Test Cases/ShoppingCart/TS_SMOKE_SUITE_028" status="PASSED">
+         <system-out><![CDATA[2023-08-22 13:33:01 - [TEST_CASE][PASSED] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_028: Test Cases/ShoppingCart/TS_SMOKE_SUITE_028
+
+2023-08-22 13:33:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-22 13:33:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-22 13:33:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-22 13:33:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-22 13:33:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-22 13:33:51 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-22 13:33:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-22 13:33:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-22 13:33:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":SL], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-22 13:33:51 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-22 13:33:51 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-22 13:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-22 13:33:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-22 13:33:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 13:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'MAC' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-22 13:33:56 - [MESSAGE][PASSED] - Text 'MAC' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-22 13:33:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-22 13:33:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 13:33:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-22 13:34:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-22 13:34:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-22 13:34:03 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/FirstProduct_plp")): Object: 'Object Repository/HomePage/FirstProduct_plp' is clicked on
+
+2023-08-22 13:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/FirstProduct_plp' is clicked on
+
+2023-08-22 13:34:24 - [TEST_STEP][PASSED] - click(findTestObject("PDPPage/AddToCart_pdp")): Object: 'Object Repository/PDPPage/AddToCart_pdp' is clicked on
+
+2023-08-22 13:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PDPPage/AddToCart_pdp' is clicked on
+
+2023-08-22 13:34:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("PLPPage/ProtectYourPurchase_plp")): NOT_RUN: click(findTestObject("PLPPage/ProtectYourPurchase_plp"))
+
+2023-08-22 13:34:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("PLPPage/ProtectYourPurchase_plp"))
+
+2023-08-22 13:34:43 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Cart_header")): Object: 'Object Repository/HomePage/Cart_header' is clicked on
+
+2023-08-22 13:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Cart_header' is clicked on
+
+2023-08-22 13:34:52 - [TEST_STEP][PASSED] - click(findTestObject("CartPage/BuyButton_Cart")): Object: 'Object Repository/CartPage/BuyButton_Cart' is clicked on
+
+2023-08-22 13:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CartPage/BuyButton_Cart' is clicked on
+
+2023-08-22 13:35:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("HomePage/LoginPage_hp"), 0): Object 'Object Repository/HomePage/LoginPage_hp' is present
+
+2023-08-22 13:35:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-22 13:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/LoginPage_hp' is present
+
+2023-08-22 13:35:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-22 13:35:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ShoppingCart/TS_SMOKE_SUITE_029" time="1.959" classname="Test Cases/ShoppingCart/TS_SMOKE_SUITE_029" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ShoppingCart/TS_SMOKE_SUITE_029 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TS_SMOKE_SUITE_029.run(TS_SMOKE_SUITE_029:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L51QJLB', ip: '172.22.45.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00C337C3+48947]
+	(No symbol) [0x00BC8551]
+	(No symbol) [0x00ACC92D]
+	(No symbol) [0x00ABE891]
+	(No symbol) [0x00ABD0EA]
+	(No symbol) [0x00ABD79A]
+	(No symbol) [0x00ACFA76]
+	(No symbol) [0x00AD106A]
+	(No symbol) [0x00AD1110]
+	(No symbol) [0x00B1C6E1]
+	(No symbol) [0x00B1B3CC]
+	(No symbol) [0x00B14E86]
+	(No symbol) [0x00AF16C7]
+	(No symbol) [0x00AF284D]
+	GetHandleVerifier [0x00E7FDF9+2458985]
+	GetHandleVerifier [0x00EC744F+2751423]
+	GetHandleVerifier [0x00EC1361+2726609]
+	GetHandleVerifier [0x00CB0680+560624]
+	(No symbol) [0x00BD238C]
+	(No symbol) [0x00BCE268]
+	(No symbol) [0x00BCE392]
+	(No symbol) [0x00BC10B7]
+	BaseThreadInitThunk [0x76CF00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47AEE+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:441)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:374)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-22 13:35:12 - [TEST_CASE][FAILED] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_029: Test Cases/ShoppingCart/TS_SMOKE_SUITE_029 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TS_SMOKE_SUITE_029.run(TS_SMOKE_SUITE_029:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L51QJLB', ip: '172.22.45.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00C337C3+48947]
+	(No symbol) [0x00BC8551]
+	(No symbol) [0x00ACC92D]
+	(No symbol) [0x00ABE891]
+	(No symbol) [0x00ABD0EA]
+	(No symbol) [0x00ABD79A]
+	(No symbol) [0x00ACFA76]
+	(No symbol) [0x00AD106A]
+	(No symbol) [0x00AD1110]
+	(No symbol) [0x00B1C6E1]
+	(No symbol) [0x00B1B3CC]
+	(No symbol) [0x00B14E86]
+	(No symbol) [0x00AF16C7]
+	(No symbol) [0x00AF284D]
+	GetHandleVerifier [0x00E7FDF9+2458985]
+	GetHandleVerifier [0x00EC744F+2751423]
+	GetHandleVerifier [0x00EC1361+2726609]
+	GetHandleVerifier [0x00CB0680+560624]
+	(No symbol) [0x00BD238C]
+	(No symbol) [0x00BCE268]
+	(No symbol) [0x00BCE392]
+	(No symbol) [0x00BC10B7]
+	BaseThreadInitThunk [0x76CF00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47AEE+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:441)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:374)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-22 13:35:12 - [TEST_STEP][FAILED] - openBrowser(""): Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TS_SMOKE_SUITE_029.run(TS_SMOKE_SUITE_029:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L51QJLB', ip: '172.22.45.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00C337C3+48947]
+	(No symbol) [0x00BC8551]
+	(No symbol) [0x00ACC92D]
+	(No symbol) [0x00ABE891]
+	(No symbol) [0x00ABD0EA]
+	(No symbol) [0x00ABD79A]
+	(No symbol) [0x00ACFA76]
+	(No symbol) [0x00AD106A]
+	(No symbol) [0x00AD1110]
+	(No symbol) [0x00B1C6E1]
+	(No symbol) [0x00B1B3CC]
+	(No symbol) [0x00B14E86]
+	(No symbol) [0x00AF16C7]
+	(No symbol) [0x00AF284D]
+	GetHandleVerifier [0x00E7FDF9+2458985]
+	GetHandleVerifier [0x00EC744F+2751423]
+	GetHandleVerifier [0x00EC1361+2726609]
+	GetHandleVerifier [0x00CB0680+560624]
+	(No symbol) [0x00BD238C]
+	(No symbol) [0x00BCE268]
+	(No symbol) [0x00BCE392]
+	(No symbol) [0x00BC10B7]
+	BaseThreadInitThunk [0x76CF00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47AEE+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:441)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:374)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1691124701877.run(Script1691124701877.groovy:20)
+	... 13 more
+)
+
+2023-08-22 13:35:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-22 13:35:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-22 13:35:14 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TS_SMOKE_SUITE_029.run(TS_SMOKE_SUITE_029:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L51QJLB', ip: '172.22.45.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00C337C3+48947]
+	(No symbol) [0x00BC8551]
+	(No symbol) [0x00ACC92D]
+	(No symbol) [0x00ABE891]
+	(No symbol) [0x00ABD0EA]
+	(No symbol) [0x00ABD79A]
+	(No symbol) [0x00ACFA76]
+	(No symbol) [0x00AD106A]
+	(No symbol) [0x00AD1110]
+	(No symbol) [0x00B1C6E1]
+	(No symbol) [0x00B1B3CC]
+	(No symbol) [0x00B14E86]
+	(No symbol) [0x00AF16C7]
+	(No symbol) [0x00AF284D]
+	GetHandleVerifier [0x00E7FDF9+2458985]
+	GetHandleVerifier [0x00EC744F+2751423]
+	GetHandleVerifier [0x00EC1361+2726609]
+	GetHandleVerifier [0x00CB0680+560624]
+	(No symbol) [0x00BD238C]
+	(No symbol) [0x00BCE268]
+	(No symbol) [0x00BCE392]
+	(No symbol) [0x00BC10B7]
+	BaseThreadInitThunk [0x76CF00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47AEE+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:441)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:374)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1691124701877.run(Script1691124701877.groovy:20)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2023-08-22 13:35:12 - [TEST_CASE][FAILED] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_029: Test Cases/ShoppingCart/TS_SMOKE_SUITE_029 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TS_SMOKE_SUITE_029.run(TS_SMOKE_SUITE_029:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L51QJLB', ip: '172.22.45.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00C337C3+48947]
+	(No symbol) [0x00BC8551]
+	(No symbol) [0x00ACC92D]
+	(No symbol) [0x00ABE891]
+	(No symbol) [0x00ABD0EA]
+	(No symbol) [0x00ABD79A]
+	(No symbol) [0x00ACFA76]
+	(No symbol) [0x00AD106A]
+	(No symbol) [0x00AD1110]
+	(No symbol) [0x00B1C6E1]
+	(No symbol) [0x00B1B3CC]
+	(No symbol) [0x00B14E86]
+	(No symbol) [0x00AF16C7]
+	(No symbol) [0x00AF284D]
+	GetHandleVerifier [0x00E7FDF9+2458985]
+	GetHandleVerifier [0x00EC744F+2751423]
+	GetHandleVerifier [0x00EC1361+2726609]
+	GetHandleVerifier [0x00CB0680+560624]
+	(No symbol) [0x00BD238C]
+	(No symbol) [0x00BCE268]
+	(No symbol) [0x00BCE392]
+	(No symbol) [0x00BC10B7]
+	BaseThreadInitThunk [0x76CF00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47AEE+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:441)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:374)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ShoppingCart/TS_SMOKE_SUITE_030" time="1.89" classname="Test Cases/ShoppingCart/TS_SMOKE_SUITE_030" status="ERROR">
+         <error type="ERROR" message="Test Cases/ShoppingCart/TS_SMOKE_SUITE_030 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: LiverpoolURL for class: internal.GlobalVariable
+	at TS_SMOKE_SUITE_030.run(TS_SMOKE_SUITE_030:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-22 13:35:14 - [TEST_CASE][ERROR] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_030: Test Cases/ShoppingCart/TS_SMOKE_SUITE_030 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: LiverpoolURL for class: internal.GlobalVariable
+	at TS_SMOKE_SUITE_030.run(TS_SMOKE_SUITE_030:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+
+
+2023-08-22 13:35:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-22 13:35:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-22 13:35:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-22 13:35:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-22 13:35:15 - [TEST_STEP][ERROR] - navigateToUrl(LiverpoolURL): Test Cases/ShoppingCart/TS_SMOKE_SUITE_030 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: LiverpoolURL for class: internal.GlobalVariable
+	at TS_SMOKE_SUITE_030.run(TS_SMOKE_SUITE_030:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+
+
+2023-08-22 13:35:15 - [MESSAGE][ERROR] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_030 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: LiverpoolURL for class: internal.GlobalVariable
+	at TS_SMOKE_SUITE_030.run(TS_SMOKE_SUITE_030:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-08-22 13:35:14 - [TEST_CASE][ERROR] - Test Cases/ShoppingCart/TS_SMOKE_SUITE_030: Test Cases/ShoppingCart/TS_SMOKE_SUITE_030 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: LiverpoolURL for class: internal.GlobalVariable
+	at TS_SMOKE_SUITE_030.run(TS_SMOKE_SUITE_030:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-22 13:27:33 - [TEST_SUITE][FAILED] - ShopingCart: Test Cases/ShoppingCart/TS_SMOKE_SUITE_029 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TS_SMOKE_SUITE_029.run(TS_SMOKE_SUITE_029:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L51QJLB', ip: '172.22.45.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00C337C3+48947]
+	(No symbol) [0x00BC8551]
+	(No symbol) [0x00ACC92D]
+	(No symbol) [0x00ABE891]
+	(No symbol) [0x00ABD0EA]
+	(No symbol) [0x00ABD79A]
+	(No symbol) [0x00ACFA76]
+	(No symbol) [0x00AD106A]
+	(No symbol) [0x00AD1110]
+	(No symbol) [0x00B1C6E1]
+	(No symbol) [0x00B1B3CC]
+	(No symbol) [0x00B14E86]
+	(No symbol) [0x00AF16C7]
+	(No symbol) [0x00AF284D]
+	GetHandleVerifier [0x00E7FDF9+2458985]
+	GetHandleVerifier [0x00EC744F+2751423]
+	GetHandleVerifier [0x00EC1361+2726609]
+	GetHandleVerifier [0x00CB0680+560624]
+	(No symbol) [0x00BD238C]
+	(No symbol) [0x00BCE268]
+	(No symbol) [0x00BCE392]
+	(No symbol) [0x00BC10B7]
+	BaseThreadInitThunk [0x76CF00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47AEE+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:441)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:374)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-22 13:27:33 - [TEST_SUITE][FAILED] - ShopingCart: Test Cases/ShoppingCart/TS_SMOKE_SUITE_029 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at TS_SMOKE_SUITE_029.run(TS_SMOKE_SUITE_029:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691049900.run(TempTestSuite1692691049900.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L51QJLB', ip: '172.22.45.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00C337C3+48947]
+	(No symbol) [0x00BC8551]
+	(No symbol) [0x00ACC92D]
+	(No symbol) [0x00ABE891]
+	(No symbol) [0x00ABD0EA]
+	(No symbol) [0x00ABD79A]
+	(No symbol) [0x00ACFA76]
+	(No symbol) [0x00AD106A]
+	(No symbol) [0x00AD1110]
+	(No symbol) [0x00B1C6E1]
+	(No symbol) [0x00B1B3CC]
+	(No symbol) [0x00B14E86]
+	(No symbol) [0x00AF16C7]
+	(No symbol) [0x00AF284D]
+	GetHandleVerifier [0x00E7FDF9+2458985]
+	GetHandleVerifier [0x00EC744F+2751423]
+	GetHandleVerifier [0x00EC1361+2726609]
+	GetHandleVerifier [0x00CB0680+560624]
+	(No symbol) [0x00BD238C]
+	(No symbol) [0x00BCE268]
+	(No symbol) [0x00BCE392]
+	(No symbol) [0x00BC10B7]
+	BaseThreadInitThunk [0x76CF00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x76F47B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F47AEE+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:441)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:374)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:263)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

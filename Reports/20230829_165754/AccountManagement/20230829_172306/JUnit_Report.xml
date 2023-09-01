@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AccountManagement" time="566.353" tests="4" failures="3" errors="0">
+   <testsuite name="AccountManagement" tests="4" failures="3" errors="0" time="566.353" skipped="0" timestamp="2023-08-29 17:23:10" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/AccountManagement">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306"/>
+         <property name="logFiles" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\execution0.log"/>
+         <property name="attachments" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310169713.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310483417.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310556700.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310556885.png"/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.157"/>
+         <property name="sessionId" value="457802057ca774f268bfe853602b9d8c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AccountManagement/TS_SMOKE_SUITE_018" time="178.88" classname="Test Cases/AccountManagement/TS_SMOKE_SUITE_018" status="FAILED">
+         <failure type="FAILED" message="Test Cases/AccountManagement/TS_SMOKE_SUITE_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_018.run(TS_SMOKE_SUITE_018:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-29 17:23:11 - [TEST_CASE][FAILED] - Test Cases/AccountManagement/TS_SMOKE_SUITE_018: Test Cases/AccountManagement/TS_SMOKE_SUITE_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_018.run(TS_SMOKE_SUITE_018:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-29 17:23:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 17:23:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-29 17:23:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 17:23:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 17:23:14 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:23:58 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:23:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-29 17:23:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-29 17:23:59 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:23:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/loginFromHomePage"), ["username":AMUsername, "password":AMpassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/loginFromHomePage' successfully
+
+2023-08-29 17:23:59 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/loginFromHomePage: Test Cases/CommonMethods/loginFromHomePage
+
+2023-08-29 17:24:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-29 17:24:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-29 17:24:03 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'sjagtap@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:24:21 - [MESSAGE][PASSED] - Text 'sjagtap@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:24:21 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Shubham@123' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:24:23 - [MESSAGE][PASSED] - Text 'Shubham@123' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:24:23 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:24:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/loginFromHomePage' successfully
+
+2023-08-29 17:24:34 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-29 17:24:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 17:25:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-29 17:25:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/AfterLogin_Homepage")): Object: 'Object Repository/HomePage/AfterLogin_Homepage' is hovered
+
+2023-08-29 17:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/AfterLogin_Homepage' is hovered
+
+2023-08-29 17:25:15 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MyAccountButton_Account")): Object: 'Object Repository/AccountManagement/MyAccountButton_Account' is clicked on
+
+2023-08-29 17:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MyAccountButton_Account' is clicked on
+
+2023-08-29 17:25:16 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/DeliveryAddress_Account")): Object: 'Object Repository/AccountManagement/DeliveryAddress_Account' is clicked on
+
+2023-08-29 17:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/DeliveryAddress_Account' is clicked on
+
+2023-08-29 17:25:21 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/ClickAndCollectStores_accounts")): Object: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' is clicked on
+
+2023-08-29 17:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' is clicked on
+
+2023-08-29 17:25:27 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/AddClickNCollectionAddress_Account")): Object: 'Object Repository/AccountManagement/AddClickNCollectionAddress_Account' is clicked on
+
+2023-08-29 17:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/AddClickNCollectionAddress_Account' is clicked on
+
+2023-08-29 17:25:28 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/SelectStateClickNCollection_Account")): Object: 'Object Repository/AccountManagement/SelectStateClickNCollection_Account' is clicked on
+
+2023-08-29 17:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/SelectStateClickNCollection_Account' is clicked on
+
+2023-08-29 17:25:35 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/StateOptionClickNCollection_Account")): Object: 'Object Repository/AccountManagement/StateOptionClickNCollection_Account' is clicked on
+
+2023-08-29 17:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/StateOptionClickNCollection_Account' is clicked on
+
+2023-08-29 17:25:35 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/SelectAddressRadioButton_Account")): Object: 'Object Repository/AccountManagement/SelectAddressRadioButton_Account' is clicked on
+
+2023-08-29 17:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/SelectAddressRadioButton_Account' is clicked on
+
+2023-08-29 17:25:37 - [TEST_STEP][PASSED] - StoreAddress = getText(findTestObject("AccountManagement/StoreNameClickNCollection_Account")): Text of object 'Object Repository/AccountManagement/StoreNameClickNCollection_Account' is: 'Liverpool Satélite'
+
+2023-08-29 17:25:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/AccountManagement/StoreNameClickNCollection_Account' is: 'Liverpool Satélite'
+
+2023-08-29 17:25:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("AccountManagement/KeepButtonClickNCollection_Account"), 0): Scroll to object 'Object Repository/AccountManagement/KeepButtonClickNCollection_Account' successfully
+
+2023-08-29 17:25:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 17:25:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AccountManagement/KeepButtonClickNCollection_Account' successfully
+
+2023-08-29 17:25:38 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/KeepButtonClickNCollection_Account")): Object: 'Object Repository/AccountManagement/KeepButtonClickNCollection_Account' is clicked on
+
+2023-08-29 17:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/KeepButtonClickNCollection_Account' is clicked on
+
+2023-08-29 17:25:38 - [TEST_STEP][FAILED] - click(findTestObject("AccountManagement/ClickAndCollectStores_accounts")): Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_018.run(TS_SMOKE_SUITE_018:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1691411262773.run(Script1691411262773.groovy:56)
+	... 13 more
+)
+
+2023-08-29 17:26:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-29 17:26:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_018.run(TS_SMOKE_SUITE_018:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1691411262773.run(Script1691411262773.groovy:56)
+	... 13 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310169713.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-29 17:23:11 - [TEST_CASE][FAILED] - Test Cases/AccountManagement/TS_SMOKE_SUITE_018: Test Cases/AccountManagement/TS_SMOKE_SUITE_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_018.run(TS_SMOKE_SUITE_018:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccountManagement/TS_SMOKE_SUITE_022" time="146.957" classname="Test Cases/AccountManagement/TS_SMOKE_SUITE_022" status="PASSED">
+         <system-out><![CDATA[2023-08-29 17:26:09 - [TEST_CASE][PASSED] - Test Cases/AccountManagement/TS_SMOKE_SUITE_022: Test Cases/AccountManagement/TS_SMOKE_SUITE_022
+
+2023-08-29 17:26:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 17:26:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-29 17:26:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-29 17:26:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 17:26:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 17:26:12 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:26:58 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:26:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-29 17:26:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-29 17:26:58 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:26:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], OPTIONAL): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-29 17:26:59 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-29 17:26:59 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:27:00 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:27:17 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:27:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-29 17:27:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-29 17:27:19 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:27:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-29 17:27:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-29 17:27:21 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:27:22 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:27:22 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:28:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-29 17:28:11 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-29 17:28:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 17:28:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-29 17:28:11 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/AfterLogin_Homepage")): Object: 'Object Repository/HomePage/AfterLogin_Homepage' is hovered
+
+2023-08-29 17:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/AfterLogin_Homepage' is hovered
+
+2023-08-29 17:28:12 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MyAccountButton_Account")): Object: 'Object Repository/AccountManagement/MyAccountButton_Account' is clicked on
+
+2023-08-29 17:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MyAccountButton_Account' is clicked on
+
+2023-08-29 17:28:13 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MyPaymentMethod_Account")): Object: 'Object Repository/AccountManagement/MyPaymentMethod_Account' is clicked on
+
+2023-08-29 17:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MyPaymentMethod_Account' is clicked on
+
+2023-08-29 17:28:19 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MyCardButton_Account")): Object: 'Object Repository/AccountManagement/MyCardButton_Account' is clicked on
+
+2023-08-29 17:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MyCardButton_Account' is clicked on
+
+2023-08-29 17:28:28 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/Select3DotAddress2Nd_Account")): Object: 'Object Repository/AccountManagement/Select3DotAddress2Nd_Account' is clicked on
+
+2023-08-29 17:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/Select3DotAddress2Nd_Account' is clicked on
+
+2023-08-29 17:28:32 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-29 17:28:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 17:28:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-29 17:28:32 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MakeCardAsDefault_Account")): Object: 'Object Repository/AccountManagement/MakeCardAsDefault_Account' is clicked on
+
+2023-08-29 17:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MakeCardAsDefault_Account' is clicked on
+
+2023-08-29 17:28:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AccountManagement/DefaultCard_Account"), 0): Object 'Object Repository/AccountManagement/DefaultCard_Account' is present
+
+2023-08-29 17:28:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 17:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/AccountManagement/DefaultCard_Account' is present
+
+2023-08-29 17:28:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 17:28:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccountManagement/TS_SMOKE_SUITE_023" time="166.623" classname="Test Cases/AccountManagement/TS_SMOKE_SUITE_023" status="FAILED">
+         <failure type="FAILED" message="Test Cases/AccountManagement/TS_SMOKE_SUITE_023 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/clickNcollect_address_AM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_023.run(TS_SMOKE_SUITE_023:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/clickNcollect_address_AM' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-29 17:28:36 - [TEST_CASE][FAILED] - Test Cases/AccountManagement/TS_SMOKE_SUITE_023: Test Cases/AccountManagement/TS_SMOKE_SUITE_023 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/clickNcollect_address_AM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_023.run(TS_SMOKE_SUITE_023:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/clickNcollect_address_AM' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-29 17:28:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 17:28:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-29 17:28:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 17:28:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 17:28:38 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:29:23 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:29:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-29 17:29:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-29 17:29:23 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:29:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-29 17:29:24 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-29 17:29:24 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:29:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:29:41 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:29:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-29 17:29:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-29 17:29:43 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:29:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-29 17:29:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-29 17:29:45 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:29:46 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:29:46 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:29:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-29 17:29:53 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-29 17:29:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 17:29:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-29 17:29:53 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/AfterLogin_Homepage")): Object: 'Object Repository/HomePage/AfterLogin_Homepage' is hovered
+
+2023-08-29 17:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/AfterLogin_Homepage' is hovered
+
+2023-08-29 17:30:34 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MyAccountButton_Account")): Object: 'Object Repository/AccountManagement/MyAccountButton_Account' is clicked on
+
+2023-08-29 17:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MyAccountButton_Account' is clicked on
+
+2023-08-29 17:30:35 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MyPaymentMethod_Account")): Object: 'Object Repository/AccountManagement/MyPaymentMethod_Account' is clicked on
+
+2023-08-29 17:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MyPaymentMethod_Account' is clicked on
+
+2023-08-29 17:30:45 - [TEST_STEP][PASSED] - click(findTestObject("AccountManagement/MyCardButton_Account")): Object: 'Object Repository/AccountManagement/MyCardButton_Account' is clicked on
+
+2023-08-29 17:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountManagement/MyCardButton_Account' is clicked on
+
+2023-08-29 17:30:52 - [TEST_STEP][FAILED] - click(findTestObject("AccountManagement/clickNcollect_address_AM")): Unable to click on object 'Object Repository/AccountManagement/clickNcollect_address_AM' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/clickNcollect_address_AM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_023.run(TS_SMOKE_SUITE_023:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/clickNcollect_address_AM' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1691414039919.run(Script1691414039919.groovy:41)
+	... 13 more
+)
+
+2023-08-29 17:31:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-29 17:31:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AccountManagement/clickNcollect_address_AM' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/clickNcollect_address_AM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_023.run(TS_SMOKE_SUITE_023:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/clickNcollect_address_AM' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1691414039919.run(Script1691414039919.groovy:41)
+	... 13 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310483417.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-29 17:28:36 - [TEST_CASE][FAILED] - Test Cases/AccountManagement/TS_SMOKE_SUITE_023: Test Cases/AccountManagement/TS_SMOKE_SUITE_023 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/clickNcollect_address_AM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_023.run(TS_SMOKE_SUITE_023:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/clickNcollect_address_AM' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccountManagement/TS_SMOKE_SUITE_024" time="73.525" classname="Test Cases/AccountManagement/TS_SMOKE_SUITE_024" status="FAILED">
+         <failure type="FAILED" message="Test Cases/AccountManagement/TS_SMOKE_SUITE_024 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at TS_SMOKE_SUITE_024.run(TS_SMOKE_SUITE_024:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-29 17:31:23 - [TEST_CASE][FAILED] - Test Cases/AccountManagement/TS_SMOKE_SUITE_024: Test Cases/AccountManagement/TS_SMOKE_SUITE_024 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at TS_SMOKE_SUITE_024.run(TS_SMOKE_SUITE_024:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-29 17:31:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 17:31:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-29 17:31:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-29 17:31:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 17:31:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 17:31:26 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:32:11 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-29 17:32:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-29 17:32:11 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-29 17:32:11 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-29 17:32:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/loginFromHomePage"), ["username":AMUsername, "password":AMpassword], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/loginFromHomePage' successfully
+
+2023-08-29 17:32:12 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/loginFromHomePage: Test Cases/CommonMethods/loginFromHomePage
+
+2023-08-29 17:32:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-29 17:32:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-29 17:32:15 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-29 17:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'sjagtap@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:32:27 - [MESSAGE][PASSED] - Text 'sjagtap@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-29 17:32:27 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-29 17:32:28 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Shubham@123' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:32:28 - [MESSAGE][PASSED] - Text 'Shubham@123' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-29 17:32:28 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-29 17:32:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/loginFromHomePage' successfully
+
+2023-08-29 17:32:36 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-29 17:32:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 17:32:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-29 17:32:36 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at TS_SMOKE_SUITE_024.run(TS_SMOKE_SUITE_024:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-29 17:32:36 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at TS_SMOKE_SUITE_024.run(TS_SMOKE_SUITE_024:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310556700.png]]
+
+2023-08-29 17:32:37 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at TS_SMOKE_SUITE_024.run(TS_SMOKE_SUITE_024:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230829_165754\\AccountManagement\\20230829_172306\\1693310556885.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-29 17:31:23 - [TEST_CASE][FAILED] - Test Cases/AccountManagement/TS_SMOKE_SUITE_024: Test Cases/AccountManagement/TS_SMOKE_SUITE_024 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at TS_SMOKE_SUITE_024.run(TS_SMOKE_SUITE_024:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-29 17:23:10 - [TEST_SUITE][FAILED] - AccountManagement: Test Cases/AccountManagement/TS_SMOKE_SUITE_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_018.run(TS_SMOKE_SUITE_018:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-29 17:23:10 - [TEST_SUITE][FAILED] - AccountManagement: Test Cases/AccountManagement/TS_SMOKE_SUITE_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccountManagement/ClickAndCollectStores_accounts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TS_SMOKE_SUITE_018.run(TS_SMOKE_SUITE_018:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693309986564.run(TempTestSuite1693309986564.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccountManagement/ClickAndCollectStores_accounts' located by '(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

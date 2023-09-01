@@ -23,7 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'set'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ropa'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
 
 a = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
 

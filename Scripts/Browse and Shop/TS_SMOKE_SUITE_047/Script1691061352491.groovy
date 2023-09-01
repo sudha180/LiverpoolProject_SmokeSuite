@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.maximizeWindow()
 
 WebUI.mouseOver(findTestObject('HomePage/Departamentos'), FailureHandling.STOP_ON_FAILURE)

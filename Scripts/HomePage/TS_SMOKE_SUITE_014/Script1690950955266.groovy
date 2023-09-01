@@ -25,7 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
+
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
 
@@ -33,26 +37,28 @@ WebUI.click(findTestObject('AccountManagement/UpdatePeronalData_Account'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/firstName_update_accountManagement'), 0)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 Name = 'harish'
 
 //WebUI.click(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
-
-
 WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CONTROL, 'a'))
-WebUI.delay(5)
+
+WebUI.waitForPageLoad(0)
+
 WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.BACK_SPACE))
+
 WebUI.clearText(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.waitForPageLoad(0)
 
 WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
 
 System.out.println(Name)
 
 WebUI.click(findTestObject('AccountManagement/UpdateButton_Account'))
-WebUI.delay(3)
+
+WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementText(findTestObject('HomePage/header_Hola_text_HP'), 'Hola ' + Name)
 

@@ -32,6 +32,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username'
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jeans'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(0)
+
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)

@@ -1,0 +1,141 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+total_smokeSuit,Chrome 116.0.0.0,,,2023-08-22 20:43:16,2023-08-22 20:58:09,14m - 52.919s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_018,Chrome 116.0.0.0,Verify the user able to add new Click & Collect address address,,2023-08-22 20:43:16,2023-08-22 20:43:57,40.743s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:43:17,2023-08-22 20:43:20,3.017s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:43:20,2023-08-22 20:43:25,5.524s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:43:25,2023-08-22 20:43:25,0.166s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:43:25,2023-08-22 20:43:57,31.598s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_022,Chrome 116.0.0.0,Verify the user able to update the payment methods as default in forma de pago page,,2023-08-22 20:43:57,2023-08-22 20:44:45,48.160s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:43:57,2023-08-22 20:43:59,2.125s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:43:59,2023-08-22 20:44:13,14.000s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:44:13,2023-08-22 20:44:14,0.149s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:44:14,2023-08-22 20:44:45,31.497s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_023,Chrome 116.0.0.0,"To Verify Logged in user is able to Add ,Edit and remove  credit card from my account from my account",,2023-08-22 20:44:45,2023-08-22 20:45:29,43.806s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:44:46,2023-08-22 20:44:48,2.162s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:44:48,2023-08-22 20:44:57,9.683s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:44:57,2023-08-22 20:44:58,0.129s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:44:58,2023-08-22 20:45:29,31.309s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_024,Chrome 116.0.0.0,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,2023-08-22 20:45:29,2023-08-22 20:46:08,38.788s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:45:29,2023-08-22 20:45:31,2.024s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:45:31,2023-08-22 20:45:36,4.587s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:45:36,2023-08-22 20:45:36,0.146s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:45:36,2023-08-22 20:46:08,31.454s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_072,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-22 20:46:08,2023-08-22 20:46:49,41.538s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:46:08,2023-08-22 20:46:10,2.130s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:46:10,2023-08-22 20:46:10,0.128s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:46:10,2023-08-22 20:46:18,7.286s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:46:18,2023-08-22 20:46:49,31.526s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_077,Chrome 116.0.0.0,To verify the functionality of new  adding card  in checkout flow for logged in user,,2023-08-22 20:46:49,2023-08-22 20:47:28,39.206s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:46:50,2023-08-22 20:46:52,2.230s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:46:52,2023-08-22 20:46:57,4.957s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:46:57,2023-08-22 20:46:57,0.139s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:46:57,2023-08-22 20:47:28,31.464s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_080,Chrome 116.0.0.0,To verify that the display of the applied Coupon details in the order success page,,2023-08-22 20:47:28,2023-08-22 20:48:07,38.848s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:47:29,2023-08-22 20:47:31,2.096s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:47:31,2023-08-22 20:47:36,4.885s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:47:36,2023-08-22 20:47:36,0.147s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:47:36,2023-08-22 20:48:07,31.279s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_082,Chrome 116.0.0.0,To verify the functionality of   editing the card  in checkout flow for loggedin user,,2023-08-22 20:48:07,2023-08-22 20:48:48,40.471s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:48:08,2023-08-22 20:48:10,2.049s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:48:10,2023-08-22 20:48:16,6.388s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:48:16,2023-08-22 20:48:16,0.139s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:48:16,2023-08-22 20:48:48,31.531s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_083,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-22 20:48:48,2023-08-22 20:48:51,2.810s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:48:48,2023-08-22 20:48:51,2.265s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_086,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-22 20:48:51,2023-08-22 20:49:29,38.125s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:48:51,2023-08-22 20:48:52,1.365s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:48:52,2023-08-22 20:48:57,4.980s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:48:57,2023-08-22 20:48:57,0.140s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:48:57,2023-08-22 20:49:29,31.330s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_087,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-22 20:49:29,2023-08-22 20:50:10,41.131s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:49:29,2023-08-22 20:49:31,2.096s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:49:31,2023-08-22 20:49:38,7.222s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:49:38,2023-08-22 20:49:38,0.146s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:49:38,2023-08-22 20:50:10,31.303s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_088,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-08-22 20:50:10,2023-08-22 20:50:48,38.004s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:50:10,2023-08-22 20:50:12,2.195s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:50:12,2023-08-22 20:50:16,3.951s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:50:16,2023-08-22 20:50:16,0.132s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:50:16,2023-08-22 20:50:48,31.361s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_002,Chrome 116.0.0.0,"To verify  that system display the following link in the header
+1.Departmentos
+2.Marcas
+3.Credito
+4.Mesa de regalosa 
+5.Search text box
+6.Iniciar sesion
+7.Ubica tu tienda 
+8.Mis pedidos
+9.Ayuda",,2023-08-22 20:50:48,2023-08-22 20:51:29,41.617s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:50:48,2023-08-22 20:50:50,2.093s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:50:50,2023-08-22 20:50:58,7.253s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:50:58,2023-08-22 20:50:58,0.146s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 116.0.0.0,,,2023-08-22 20:50:58,2023-08-22 20:51:29,31.785s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_003,Chrome 116.0.0.0,To verify the display of L1 category flyout on mouse hover the Departmentos link,,2023-08-22 20:51:29,2023-08-22 20:52:11,41.533s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:51:30,2023-08-22 20:51:32,2.159s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:51:32,2023-08-22 20:51:39,7.350s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:51:39,2023-08-22 20:51:39,0.146s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 116.0.0.0,,,2023-08-22 20:51:39,2023-08-22 20:52:11,31.542s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_006,Chrome 116.0.0.0,"To verify that the user is navigated to  “Mesa de Regalos"" page by clicking on the  “Mesa de Regalos"" link on the header section.",,2023-08-22 20:52:11,2023-08-22 20:52:52,41.409s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:52:11,2023-08-22 20:52:13,2.099s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:52:13,2023-08-22 20:52:21,7.152s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:52:21,2023-08-22 20:52:21,0.135s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/Mesa de regalos_HP""))",Chrome 116.0.0.0,,,2023-08-22 20:52:21,2023-08-22 20:52:52,31.704s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_007,Chrome 116.0.0.0,To verify the display of Login overlay when Anonymous user click on  Iniciar sesion link,,2023-08-22 20:52:52,2023-08-22 20:53:33,40.602s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:52:53,2023-08-22 20:52:55,2.077s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:52:55,2023-08-22 20:53:01,6.458s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:53:01,2023-08-22 20:53:01,0.149s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 20:53:01,2023-08-22 20:53:33,31.546s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_008,Chrome 116.0.0.0,"To verify that the user is navigated to  ""Tiendas""( Store locator) page by clicking on the  “Ubica tu tienda "" link on the header section.",,2023-08-22 20:53:33,2023-08-22 20:54:12,39.014s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:53:33,2023-08-22 20:53:35,2.086s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:53:35,2023-08-22 20:53:40,5.030s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:53:40,2023-08-22 20:53:41,0.141s,PASSED
+"click(findTestObject(""HomePage/Tiendas_HP""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 20:53:41,2023-08-22 20:54:12,31.417s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_010,Chrome 116.0.0.0,"To verify that the logged in user is navigated to  “Mis pedidos"" page by clicking on the  “Mis pedidos"" link on the header section.",,2023-08-22 20:54:12,2023-08-22 20:54:58,46.387s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:54:12,2023-08-22 20:54:14,2.080s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:54:14,2023-08-22 20:54:26,12.044s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:54:26,2023-08-22 20:54:27,0.139s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 20:54:27,2023-08-22 20:54:58,31.805s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_013,Chrome 116.0.0.0,To verify that the user is able to create account from Login overlay,,2023-08-22 20:54:58,2023-08-22 20:55:39,40.409s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:54:59,2023-08-22 20:55:01,2.091s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:55:01,2023-08-22 20:55:07,6.356s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:55:07,2023-08-22 20:55:07,0.135s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-08-22 20:55:07,2023-08-22 20:55:39,31.499s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_014,Chrome 116.0.0.0,"To verify the display of user first name (as ""Hola abc! "") in the header when logged in user successfully logged in to the site",,2023-08-22 20:55:39,2023-08-22 20:56:49,1m - 10.542s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:55:39,2023-08-22 20:55:42,2.257s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:55:42,2023-08-22 20:55:46,4.922s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:55:46,2023-08-22 20:55:47,0.146s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-08-22 20:55:47,2023-08-22 20:56:18,31.513s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-08-22 20:56:18,2023-08-22 20:56:49,31.286s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_029,Chrome 116.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar"" button in the shopping cart page",,2023-08-22 20:56:49,2023-08-22 20:57:28,38.977s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:56:50,2023-08-22 20:56:52,2.139s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:56:52,2023-08-22 20:56:57,4.769s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:56:57,2023-08-22 20:56:57,0.138s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:56:57,2023-08-22 20:57:28,31.501s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_030,Chrome 116.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar Ahor"" button displayed for individual items in the shopping cart page",,2023-08-22 20:57:28,2023-08-22 20:58:09,40.359s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 20:57:29,2023-08-22 20:57:31,2.056s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-08-22 20:57:31,2023-08-22 20:57:37,6.371s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 20:57:37,2023-08-22 20:57:37,0.143s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-08-22 20:57:37,2023-08-22 20:58:09,31.420s,FAILED

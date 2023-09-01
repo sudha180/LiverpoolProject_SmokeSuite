@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='opc_continuarModalloggedInCC isAndroid']//button</value>
+         <value>//button[@class='a-btn a-btn--primary']</value>
       </entry>
       <entry>
          <key>BASIC</key>

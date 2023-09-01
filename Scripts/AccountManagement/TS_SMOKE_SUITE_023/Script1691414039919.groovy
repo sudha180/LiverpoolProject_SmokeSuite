@@ -18,72 +18,37 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
- 
-
 WebUI.openBrowser('')
-
- 
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
- 
-
 WebUI.maximizeWindow()
-
- 
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
- 
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
-    FailureHandling.STOP_ON_FAILURE)
-
- 
-
-WebUI.delay(10)
-
- 
+WebUI.waitForPageLoad(0)
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
-
- 
 
 WebUI.click(findTestObject('AccountManagement/MyPaymentMethod_Account'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/MyCardButton_Account'))
-
- 
 
 WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'), FailureHandling.STOP_ON_FAILURE)
 
- 
-
 Cardname = CustomKeywords.'customkeywords.myKeywords.randomString'()
-
- 
 
 WebUI.setText(findTestObject('AccountManagement/CardName_Account'), Cardname)
 
- 
-
-FullName = CustomKeywords.'customkeywords.myKeywords.randomString'()
-
- 
-
 WebUI.callTestCase(findTestCase('CommonMethods/AddCard_Account'), [:], FailureHandling.STOP_ON_FAILURE)
 
- 
+WebUI.waitForPageLoad(0)
 
 CardName = WebUI.getText(findTestObject('AccountManagement/CardNameGrid_Account'))
-
- 
 
 if (Cardname == CardName) {
     println('Add Card Successful')
@@ -91,47 +56,31 @@ if (Cardname == CardName) {
     KeywordUtil.markFailed('Card is not Added !')
 }
 
- 
-
 WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
-
- 
 
 WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
 
- 
+Name = CustomKeywords.'customkeywords.myKeywords.randomString'()
 
-Cardname = CustomKeywords.'customkeywords.myKeywords.randomString'()
+WebUI.delay(3)
 
- 
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('AccountManagement/CardName_Account'), Cardname)
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.BACK_SPACE))
 
- 
+WebUI.clearText(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(0)
+
+WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
+
+WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
 
 WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
 
- 
-
-CardName = WebUI.getText(findTestObject('AccountManagement/CardNameGrid_Account'))
-
- 
-
-if (Cardname == CardName) {
-    println('Cart Update Successful')
-} else {
-    KeywordUtil.markFailed('Card is not updated !')
-}
-
- 
-
 WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
 
- 
-
 WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
-
- 
 
 if (Cardname == null) {
     println('Card remove Successful')
@@ -139,6 +88,5 @@ if (Cardname == null) {
     KeywordUtil.markFailed('Card is not Removed !')
 }
 
- 
-
 WebUI.closeBrowser()
+

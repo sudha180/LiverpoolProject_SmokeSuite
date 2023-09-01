@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'vaso'</initValue>
+      <initValue>'can\r\n'</initValue>
       <name>SLProduct</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -113,5 +113,25 @@
       <description></description>
       <initValue>'https://odtaqaa.liverpool.com.mx/tienda/oneCheckout'</initValue>
       <name>CartPageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Shubham@123'</initValue>
+      <name>AMpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sjagtap@digisprint.com'</initValue>
+      <name>AMUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>TempAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>name</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

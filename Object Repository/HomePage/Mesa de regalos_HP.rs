@@ -6,12 +6,12 @@
    <elementGuidId>1f198f61-8690-4ad0-be39-7f84b08546f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.a-header__strongLink.m-ipadLeftLink.pr-4</value>
+         <key>XPATH</key>
+         <value>((//ul[@class='m-navDesktop__menuList'])[2]//a[@class='a-header__strongLink m-ipadLeftLink pr-4'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div/ul/li/a</value>
+         <key>CSS</key>
+         <value>a.a-header__strongLink.m-ipadLeftLink.pr-4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6a2d14da-4d4b-4d08-9b58-df92e0865423</webElementGuid>
+      <webElementGuid>f8120be8-ae49-46ff-ac30-cd25d116b000</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-header__strongLink m-ipadLeftLink pr-4</value>
-      <webElementGuid>3dfe30fe-1dc7-4701-b5f8-98d6b3147f69</webElementGuid>
+      <webElementGuid>ada659f5-97d7-4f18-8a95-e2e48d74b381</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://mesaderegalosqa.liverpool.com.mx/?_ga=2.60660141.1296604941.1668303679-90015236.1668303679</value>
-      <webElementGuid>b49cdeca-6c3e-414e-bf63-fac71c0b1fc0</webElementGuid>
+      <webElementGuid>5c63c18d-c8ea-46f2-840e-aae557b2264c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mesa de regalos</value>
-      <webElementGuid>3691849d-e369-49a6-bec9-f630c7c539e4</webElementGuid>
+      <webElementGuid>b58694d6-83cd-4166-9a76-9a82416e3464</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header&quot;]/div[@class=&quot;o-container__fluid container-fluid wrap-megamenu d-none d-lg-block&quot;]/div[@class=&quot;o-container container p-0&quot;]/nav[@class=&quot;m-megamenu&quot;]/div[@class=&quot;o-row row align-items-center&quot;]/div[@class=&quot;o-col col-lg-10 col-xl-9 pr-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col col-lg order-lg-2 pt-3 pt-lg-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col px-0 text-left col-lg-5 col-xl-6&quot;]/ul[@class=&quot;m-navDesktop__menuList&quot;]/li[@class=&quot;m-navDesktop__section pt-2 pb-2&quot;]/a[@class=&quot;a-header__strongLink m-ipadLeftLink pr-4&quot;]</value>
-      <webElementGuid>ffd319d4-dd8f-4d0b-857c-3201cda55ad5</webElementGuid>
+      <webElementGuid>3ff70389-9163-4649-8841-7bf3ee7145bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div[2]/div/div/ul/li/a</value>
-      <webElementGuid>73a59393-7a79-4710-8b0a-e22a22848fa2</webElementGuid>
+      <webElementGuid>f6c88f44-f9fe-4211-b013-ddd65d25b981</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Mesa de regalos')]</value>
-      <webElementGuid>42708313-c12c-4799-beca-1b40518a1d2d</webElementGuid>
+      <webElementGuid>73eb975d-cb06-445f-b7d1-2f0231d79a4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Niños'])[4]/following::a[1]</value>
-      <webElementGuid>1d448892-523c-43bd-9241-129ca1c6f0d7</webElementGuid>
+      <webElementGuid>d83f4957-ecca-4764-9d7d-687863af9f01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bebés'])[4]/following::a[2]</value>
-      <webElementGuid>01bacbed-5c82-4e36-bbf7-4950cfdce57f</webElementGuid>
+      <webElementGuid>16bb8d92-6c7d-4e12-b097-98fc44fad4cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi crédito'])[1]/preceding::a[1]</value>
-      <webElementGuid>aea1514f-6770-4ffd-bd69-a863b3e8b0a5</webElementGuid>
+      <webElementGuid>896035e5-5df5-4287-a000-9296d0df95e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Centro de seguros'])[1]/preceding::a[2]</value>
-      <webElementGuid>e77cd7de-24c9-4f28-b2f7-5d84dffa8d47</webElementGuid>
+      <webElementGuid>c1553036-68a7-48d1-92a6-f23654db9a05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Mesa de regalos']/parent::*</value>
-      <webElementGuid>34cc8c72-c382-4225-8cf5-b21ba1a1ce47</webElementGuid>
+      <webElementGuid>9d198063-6656-4efb-a712-becf8fa1963c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://mesaderegalosqa.liverpool.com.mx/?_ga=2.60660141.1296604941.1668303679-90015236.1668303679')]</value>
-      <webElementGuid>c5a5b616-b69d-4df3-925f-93ffa598d379</webElementGuid>
+      <webElementGuid>67b95fb3-9582-4c77-8557-4d7cb7cd5e78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li/a</value>
-      <webElementGuid>b3f108c5-66ad-4e13-8818-dcf861c2e4ce</webElementGuid>
+      <webElementGuid>8668aace-14a6-4d5c-a054-e41e55e0b51f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://mesaderegalosqa.liverpool.com.mx/?_ga=2.60660141.1296604941.1668303679-90015236.1668303679' and (text() = 'Mesa de regalos' or . = 'Mesa de regalos')]</value>
-      <webElementGuid>f1b6b1ef-b8e2-4b11-8182-3f4daca6e973</webElementGuid>
+      <webElementGuid>469a4476-bf61-4aa8-8aca-ddf2f9c391a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,34 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product2_cardPrice_PLP'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
-
-WebUI.click(findTestObject('HomePage/bag_header_HP'))
-
-WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
-
-WebUI.click(findTestObject('OPCPage/Final_comparar_OPC'))
-
-WebUI.verifyElementPresent(findTestObject('OPCPage/ConfirmOrder_Checkout'), 0)
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('PLPPage/product2_cardPrice_PLP'), FailureHandling.OPTIONAL)
 
@@ -68,7 +46,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/paypal(changepaymentmethod)pay'),
 
 WebUI.click(findTestObject('OPCPage/button_Continuar_payment_opc'))
 
-WebUI.click(findTestObject('OPCPage/Final_comparar_OPC'))
+WebUI.click(findTestObject('OPCPage/Final_paypal_final(terminar)_OPC'))
 
 WebUI.verifyElementPresent(findTestObject('OPCPage/ConfirmOrder_Checkout'), 0)
 

@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="browserAndShop" time="719.089" tests="5" failures="5" errors="0">
+   <testsuite name="browserAndShop" tests="5" failures="5" errors="0" time="719.089" skipped="0" timestamp="2023-08-30 10:58:58" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/browserAndShop">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852"/>
+         <property name="logFiles" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\execution0.log"/>
+         <property name="attachments" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373449858.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373450053.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373562666.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373562838.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373659601.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373659890.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373815324.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373815581.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693374057277.png, D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693374057524.png"/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.157"/>
+         <property name="sessionId" value="1765a9423523cce09473d398c6bbfdde"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browse and Shop/TS_SMOKE_SUITE_054" time="111.143" classname="Test Cases/Browse and Shop/TS_SMOKE_SUITE_054" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Browse and Shop/TS_SMOKE_SUITE_054 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-30 10:58:59 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_054: Test Cases/Browse and Shop/TS_SMOKE_SUITE_054 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-30 10:58:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-30 10:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-30 10:59:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 10:59:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-30 10:59:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 10:59:56 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 10:59:56 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-30 10:59:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 10:59:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-30 10:59:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-30 10:59:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-30 10:59:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"80282837"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 10:59:57 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-30 10:59:57 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 10:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 10:59:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:00:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:00:01 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text '80282837' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:00:02 - [MESSAGE][PASSED] - Text '80282837' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:00:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:00:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:00:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:00:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:00:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:00:14 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("PDPPage/Colour2_PDP"), 0): Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by 'By.xpath: //ul[@id='color-list-mobile']//li[2]' is not present after '30' second(s)
+
+2023-08-30 11:00:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:00:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by 'By.xpath: //ul[@id='color-list-mobile']//li[2]' is not present after '30' second(s)
+
+2023-08-30 11:00:16 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("PDPPage/Size2_PDP"), 0): Web element with id: 'Object Repository/PDPPage/Size2_PDP' located by 'By.xpath: //ul[@class='p-0 m-0 m-product__size dBlock']/li[2]' is not present after '30' second(s)
+
+2023-08-30 11:00:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:00:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PDPPage/Size2_PDP' located by 'By.xpath: //ul[@class='p-0 m-0 m-product__size dBlock']/li[2]' is not present after '30' second(s)
+
+2023-08-30 11:00:16 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("PDPPage/discountPrice_PDP"), 0): Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-30 11:00:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:00:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-30 11:00:50 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373449858.png]]
+
+2023-08-30 11:00:50 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373450053.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-30 10:58:59 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_054: Test Cases/Browse and Shop/TS_SMOKE_SUITE_054 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse and Shop/TS_SMOKE_SUITE_055" time="112.746" classname="Test Cases/Browse and Shop/TS_SMOKE_SUITE_055" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Browse and Shop/TS_SMOKE_SUITE_055 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/Colour2_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_055.run(TS_SMOKE_SUITE_055:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by '//ul[@id='color-list-mobile']//li[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-30 11:00:50 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_055: Test Cases/Browse and Shop/TS_SMOKE_SUITE_055 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/Colour2_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_055.run(TS_SMOKE_SUITE_055:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by '//ul[@id='color-list-mobile']//li[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-30 11:00:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-30 11:00:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 11:00:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-30 11:00:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 11:00:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-30 11:00:53 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:01:58 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:01:58 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-30 11:01:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:01:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-30 11:01:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-30 11:01:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-30 11:01:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"1002504924"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:01:58 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-30 11:01:58 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:01:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:02:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text '1002504924' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:02:03 - [MESSAGE][PASSED] - Text '1002504924' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:02:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:02:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:02:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:02:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:02:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:02:11 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("PDPPage/Colour2_PDP"), 0): Unable to verify object 'Object Repository/PDPPage/Colour2_PDP' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/Colour2_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_055.run(TS_SMOKE_SUITE_055:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by '//ul[@id='color-list-mobile']//li[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-30 11:02:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:02:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ul[@id='color-list-mobile']//li[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-30 11:02:42 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by '//ul[@id='color-list-mobile']//li[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by '//ul[@id='color-list-mobile']//li[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_055.run(TS_SMOKE_SUITE_055:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373562666.png]]
+
+2023-08-30 11:02:43 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/PDPPage/Colour2_PDP' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/Colour2_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_055.run(TS_SMOKE_SUITE_055:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by '//ul[@id='color-list-mobile']//li[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373562838.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-30 11:00:50 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_055: Test Cases/Browse and Shop/TS_SMOKE_SUITE_055 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/Colour2_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_055.run(TS_SMOKE_SUITE_055:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/Colour2_PDP' located by '//ul[@id='color-list-mobile']//li[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse and Shop/TS_SMOKE_SUITE_056" time="97.141" classname="Test Cases/Browse and Shop/TS_SMOKE_SUITE_056" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Browse and Shop/TS_SMOKE_SUITE_056 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/ProductName_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_056.run(TS_SMOKE_SUITE_056:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/ProductName_PDP' located by '//h1[@class='a-product__information--title']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-30 11:02:43 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_056: Test Cases/Browse and Shop/TS_SMOKE_SUITE_056 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/ProductName_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_056.run(TS_SMOKE_SUITE_056:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/ProductName_PDP' located by '//h1[@class='a-product__information--title']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-30 11:02:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-30 11:02:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 11:02:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-30 11:02:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 11:02:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-30 11:02:45 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:03:30 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:03:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-30 11:03:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-30 11:03:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"ropa"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:03:30 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-30 11:03:30 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:03:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:03:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'ropa' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:03:34 - [MESSAGE][PASSED] - Text 'ropa' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:03:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:03:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:03:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:03:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:03:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:03:38 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-30 11:03:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:03:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-30 11:03:38 - [TEST_STEP][PASSED] - a = a.GenerateRandomEmail.generateRandomEmail(): a.GenerateRandomEmail.generateRandomEmail is PASSED
+
+2023-08-30 11:03:38 - [MESSAGE][INFO] - automationctjmsDDF@digisprint.com
+
+2023-08-30 11:03:38 - [MESSAGE][PASSED] - a.GenerateRandomEmail.generateRandomEmail is PASSED
+
+2023-08-30 11:03:38 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-08-30 11:03:38 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/product1_PLP")): Object: 'Object Repository/PLPPage/product1_PLP' is clicked on
+
+2023-08-30 11:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/product1_PLP' is clicked on
+
+2023-08-30 11:03:48 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("PDPPage/ProductName_PDP")): Unable to verify object 'Object Repository/PDPPage/ProductName_PDP' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/ProductName_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_056.run(TS_SMOKE_SUITE_056:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/ProductName_PDP' located by '//h1[@class='a-product__information--title']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-30 11:04:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h1[@class='a-product__information--title']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-30 11:04:19 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/PDPPage/ProductName_PDP' located by '//h1[@class='a-product__information--title']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/ProductName_PDP' located by '//h1[@class='a-product__information--title']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_056.run(TS_SMOKE_SUITE_056:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373659601.png]]
+
+2023-08-30 11:04:20 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/PDPPage/ProductName_PDP' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/ProductName_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_056.run(TS_SMOKE_SUITE_056:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/ProductName_PDP' located by '//h1[@class='a-product__information--title']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373659890.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-30 11:02:43 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_056: Test Cases/Browse and Shop/TS_SMOKE_SUITE_056 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/ProductName_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_056.run(TS_SMOKE_SUITE_056:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/ProductName_PDP' located by '//h1[@class='a-product__information--title']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse and Shop/TS_SMOKE_SUITE_057" time="155.667" classname="Test Cases/Browse and Shop/TS_SMOKE_SUITE_057" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Browse and Shop/TS_SMOKE_SUITE_057 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_057.run(TS_SMOKE_SUITE_057:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-30 11:04:20 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_057: Test Cases/Browse and Shop/TS_SMOKE_SUITE_057 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_057.run(TS_SMOKE_SUITE_057:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-30 11:04:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-30 11:04:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 11:04:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-30 11:04:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 11:04:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-30 11:04:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:05:28 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:05:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-30 11:05:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-30 11:05:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:05:28 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-30 11:05:28 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:05:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:05:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:05:32 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:05:33 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:05:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:05:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:05:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:05:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:05:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:05:39 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-30 11:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:05:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-30 11:05:39 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Logo_hp")): Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-08-30 11:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-08-30 11:05:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:05:40 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-30 11:05:40 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:05:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:05:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:06:12 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:06:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:06:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:06:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:06:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:06:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:06:16 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-30 11:06:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:06:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-30 11:06:16 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/product1_PLP")): Object: 'Object Repository/PLPPage/product1_PLP' is clicked on
+
+2023-08-30 11:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/product1_PLP' is clicked on
+
+2023-08-30 11:06:24 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("PDPPage/discountPrice_PDP")): Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_057.run(TS_SMOKE_SUITE_057:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-30 11:06:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-30 11:06:55 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_057.run(TS_SMOKE_SUITE_057:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373815324.png]]
+
+2023-08-30 11:06:55 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_057.run(TS_SMOKE_SUITE_057:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693373815581.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-30 11:04:20 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_057: Test Cases/Browse and Shop/TS_SMOKE_SUITE_057 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_057.run(TS_SMOKE_SUITE_057:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse and Shop/TS_SMOKE_SUITE_058" time="241.94" classname="Test Cases/Browse and Shop/TS_SMOKE_SUITE_058" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Browse and Shop/TS_SMOKE_SUITE_058 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/mas detalis(more detail)' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_058.run(TS_SMOKE_SUITE_058:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/mas detalis(more detail)' located by '//a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-30 11:06:55 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_058: Test Cases/Browse and Shop/TS_SMOKE_SUITE_058 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/mas detalis(more detail)' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_058.run(TS_SMOKE_SUITE_058:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/mas detalis(more detail)' located by '//a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-30 11:06:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-30 11:06:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 11:06:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-30 11:06:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 11:06:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-30 11:06:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-30 11:06:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-30 11:06:58 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:07:49 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-08-30 11:07:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/login_odtaqab"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-30 11:07:50 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/login_odtaqab: Test Cases/CommonMethods/login_odtaqab
+
+2023-08-30 11:07:50 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Iniciar sesion")): Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-30 11:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Iniciar sesion' is clicked on
+
+2023-08-30 11:07:51 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("HomePage/EnterUsername_LP")): Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-30 11:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterUsername_LP' is clicked on
+
+2023-08-30 11:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterUsername_LP"), username): Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-30 11:08:08 - [MESSAGE][PASSED] - Text 'hcheruvu29@digisprint.com' is set on object 'Object Repository/HomePage/EnterUsername_LP'
+
+2023-08-30 11:08:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-30 11:08:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-30 11:08:10 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("HomePage/EnterPassword_LP")): Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-30 11:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/EnterPassword_LP' is clicked on
+
+2023-08-30 11:08:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-30 11:08:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-30 11:08:12 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/EnterPassword_LP"), password): Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-30 11:08:13 - [MESSAGE][PASSED] - Text 'Test@12345' is set on object 'Object Repository/HomePage/EnterPassword_LP'
+
+2023-08-30 11:08:13 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/inciar")): Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-30 11:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/inciar' is clicked on
+
+2023-08-30 11:08:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/login_odtaqab' successfully
+
+2023-08-30 11:08:42 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-30 11:08:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:08:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-30 11:08:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"1000719079"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:08:42 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-08-30 11:08:42 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-08-30 11:09:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:09:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:09:34 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text '1000719079' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:09:35 - [MESSAGE][PASSED] - Text '1000719079' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-08-30 11:09:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-30 11:09:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-30 11:09:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:09:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-08-30 11:09:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-08-30 11:09:45 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-30 11:09:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-30 11:09:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-30 11:09:45 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("PDPPage/mas detalis(more detail)")): Unable to verify object 'Object Repository/PDPPage/mas detalis(more detail)' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/mas detalis(more detail)' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_058.run(TS_SMOKE_SUITE_058:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/mas detalis(more detail)' located by '//a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-08-30 11:10:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-30 11:10:57 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/PDPPage/mas detalis(more detail)' located by '//a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/mas detalis(more detail)' located by '//a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_058.run(TS_SMOKE_SUITE_058:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693374057277.png]]
+
+2023-08-30 11:10:57 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/PDPPage/mas detalis(more detail)' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/mas detalis(more detail)' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_058.run(TS_SMOKE_SUITE_058:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/mas detalis(more detail)' located by '//a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230830_104025\\browserAndShop\\20230830_105852\\1693374057524.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-30 11:06:55 - [TEST_CASE][FAILED] - Test Cases/Browse and Shop/TS_SMOKE_SUITE_058: Test Cases/Browse and Shop/TS_SMOKE_SUITE_058 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/mas detalis(more detail)' to be clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:566)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$9.call(Unknown Source)
+	at TS_SMOKE_SUITE_058.run(TS_SMOKE_SUITE_058:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/PDPPage/mas detalis(more detail)' located by '//a[@class='a-product__anchorProductDescriptionMoreInfo d-none d-lg-block']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 10:58:58 - [TEST_SUITE][FAILED] - browserAndShop: Test Cases/Browse and Shop/TS_SMOKE_SUITE_054 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-30 10:58:58 - [TEST_SUITE][FAILED] - browserAndShop: Test Cases/Browse and Shop/TS_SMOKE_SUITE_054 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PDPPage/discountPrice_PDP' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$7.call(Unknown Source)
+	at TS_SMOKE_SUITE_054.run(TS_SMOKE_SUITE_054:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693373332049.run(TempTestSuite1693373332049.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PDPPage/discountPrice_PDP' located by '//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

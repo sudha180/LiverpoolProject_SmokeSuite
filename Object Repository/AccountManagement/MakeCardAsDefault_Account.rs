@@ -6,12 +6,11 @@
    <elementGuidId>3633233a-ca3c-4733-92bc-bf392b40d57d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@class='dropdown-menu show']//a[1])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='dropdown-menu show']//a[contains(text(),'Seleccionar como predeterminada')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

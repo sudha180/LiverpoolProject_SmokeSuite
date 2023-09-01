@@ -6,11 +6,11 @@
    <elementGuidId>3cd755f9-763b-4ad1-96b4-1af3da6401a7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//h1[@class='a-cards__titleCard'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//h1[@class='a-cards__titleCard'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
-WebUI.click(findTestObject('HomePage/EnterUsername_LP'))
+WebUI.enhancedClick(findTestObject('HomePage/EnterUsername_LP'))
 
 WebUI.setText(findTestObject('HomePage/EnterUsername_LP'), GlobalVariable.username)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('HomePage/EnterPassword_LP'))
+WebUI.enhancedClick(findTestObject('HomePage/EnterPassword_LP'))
 
 WebUI.delay(2)
 
