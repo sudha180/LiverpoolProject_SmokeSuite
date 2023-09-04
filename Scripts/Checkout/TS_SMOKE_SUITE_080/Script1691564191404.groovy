@@ -18,11 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 

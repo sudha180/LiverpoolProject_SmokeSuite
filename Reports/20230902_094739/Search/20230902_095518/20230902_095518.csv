@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 116.0.0.0,,,2023-09-02 09:55:35,2023-09-02 10:00:05,4m - 29.240s,FAILED
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_061,Chrome 116.0.0.0,To verify the functionality of pagination in search result page.,search,2023-09-02 09:57:01,2023-09-02 09:58:40,1m - 38.656s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-02 09:57:01,2023-09-02 09:57:02,0.954s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 09:57:03,2023-09-02 09:57:14,11.148s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 09:57:14,2023-09-02 09:57:14,0.396s,PASSED
+"scrollToElement(findTestObject(""PLPPage/pagenation_1_PLP""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:57:14,2023-09-02 09:58:19,1m - 4.708s,PASSED
+"scrollToPosition(450, 0)",Chrome 116.0.0.0,,,2023-09-02 09:58:19,2023-09-02 09:58:20,0.695s,PASSED
+"click(findTestObject(""PLPPage/pagenation_2_PLP""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 09:58:20,2023-09-02 09:58:21,1.739s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 09:58:21,2023-09-02 09:58:22,0.122s,PASSED
+a1 = getUrl(),Chrome 116.0.0.0,,,2023-09-02 09:58:22,2023-09-02 09:58:22,0.044s,PASSED
+out.println(a1),Chrome 116.0.0.0,,,2023-09-02 09:58:22,2023-09-02 09:58:22,0.031s,PASSED
+"a = a1.contains(""page-2"")",Chrome 116.0.0.0,,,2023-09-02 09:58:22,2023-09-02 09:58:22,0.002s,PASSED
+out.println(a),Chrome 116.0.0.0,,,2023-09-02 09:58:22,2023-09-02 09:58:22,0.006s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-09-02 09:58:22,2023-09-02 09:58:32,10.034s,PASSED
+out.println(a),Chrome 116.0.0.0,,,2023-09-02 09:58:32,2023-09-02 09:58:32,0.000s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-09-02 09:58:32,2023-09-02 09:58:37,5.014s,PASSED
+"scrollToElement(findTestObject(""PLPPage/pagenation_1_PLP""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:58:37,2023-09-02 09:58:37,0.458s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 09:58:37,2023-09-02 09:58:38,0.440s,PASSED
+"click(findTestObject(""PLPPage/pagenation_1_PLP""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 09:58:38,2023-09-02 09:58:39,1.218s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.335s,PASSED
+if (a == true),Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.001s,PASSED
+else,Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.023s,FAILED
+b1 = getUrl(),Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.073s,PASSED
+"b = b1.contains(""page-1"")",Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.000s,PASSED
+out.println(b1),Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.001s,PASSED
+if (b == true),Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.001s,PASSED
+else,Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:39,0.009s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 09:58:39,2023-09-02 09:58:40,0.477s,ERROR
+,,,,,,,
+Test Cases/Search/TS_SMOKE_SUITE_070,Chrome 116.0.0.0,to verify the pagination in the search result page,,2023-09-02 09:58:40,2023-09-02 10:00:05,1m - 24.815s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-02 09:58:40,2023-09-02 09:58:50,9.835s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 09:58:51,2023-09-02 09:59:06,15.358s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 09:59:06,2023-09-02 09:59:06,0.037s,PASSED
+"scrollToElement(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:59:06,2023-09-02 09:59:25,19.516s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 09:59:25,2023-09-02 09:59:26,0.452s,PASSED
+"click(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 09:59:26,2023-09-02 09:59:27,0.847s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 09:59:27,2023-09-02 09:59:27,0.302s,PASSED
+a1 = getUrl(),Chrome 116.0.0.0,,,2023-09-02 09:59:27,2023-09-02 09:59:27,0.015s,PASSED
+out.println(a1),Chrome 116.0.0.0,,,2023-09-02 09:59:27,2023-09-02 09:59:27,0.001s,PASSED
+"a = a1.contains(""page-2"")",Chrome 116.0.0.0,,,2023-09-02 09:59:27,2023-09-02 09:59:27,0.001s,PASSED
+out.println(a),Chrome 116.0.0.0,,,2023-09-02 09:59:27,2023-09-02 09:59:27,0.000s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-09-02 09:59:27,2023-09-02 09:59:32,5.011s,PASSED
+if (a == true),Chrome 116.0.0.0,,,2023-09-02 09:59:32,2023-09-02 09:59:32,0.000s,PASSED
+else,Chrome 116.0.0.0,,,2023-09-02 09:59:32,2023-09-02 09:59:32,0.002s,FAILED
+"scrollToElement(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:59:32,2023-09-02 10:00:02,30.246s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 10:00:02,2023-09-02 10:00:03,0.621s,PASSED
+"click(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 10:00:03,2023-09-02 10:00:04,0.983s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 10:00:04,2023-09-02 10:00:04,0.362s,PASSED
+b1 = getUrl(),Chrome 116.0.0.0,,,2023-09-02 10:00:04,2023-09-02 10:00:04,0.016s,PASSED
+"b = b1.contains(""page-1"")",Chrome 116.0.0.0,,,2023-09-02 10:00:04,2023-09-02 10:00:04,0.000s,PASSED
+out.println(b1),Chrome 116.0.0.0,,,2023-09-02 10:00:04,2023-09-02 10:00:04,0.001s,PASSED
+if (b == true),Chrome 116.0.0.0,,,2023-09-02 10:00:04,2023-09-02 10:00:04,0.000s,PASSED
+else,Chrome 116.0.0.0,,,2023-09-02 10:00:04,2023-09-02 10:00:04,0.002s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 10:00:04,2023-09-02 10:00:05,0.178s,ERROR

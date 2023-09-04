@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -43,6 +39,4 @@ WebUI.callTestCase(findTestCase('CommonMethods/SaveAddress_AccountManagment'), [
 WebUI.click(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/FirstPersonalShippingAddress_Account'), 0)
-
-WebUI.closeBrowser()
 

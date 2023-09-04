@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+hp_listner,Chrome 116.0.0.0,,,2023-09-01 17:23:06,2023-09-01 17:24:15,1m - 8.888s,PASSED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_001,Chrome 116.0.0.0,To Verify that user is able to the access the site by typing Redesign URL in the browse.,,2023-09-01 17:24:07,2023-09-01 17:24:09,1.991s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 17:24:07,2023-09-01 17:24:07,0.087s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:08,2023-09-01 17:24:08,0.510s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 17:24:08,2023-09-01 17:24:09,0.246s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_002,Chrome 116.0.0.0,"To verify  that system display the following link in the header
+1.Departmentos
+2.Marcas
+3.Credito
+4.Mesa de regalosa 
+5.Search text box
+6.Iniciar sesion
+7.Ubica tu tienda 
+8.Mis pedidos
+9.Ayuda",,2023-09-01 17:24:09,2023-09-01 17:24:15,5.848s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 17:24:09,2023-09-01 17:24:09,0.011s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:09,2023-09-01 17:24:10,0.403s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Departamentos""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:10,2023-09-01 17:24:10,0.393s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand1_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:10,2023-09-01 17:24:10,0.404s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand2_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:10,2023-09-01 17:24:11,0.392s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand3_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:11,2023-09-01 17:24:11,0.401s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand4_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:11,2023-09-01 17:24:12,0.401s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/mesa_de_regalos_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:12,2023-09-01 17:24:12,0.398s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/credito_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:12,2023-09-01 17:24:13,0.487s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/MainSearchbar_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:13,2023-09-01 17:24:13,0.397s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Iniciar sesion""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:13,2023-09-01 17:24:13,0.355s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Tiendas_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:13,2023-09-01 17:24:14,0.378s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Mis Compras_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:14,2023-09-01 17:24:14,0.398s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Ayuda_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 17:24:14,2023-09-01 17:24:14,0.432s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 17:24:14,2023-09-01 17:24:15,0.104s,ERROR

@@ -18,12 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.setText(findTestObject('HomePage/MainSearchbar_HP'), 'vaso')
 
 WebUI.click(findTestObject('HomePage/searchbar_searchbutton_HP'))
@@ -59,6 +53,4 @@ if ((productcardprice1 >= productcardprice2) && (productcardprice2 >= productcar
 } else {
     KeywordUtil.markFailed('failed not sorted high to low')
 }
-
-WebUI.closeBrowser()
 

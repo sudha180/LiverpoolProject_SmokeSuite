@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search" time="604.952" tests="7" failures="2" errors="0">
+   <testsuite name="Search" tests="7" failures="2" errors="0" time="604.952" skipped="0" timestamp="2023-09-04 00:57:30" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230904_004914\\Search\\20230904_005715"/>
+         <property name="logFiles" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230904_004914\\Search\\20230904_005715\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.157"/>
+         <property name="sessionId" value="1ff64c2fa14645534d9a564008d9317a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_059" time="143.705" classname="Test Cases/Search/TS_SMOKE_SUITE_059" status="PASSED">
+         <system-out><![CDATA[2023-09-04 00:58:34 - [TEST_CASE][PASSED] - Test Cases/Search/TS_SMOKE_SUITE_059: Test Cases/Search/TS_SMOKE_SUITE_059
+
+2023-09-04 00:58:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 00:58:34 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 00:58:49 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 00:58:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 00:58:50 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-04 00:58:51 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 00:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 00:58:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 00:58:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 00:58:55 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 00:59:07 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 00:59:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 00:59:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 00:59:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 00:59:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 00:59:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 00:59:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PDPPage/product_56_PDP"), 0): Object 'Object Repository/PDPPage/product_56_PDP' is present
+
+2023-09-04 00:59:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:00:56 - [MESSAGE][PASSED] - Object 'Object Repository/PDPPage/product_56_PDP' is present
+
+2023-09-04 01:00:56 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("PDPPage/product_57_PDP"), 0): Web element with id: 'Object Repository/PDPPage/product_57_PDP' located by 'By.xpath: //ul[@class="m-product__listingPlp"]//li[57]' is not present after '30' second(s)
+
+2023-09-04 01:00:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:00:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/PDPPage/product_57_PDP' located by 'By.xpath: //ul[@class="m-product__listingPlp"]//li[57]' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_060" time="54.699" classname="Test Cases/Search/TS_SMOKE_SUITE_060" status="PASSED">
+         <system-out><![CDATA[2023-09-04 01:00:58 - [TEST_CASE][PASSED] - Test Cases/Search/TS_SMOKE_SUITE_060: Test Cases/Search/TS_SMOKE_SUITE_060
+
+2023-09-04 01:00:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:00:58 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:01:15 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:01:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:01:15 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-04 01:01:15 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:01:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:01:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:01:19 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:01:20 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:01:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:01:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:01:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:01:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:01:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:01:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:01:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:01:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:01:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PLPPage/facetes/Facet_Seller_liverpool_PLP"), 0): Object 'Object Repository/PLPPage/facetes/Facet_Seller_liverpool_PLP' is present
+
+2023-09-04 01:01:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:01:44 - [MESSAGE][PASSED] - Object 'Object Repository/PLPPage/facetes/Facet_Seller_liverpool_PLP' is present
+
+2023-09-04 01:01:44 - [TEST_STEP][PASSED] - a = getText(findTestObject("PLPPage/Facet_Seller_liverpool_title_PLP"), STOP_ON_FAILURE): Text of object 'Object Repository/PLPPage/Facet_Seller_liverpool_title_PLP' is: 'Liverpool (106)'
+
+2023-09-04 01:01:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/Facet_Seller_liverpool_title_PLP' is: 'Liverpool (106)'
+
+2023-09-04 01:01:44 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/facetes/Facet_Seller_liverpool_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/facetes/Facet_Seller_liverpool_PLP' is clicked on
+
+2023-09-04 01:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/facetes/Facet_Seller_liverpool_PLP' is clicked on
+
+2023-09-04 01:01:46 - [TEST_STEP][PASSED] - b = getText(findTestObject("PLPPage/facetes/selectedfacet1_PLP")): Text of object 'Object Repository/PLPPage/facetes/selectedfacet1_PLP' is: 'Liverpool'
+
+2023-09-04 01:01:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/facetes/selectedfacet1_PLP' is: 'Liverpool'
+
+2023-09-04 01:01:52 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-09-04 01:01:52 - [TEST_STEP][PASSED] - out.println(b): null
+
+2023-09-04 01:01:52 - [TEST_STEP][PASSED] - if (a.contains(b)): null
+
+2023-09-04 01:01:52 - [TEST_STEP][PASSED] - out.println("facet selected"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_061" time="70.903" classname="Test Cases/Search/TS_SMOKE_SUITE_061" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-04 01:01:52 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_061: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)
+
+
+2023-09-04 01:01:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:01:53 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:02:07 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:02:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:02:08 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-04 01:02:08 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:02:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:02:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:02:12 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:02:14 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:02:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:02:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:02:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:02:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:02:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:02:18 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:02:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:02:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:02:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/pagenation_1_PLP"), 0): Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-04 01:02:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:02:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-04 01:02:44 - [TEST_STEP][PASSED] - scrollToPosition(450, 0): Browser is scrolled to position x = 450, y = 0
+
+2023-09-04 01:02:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 450, y = 0
+
+2023-09-04 01:02:44 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/pagenation_2_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/pagenation_2_PLP' is clicked on
+
+2023-09-04 01:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/pagenation_2_PLP' is clicked on
+
+2023-09-04 01:02:46 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:02:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:02:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:02:46 - [TEST_STEP][PASSED] - a1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-04 01:02:46 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-04 01:02:46 - [TEST_STEP][PASSED] - out.println(a1): null
+
+2023-09-04 01:02:46 - [TEST_STEP][PASSED] - a = a1.contains("page-2"): null
+
+2023-09-04 01:02:46 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-09-04 01:02:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-04 01:02:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-04 01:02:56 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-09-04 01:02:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-04 01:03:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-04 01:03:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/pagenation_1_PLP"), 0): Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-04 01:03:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:03:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-04 01:03:02 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:03:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:03:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:03:02 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/pagenation_1_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/pagenation_1_PLP' is clicked on
+
+2023-09-04 01:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/pagenation_1_PLP' is clicked on
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:03:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - if (a == true): null
+
+2023-09-04 01:03:03 - [TEST_STEP][FAILED] - else: failed pagenation clicked page 2
+
+2023-09-04 01:03:03 - [TEST_STEP][FAILED] - markFailed("failed pagenation clicked page 2"): failed pagenation clicked page 2
+
+2023-09-04 01:03:03 - [MESSAGE][FAILED] - failed pagenation clicked page 2
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - b1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-04 01:03:03 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - b = b1.contains("page-1"): null
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - out.println(b1): null
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - if (b == true): null
+
+2023-09-04 01:03:03 - [TEST_STEP][FAILED] - else: failed pagenation clicked page 1
+
+2023-09-04 01:03:03 - [TEST_STEP][FAILED] - markFailed("failed pagenation clicked page 1"): failed pagenation clicked page 1
+
+2023-09-04 01:03:03 - [MESSAGE][FAILED] - failed pagenation clicked page 1]]></system-out>
+         <system-err><![CDATA[2023-09-04 01:01:52 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_061: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_062" time="55.486" classname="Test Cases/Search/TS_SMOKE_SUITE_062" status="PASSED">
+         <system-out><![CDATA[2023-09-04 01:03:03 - [TEST_CASE][PASSED] - Test Cases/Search/TS_SMOKE_SUITE_062: Test Cases/Search/TS_SMOKE_SUITE_062
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:03:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:03:35 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:03:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:03:35 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-04 01:03:35 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:03:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:03:39 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:03:40 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:03:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:03:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:03:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:03:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:03:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:03:47 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:03:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:03:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PLPPage/product1_cardPrice_PLP"), 0): Object 'Object Repository/PLPPage/product1_cardPrice_PLP' is present
+
+2023-09-04 01:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:03:58 - [MESSAGE][PASSED] - Object 'Object Repository/PLPPage/product1_cardPrice_PLP' is present
+
+2023-09-04 01:03:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PLPPage/product1_discountPrice_PLP"), 0): Object 'Object Repository/PLPPage/product1_discountPrice_PLP' is present
+
+2023-09-04 01:03:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:03:59 - [MESSAGE][PASSED] - Object 'Object Repository/PLPPage/product1_discountPrice_PLP' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_063" time="34.785" classname="Test Cases/Search/TS_SMOKE_SUITE_063" status="PASSED">
+         <system-out><![CDATA[2023-09-04 01:03:59 - [TEST_CASE][PASSED] - Test Cases/Search/TS_SMOKE_SUITE_063: Test Cases/Search/TS_SMOKE_SUITE_063
+
+2023-09-04 01:03:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:03:59 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:04:09 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:04:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:04:10 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-04 01:04:10 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:04:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:04:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:04:15 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:04:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:04:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:04:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:04:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:04:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:04:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:04:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:04:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:04:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/facetes/ColorTitleFacet_PLP"), 0): Scroll to object 'Object Repository/PLPPage/facetes/ColorTitleFacet_PLP' successfully
+
+2023-09-04 01:04:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:04:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/facetes/ColorTitleFacet_PLP' successfully
+
+2023-09-04 01:04:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("PLPPage/facetes/Color_1_facet_PLP"), 0): Object 'Object Repository/PLPPage/facetes/Color_1_facet_PLP' is present
+
+2023-09-04 01:04:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:04:34 - [MESSAGE][PASSED] - Object 'Object Repository/PLPPage/facetes/Color_1_facet_PLP' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_069" time="50.173" classname="Test Cases/Search/TS_SMOKE_SUITE_069" status="PASSED">
+         <system-out><![CDATA[2023-09-04 01:04:34 - [TEST_CASE][PASSED] - Test Cases/Search/TS_SMOKE_SUITE_069: Test Cases/Search/TS_SMOKE_SUITE_069
+
+2023-09-04 01:04:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:04:34 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:04:53 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/MainSearchbar_HP"), "vaso"): Text 'vaso' is set on object 'Object Repository/HomePage/MainSearchbar_HP'
+
+2023-09-04 01:04:58 - [MESSAGE][PASSED] - Text 'vaso' is set on object 'Object Repository/HomePage/MainSearchbar_HP'
+
+2023-09-04 01:04:58 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/searchbar_searchbutton_HP")): Object: 'Object Repository/HomePage/searchbar_searchbutton_HP' is clicked on
+
+2023-09-04 01:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/searchbar_searchbutton_HP' is clicked on
+
+2023-09-04 01:05:04 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/Sortby_PLP")): Object: 'Object Repository/PLPPage/Sortby_PLP' is clicked on
+
+2023-09-04 01:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/Sortby_PLP' is clicked on
+
+2023-09-04 01:05:10 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/LowPricetoHighSortBy_PLP")): Object: 'Object Repository/PLPPage/LowPricetoHighSortBy_PLP' is clicked on
+
+2023-09-04 01:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/LowPricetoHighSortBy_PLP' is clicked on
+
+2023-09-04 01:05:11 - [TEST_STEP][PASSED] - productcardprice1 = getText(findTestObject("PLPPage/product1_cardPrice_PLP")): Text of object 'Object Repository/PLPPage/product1_cardPrice_PLP' is: '$1900'
+
+2023-09-04 01:05:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/product1_cardPrice_PLP' is: '$1900'
+
+2023-09-04 01:05:17 - [TEST_STEP][PASSED] - productcardprice2 = getText(findTestObject("PLPPage/product2_cardPrice_PLP")): Text of object 'Object Repository/PLPPage/product2_cardPrice_PLP' is: '$2900'
+
+2023-09-04 01:05:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/product2_cardPrice_PLP' is: '$2900'
+
+2023-09-04 01:05:18 - [TEST_STEP][PASSED] - productcardprice3 = getText(findTestObject("PLPPage/product3_cardPrice_PLP")): Text of object 'Object Repository/PLPPage/product3_cardPrice_PLP' is: '$3500'
+
+2023-09-04 01:05:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/product3_cardPrice_PLP' is: '$3500'
+
+2023-09-04 01:05:18 - [TEST_STEP][PASSED] - if (productcardprice1 <= productcardprice2 && productcardprice2 <= productcardprice3): null
+
+2023-09-04 01:05:18 - [TEST_STEP][PASSED] - println("in sorted order arccording to first three product"): null
+
+2023-09-04 01:05:18 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/Sortby_PLP")): Object: 'Object Repository/PLPPage/Sortby_PLP' is clicked on
+
+2023-09-04 01:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/Sortby_PLP' is clicked on
+
+2023-09-04 01:05:19 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/HighToLowPriceSortby_PLP")): Object: 'Object Repository/PLPPage/HighToLowPriceSortby_PLP' is clicked on
+
+2023-09-04 01:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/HighToLowPriceSortby_PLP' is clicked on
+
+2023-09-04 01:05:19 - [TEST_STEP][PASSED] - productcardprice1 = getText(findTestObject("PLPPage/product1_cardPrice_PLP")): Text of object 'Object Repository/PLPPage/product1_cardPrice_PLP' is: '$9,36000'
+
+2023-09-04 01:05:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/product1_cardPrice_PLP' is: '$9,36000'
+
+2023-09-04 01:05:23 - [TEST_STEP][PASSED] - productcardprice2 = getText(findTestObject("PLPPage/product2_cardPrice_PLP")): Text of object 'Object Repository/PLPPage/product2_cardPrice_PLP' is: '$9,36000'
+
+2023-09-04 01:05:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/product2_cardPrice_PLP' is: '$9,36000'
+
+2023-09-04 01:05:23 - [TEST_STEP][PASSED] - productcardprice3 = getText(findTestObject("PLPPage/product3_cardPrice_PLP")): Text of object 'Object Repository/PLPPage/product3_cardPrice_PLP' is: '$7,80000'
+
+2023-09-04 01:05:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/PLPPage/product3_cardPrice_PLP' is: '$7,80000'
+
+2023-09-04 01:05:24 - [TEST_STEP][PASSED] - if (productcardprice1 >= productcardprice2 && productcardprice2 >= productcardprice3): null
+
+2023-09-04 01:05:24 - [TEST_STEP][PASSED] - println("in sorted order arccording to first three product"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_070" time="131.073" classname="Test Cases/Search/TS_SMOKE_SUITE_070" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/TS_SMOKE_SUITE_070 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation forward arrow not clicked
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_070.run(TS_SMOKE_SUITE_070:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-04 01:05:24 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_070: Test Cases/Search/TS_SMOKE_SUITE_070 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation forward arrow not clicked
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_070.run(TS_SMOKE_SUITE_070:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)
+
+
+2023-09-04 01:05:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:05:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:05:42 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:05:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-04 01:05:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-09-04 01:05:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-04 01:05:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-04 01:05:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-04 01:05:46 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:06:33 - [MESSAGE][PASSED] - Navigate to 'https://odtaqaa.liverpool.com.mx/tienda/home' successfully
+
+2023-09-04 01:06:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:06:33 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-04 01:06:33 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-04 01:06:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:06:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:06:36 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:06:37 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-04 01:06:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-04 01:06:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-04 01:06:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:06:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-04 01:06:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-04 01:06:42 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:06:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:06:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:06:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/ForwardArrow_Pagenation_PLP"), 0): Scroll to object 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' successfully
+
+2023-09-04 01:06:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:07:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' successfully
+
+2023-09-04 01:07:24 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:07:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:07:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:07:24 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/ForwardArrow_Pagenation_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' is clicked on
+
+2023-09-04 01:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' is clicked on
+
+2023-09-04 01:07:26 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:07:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:07:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:07:26 - [TEST_STEP][PASSED] - a1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-04 01:07:26 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-04 01:07:26 - [TEST_STEP][PASSED] - out.println(a1): null
+
+2023-09-04 01:07:26 - [TEST_STEP][PASSED] - a = a1.contains("page-2"): null
+
+2023-09-04 01:07:26 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-09-04 01:07:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-04 01:07:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-04 01:07:31 - [TEST_STEP][PASSED] - if (a == true): null
+
+2023-09-04 01:07:31 - [TEST_STEP][FAILED] - else: failed pagenation forward arrow not clicked
+
+2023-09-04 01:07:31 - [TEST_STEP][FAILED] - markFailed("failed pagenation forward arrow not clicked"): failed pagenation forward arrow not clicked
+
+2023-09-04 01:07:31 - [MESSAGE][FAILED] - failed pagenation forward arrow not clicked
+
+2023-09-04 01:07:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/BackArrow_Pagenation_PLP"), 0): Scroll to object 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' successfully
+
+2023-09-04 01:07:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:07:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' successfully
+
+2023-09-04 01:07:34 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:07:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:07:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:07:34 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/BackArrow_Pagenation_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' is clicked on
+
+2023-09-04 01:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' is clicked on
+
+2023-09-04 01:07:35 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-04 01:07:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-04 01:07:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-04 01:07:35 - [TEST_STEP][PASSED] - b1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-04 01:07:35 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-04 01:07:35 - [TEST_STEP][PASSED] - b = b1.contains("page-1"): null
+
+2023-09-04 01:07:35 - [TEST_STEP][PASSED] - out.println(b1): null
+
+2023-09-04 01:07:35 - [TEST_STEP][PASSED] - if (b == true): null
+
+2023-09-04 01:07:35 - [TEST_STEP][FAILED] - else: failed pagenation back arrow not clicked
+
+2023-09-04 01:07:35 - [TEST_STEP][FAILED] - markFailed("failed pagenation back arrow not clicked"): failed pagenation back arrow not clicked
+
+2023-09-04 01:07:35 - [MESSAGE][FAILED] - failed pagenation back arrow not clicked]]></system-out>
+         <system-err><![CDATA[2023-09-04 01:05:24 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_070: Test Cases/Search/TS_SMOKE_SUITE_070 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation forward arrow not clicked
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_070.run(TS_SMOKE_SUITE_070:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-04 00:57:30 - [TEST_SUITE][FAILED] - Search: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-09-04 00:57:30 - [TEST_SUITE][FAILED] - Search: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693769235479.run(TempTestSuite1693769235479.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

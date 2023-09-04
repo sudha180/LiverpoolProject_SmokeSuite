@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'), FailureHandling.STOP_ON_FAILURE)
 
@@ -29,5 +25,5 @@ WebUI.verifyElementPresent(findTestObject('HomePage/EnterUsername_LP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/EnterPassword_LP'), 0)
 
-WebUI.closeBrowser()
+WebUI.acceptAlert(FailureHandling.OPTIONAL)
 

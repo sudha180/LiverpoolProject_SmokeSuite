@@ -17,19 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0)
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1000719079'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementClickable(findTestObject('PDPPage/mas detalis(more detail)'))
 
@@ -42,6 +34,4 @@ WebUI.verifyElementClickable(findTestObject('PDPPage/Size1_PDP'))
 WebUI.verifyElementClickable(findTestObject('PDPPage/liverpoolCard_promotion_1_PDP'))
 
 WebUI.verifyElementClickable(findTestObject('PDPPage/Card_promotion_1_PDP'))
-
-WebUI.closeBrowser()
 

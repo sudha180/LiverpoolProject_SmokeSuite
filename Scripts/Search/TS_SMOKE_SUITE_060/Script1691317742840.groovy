@@ -18,18 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('HomePage/Logo_hp'))
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
@@ -53,6 +41,4 @@ if (a.contains(b)) {
 
     KeywordUtil.markFailed('failed facet not selected')
 }
-
-WebUI.closeBrowser()
 

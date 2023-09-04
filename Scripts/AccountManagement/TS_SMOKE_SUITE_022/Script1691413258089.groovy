@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -39,11 +35,7 @@ WebUI.click(findTestObject('AccountManagement/MyCardButton_Account'))
 
 WebUI.enhancedClick(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
 
-WebUI.delay(3)
-
 WebUI.enhancedClick(findTestObject('AccountManagement/MakeCardAsDefault_Account'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/DefaultCard_Account'), 0)
-
-WebUI.closeBrowser()
 

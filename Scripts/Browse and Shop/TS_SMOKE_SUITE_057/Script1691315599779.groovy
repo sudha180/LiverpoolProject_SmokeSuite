@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('HomePage/Logo_hp'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'collec'], FailureHandling.STOP_ON_FAILURE)
 
 'verify price range\r\n'
 WebUI.click(findTestObject('PLPPage/product1_PLP'))
@@ -60,6 +46,4 @@ WebUI.verifyElementClickable(findTestObject('PDPPage/ProductID_pdp'))
 
 'verify pdp price\r\n\r\n'
 WebUI.verifyElementClickable(findTestObject('PDPPage/Detail_PDP'))
-
-WebUI.closeBrowser()
 

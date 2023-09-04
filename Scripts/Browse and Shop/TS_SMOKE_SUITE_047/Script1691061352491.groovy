@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.maximizeWindow()
-
 WebUI.mouseOver(findTestObject('HomePage/Departamentos'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/L1_Category1_HP'), FailureHandling.STOP_ON_FAILURE)
@@ -48,6 +40,4 @@ WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/VendidoTitleFacet_PLP
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/PreciosTitleFacet_PLP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/ColorTitleFacet_PLP'), 0)
-
-WebUI.closeBrowser()
 

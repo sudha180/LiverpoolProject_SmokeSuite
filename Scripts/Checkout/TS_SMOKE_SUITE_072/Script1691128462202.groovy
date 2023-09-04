@@ -19,11 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -74,7 +70,7 @@ WebUI.setText(findTestObject('OPCPage/phone_addAddress_opc'), GlobalVariable.pho
 
 WebUI.click(findTestObject('OPCPage/CheckBoxAddAddressPopup_OPC'))
 
-WebUI.click(findTestObject('OPCPage/ContinueButtonAddAddress_Checkout'))
+WebUI.click(findTestObject('OPCPage/ContinueButtonAddcard_Checkout'))
 
 WebUI.navigateToUrl(GlobalVariable.CartPageURL)
 
@@ -83,6 +79,4 @@ ShortName = WebUI.getText(findTestObject('OPCPage/currentDeliveryAddress_OPC'), 
 if (StoreValue == ShortName) {
     println('Checked')
 }
-
-WebUI.closeBrowser()
 

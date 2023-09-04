@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/Tiendas_HP",
+      "brokenLocator": "(//a[@class\u003d\u0027a-header__strongLink m-ipadRightLink pl-3\u0027])[1]/..",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Tiendas\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230901_172856/hp_listner/20230901_172856/Object Repository/HomePage/Tiendas_HP_link.png"
+    }
+  ]
+}

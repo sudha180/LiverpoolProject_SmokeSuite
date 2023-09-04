@@ -19,12 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 randomemail = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.click(findTestObject('HomePage/Iniciar sesion'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForPageLoad(0)
 
 WebUI.enhancedClick(findTestObject('HomePage/loginpage/create_account_hp'), FailureHandling.STOP_ON_FAILURE)
@@ -44,6 +38,4 @@ WebUI.setText(findTestObject('HomePage/loginpage/maternalName_LP'), 'jkl')
 WebUI.click(findTestObject('HomePage/loginpage/hombre_radioButton_LP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/loginpage/createAccount_button_LP'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.closeBrowser()
 

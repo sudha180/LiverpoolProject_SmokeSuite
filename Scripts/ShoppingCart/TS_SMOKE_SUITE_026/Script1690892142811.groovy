@@ -17,11 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL], FailureHandling.STOP_ON_FAILURE)
 
@@ -38,6 +39,4 @@ WebUI.click(findTestObject('HomePage/Cart_header'))
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.verifyElementPresent(findTestObject('HomePage/LoginPage_hp'), 0)
-
-WebUI.closeBrowser()
 

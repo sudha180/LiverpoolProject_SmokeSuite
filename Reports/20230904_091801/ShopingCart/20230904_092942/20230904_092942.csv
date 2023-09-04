@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ShopingCart,Chrome 116.0.0.0,,,2023-09-04 09:30:05,2023-09-04 09:37:02,6m - 56.937s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_026,Chrome 116.0.0.0,"To verify that for Anonymous user system display the Login overlay after clicking on the ""Pagar"" button during checkout",,2023-09-04 09:31:33,2023-09-04 09:33:48,2m - 15.021s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 09:31:33,2023-09-04 09:31:58,25.075s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-09-04 09:31:59,2023-09-04 09:33:06,1m - 7.401s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 09:33:06,2023-09-04 09:33:07,0.846s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 09:33:07,2023-09-04 09:33:48,40.633s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_027,Chrome 116.0.0.0,To verify that the user is able to create account from shopping cart page,,2023-09-04 09:33:48,2023-09-04 09:34:25,36.877s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 09:33:48,2023-09-04 09:33:48,0.439s,ERROR
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":SL], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 09:33:49,2023-09-04 09:34:25,35.915s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_028,Chrome 116.0.0.0,To verify that user is able to login from Shopping Cart page,,2023-09-04 09:34:25,2023-09-04 09:37:02,2m - 37.781s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 09:34:25,2023-09-04 09:35:17,52.098s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":SL], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 09:35:18,2023-09-04 09:35:27,9.717s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 09:35:27,2023-09-04 09:35:28,0.505s,PASSED
+"click(findTestObject(""HomePage/FirstProduct_plp""))",Chrome 116.0.0.0,,,2023-09-04 09:35:28,2023-09-04 09:36:08,40.639s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 116.0.0.0,,,2023-09-04 09:36:08,2023-09-04 09:36:23,14.586s,PASSED
+"click(findTestObject(""PLPPage/ProtectYourPurchase_plp""))",Chrome 116.0.0.0,,,2023-09-04 09:36:23,2023-09-04 09:36:23,0.002s,NOT_RUN
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 116.0.0.0,,,2023-09-04 09:36:23,2023-09-04 09:36:29,5.844s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 116.0.0.0,,,2023-09-04 09:36:29,2023-09-04 09:37:02,33.436s,FAILED

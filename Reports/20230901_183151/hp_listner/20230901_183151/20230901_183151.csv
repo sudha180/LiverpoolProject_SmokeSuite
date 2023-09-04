@@ -1,0 +1,128 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+hp_listner,Chrome 116.0.0.0,,,2023-09-01 18:32:02,2023-09-02 09:25:19,14h - 53m - 16.797s,FAILED
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_001,Chrome 116.0.0.0,To Verify that user is able to the access the site by typing Redesign URL in the browse.,,2023-09-01 18:32:50,2023-09-01 18:32:52,2.210s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:32:50,2023-09-01 18:32:51,0.958s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:51,2023-09-01 18:32:52,0.451s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:32:52,2023-09-01 18:32:52,0.313s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_002,Chrome 116.0.0.0,"To verify  that system display the following link in the header
+1.Departmentos
+2.Marcas
+3.Credito
+4.Mesa de regalosa 
+5.Search text box
+6.Iniciar sesion
+7.Ubica tu tienda 
+8.Mis pedidos
+9.Ayuda",,2023-09-01 18:32:52,2023-09-01 18:32:57,5.510s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:32:52,2023-09-01 18:32:52,0.453s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:53,2023-09-01 18:32:53,0.331s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Departamentos""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:53,2023-09-01 18:32:53,0.346s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand1_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:53,2023-09-01 18:32:54,0.346s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand2_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:54,2023-09-01 18:32:54,0.347s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand3_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:54,2023-09-01 18:32:54,0.359s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand4_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:54,2023-09-01 18:32:55,0.338s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/mesa_de_regalos_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:55,2023-09-01 18:32:55,0.381s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/credito_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:55,2023-09-01 18:32:55,0.374s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/MainSearchbar_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:55,2023-09-01 18:32:56,0.351s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Iniciar sesion""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:56,2023-09-01 18:32:56,0.360s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Tiendas_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:56,2023-09-01 18:32:57,0.388s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Mis Compras_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:57,2023-09-01 18:32:57,0.340s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Ayuda_HP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:57,2023-09-01 18:32:57,0.392s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:32:57,2023-09-01 18:32:57,0.073s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_003,Chrome 116.0.0.0,To verify the display of L1 category flyout on mouse hover the Departmentos link,,2023-09-01 18:32:57,2023-09-01 18:33:02,4.609s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:32:57,2023-09-01 18:32:58,0.450s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:32:58,2023-09-01 18:32:59,0.406s,PASSED
+"mouseOver(findTestObject(""HomePage/Departamentos""))",Chrome 116.0.0.0,,,2023-09-01 18:32:59,2023-09-01 18:32:59,0.565s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/L1_Category1_HP""))",Chrome 116.0.0.0,,,2023-09-01 18:32:59,2023-09-01 18:33:00,0.467s,PASSED
+"mouseOver(findTestObject(""HomePage/L1_Category1_HP""))",Chrome 116.0.0.0,,,2023-09-01 18:33:00,2023-09-01 18:33:00,0.850s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/L2CategoryInFlyout_HP""))",Chrome 116.0.0.0,,,2023-09-01 18:33:00,2023-09-01 18:33:01,0.981s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/L3CategoriesInFlyout_HP""))",Chrome 116.0.0.0,,,2023-09-01 18:33:01,2023-09-01 18:33:02,0.371s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:33:02,2023-09-01 18:33:02,0.128s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_006,Chrome 116.0.0.0,"To verify that the user is navigated to  “Mesa de Regalos"" page by clicking on the  “Mesa de Regalos"" link on the header section.",,2023-09-01 18:33:02,2023-09-01 18:34:32,1m - 30.223s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:33:02,2023-09-01 18:33:03,0.485s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:33:03,2023-09-01 18:33:30,26.792s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-01 18:33:30,2023-09-01 18:33:30,0.163s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/Mesa de regalos_HP""))",Chrome 116.0.0.0,,,2023-09-01 18:33:30,2023-09-01 18:34:02,32.397s,PASSED
+"click(findTestObject(""HomePage/Mesa de regalos_HP""))",Chrome 116.0.0.0,,,2023-09-01 18:34:02,2023-09-01 18:34:31,29.153s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/gr/Find_gift_table_GR""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:34:31,2023-09-01 18:34:32,0.493s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/gr/Search_event_button_GR""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:34:32,2023-09-01 18:34:32,0.354s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:34:32,2023-09-01 18:34:32,0.074s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_007,Chrome 116.0.0.0,To verify the display of Login overlay when Anonymous user click on  Iniciar sesion link,,2023-09-01 18:36:36,2023-09-01 18:37:10,34.243s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:36:36,2023-09-01 18:36:37,0.432s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:36:37,2023-09-01 18:37:10,33.739s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:37:10,2023-09-01 18:37:10,0.065s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_008,Chrome 116.0.0.0,"To verify that the user is navigated to  ""Tiendas""( Store locator) page by clicking on the  “Ubica tu tienda "" link on the header section.",,2023-09-01 18:37:10,2023-09-01 18:37:17,7.033s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:37:10,2023-09-01 18:37:11,0.415s,PASSED
+"click(findTestObject(""HomePage/Tiendas_HP""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:37:11,2023-09-01 18:37:12,0.457s,PASSED
+"verifyElementPresent(findTestObject(""SLP/breadCrumb_SLP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:37:12,2023-09-01 18:37:14,2.363s,PASSED
+"verifyElementPresent(findTestObject(""SLP/Map_Verify_slp""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:37:14,2023-09-01 18:37:17,3.144s,PASSED
+"verifyElementPresent(findTestObject(""SLP/find_store_title_SLP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:37:17,2023-09-01 18:37:17,0.344s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:37:17,2023-09-01 18:37:17,0.058s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_009,Chrome 116.0.0.0,"To verify that an Anonymous user is navigated to Login page by clicking on the  “Mis pedidos"" link on the header section.",,2023-09-01 18:39:03,2023-09-01 18:39:37,33.941s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:39:03,2023-09-01 18:39:04,0.756s,PASSED
+"click(findTestObject(""HomePage/Mis Compras_hp""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:39:04,2023-09-01 18:39:06,1.596s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/EnterUsername_LP""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:39:06,2023-09-01 18:39:37,31.519s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:39:37,2023-09-01 18:39:37,0.061s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_010,Chrome 116.0.0.0,"To verify that the logged in user is navigated to  “Mis pedidos"" page by clicking on the  “Mis pedidos"" link on the header section.",,2023-09-01 18:41:21,2023-09-01 18:41:56,34.283s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:41:21,2023-09-01 18:41:22,0.410s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:41:22,2023-09-01 18:41:55,33.798s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:41:55,2023-09-01 18:41:56,0.066s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_011,Chrome 116.0.0.0,"To verify that the user is navigated to  ""Ayuda""( Help) page by clicking on the  “Ayuda"" link on the header section.",,2023-09-01 18:41:56,2023-09-01 18:42:38,42.366s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:41:56,2023-09-01 18:41:56,0.386s,PASSED
+"click(findTestObject(""HomePage/Mis Compras_hp""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:41:56,2023-09-01 18:41:57,0.376s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-09-01 18:41:57,2023-09-01 18:42:30,33.367s,PASSED
+"click(findTestObject(""HomePage/Ayuda_HP""))",Chrome 116.0.0.0,,,2023-09-01 18:42:30,2023-09-01 18:42:34,4.000s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/img_Cmo podemos ayudarte_logoAyuda""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:42:34,2023-09-01 18:42:37,3.564s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:42:37,2023-09-01 18:42:38,0.337s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:42:38,2023-09-01 18:42:38,0.062s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_012,Chrome 116.0.0.0,to verify that user is able to login by giving the valid credentials in the login overlay by clicking on the Inicar session link in the header,,2023-09-01 18:45:57,2023-09-01 18:47:02,1m - 5.805s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:45:57,2023-09-01 18:45:57,0.357s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-09-01 18:45:57,2023-09-01 18:46:31,33.630s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/span_HolaUser_hp""), 0)",Chrome 116.0.0.0,,,2023-09-01 18:46:31,2023-09-01 18:47:02,31.750s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:47:02,2023-09-01 18:47:02,0.062s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_013,Chrome 116.0.0.0,To verify that the user is able to create account from Login overlay,,2023-09-01 18:51:50,2023-09-01 18:53:53,2m - 2.963s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 18:51:50,2023-09-01 18:52:07,17.253s,PASSED
+randomemail = a.GenerateRandomEmail.generateRandomEmail(),Chrome 116.0.0.0,,,2023-09-01 18:52:07,2023-09-01 18:52:07,0.511s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-01 18:52:07,2023-09-01 18:52:10,2.635s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-09-01 18:52:10,2023-09-01 18:53:13,1m - 3.346s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:53:13,2023-09-01 18:53:14,0.598s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-01 18:53:14,2023-09-01 18:53:14,0.021s,PASSED
+"enhancedClick(findTestObject(""HomePage/loginpage/create_account_hp""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-01 18:53:14,2023-09-01 18:53:15,0.993s,PASSED
+"setText(findTestObject(""HomePage/loginpage/newAccountemail_LP""), randomemail)",Chrome 116.0.0.0,,,2023-09-01 18:53:15,2023-09-01 18:53:52,37.521s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-01 18:53:52,2023-09-01 18:53:53,0.076s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_014,Chrome 116.0.0.0,"To verify the display of user first name (as ""Hola abc! "") in the header when logged in user successfully logged in to the site",,2023-09-01 19:02:36,2023-09-02 09:20:35,14h - 17m - 59.911s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-01 19:02:36,2023-09-01 19:02:36,0.184s,ERROR
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-01 19:02:36,2023-09-02 09:20:35,14h - 17m - 59.387s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 09:20:35,2023-09-02 09:20:35,0.232s,ERROR
+,,,,,,,
+Test Cases/HomePage/TS_SMOKE_SUITE_015,Chrome 116.0.0.0,"To verify the display of following links by mouse over on the ""User name""  link on the header section.
+ -  Mi cuenta
+-  Mis pedidos
+-  Mi tiempo Aire
+-  Mis tarjetas
+-  Cerrar sesion",,2023-09-02 09:22:33,2023-09-02 09:25:19,2m - 45.576s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-02 09:22:33,2023-09-02 09:23:08,34.981s,ERROR
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-02 09:23:08,2023-09-02 09:23:11,2.702s,PASSED
+navigateToUrl(URL),Chrome 116.0.0.0,,,2023-09-02 09:23:11,2023-09-02 09:24:10,59.584s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-09-02 09:24:10,2023-09-02 09:24:11,0.401s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-09-02 09:24:11,2023-09-02 09:24:43,31.910s,PASSED
+"mouseOver(findTestObject(""HomePage/header_Hola_text_HP""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 09:24:43,2023-09-02 09:25:15,32.687s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Mis Compras""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:25:15,2023-09-02 09:25:16,0.401s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Mi Cuenta""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:25:16,2023-09-02 09:25:16,0.440s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Mi tiempo aire""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:25:16,2023-09-02 09:25:17,0.395s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Mis tarjetas""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:25:17,2023-09-02 09:25:17,0.398s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Cerrar sesin_hp""), 0)",Chrome 116.0.0.0,,,2023-09-02 09:25:17,2023-09-02 09:25:18,0.496s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-02 09:25:18,2023-09-02 09:25:19,1.091s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 09:25:19,2023-09-02 09:25:19,0.085s,ERROR

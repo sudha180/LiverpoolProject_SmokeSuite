@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -49,6 +45,4 @@ WebUI.click(findTestObject('OPCPage/paymentMethod_button3_OPC'))
 WebUI.click(findTestObject('OPCPage/Continue_payment_3rdmethod_OPC'))
 
 WebUI.click(findTestObject('OPCPage/Final_comparar_OPC'))
-
-WebUI.closeBrowser()
 

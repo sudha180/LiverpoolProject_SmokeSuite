@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
     FailureHandling.STOP_ON_FAILURE)
@@ -49,6 +43,4 @@ not_run: WebUI.click(findTestObject('HomePage/action'))
 WebUI.click(findTestObject('AccountManagement/ContinueButton_Account'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/MailConfirmation_Account'), 0)
-
-WebUI.closeBrowser()
 

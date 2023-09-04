@@ -18,11 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -84,6 +80,4 @@ WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'), Failu
 println(GlobalVariable.TempAddress)
 
 WebUI.verifyTextPresent(GlobalVariable.TempAddress, false)
-
-WebUI.closeBrowser()
 

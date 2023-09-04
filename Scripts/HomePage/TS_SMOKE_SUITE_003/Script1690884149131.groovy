@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.verifyElementPresent(findTestObject('HomePage/Logo_hp'), 0)
 
 WebUI.mouseOver(findTestObject('HomePage/Departamentos'))
@@ -34,6 +28,4 @@ WebUI.mouseOver(findTestObject('HomePage/L1_Category1_HP'))
 WebUI.verifyElementClickable(findTestObject('HomePage/L2CategoryInFlyout_HP'))
 
 WebUI.verifyElementClickable(findTestObject('HomePage/L3CategoriesInFlyout_HP'))
-
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

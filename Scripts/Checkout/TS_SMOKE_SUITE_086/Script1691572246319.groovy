@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
@@ -49,6 +47,4 @@ WebUI.click(findTestObject('OPCPage/button_Continuar_payment_opc'))
 WebUI.click(findTestObject('OPCPage/Final_paypal_final(terminar)_OPC'))
 
 WebUI.verifyElementPresent(findTestObject('OPCPage/ConfirmOrder_Checkout'), 0)
-
-WebUI.closeBrowser()
 

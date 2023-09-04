@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('HomePage/Mis Compras_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
@@ -32,6 +26,4 @@ WebUI.click(findTestObject('HomePage/Ayuda_HP'))
 WebUI.verifyElementPresent(findTestObject('HomePage/img_Cmo podemos ayudarte_logoAyuda'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage'), 0)
-
-WebUI.closeBrowser()
 

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/Buscar1",
+      "brokenLocator": "//input[@id\u003d\u0027mainSearchbar\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": " #mainSearchbar",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20230901_134325/checkout/20230901_134325/Object Repository/HomePage/Buscar1_CSS.png"
+    }
+  ]
+}

@@ -17,17 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('HomePage/Mis Compras_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/EnterUsername_LP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/EnterPassword_LP'), 0)
-
-WebUI.closeBrowser()
 

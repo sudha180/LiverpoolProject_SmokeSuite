@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/inciar'))
+WebUI.mouseOver(findTestObject('AccountManagement/span_Hola header_HP'))
 
-WebUI.click(findTestObject('HomePage/logoutOptionSelect'))
+WebUI.verifyElementPresent(findTestObject('HomePage/logout_button_hola_popUP'), 0)
+
+WebUI.enhancedClick(findTestObject('HomePage/logout_button_hola_popUP'))
+
+WebUI.waitForPageLoad(0)
 

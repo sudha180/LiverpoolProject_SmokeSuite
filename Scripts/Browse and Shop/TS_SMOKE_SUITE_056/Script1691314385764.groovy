@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ropa'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
 
 a = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
 
@@ -48,6 +40,4 @@ WebUI.verifyElementClickable(findTestObject('PDPPage/AddToCart_PDP'))
 WebUI.verifyElementClickable(findTestObject('PDPPage/Detail_PDP'))
 
 WebUI.verifyElementClickable(findTestObject('PDPPage/breadCrumb_pdp'))
-
-WebUI.closeBrowser()
 

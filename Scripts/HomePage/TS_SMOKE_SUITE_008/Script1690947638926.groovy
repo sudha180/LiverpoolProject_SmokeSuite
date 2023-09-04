@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('HomePage/Tiendas_HP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('SLP/breadCrumb_SLP'), 0)
@@ -30,6 +24,4 @@ WebUI.verifyElementPresent(findTestObject('SLP/breadCrumb_SLP'), 0)
 WebUI.verifyElementPresent(findTestObject('SLP/Map_Verify_slp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('SLP/find_store_title_SLP'), 0)
-
-WebUI.closeBrowser()
 

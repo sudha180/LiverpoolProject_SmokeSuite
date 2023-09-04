@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ShopingCart,Chrome 116.0.0.0,,,2023-09-04 08:13:03,2023-09-04 08:21:59,8m - 56.591s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_026,Chrome 116.0.0.0,"To verify that for Anonymous user system display the Login overlay after clicking on the ""Pagar"" button during checkout",,2023-09-04 08:14:01,2023-09-04 08:16:18,2m - 17.626s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:14:01,2023-09-04 08:14:36,35.632s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-09-04 08:14:37,2023-09-04 08:14:38,0.426s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":SL], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:14:38,2023-09-04 08:14:48,10.891s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:14:48,2023-09-04 08:14:49,0.410s,PASSED
+"click(findTestObject(""HomePage/FirstProduct_plp""))",Chrome 116.0.0.0,,,2023-09-04 08:14:49,2023-09-04 08:15:24,35.675s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 116.0.0.0,,,2023-09-04 08:15:24,2023-09-04 08:15:39,14.255s,PASSED
+"click(findTestObject(""PLPPage/ProtectYourPurchase_plp""))",Chrome 116.0.0.0,,,2023-09-04 08:15:39,2023-09-04 08:15:39,0.003s,NOT_RUN
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 116.0.0.0,,,2023-09-04 08:15:39,2023-09-04 08:15:45,5.859s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 116.0.0.0,,,2023-09-04 08:15:45,2023-09-04 08:16:18,33.793s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_027,Chrome 116.0.0.0,To verify that the user is able to create account from shopping cart page,,2023-09-04 08:16:18,2023-09-04 08:17:53,1m - 34.700s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:16:18,2023-09-04 08:16:33,14.943s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":SL], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:16:34,2023-09-04 08:16:43,8.939s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:16:43,2023-09-04 08:16:43,0.032s,PASSED
+"click(findTestObject(""HomePage/FirstProduct_plp""))",Chrome 116.0.0.0,,,2023-09-04 08:16:43,2023-09-04 08:16:56,13.519s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 116.0.0.0,,,2023-09-04 08:16:56,2023-09-04 08:17:15,19.143s,PASSED
+"click(findTestObject(""PLPPage/ProtectYourPurchase_plp""))",Chrome 116.0.0.0,,,2023-09-04 08:17:15,2023-09-04 08:17:15,0.000s,NOT_RUN
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 116.0.0.0,,,2023-09-04 08:17:15,2023-09-04 08:17:20,4.133s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 116.0.0.0,,,2023-09-04 08:17:20,2023-09-04 08:17:53,33.548s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_028,Chrome 116.0.0.0,To verify that user is able to login from Shopping Cart page,,2023-09-04 08:17:53,2023-09-04 08:19:21,1m - 28.159s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:17:53,2023-09-04 08:18:11,17.987s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":SL], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:18:12,2023-09-04 08:18:20,8.803s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:18:20,2023-09-04 08:18:21,0.130s,PASSED
+"click(findTestObject(""HomePage/FirstProduct_plp""))",Chrome 116.0.0.0,,,2023-09-04 08:18:21,2023-09-04 08:18:31,10.945s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 116.0.0.0,,,2023-09-04 08:18:31,2023-09-04 08:18:44,12.314s,PASSED
+"click(findTestObject(""PLPPage/ProtectYourPurchase_plp""))",Chrome 116.0.0.0,,,2023-09-04 08:18:44,2023-09-04 08:18:44,0.001s,NOT_RUN
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 116.0.0.0,,,2023-09-04 08:18:44,2023-09-04 08:18:48,3.934s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 116.0.0.0,,,2023-09-04 08:18:48,2023-09-04 08:19:21,33.560s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_029,Chrome 116.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar"" button in the shopping cart page",,2023-09-04 08:19:21,2023-09-04 08:20:38,1m - 16.868s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:19:21,2023-09-04 08:19:31,10.103s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:19:32,2023-09-04 08:20:38,1m - 5.962s,FAILED
+,,,,,,,
+Test Cases/ShoppingCart/TS_SMOKE_SUITE_030,Chrome 116.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar Ahor"" button displayed for individual items in the shopping cart page",,2023-09-04 08:20:38,2023-09-04 08:21:59,1m - 21.039s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:20:38,2023-09-04 08:20:52,14.099s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:20:53,2023-09-04 08:21:59,1m - 6.150s,FAILED

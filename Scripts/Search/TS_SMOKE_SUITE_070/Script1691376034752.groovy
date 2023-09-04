@@ -18,18 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('HomePage/Logo_hp'))
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
@@ -49,8 +37,6 @@ System.out.println(a1)
 boolean a = a1.contains('page-2')
 
 System.out.println(a)
-
-WebUI.delay(5)
 
 if (a == true) {
     System.out.println('pagenation clicked page 2')
@@ -77,6 +63,4 @@ if (b == true) {
 } else {
     KeywordUtil.markFailed('failed pagenation back arrow not clicked')
 }
-
-WebUI.closeBrowser()
 

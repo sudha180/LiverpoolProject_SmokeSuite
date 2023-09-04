@@ -18,12 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
@@ -67,6 +61,4 @@ if (fnamelname == accountname) {
 } else {
     KeywordUtil.markFailed('Name is not updated !')
 }
-
-WebUI.closeBrowser()
 

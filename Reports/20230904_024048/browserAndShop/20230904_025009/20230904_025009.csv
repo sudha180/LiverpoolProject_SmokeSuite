@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+browserAndShop,Chrome 116.0.0.0,,,2023-09-04 02:50:20,2023-09-04 02:54:53,4m - 32.251s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_048,Chrome 116.0.0.0,To verify the display of price range on the item listing page for multi sku items.,,2023-09-04 02:51:14,2023-09-04 02:52:15,1m - 1.579s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 02:51:14,2023-09-04 02:51:34,19.815s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""collec""], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 02:51:34,2023-09-04 02:51:53,18.430s,PASSED
+"a = getText(findTestObject(""PLPPage/product1_cardPrice_PLP""))",Chrome 116.0.0.0,"verify price range
+",,2023-09-04 02:51:53,2023-09-04 02:52:15,22.424s,PASSED
+"b = getText(findTestObject(""PLPPage/product1_discountPrice_PLP""))",Chrome 116.0.0.0,"verify price range
+",,2023-09-04 02:52:15,2023-09-04 02:52:15,0.350s,PASSED
+"a1 = a.contains(""-"")",Chrome 116.0.0.0,,,2023-09-04 02:52:15,2023-09-04 02:52:15,0.001s,PASSED
+"b1 = b.contains(""-"")",Chrome 116.0.0.0,,,2023-09-04 02:52:15,2023-09-04 02:52:15,0.000s,PASSED
+out.println(a1),Chrome 116.0.0.0,,,2023-09-04 02:52:15,2023-09-04 02:52:15,0.021s,PASSED
+out.println(b1),Chrome 116.0.0.0,,,2023-09-04 02:52:15,2023-09-04 02:52:15,0.001s,PASSED
+if (a1 == true && b1 == true),Chrome 116.0.0.0,,,2023-09-04 02:52:15,2023-09-04 02:52:15,0.001s,PASSED
+else,Chrome 116.0.0.0,,,2023-09-04 02:52:15,2023-09-04 02:52:15,0.029s,FAILED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_054,Chrome 116.0.0.0,To verify the display of product price on PDP page for single sku item.,,2023-09-04 02:52:15,2023-09-04 02:53:34,1m - 18.226s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 02:52:16,2023-09-04 02:52:59,43.349s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""80282837""], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 02:52:59,2023-09-04 02:53:07,7.971s,PASSED
+"verifyElementNotPresent(findTestObject(""PDPPage/Colour2_PDP""), 0)",Chrome 116.0.0.0,"verify sku not present
+",,2023-09-04 02:53:07,2023-09-04 02:53:15,8.149s,PASSED
+"verifyElementNotPresent(findTestObject(""PDPPage/Size2_PDP""), 0)",Chrome 116.0.0.0,"verify sku not present
+",,2023-09-04 02:53:15,2023-09-04 02:53:16,0.334s,PASSED
+"verifyElementPresent(findTestObject(""PDPPage/discountPrice_PDP""), 0)",Chrome 116.0.0.0,"verify discount price present
+",,2023-09-04 02:53:16,2023-09-04 02:53:31,15.232s,PASSED
+"verifyElementPresent(findTestObject(""PDPPage/cardPrice_PDP""), 0)",Chrome 116.0.0.0,"verify card price present
+",,2023-09-04 02:53:31,2023-09-04 02:53:34,2.732s,PASSED
+,,,,,,,
+Test Cases/Browse and Shop/TS_SMOKE_SUITE_058,Chrome 116.0.0.0,"To verify the display of Description slot in PDP with following tabs. 
+
+Long Description
+Manual
+Delivery Details
+Size/Dimensions
+LP Card Promotion
+Other Card Promotion",,2023-09-04 02:53:34,2023-09-04 02:54:53,1m - 19.015s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 02:53:34,2023-09-04 02:53:46,12.207s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 02:53:46,2023-09-04 02:54:53,1m - 6.287s,FAILED

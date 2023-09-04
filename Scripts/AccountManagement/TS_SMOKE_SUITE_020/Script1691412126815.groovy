@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
@@ -43,6 +37,4 @@ WebUI.click(findTestObject('AccountManagement/ClickNCollection1stAddress_Account
 WebUI.click(findTestObject('AccountManagement/SetDefaultAddressClickNCollection'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/VerifyDefaultPresent_Account'), 0)
-
-WebUI.closeBrowser()
 

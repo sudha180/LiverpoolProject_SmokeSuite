@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.maximizeWindow()
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '80282837'], FailureHandling.STOP_ON_FAILURE)
 
 'verify sku not present\r\n'
@@ -38,6 +30,4 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/discountPrice_PDP'), 0)
 
 'verify card price present\r\n'
 WebUI.verifyElementPresent(findTestObject('PDPPage/cardPrice_PDP'), 0)
-
-WebUI.closeBrowser()
 

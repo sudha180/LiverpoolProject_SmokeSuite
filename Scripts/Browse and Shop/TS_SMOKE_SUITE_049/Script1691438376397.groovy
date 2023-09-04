@@ -18,23 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.waitForPageLoad(0)
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jean'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
 
 'verify selling price\r\n'
 WebUI.verifyElementVisible(findTestObject('PLPPage/product1_cardPrice_PLP'))
 
 'verify listed price\r\n'
 WebUI.verifyElementVisible(findTestObject('PLPPage/product1_discountPrice_PLP'))
-
-WebUI.closeBrowser()
 

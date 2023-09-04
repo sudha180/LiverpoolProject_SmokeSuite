@@ -17,18 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('HomePage/Logo_hp'))
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
@@ -36,6 +24,4 @@ WebUI.waitForPageLoad(0)
 WebUI.scrollToElement(findTestObject('PLPPage/facetes/ColorTitleFacet_PLP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/Color_1_facet_PLP'), 0)
-
-WebUI.closeBrowser()
 

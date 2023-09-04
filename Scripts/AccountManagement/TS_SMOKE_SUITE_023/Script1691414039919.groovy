@@ -18,11 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -62,8 +58,6 @@ WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), Failure
 
 Name = CustomKeywords.'customkeywords.myKeywords.randomString'()
 
-WebUI.delay(3)
-
 WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CONTROL, 'a'))
 
 WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.BACK_SPACE))
@@ -87,6 +81,4 @@ if (Cardname == null) {
 } else {
     KeywordUtil.markFailed('Card is not Removed !')
 }
-
-WebUI.closeBrowser()
 

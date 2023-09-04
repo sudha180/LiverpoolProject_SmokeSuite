@@ -1,0 +1,137 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AccountManagement,Chrome 116.0.0.0,,,2023-09-04 08:05:35,2023-09-04 08:20:28,14m - 52.774s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_016,Chrome 116.0.0.0,To Verify logged in user is able to view the profile inforamtion from Actualizar datos personales link in my account page after Updating personal information,,2023-09-04 08:06:36,2023-09-04 08:07:51,1m - 14.610s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:06:37,2023-09-04 08:06:51,14.603s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:06:52,2023-09-04 08:06:53,1.728s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:06:53,2023-09-04 08:07:10,17.078s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:07:10,2023-09-04 08:07:11,0.203s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-09-04 08:07:11,2023-09-04 08:07:36,25.223s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:07:36,2023-09-04 08:07:36,0.526s,PASSED
+"click(findTestObject(""AccountManagement/UpdatePeronalData_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:07:36,2023-09-04 08:07:42,5.253s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/updatePage_Account""), 0)",Chrome 116.0.0.0,,,2023-09-04 08:07:42,2023-09-04 08:07:43,1.880s,PASSED
+name = customkeywords.myKeywords.randomString(),Chrome 116.0.0.0,,,2023-09-04 08:07:43,2023-09-04 08:07:43,0.034s,PASSED
+"clearText(findTestObject(""AccountManagement/FirstNameProfile_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:07:43,2023-09-04 08:07:45,1.440s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FirstNameProfile_Account""), Keys.chord(CONTROL, ""a""))",Chrome 116.0.0.0,,,2023-09-04 08:07:45,2023-09-04 08:07:46,0.869s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FirstNameProfile_Account""), name)",Chrome 116.0.0.0,,,2023-09-04 08:07:46,2023-09-04 08:07:46,0.529s,PASSED
+"lastname = getAttribute(findTestObject(""AccountManagement/LastName_Account""), ""value"")",Chrome 116.0.0.0,,,2023-09-04 08:07:46,2023-09-04 08:07:47,0.413s,PASSED
+println(lastname),Chrome 116.0.0.0,,,2023-09-04 08:07:47,2023-09-04 08:07:47,0.004s,PASSED
+"accountname = name + "" "" + lastname",Chrome 116.0.0.0,,,2023-09-04 08:07:47,2023-09-04 08:07:47,0.001s,PASSED
+println(accountname),Chrome 116.0.0.0,,,2023-09-04 08:07:47,2023-09-04 08:07:47,0.001s,PASSED
+"click(findTestObject(""AccountManagement/UpdateButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:07:47,2023-09-04 08:07:47,0.424s,PASSED
+"fnamelname = getText(findTestObject(""AccountManagement/PersonalDataName_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:07:47,2023-09-04 08:07:51,3.924s,PASSED
+println(fnamelname),Chrome 116.0.0.0,,,2023-09-04 08:07:51,2023-09-04 08:07:51,0.001s,PASSED
+if (fnamelname == accountname),Chrome 116.0.0.0,,,2023-09-04 08:07:51,2023-09-04 08:07:51,0.001s,PASSED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_017,Chrome 116.0.0.0,Verify the user able to add new Personal shipping address,,2023-09-04 08:07:51,2023-09-04 08:08:35,43.516s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:07:51,2023-09-04 08:08:00,8.910s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:08:01,2023-09-04 08:08:35,33.920s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_018,Chrome 116.0.0.0,Verify the user able to add new Click & Collect address address,,2023-09-04 08:08:35,2023-09-04 08:09:59,1m - 24.668s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:08:35,2023-09-04 08:08:42,7.721s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:08:43,2023-09-04 08:08:45,1.857s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:08:45,2023-09-04 08:08:52,7.662s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:08:52,2023-09-04 08:09:04,11.995s,PASSED
+"waitForPageLoad(0, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:09:04,2023-09-04 08:09:04,0.043s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-09-04 08:09:04,2023-09-04 08:09:35,30.333s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:09:35,2023-09-04 08:09:35,0.669s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:09:35,2023-09-04 08:09:38,2.432s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 116.0.0.0,,,2023-09-04 08:09:38,2023-09-04 08:09:43,4.947s,PASSED
+"click(findTestObject(""AccountManagement/liverpoolSatellite_clickAndCollect_address""))",Chrome 116.0.0.0,,,2023-09-04 08:09:43,2023-09-04 08:09:44,1.592s,PASSED
+"click(findTestObject(""AccountManagement/liverpoolSatellite_clickAndCollect_eliminar_AM""))",Chrome 116.0.0.0,,,2023-09-04 08:09:44,2023-09-04 08:09:45,0.417s,PASSED
+"click(findTestObject(""AccountManagement/acceptar_RemoveAdress_AM""))",Chrome 116.0.0.0,,,2023-09-04 08:09:45,2023-09-04 08:09:45,0.593s,PASSED
+"click(findTestObject(""AccountManagement/AddClickNCollectionAddress_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:09:45,2023-09-04 08:09:47,2.063s,PASSED
+"click(findTestObject(""AccountManagement/SelectStateClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:09:47,2023-09-04 08:09:52,4.554s,PASSED
+"click(findTestObject(""AccountManagement/StateOptionClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:09:52,2023-09-04 08:09:52,0.467s,PASSED
+"click(findTestObject(""AccountManagement/SelectAddressRadioButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:09:52,2023-09-04 08:09:54,1.314s,PASSED
+"scrollToElement(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""), 0)",Chrome 116.0.0.0,,,2023-09-04 08:09:54,2023-09-04 08:09:54,0.389s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:09:54,2023-09-04 08:09:55,0.397s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 116.0.0.0,,,2023-09-04 08:09:55,2023-09-04 08:09:57,2.879s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/ClickNCollectionFirstAddress_Account""), 0)",Chrome 116.0.0.0,,,2023-09-04 08:09:57,2023-09-04 08:09:59,1.565s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/liverpoolSatellite_clickAndCollect_address""), 0)",Chrome 116.0.0.0,,,2023-09-04 08:09:59,2023-09-04 08:09:59,0.337s,PASSED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_019,Chrome 116.0.0.0,Verify the last added Store address is displayed in the top section as a priority,,2023-09-04 08:09:59,2023-09-04 08:11:12,1m - 12.754s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:09:59,2023-09-04 08:10:07,8.202s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:10:08,2023-09-04 08:10:10,2.451s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:10:10,2023-09-04 08:10:20,9.544s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:10:20,2023-09-04 08:10:29,9.478s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:10:29,2023-09-04 08:10:29,0.036s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-09-04 08:10:29,2023-09-04 08:10:41,11.248s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:10:41,2023-09-04 08:10:41,0.634s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:10:41,2023-09-04 08:10:43,1.984s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:10:43,2023-09-04 08:10:46,3.109s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:10:46,2023-09-04 08:11:08,21.453s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:11:08,2023-09-04 08:11:08,0.548s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/FirstPersonalShippingAddress_Account""), 0)",Chrome 116.0.0.0,,,2023-09-04 08:11:08,2023-09-04 08:11:12,3.604s,PASSED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_020,Chrome 116.0.0.0,Verify if the user able to make C&C store address as default address,,2023-09-04 08:11:12,2023-09-04 08:12:07,54.877s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:11:12,2023-09-04 08:11:24,11.909s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:11:25,2023-09-04 08:11:27,2.130s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:11:27,2023-09-04 08:11:35,8.742s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:11:35,2023-09-04 08:11:48,12.199s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:11:48,2023-09-04 08:11:48,0.043s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-09-04 08:11:48,2023-09-04 08:11:57,9.698s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:11:57,2023-09-04 08:11:58,0.520s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:11:58,2023-09-04 08:12:00,2.017s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 116.0.0.0,,,2023-09-04 08:12:00,2023-09-04 08:12:03,3.048s,PASSED
+"click(findTestObject(""AccountManagement/ClickNCollection1stAddress_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:12:03,2023-09-04 08:12:05,1.748s,PASSED
+"click(findTestObject(""AccountManagement/SetDefaultAddressClickNCollection""))",Chrome 116.0.0.0,,,2023-09-04 08:12:05,2023-09-04 08:12:05,0.380s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/VerifyDefaultPresent_Account""), 0)",Chrome 116.0.0.0,,,2023-09-04 08:12:05,2023-09-04 08:12:07,1.894s,PASSED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_021,Chrome 116.0.0.0,Verify the user is able to navigate to forma de pago page and view the payment menthods,,2023-09-04 08:12:07,2023-09-04 08:12:56,49.462s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:12:07,2023-09-04 08:12:16,9.066s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:12:16,2023-09-04 08:12:18,1.305s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:12:18,2023-09-04 08:12:27,9.316s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:12:27,2023-09-04 08:12:39,11.752s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:12:39,2023-09-04 08:12:39,0.029s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-09-04 08:12:39,2023-09-04 08:12:47,8.603s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:12:47,2023-09-04 08:12:48,0.945s,PASSED
+"click(findTestObject(""AccountManagement/MyPaymentMethod_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:12:48,2023-09-04 08:12:52,4.182s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/PaymentMethodsSection_Account""), 0)",Chrome 116.0.0.0,,,2023-09-04 08:12:52,2023-09-04 08:12:56,3.946s,PASSED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_022,Chrome 116.0.0.0,Verify the user able to update the payment methods as default in forma de pago page,,2023-09-04 08:12:56,2023-09-04 08:14:28,1m - 31.242s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:12:56,2023-09-04 08:13:07,10.536s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:13:08,2023-09-04 08:13:10,2.669s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:13:10,2023-09-04 08:13:20,9.520s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-09-04 08:13:20,2023-09-04 08:13:54,34.042s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:13:54,2023-09-04 08:13:54,0.021s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-09-04 08:13:54,2023-09-04 08:14:28,33.623s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_023,Chrome 116.0.0.0,"To Verify Logged in user is able to Add ,Edit and remove credit card from my account from my account",,2023-09-04 08:14:28,2023-09-04 08:15:52,1m - 24.727s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:14:28,2023-09-04 08:14:53,25.188s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:14:53,2023-09-04 08:15:19,25.211s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:15:19,2023-09-04 08:15:52,33.755s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_024,Chrome 116.0.0.0,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,2023-09-04 08:15:52,2023-09-04 08:17:51,1m - 58.997s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:15:52,2023-09-04 08:16:08,15.985s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:16:09,2023-09-04 08:16:11,1.926s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 08:16:11,2023-09-04 08:16:22,11.436s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:16:22,2023-09-04 08:16:37,15.105s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:16:37,2023-09-04 08:16:37,0.040s,PASSED
+"click(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 116.0.0.0,,,2023-09-04 08:16:37,2023-09-04 08:16:56,18.862s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:16:56,2023-09-04 08:16:57,0.715s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:16:57,2023-09-04 08:17:14,17.387s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:17:14,2023-09-04 08:17:17,2.927s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:17:17,2023-09-04 08:17:37,19.657s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-04 08:17:37,2023-09-04 08:17:37,0.024s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:17:37,2023-09-04 08:17:37,0.504s,PASSED
+"Address1 = getText(findTestObject(""AccountManagement/AddressTitleFirst_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:17:37,2023-09-04 08:17:40,2.931s,PASSED
+if (TempAddress == Address1),Chrome 116.0.0.0,,,2023-09-04 08:17:40,2023-09-04 08:17:40,0.001s,PASSED
+"click(findTestObject(""AccountManagement/Select3DotAddress2Nd_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:17:40,2023-09-04 08:17:41,0.427s,PASSED
+"click(findTestObject(""AccountManagement/EditCardDetails_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:17:41,2023-09-04 08:17:41,0.440s,PASSED
+name = customkeywords.myKeywords.randomString(),Chrome 116.0.0.0,,,2023-09-04 08:17:41,2023-09-04 08:17:41,0.001s,PASSED
+TempAddress = name,Chrome 116.0.0.0,,,2023-09-04 08:17:41,2023-09-04 08:17:41,0.000s,PASSED
+"clearText(findTestObject(""AccountManagement/ShortName_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:17:41,2023-09-04 08:17:46,4.676s,PASSED
+"sendKeys(findTestObject(""AccountManagement/ShortName_Account""), Keys.chord(CONTROL, ""a""))",Chrome 116.0.0.0,,,2023-09-04 08:17:46,2023-09-04 08:17:46,0.536s,PASSED
+"sendKeys(findTestObject(""AccountManagement/ShortName_Account""), name)",Chrome 116.0.0.0,,,2023-09-04 08:17:46,2023-09-04 08:17:47,0.484s,PASSED
+"click(findTestObject(""AccountManagement/AcceptButton_AccountM""))",Chrome 116.0.0.0,,,2023-09-04 08:17:47,2023-09-04 08:17:47,0.440s,PASSED
+"Address1 = getText(findTestObject(""AccountManagement/AddressTitleFirst_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:17:47,2023-09-04 08:17:50,3.075s,PASSED
+if (TempAddress == Address1),Chrome 116.0.0.0,,,2023-09-04 08:17:50,2023-09-04 08:17:50,0.001s,PASSED
+else,Chrome 116.0.0.0,,,2023-09-04 08:17:50,2023-09-04 08:17:50,0.001s,FAILED
+"click(findTestObject(""AccountManagement/Select3DotAddress2Nd_Account""))",Chrome 116.0.0.0,,,2023-09-04 08:17:50,2023-09-04 08:17:51,0.433s,PASSED
+"click(findTestObject(""AccountManagement/RemoveCardDetails_Account""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:17:51,2023-09-04 08:17:51,0.562s,FAILED
+,,,,,,,
+Test Cases/AccountManagement/TS_SMOKE_SUITE_025,Chrome 116.0.0.0,To Verify Logged in user is able to change the password,,2023-09-04 08:17:51,2023-09-04 08:20:28,2m - 36.601s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 08:17:51,2023-09-04 08:18:08,16.626s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:18:09,2023-09-04 08:18:10,1.700s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":AMUsername, ""password"":AMpassword], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-04 08:18:10,2023-09-04 08:20:28,2m - 17.753s,FAILED

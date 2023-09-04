@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.maximizeWindow()
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1002504924'], FailureHandling.STOP_ON_FAILURE)
 
 'verify milti sku\r\n'
@@ -32,6 +24,4 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/Colour2_PDP'), 0)
 
 'verify price range\r\n'
 WebUI.verifyElementPresent(findTestObject('PDPPage/minus(-)(priceRange)_PDP'), 0)
-
-WebUI.closeBrowser()
 

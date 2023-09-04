@@ -17,19 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
 WebUI.waitForPageLoad(0)
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
-
-WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
 
@@ -61,6 +55,4 @@ WebUI.click(findTestObject('AccountManagement/UpdateButton_Account'))
 WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementText(findTestObject('HomePage/header_Hola_text_HP'), 'Hola ' + Name)
-
-WebUI.closeBrowser()
 

@@ -18,18 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0)
+WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
@@ -62,6 +58,4 @@ WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
 WebUI.verifyElementPresent(findTestObject('AccountManagement/ClickNCollectionFirstAddress_Account'), 0)
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/liverpoolSatellite_clickAndCollect_address'), 0)
-
-WebUI.closeBrowser()
 

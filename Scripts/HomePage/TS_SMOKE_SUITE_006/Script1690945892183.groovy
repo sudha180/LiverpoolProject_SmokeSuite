@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(0)
 
@@ -34,6 +28,4 @@ WebUI.click(findTestObject('HomePage/Mesa de regalos_HP'))
 WebUI.verifyElementPresent(findTestObject('HomePage/gr/Find_gift_table_GR'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/gr/Search_event_button_GR'), 0)
-
-WebUI.closeBrowser()
 

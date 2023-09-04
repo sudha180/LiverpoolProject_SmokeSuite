@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkout,,,,2023-09-03 23:46:35,2023-09-03 23:46:51,15.366s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_072,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-03 23:46:40,2023-09-03 23:46:44,3.589s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:41,2023-09-03 23:46:43,2.213s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:43,2023-09-03 23:46:44,0.680s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_073,,To verify the functionality of editing the Personal shipping address  in checkout flow for logged in user,,2023-09-03 23:46:44,2023-09-03 23:46:45,0.643s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:44,2023-09-03 23:46:44,0.104s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:45,2023-09-03 23:46:45,0.136s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_075,,"For a login client, if a Click & Collect store is configured in the profile as default, it must appear preselected in One Page checkout",,2023-09-03 23:46:45,2023-09-03 23:46:46,0.958s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:45,2023-09-03 23:46:45,0.072s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:45,2023-09-03 23:46:46,0.152s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_076,,To verify the display of payment page for the for logged in user,,2023-09-03 23:46:46,2023-09-03 23:46:46,0.655s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:46,2023-09-03 23:46:46,0.016s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:46,2023-09-03 23:46:46,0.183s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_077,,To verify the functionality of new  adding card  in checkout flow for logged in user,,2023-09-03 23:46:46,2023-09-03 23:46:47,0.531s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:46,2023-09-03 23:46:46,0.024s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:47,2023-09-03 23:46:47,0.186s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_078,,To verify the display of Order confirmation page for logged in user,,2023-09-03 23:46:47,2023-09-03 23:46:47,0.560s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:47,2023-09-03 23:46:47,0.032s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:47,2023-09-03 23:46:47,0.184s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_080,,To verify that the display of the applied Coupon details in the order success page,,2023-09-03 23:46:47,2023-09-03 23:46:48,0.470s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:47,2023-09-03 23:46:47,0.016s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:48,2023-09-03 23:46:48,0.151s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_082,,To verify the functionality of   editing the card  in checkout flow for loggedin user,,2023-09-03 23:46:48,2023-09-03 23:46:48,0.448s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:48,2023-09-03 23:46:48,0.016s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:48,2023-09-03 23:46:48,0.136s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_083,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-03 23:46:48,2023-09-03 23:46:49,0.576s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:48,2023-09-03 23:46:48,0.016s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:49,2023-09-03 23:46:49,0.128s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_086,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-03 23:46:49,2023-09-03 23:46:49,0.477s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:49,2023-09-03 23:46:49,0.016s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:49,2023-09-03 23:46:49,0.155s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_087,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-03 23:46:49,2023-09-03 23:46:50,0.557s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:49,2023-09-03 23:46:49,0.016s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:50,2023-09-03 23:46:50,0.165s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_088,,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-03 23:46:50,2023-09-03 23:46:51,0.559s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-09-03 23:46:50,2023-09-03 23:46:50,0.016s,ERROR
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], STOP_ON_FAILURE)",,,,2023-09-03 23:46:50,2023-09-03 23:46:51,0.168s,FAILED

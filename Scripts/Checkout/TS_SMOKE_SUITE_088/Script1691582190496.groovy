@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -46,6 +42,4 @@ WebUI.setText(findTestObject('AccountManagement/ATT/card_cvv_ATT_MyAccount'), '8
 WebUI.click(findTestObject('AccountManagement/ATT/finalize_recharge_MyAccount'))
 
 WebUI.verifyElementPresent(findTestObject('OPCPage/ConfirmOrder_Checkout'), 0)
-
-WebUI.closeBrowser()
 

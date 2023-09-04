@@ -32,18 +32,4 @@
       <testCaseId>Test Cases/ShoppingCart/TS_SMOKE_SUITE_028</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>03b8f388-d7cd-45e0-adf3-7ad848fad477</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ShoppingCart/TS_SMOKE_SUITE_029</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0dd32ebb-e0b3-4414-a9ad-f06967981dbe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ShoppingCart/TS_SMOKE_SUITE_030</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

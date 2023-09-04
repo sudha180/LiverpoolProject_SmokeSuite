@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+checkout,Chrome 116.0.0.0,,,2023-09-02 19:43:52,2023-09-02 19:54:39,10m - 47.027s,FAILED
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_072,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-02 19:44:44,2023-09-02 19:47:48,3m - 4.669s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:44:45,2023-09-02 19:44:45,0.617s,PASSED
+"callTestCase(findTestCase(""CommonMethods/loginFromHomePage""), [""username"":username, ""password"":password], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 19:44:45,2023-09-02 19:45:18,32.529s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""jeans""], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 19:45:18,2023-09-02 19:46:04,46.437s,PASSED
+waitForPageLoad(0),Chrome 116.0.0.0,,,2023-09-02 19:46:04,2023-09-02 19:46:05,0.254s,PASSED
+"click(findTestObject(""HomePage/FirstProduct_plp""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 19:46:05,2023-09-02 19:46:32,27.672s,PASSED
+"click(findTestObject(""PDPPage/Size1_PDP""), OPTIONAL)",Chrome 116.0.0.0,,,2023-09-02 19:46:32,2023-09-02 19:46:47,14.973s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 116.0.0.0,,,2023-09-02 19:46:47,2023-09-02 19:46:49,1.720s,PASSED
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 116.0.0.0,,,2023-09-02 19:46:49,2023-09-02 19:47:00,11.356s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 116.0.0.0,,,2023-09-02 19:47:00,2023-09-02 19:47:06,5.827s,PASSED
+"click(findTestObject(""OPCPage/ChangeAddress_Checkout""))",Chrome 116.0.0.0,,,2023-09-02 19:47:06,2023-09-02 19:47:32,26.119s,PASSED
+"click(findTestObject(""OPCPage/AddAddressButtonPopup_checkout""))",Chrome 116.0.0.0,,,2023-09-02 19:47:32,2023-09-02 19:47:35,3.056s,PASSED
+"StoreValue = ""AUTOMATION"" + RandomStringUtils.randomAlphabetic(8)",Chrome 116.0.0.0,,,2023-09-02 19:47:35,2023-09-02 19:47:35,0.021s,PASSED
+out.println(StoreValue),Chrome 116.0.0.0,,,2023-09-02 19:47:35,2023-09-02 19:47:35,0.026s,PASSED
+"setText(findTestObject(""OPCPage/shortName_addAddress_opc""), StoreValue)",Chrome 116.0.0.0,,,2023-09-02 19:47:35,2023-09-02 19:47:37,1.424s,PASSED
+"setText(findTestObject(""OPCPage/mothersLastName_addAddress_opc""), MotherName)",Chrome 116.0.0.0,,,2023-09-02 19:47:37,2023-09-02 19:47:38,0.919s,PASSED
+"setText(findTestObject(""OPCPage/postalCode_addAddress_opc""), PostalCode)",Chrome 116.0.0.0,,,2023-09-02 19:47:38,2023-09-02 19:47:39,0.834s,PASSED
+"setText(findTestObject(""OPCPage/city_addAddress_opc""), CityAddAddress)",Chrome 116.0.0.0,,,2023-09-02 19:47:39,2023-09-02 19:47:42,3.247s,PASSED
+"click(findTestObject(""OPCPage/street_addAddress_opc""))",Chrome 116.0.0.0,,,2023-09-02 19:47:42,2023-09-02 19:47:43,0.729s,PASSED
+"setText(findTestObject(""OPCPage/street_addAddress_opc""), StreetAddAddress)",Chrome 116.0.0.0,,,2023-09-02 19:47:43,2023-09-02 19:47:43,0.861s,PASSED
+"setText(findTestObject(""OPCPage/noExt_addAddress_opc""), NoExtAddAddress)",Chrome 116.0.0.0,,,2023-09-02 19:47:43,2023-09-02 19:47:44,0.910s,PASSED
+"setText(findTestObject(""OPCPage/cellphone_addAddress_opc""), CellPhoneAddAddress)",Chrome 116.0.0.0,,,2023-09-02 19:47:44,2023-09-02 19:47:45,0.954s,PASSED
+"setText(findTestObject(""OPCPage/LADA_addAddress_opc""), LADAaddAddress)",Chrome 116.0.0.0,,,2023-09-02 19:47:45,2023-09-02 19:47:46,0.837s,PASSED
+"setText(findTestObject(""OPCPage/phone_addAddress_opc""), phoneAddAddress)",Chrome 116.0.0.0,,,2023-09-02 19:47:46,2023-09-02 19:47:47,0.974s,PASSED
+"click(findTestObject(""OPCPage/CheckBoxAddAddressPopup_OPC""))",Chrome 116.0.0.0,,,2023-09-02 19:47:47,2023-09-02 19:47:48,0.484s,PASSED
+"click(findTestObject(""OPCPage/ContinueButtonAddAddress_Checkout""))",Chrome 116.0.0.0,,,2023-09-02 19:47:48,2023-09-02 19:47:48,0.605s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:47:48,2023-09-02 19:47:48,0.186s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_073,Chrome 116.0.0.0,To verify the functionality of editing the Personal shipping address  in checkout flow for logged in user,,2023-09-02 19:47:48,2023-09-02 19:48:23,34.259s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:47:49,2023-09-02 19:48:23,33.647s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:48:23,2023-09-02 19:48:23,0.092s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_075,Chrome 116.0.0.0,"For a login client, if a Click & Collect store is configured in the profile as default, it must appear preselected in One Page checkout",,2023-09-02 19:48:23,2023-09-02 19:48:57,34.303s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:48:23,2023-09-02 19:48:57,33.649s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:48:57,2023-09-02 19:48:57,0.091s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_076,Chrome 116.0.0.0,To verify the display of payment page for the for logged in user,,2023-09-02 19:48:57,2023-09-02 19:49:31,34.264s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:48:58,2023-09-02 19:49:31,33.512s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:49:31,2023-09-02 19:49:31,0.075s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_077,Chrome 116.0.0.0,To verify the functionality of new  adding card  in checkout flow for logged in user,,2023-09-02 19:49:31,2023-09-02 19:50:05,33.936s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:49:32,2023-09-02 19:50:05,33.493s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:50:05,2023-09-02 19:50:05,0.072s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_078,Chrome 116.0.0.0,To verify the display of Order confirmation page for logged in user,,2023-09-02 19:50:05,2023-09-02 19:50:41,36.295s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-02 19:50:06,2023-09-02 19:50:08,2.622s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:50:08,2023-09-02 19:50:41,33.260s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:50:41,2023-09-02 19:50:41,0.059s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_080,Chrome 116.0.0.0,To verify that the display of the applied Coupon details in the order success page,,2023-09-02 19:50:41,2023-09-02 19:51:15,33.632s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:50:42,2023-09-02 19:51:15,33.188s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:51:15,2023-09-02 19:51:15,0.079s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_082,Chrome 116.0.0.0,To verify the functionality of   editing the card  in checkout flow for loggedin user,,2023-09-02 19:51:15,2023-09-02 19:51:49,33.673s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:51:15,2023-09-02 19:51:49,33.211s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:51:49,2023-09-02 19:51:49,0.077s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_083,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-02 19:51:49,2023-09-02 19:52:23,33.746s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:51:49,2023-09-02 19:52:22,33.236s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:52:22,2023-09-02 19:52:23,0.072s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_086,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-02 19:52:23,2023-09-02 19:53:32,1m - 9.318s,FAILED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 116.0.0.0,,,2023-09-02 19:52:23,2023-09-02 19:52:56,33.561s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":SLProduct], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-02 19:52:56,2023-09-02 19:53:32,35.318s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:53:32,2023-09-02 19:53:32,0.071s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_087,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-02 19:53:32,2023-09-02 19:54:05,33.564s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:53:32,2023-09-02 19:54:05,33.197s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:54:05,2023-09-02 19:54:05,0.065s,ERROR
+,,,,,,,
+Test Cases/Checkout/TS_SMOKE_SUITE_088,Chrome 116.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,2023-09-02 19:54:05,2023-09-02 19:54:39,33.646s,FAILED
+"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-02 19:54:06,2023-09-02 19:54:39,33.159s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-02 19:54:39,2023-09-02 19:54:39,0.059s,ERROR

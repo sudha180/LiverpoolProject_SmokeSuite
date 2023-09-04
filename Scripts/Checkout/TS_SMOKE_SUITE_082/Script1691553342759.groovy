@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
@@ -50,27 +46,23 @@ WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
 
 WebUI.scrollToElement(findTestObject('OPCPage/card3_Option_OPC'), 0)
 
-WebUI.delay(3)
-
 WebUI.click(findTestObject('OPCPage/card3_Option_OPC'))
 
-WebUI.delay(3)
+WebUI.waitForElementPresent(findTestObject('OPCPage/option2DropDown_editos_card_OPC'), 0)
 
 WebUI.click(findTestObject('OPCPage/option2DropDown_editos_card_OPC'))
 
 WebUI.sendKeys(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.clearText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+cpCode1 = '01200'
 
-cpCode1 = '12000'
-
-cpCode2 = '11100'
+cpCode2 = '63000'
 
 cpCode = WebUI.getText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC'), FailureHandling.STOP_ON_FAILURE)
 
@@ -82,9 +74,7 @@ if (cpCode == cpCode1) {
 
 WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'))
 
-WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'), FailureHandling.OPTIONAL)
-
-WebUI.waitForPageLoad(0)
+WebUI.enhancedClick(findTestObject('OPCPage/cardContinue_checkout_popUP'), FailureHandling.OPTIONAL)
 
 //verifying the edited pincode
 WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
@@ -95,13 +85,11 @@ WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('OPCPage/card3_Option_OPC'))
 
-WebUI.delay(3)
+WebUI.waitForElementPresent(findTestObject('OPCPage/option2DropDown_editos_card_OPC'), 0)
 
 WebUI.click(findTestObject('OPCPage/option2DropDown_editos_card_OPC'))
 
 WebUI.waitForPageLoad(0)
 
 assert WebUI.getText(findTestObject('OPCPage/AddressSection_card_popup_enterPINCODE_OPC')) == cpCode
-
-WebUI.closeBrowser()
 

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search" time="269.24" tests="2" failures="2" errors="0">
+   <testsuite name="Search" tests="2" failures="2" errors="0" time="269.24" skipped="0" timestamp="2023-09-02 09:55:35" hostname="DELL - DESKTOP-L51QJLB" id="Test Suites/Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230902_094739\\Search\\20230902_095518"/>
+         <property name="logFiles" value="D:\\backup\\LiverpoolProject_SmokeSuite\\Reports\\20230902_094739\\Search\\20230902_095518\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-L51QJLB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="172.22.45.157"/>
+         <property name="sessionId" value="c75ec14c55c4f1a284a070888fad871b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_061" time="98.656" classname="Test Cases/Search/TS_SMOKE_SUITE_061" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-02 09:57:01 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_061: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+
+
+2023-09-02 09:57:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-09-02 09:57:01 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Logo_hp"), OPTIONAL): Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-09-02 09:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-09-02 09:57:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-02 09:57:03 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-02 09:57:03 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-02 09:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-02 09:57:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-02 09:57:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-02 09:57:07 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-02 09:57:08 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-02 09:57:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-02 09:57:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-02 09:57:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-02 09:57:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-02 09:57:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-02 09:57:14 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 09:57:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:57:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 09:57:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/pagenation_1_PLP"), 0): Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-02 09:57:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:58:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-02 09:58:19 - [TEST_STEP][PASSED] - scrollToPosition(450, 0): Browser is scrolled to position x = 450, y = 0
+
+2023-09-02 09:58:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 450, y = 0
+
+2023-09-02 09:58:20 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/pagenation_2_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/pagenation_2_PLP' is clicked on
+
+2023-09-02 09:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/pagenation_2_PLP' is clicked on
+
+2023-09-02 09:58:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 09:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:58:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 09:58:22 - [TEST_STEP][PASSED] - a1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-02 09:58:22 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-02 09:58:22 - [TEST_STEP][PASSED] - out.println(a1): null
+
+2023-09-02 09:58:22 - [TEST_STEP][PASSED] - a = a1.contains("page-2"): null
+
+2023-09-02 09:58:22 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-09-02 09:58:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-09-02 09:58:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-09-02 09:58:32 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-09-02 09:58:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-02 09:58:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-02 09:58:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/pagenation_1_PLP"), 0): Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-02 09:58:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:58:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/pagenation_1_PLP' successfully
+
+2023-09-02 09:58:37 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 09:58:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:58:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 09:58:38 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/pagenation_1_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/pagenation_1_PLP' is clicked on
+
+2023-09-02 09:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/pagenation_1_PLP' is clicked on
+
+2023-09-02 09:58:39 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 09:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:58:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 09:58:39 - [TEST_STEP][PASSED] - if (a == true): null
+
+2023-09-02 09:58:39 - [TEST_STEP][FAILED] - else: failed pagenation clicked page 2
+
+2023-09-02 09:58:39 - [TEST_STEP][FAILED] - markFailed("failed pagenation clicked page 2"): failed pagenation clicked page 2
+
+2023-09-02 09:58:39 - [MESSAGE][FAILED] - failed pagenation clicked page 2
+
+2023-09-02 09:58:39 - [TEST_STEP][PASSED] - b1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-02 09:58:39 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-02 09:58:39 - [TEST_STEP][PASSED] - b = b1.contains("page-1"): null
+
+2023-09-02 09:58:39 - [TEST_STEP][PASSED] - out.println(b1): null
+
+2023-09-02 09:58:39 - [TEST_STEP][PASSED] - if (b == true): null
+
+2023-09-02 09:58:39 - [TEST_STEP][FAILED] - else: failed pagenation clicked page 1
+
+2023-09-02 09:58:39 - [TEST_STEP][FAILED] - markFailed("failed pagenation clicked page 1"): failed pagenation clicked page 1
+
+2023-09-02 09:58:39 - [MESSAGE][FAILED] - failed pagenation clicked page 1
+
+2023-09-02 09:58:39 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.sampleAfterTestCase(NewTestListener.groovy:41)
+	... 14 more
+
+
+2023-09-02 09:58:39 - [TEST_STEP][ERROR] - if (verifyElementPresent(findTestObject("Object Repository/AccountManagement/span_Hola header_HP")) == true): org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.sampleAfterTestCase(NewTestListener.groovy:41)
+	... 14 more
+
+
+2023-09-02 09:58:40 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.sampleAfterTestCase(NewTestListener.groovy:41)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2023-09-02 09:57:01 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_061: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TS_SMOKE_SUITE_070" time="84.815" classname="Test Cases/Search/TS_SMOKE_SUITE_070" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/TS_SMOKE_SUITE_070 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation forward arrow not clicked
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_070.run(TS_SMOKE_SUITE_070:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+"/>
+         <system-out><![CDATA[2023-09-02 09:58:40 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_070: Test Cases/Search/TS_SMOKE_SUITE_070 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation forward arrow not clicked
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_070.run(TS_SMOKE_SUITE_070:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+
+
+2023-09-02 09:58:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-09-02 09:58:40 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Logo_hp"), OPTIONAL): Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-09-02 09:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Logo_hp' is clicked on
+
+2023-09-02 09:58:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CommonMethods/SearchForAProduct_search"), ["searchTerm":"mac"], STOP_ON_FAILURE): Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-02 09:58:51 - [TEST_CASE][PASSED] - Test Cases/CommonMethods/SearchForAProduct_search: Test Cases/CommonMethods/SearchForAProduct_search
+
+2023-09-02 09:58:51 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Buscar1"), STOP_ON_FAILURE): Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-02 09:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Buscar1' is clicked on
+
+2023-09-02 09:58:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-02 09:58:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-02 09:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("HomePage/Buscar1"), searchTerm): Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-02 09:58:58 - [MESSAGE][PASSED] - Text 'mac' is set on object 'Object Repository/HomePage/Buscar1'
+
+2023-09-02 09:58:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-09-02 09:59:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-09-02 09:59:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Seach_TextBox_hp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-02 09:59:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/HomePage/Seach_TextBox_hp'
+
+2023-09-02 09:59:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonMethods/SearchForAProduct_search' successfully
+
+2023-09-02 09:59:06 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 09:59:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:59:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 09:59:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/ForwardArrow_Pagenation_PLP"), 0): Scroll to object 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' successfully
+
+2023-09-02 09:59:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:59:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' successfully
+
+2023-09-02 09:59:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 09:59:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:59:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 09:59:26 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/ForwardArrow_Pagenation_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' is clicked on
+
+2023-09-02 09:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/ForwardArrow_Pagenation_PLP' is clicked on
+
+2023-09-02 09:59:27 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 09:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 09:59:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 09:59:27 - [TEST_STEP][PASSED] - a1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-02 09:59:27 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda?s=mac'
+
+2023-09-02 09:59:27 - [TEST_STEP][PASSED] - out.println(a1): null
+
+2023-09-02 09:59:27 - [TEST_STEP][PASSED] - a = a1.contains("page-2"): null
+
+2023-09-02 09:59:27 - [TEST_STEP][PASSED] - out.println(a): null
+
+2023-09-02 09:59:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-09-02 09:59:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-02 09:59:32 - [TEST_STEP][PASSED] - if (a == true): null
+
+2023-09-02 09:59:32 - [TEST_STEP][FAILED] - else: failed pagenation forward arrow not clicked
+
+2023-09-02 09:59:32 - [TEST_STEP][FAILED] - markFailed("failed pagenation forward arrow not clicked"): failed pagenation forward arrow not clicked
+
+2023-09-02 09:59:32 - [MESSAGE][FAILED] - failed pagenation forward arrow not clicked
+
+2023-09-02 09:59:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("PLPPage/BackArrow_Pagenation_PLP"), 0): Scroll to object 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' successfully
+
+2023-09-02 09:59:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 10:00:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' successfully
+
+2023-09-02 10:00:02 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 10:00:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 10:00:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 10:00:03 - [TEST_STEP][PASSED] - click(findTestObject("PLPPage/BackArrow_Pagenation_PLP"), STOP_ON_FAILURE): Object: 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' is clicked on
+
+2023-09-02 10:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PLPPage/BackArrow_Pagenation_PLP' is clicked on
+
+2023-09-02 10:00:04 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-09-02 10:00:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-02 10:00:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-09-02 10:00:04 - [TEST_STEP][PASSED] - b1 = getUrl(): Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-02 10:00:04 - [MESSAGE][PASSED] - Current window's url is: 'https://odtaqaa.liverpool.com.mx/tienda/page-2?s=mac'
+
+2023-09-02 10:00:04 - [TEST_STEP][PASSED] - b = b1.contains("page-1"): null
+
+2023-09-02 10:00:04 - [TEST_STEP][PASSED] - out.println(b1): null
+
+2023-09-02 10:00:04 - [TEST_STEP][PASSED] - if (b == true): null
+
+2023-09-02 10:00:04 - [TEST_STEP][FAILED] - else: failed pagenation back arrow not clicked
+
+2023-09-02 10:00:04 - [TEST_STEP][FAILED] - markFailed("failed pagenation back arrow not clicked"): failed pagenation back arrow not clicked
+
+2023-09-02 10:00:04 - [MESSAGE][FAILED] - failed pagenation back arrow not clicked
+
+2023-09-02 10:00:04 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.sampleAfterTestCase(NewTestListener.groovy:41)
+	... 14 more
+
+
+2023-09-02 10:00:04 - [TEST_STEP][ERROR] - if (verifyElementPresent(findTestObject("Object Repository/AccountManagement/span_Hola header_HP")) == true): org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.sampleAfterTestCase(NewTestListener.groovy:41)
+	... 14 more
+
+
+2023-09-02 10:00:05 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.invokeMethod(NewTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/AccountManagement/span_Hola header_HP']
+Possible solutions: verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int), verifyElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), verifyAlertPresent(int), verifyElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at NewTestListener.sampleAfterTestCase(NewTestListener.groovy:41)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2023-09-02 09:58:40 - [TEST_CASE][FAILED] - Test Cases/Search/TS_SMOKE_SUITE_070: Test Cases/Search/TS_SMOKE_SUITE_070 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation forward arrow not clicked
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_070.run(TS_SMOKE_SUITE_070:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-02 09:55:35 - [TEST_SUITE][FAILED] - Search: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-09-02 09:55:35 - [TEST_SUITE][FAILED] - Search: Test Cases/Search/TS_SMOKE_SUITE_061 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: failed pagenation clicked page 2
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed.call(Unknown Source)
+	at TS_SMOKE_SUITE_061.run(TS_SMOKE_SUITE_061:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693628718672.run(TempTestSuite1693628718672.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

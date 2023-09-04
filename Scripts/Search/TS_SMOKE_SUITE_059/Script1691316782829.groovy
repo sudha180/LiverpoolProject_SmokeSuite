@@ -17,18 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
 'last product at a page  not 45\r\n\r\n'
 WebUI.verifyElementPresent(findTestObject('PDPPage/product_56_PDP'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('PDPPage/product_57_PDP'), 0)
-
-WebUI.closeBrowser()
 
