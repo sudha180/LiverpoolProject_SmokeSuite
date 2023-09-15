@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of facets on the item listing page</description>
+   <name>TS_SMOKE_SUITE_047</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b19113a9-80c6-4a81-a609-5fbfa8ce2481</testCaseGuid>
+</TestCaseEntity>

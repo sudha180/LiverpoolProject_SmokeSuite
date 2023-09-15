@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that the user is navigated to  “Mesa de Regalos&quot; page by clicking on the  “Mesa de Regalos&quot; link on the header section.</description>
+   <name>TS_SMOKE_SUITE_006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c174125c-6254-4214-b865-d0df619866f8</testCaseGuid>
+</TestCaseEntity>

@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'can\r\n'</initValue>
+      <initValue>'van'</initValue>
       <name>SLProduct</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Vaso'</initValue>
+      <initValue>'tag'</initValue>
       <name>SLSearchTerm</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -133,5 +133,15 @@
       <description></description>
       <initValue>''</initValue>
       <name>name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pan'</initValue>
+      <name>SL1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ropa'</initValue>
+      <name>Sl_PLP_price</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

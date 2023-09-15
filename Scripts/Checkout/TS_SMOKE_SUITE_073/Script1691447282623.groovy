@@ -17,21 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.Username, ('password') : GlobalVariable.Password], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
 
@@ -52,8 +44,6 @@ WebUI.setText(findTestObject('OPCPage/shortName_addAddress_opc'), GlobalVariable
 WebUI.waitForPageLoad(0)
 
 WebUI.enhancedClick(findTestObject('OPCPage/ContinueButtonAddAddress_Checkout'))
-
-WebUI.enhancedClick(findTestObject('OPCPage/ContinueButtonAddAddress_Checkout'), FailureHandling.OPTIONAL)
 
 WebUI.enhancedClick(findTestObject('OPCPage/ContinueButtonAddAddress_Checkout'), FailureHandling.OPTIONAL)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify Logged in user is able to add, Edit and Remove the delivery address from my account</description>
+   <name>TS_SMOKE_SUITE_024</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e155d595-03a7-4840-b9c4-5fa67fa6712c</testCaseGuid>
+</TestCaseEntity>

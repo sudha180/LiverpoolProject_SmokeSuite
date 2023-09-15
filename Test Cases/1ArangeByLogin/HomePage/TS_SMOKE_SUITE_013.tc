@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that the user is able to create account from Login overlay</description>
+   <name>TS_SMOKE_SUITE_013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dca1387a-08a9-4270-bd21-ff60ab44a246</testCaseGuid>
+</TestCaseEntity>

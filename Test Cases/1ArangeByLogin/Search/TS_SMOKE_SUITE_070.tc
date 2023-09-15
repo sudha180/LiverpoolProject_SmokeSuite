@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to verify the pagination in the search result page</description>
+   <name>TS_SMOKE_SUITE_070</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f62c466-c721-4f30-b9a6-efa8f5402ae3</testCaseGuid>
+</TestCaseEntity>

@@ -17,21 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('PLPPage/product-2-DiscountPrice_PLP'))
+WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 
 WebUI.click(findTestObject('PDPPage/AddToCart_pdp'))
 

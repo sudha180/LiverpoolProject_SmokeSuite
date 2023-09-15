@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of Order confirmation page for logged in user</description>
+   <name>TS_SMOKE_SUITE_078</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a94ef5c9-8815-40d8-95c3-fbdff17a6989</testCaseGuid>
+</TestCaseEntity>

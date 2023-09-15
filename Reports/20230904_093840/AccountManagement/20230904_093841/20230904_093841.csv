@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-AccountManagement,Chrome 116.0.0.0,,,2023-09-04 09:39:28,2023-09-04 09:39:58,30.177s,ERROR
-,,,,,,,
-Test Cases/AccountManagement/TS_SMOKE_SUITE_020,Chrome 116.0.0.0,Verify if the user able to make C&C store address as default address,,2023-09-04 09:39:47,2023-09-04 09:39:58,10.636s,ERROR
-Start listener action : sampleBeforeTestCase,Chrome 116.0.0.0,,,2023-09-04 09:39:47,2023-09-04 09:39:55,7.622s,PASSED
-"if (mouseOver(findTestObject(""AccountManagement/span_Hola header_HP"") == true))",Chrome 116.0.0.0,,,2023-09-04 09:39:57,2023-09-04 09:39:58,0.531s,ERROR

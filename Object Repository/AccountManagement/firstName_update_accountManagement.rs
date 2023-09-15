@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@id=&quot;fullNameUser&quot; and @class='mdc-text-field__input a-material__input'])[2]</value>
+         <value>(//input[@id=&quot;input-update__name&quot; and @class='mdc-text-field__input a-material__input'])</value>
       </entry>
       <entry>
          <key>BASIC</key>

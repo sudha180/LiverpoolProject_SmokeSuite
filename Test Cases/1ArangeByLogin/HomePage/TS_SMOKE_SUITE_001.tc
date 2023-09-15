@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify that user is able to the access the site by typing Redesign URL in the browse.</description>
+   <name>TS_SMOKE_SUITE_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9248b1d-7890-47e4-ae14-c297ed68fcab</testCaseGuid>
+</TestCaseEntity>

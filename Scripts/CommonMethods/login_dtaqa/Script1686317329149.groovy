@@ -17,17 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
-
 WebUI.click(findTestObject('HomePage/username'))
 
 WebUI.setText(findTestObject('HomePage/username'), 'hcheruvu29@digisprint.com')
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('HomePage/password'))
-
-WebUI.delay(2)
 
 WebUI.setText(findTestObject('HomePage/password'), 'Test@12345')
 

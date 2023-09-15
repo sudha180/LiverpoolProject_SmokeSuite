@@ -17,20 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'collec'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLProduct], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('PLPPage/product2_cardPrice_PLP'))
+WebUI.click(findTestObject('PLPPage/product1_cardPrice_PLP'))
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
@@ -44,5 +35,9 @@ WebUI.click(findTestObject('OPCPage/paymentMethod_button3_OPC'))
 
 WebUI.click(findTestObject('OPCPage/Continue_payment_3rdmethod_OPC'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('OPCPage/Final_comparar_OPC'))
+
+WebUI.click(findTestObject('HomePage/logo_confirmPage'))
 

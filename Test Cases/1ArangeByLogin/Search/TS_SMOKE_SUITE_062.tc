@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify display of price for the product in search result page.</description>
+   <name>TS_SMOKE_SUITE_062</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0e680e9-72ba-4014-8bb9-b9fc5bc663be</testCaseGuid>
+</TestCaseEntity>

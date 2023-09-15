@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.setText(findTestObject('HomePage/MainSearchbar_HP'), 'vaso')
+WebUI.setText(findTestObject('HomePage/MainSearchbar_HP'), GlobalVariable.SL)
 
 WebUI.click(findTestObject('HomePage/searchbar_searchbutton_HP'))
 

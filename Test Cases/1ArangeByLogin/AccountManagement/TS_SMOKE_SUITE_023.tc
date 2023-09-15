@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify Logged in user is able to Add ,Edit and remove  credit card from my account from my account</description>
+   <name>TS_SMOKE_SUITE_023</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d74421f8-d141-4459-9012-58eb30501583</testCaseGuid>
+</TestCaseEntity>

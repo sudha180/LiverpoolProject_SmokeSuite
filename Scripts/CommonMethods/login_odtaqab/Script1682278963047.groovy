@@ -23,11 +23,7 @@ WebUI.enhancedClick(findTestObject('HomePage/EnterUsername_LP'))
 
 WebUI.setText(findTestObject('HomePage/EnterUsername_LP'), GlobalVariable.username)
 
-WebUI.delay(2)
-
 WebUI.enhancedClick(findTestObject('HomePage/EnterPassword_LP'))
-
-WebUI.delay(2)
 
 WebUI.setText(findTestObject('HomePage/EnterPassword_LP'), GlobalVariable.password)
 

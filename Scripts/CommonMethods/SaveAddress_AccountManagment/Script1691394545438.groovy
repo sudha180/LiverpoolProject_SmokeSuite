@@ -25,8 +25,6 @@ WebUI.setText(findTestObject('AccountManagement/AddressAliases_Account'), name)
 
 WebUI.setText(findTestObject('AccountManagement/PostalCode_Account'), '14000', FailureHandling.OPTIONAL)
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('AccountManagement/City_Account'), FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('AccountManagement/City_Account'), 'maxico', FailureHandling.OPTIONAL)

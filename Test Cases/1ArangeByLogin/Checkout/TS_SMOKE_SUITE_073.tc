@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the functionality of editing the Personal shipping address  in checkout flow for logged in user</description>
+   <name>TS_SMOKE_SUITE_073</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>002f9bc5-40a1-4382-b831-396ecadda127</testCaseGuid>
+</TestCaseEntity>

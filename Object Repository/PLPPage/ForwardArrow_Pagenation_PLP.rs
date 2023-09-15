@@ -7,12 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//li[@class='page-item'])//i[@class='icon-arrow_right']
+         <value>(//li[@class='page-item'])//i[@class='icon-arrow_right']/..
 </value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

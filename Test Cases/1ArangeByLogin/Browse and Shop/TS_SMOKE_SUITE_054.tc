@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of product price on PDP page for single sku item.</description>
+   <name>TS_SMOKE_SUITE_054</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df8ce3fb-635d-41d1-83f7-d554eea1cafb</testCaseGuid>
+</TestCaseEntity>

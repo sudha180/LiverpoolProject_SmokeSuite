@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify logged in user is able to view the profile inforamtion from Actualizar datos personales link in my account page after Updating personal information</description>
+   <name>TS_SMOKE_SUITE_016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ef0878e-d75f-48fa-aaaf-f61a01521f95</testCaseGuid>
+</TestCaseEntity>

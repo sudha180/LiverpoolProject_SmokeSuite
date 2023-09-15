@@ -6,12 +6,11 @@
    <elementGuidId>1e12058b-46d2-4310-a655-c7419144bcde</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h1[contains(text(),'Liverpool Satélite')]/../..//i</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h1[contains(text(),'Liverpool Satélite')]/../..//a[@role='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

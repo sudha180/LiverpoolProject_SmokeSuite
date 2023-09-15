@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-AccountManagement,Chrome 116.0.0.0,,,2023-09-04 10:01:15,2023-09-04 10:01:52,37.795s,FAILED
-,,,,,,,
-Test Cases/AccountManagement/TS_SMOKE_SUITE_020,Chrome 116.0.0.0,Verify if the user able to make C&C store address as default address,,2023-09-04 10:01:44,2023-09-04 10:01:52,8.026s,FAILED
-"click(findTestObject(""HomePage/Iniciar sesion""))",Chrome 116.0.0.0,,,2023-09-04 10:01:49,2023-09-04 10:01:51,2.564s,FAILED
-Start listener action : sampleAfterTestCase,Chrome 116.0.0.0,,,2023-09-04 10:01:51,2023-09-04 10:01:52,1.183s,ERROR

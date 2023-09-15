@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify logged in user is able to place order for Softline item using Credit Card ,CIE and Paypal payment methods</description>
+   <name>TS_SMOKE_SUITE_086</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eef5c24c-5f8c-4a25-989b-b77dc0fe4f63</testCaseGuid>
+</TestCaseEntity>

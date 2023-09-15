@@ -1,29 +1,19 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
+import internal.GlobalVariable as KeywordUtil
 
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.AMUsername, ('password') : GlobalVariable.AMpassword], 
-    FailureHandling.STOP_ON_FAILURE)
+boolean a = WebUI.getText(findTestObject('HomePage/span_HolaUser_hp'), FailureHandling.OPTIONAL)
 
-WebUI.waitForPageLoad(0)
+System.out.println(a)
+
+if (a == false) {
+    WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
+}
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
@@ -37,7 +27,7 @@ WebUI.callTestCase(findTestCase('CommonMethods/SaveAddress_AccountManagment'), [
 
 WebUI.click(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'))
 
-address = WebUI.getText(findTestObject('AccountManagement/FirstPersonalShippingAddress_Account'), FailureHandling.STOP_ON_FAILURE)
+address = WebUI.getText(findTestObject('AccountManagement/NOTselected_personal_ShippingAddress1_AM'), FailureHandling.STOP_ON_FAILURE)
 
 System.out.println(address)
 

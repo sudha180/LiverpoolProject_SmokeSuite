@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that the user is navigated to  &quot;Tiendas&quot;( Store locator) page by clicking on the  “Ubica tu tienda &quot; link on the header section.</description>
+   <name>TS_SMOKE_SUITE_008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce3bb3b6-9c4e-4aef-994b-f50dd96d203c</testCaseGuid>
+</TestCaseEntity>

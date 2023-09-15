@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the user able to make C&amp;C store address as default address</description>
+   <name>TS_SMOKE_SUITE_020</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37f0e923-e63c-4be7-b823-8864d1b2aeb0</testCaseGuid>
+</TestCaseEntity>

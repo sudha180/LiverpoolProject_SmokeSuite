@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of product price range on PDP page for multi sku item.</description>
+   <name>TS_SMOKE_SUITE_055</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1485a1aa-c715-4ec0-880f-f67fa4915dab</testCaseGuid>
+</TestCaseEntity>

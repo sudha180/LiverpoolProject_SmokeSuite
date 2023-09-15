@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that the user is navigated to  &quot;Ayuda&quot;( Help) page by clicking on the  “Ayuda&quot; link on the header section.</description>
+   <name>TS_SMOKE_SUITE_011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcc5ed45-e6ec-4337-90a3-93688455eb40</testCaseGuid>
+</TestCaseEntity>

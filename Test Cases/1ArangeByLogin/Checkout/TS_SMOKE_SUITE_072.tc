@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user</description>
+   <name>TS_SMOKE_SUITE_072</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8f0c7a2-bc06-4012-bfc4-8368b00630e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a60b9301-99a1-4df5-adae-124696ff6ba4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a60b9301-99a1-4df5-adae-124696ff6ba4</id>
+      <masked>false</masked>
+      <name>StoreValue</name>
+   </variable>
+</TestCaseEntity>

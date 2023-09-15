@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that an Anonymous user is navigated to Login page by clicking on the  “Mis pedidos&quot; link on the header section.</description>
+   <name>TS_SMOKE_SUITE_009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea94cca0-bd46-4048-b72f-1cfb6ac49b52</testCaseGuid>
+</TestCaseEntity>

@@ -17,7 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
@@ -27,7 +30,11 @@ WebUI.click(findTestObject('PDPPage/AddToCart_pdp'))
 
 WebUI.click(findTestObject('HomePage/Cart_header'))
 
+WebUI.waitForPageLoad(25)
+
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
 WebUI.verifyElementPresent(findTestObject('HomePage/LoginPage_hp'), 0)
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/CreateNewAccount_Login'), 0)
 

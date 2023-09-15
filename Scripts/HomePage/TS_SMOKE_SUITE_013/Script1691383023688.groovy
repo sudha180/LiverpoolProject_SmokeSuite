@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 randomemail = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
 
-WebUI.waitForPageLoad(0)
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('AccountManagement/Iniciar sesin_hp'))
 
 WebUI.enhancedClick(findTestObject('HomePage/loginpage/create_account_hp'), FailureHandling.STOP_ON_FAILURE)
 

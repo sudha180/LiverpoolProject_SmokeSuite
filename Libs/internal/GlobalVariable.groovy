@@ -143,6 +143,16 @@ Profile default : digital product </p>
     /**
      * <p></p>
      */
+    public static Object SL1
+     
+    /**
+     * <p></p>
+     */
+    public static Object Sl_PLP_price
+     
+    /**
+     * <p></p>
+     */
     public static Object URL
      
     /**
@@ -499,6 +509,8 @@ Profile default : pwaqa</p>
             AMUsername = selectedVariables['AMUsername']
             TempAddress = selectedVariables['TempAddress']
             name = selectedVariables['name']
+            SL1 = selectedVariables['SL1']
+            Sl_PLP_price = selectedVariables['Sl_PLP_price']
             URL = selectedVariables['URL']
             newuser = selectedVariables['newuser']
             GIDcollection = selectedVariables['GIDcollection']

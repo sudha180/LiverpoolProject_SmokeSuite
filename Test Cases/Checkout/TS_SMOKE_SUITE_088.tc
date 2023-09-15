@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user</description>
+   <description>To verify Logged-in user is able to place Airtime Order</description>
    <name>TS_SMOKE_SUITE_088</name>
    <tag></tag>
    <comment></comment>

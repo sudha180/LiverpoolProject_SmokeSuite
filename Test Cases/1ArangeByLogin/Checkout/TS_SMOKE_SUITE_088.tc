@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify Logged-in user is able to place Airtime Order</description>
+   <name>TS_SMOKE_SUITE_088</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a63c00ff-a75f-4852-a996-126e059b2ab8</testCaseGuid>
+</TestCaseEntity>

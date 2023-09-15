@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.maximizeWindow()
-
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
-
 WebUI.mouseOver(findTestObject('HomePage/header_Hola_text_HP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/a_Mis Compras'), 0)
@@ -37,5 +29,5 @@ WebUI.verifyElementPresent(findTestObject('HomePage/a_Mis tarjetas'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/a_Cerrar sesin_hp'), 0)
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 

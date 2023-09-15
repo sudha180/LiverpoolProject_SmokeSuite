@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify the user able to make the C&amp;C collect address as default in OPC</description>
+   <name>TS_SMOKE_SUITE_075</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5111fc4-0ba4-4541-9747-1a6c6358a739</testCaseGuid>
+</TestCaseEntity>

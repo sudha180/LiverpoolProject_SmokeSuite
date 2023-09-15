@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Mis Compras_hp'))
 
 WebUI.verifyElementPresent(findTestObject('MyOrdersPage/aside_leftNavigation_misCompras'), 0)
 
 WebUI.verifyElementPresent(findTestObject('MyOrdersPage/breadCrumb_misCompras'), 0)
+
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 

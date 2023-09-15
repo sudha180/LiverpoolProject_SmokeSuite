@@ -19,16 +19,10 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('HomePage/Iniciar sesion'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : GlobalVariable.username, ('password') : GlobalVariable.password], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'jeans'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'), FailureHandling.STOP_ON_FAILURE)
 
@@ -73,6 +67,12 @@ WebUI.click(findTestObject('OPCPage/CheckBoxAddAddressPopup_OPC'))
 WebUI.click(findTestObject('OPCPage/ContinueButtonAddcard_Checkout'))
 
 WebUI.navigateToUrl(GlobalVariable.CartPageURL)
+
+WebUI.click(findTestObject('OPCPage/changeADDRESS_OPC'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('OPCPage/Address_option1_opc'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('AccountManagement/AddAddress_Account'), FailureHandling.OPTIONAL)
 
 ShortName = WebUI.getText(findTestObject('OPCPage/currentDeliveryAddress_OPC'), FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of L1 category flyout on mouse hover the Departmentos link</description>
+   <name>TS_SMOKE_SUITE_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>802a0c36-8023-4a48-8dbe-cfded4f40eea</testCaseGuid>
+</TestCaseEntity>

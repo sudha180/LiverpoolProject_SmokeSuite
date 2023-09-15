@@ -20,23 +20,15 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0)
-
 WebUI.scrollToElement(findTestObject('PLPPage/ForwardArrow_Pagenation_PLP'), 0)
-
-WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('PLPPage/ForwardArrow_Pagenation_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0)
+WebUI.delay(10)
 
 a1 = WebUI.getUrl()
 
-System.out.println(a1)
-
 boolean a = a1.contains('page-2')
-
-System.out.println(a)
 
 if (a == true) {
     System.out.println('pagenation clicked page 2')
@@ -46,17 +38,13 @@ if (a == true) {
 
 WebUI.scrollToElement(findTestObject('PLPPage/BackArrow_Pagenation_PLP'), 0)
 
-WebUI.waitForPageLoad(0)
-
 WebUI.click(findTestObject('PLPPage/BackArrow_Pagenation_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(0)
+WebUI.delay(10)
 
 b1 = WebUI.getUrl()
 
 boolean b = b1.contains('page-1')
-
-System.out.println(b1)
 
 if (b == true) {
     System.out.println('pagenation clicked page 1')

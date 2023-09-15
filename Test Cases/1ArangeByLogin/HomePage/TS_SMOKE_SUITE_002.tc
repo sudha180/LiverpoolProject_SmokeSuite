@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify  that system display the following link in the header
+1.Departmentos
+2.Marcas
+3.Credito
+4.Mesa de regalosa 
+5.Search text box
+6.Iniciar sesion
+7.Ubica tu tienda 
+8.Mis pedidos
+9.Ayuda</description>
+   <name>TS_SMOKE_SUITE_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee2e9b95-9a19-433d-b7a7-2371abc1813c</testCaseGuid>
+</TestCaseEntity>

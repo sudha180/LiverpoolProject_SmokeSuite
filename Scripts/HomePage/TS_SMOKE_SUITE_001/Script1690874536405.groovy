@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementPresent(findTestObject('HomePage/Logo_hp'), 0)
 
+WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
+

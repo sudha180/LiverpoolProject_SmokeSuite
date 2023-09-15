@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of list price &amp; sale price on the item listing page for single sku items.</description>
+   <name>TS_SMOKE_SUITE_049</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1edd301-e404-4373-88c5-1f4766fd532a</testCaseGuid>
+</TestCaseEntity>

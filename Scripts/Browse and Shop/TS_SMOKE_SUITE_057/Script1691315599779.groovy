@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'collec'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'gap'], FailureHandling.STOP_ON_FAILURE)
 
 'verify price range\r\n'
-WebUI.click(findTestObject('PLPPage/product1_PLP'))
+WebUI.click(findTestObject('PLPPage/product-3-DiscountPrice_PLP'))
 
 WebUI.verifyElementClickable(findTestObject('PDPPage/discountPrice_PDP'))
 

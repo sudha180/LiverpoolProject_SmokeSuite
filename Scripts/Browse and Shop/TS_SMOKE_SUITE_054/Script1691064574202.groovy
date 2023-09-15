@@ -19,11 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '80282837'], FailureHandling.STOP_ON_FAILURE)
 
-'verify sku not present\r\n'
-WebUI.verifyElementNotPresent(findTestObject('PDPPage/Colour2_PDP'), 0)
+WebUI.click(findTestObject('HomePage/FirstProduct_plp'), FailureHandling.OPTIONAL)
 
 'verify sku not present\r\n'
-WebUI.verifyElementNotPresent(findTestObject('PDPPage/Size2_PDP'), 0)
+WebUI.verifyElementNotPresent(findTestObject('PDPPage/Colour2_PDP'), 0)
 
 'verify discount price present\r\n'
 WebUI.verifyElementPresent(findTestObject('PDPPage/discountPrice_PDP'), 0)

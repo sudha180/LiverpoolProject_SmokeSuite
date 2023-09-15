@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of payment page for the for logged in user</description>
+   <name>TS_SMOKE_SUITE_076</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba344404-0a4e-4178-b28d-1ca52f33c294</testCaseGuid>
+</TestCaseEntity>

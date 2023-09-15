@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of Description slot in PDP with following tabs. 
+
+Long Description
+Manual
+Delivery Details
+Size/Dimensions
+LP Card Promotion
+Other Card Promotion</description>
+   <name>TS_SMOKE_SUITE_058</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0351a8e0-0363-4423-b01b-ac6138053f92</testCaseGuid>
+</TestCaseEntity>

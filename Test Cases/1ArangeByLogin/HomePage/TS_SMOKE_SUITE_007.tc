@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of Login overlay when Anonymous user click on  Iniciar sesion link</description>
+   <name>TS_SMOKE_SUITE_007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c837898f-c176-4e4b-81a6-18631b65de43</testCaseGuid>
+</TestCaseEntity>

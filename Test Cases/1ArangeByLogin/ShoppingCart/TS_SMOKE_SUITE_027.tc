@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that the user is able to create account from shopping cart page</description>
+   <name>TS_SMOKE_SUITE_027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01334986-38c8-40cd-8fcd-de1dacf37f82</testCaseGuid>
+</TestCaseEntity>
