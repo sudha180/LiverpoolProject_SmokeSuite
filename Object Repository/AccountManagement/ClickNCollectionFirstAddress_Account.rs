@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//h1[@class='a-cards__titleCard'])[2]</value>
+         <value>(//h1[@class='a-cards__titleCard'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

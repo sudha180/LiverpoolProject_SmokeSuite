@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class='mdc-tab__ripple mdc-ripple-upgraded'])[2]</value>
+         <value>//div[@class='myAccount-address__header__tabs']//button[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

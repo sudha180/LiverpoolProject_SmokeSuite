@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Catlogo de productos</name>
+   <tag></tag>
+   <elementGuidId>bb3e52db-59ab-4879-a9b9-703b20fc5006</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#navActionPopup_productNavItem > ul > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick=&quot;atg.commerce.csr.openPanelStackWithTabbedPanel('cmcCatalogPS','cmcProductCatalogSearchP','commerceTab');&quot;])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>186a3186-315d-4046-a2fa-4f215c5d6f90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>d68c32ab-97ee-4a1b-9fed-ee07d424ad10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>atg.commerce.csr.openPanelStackWithTabbedPanel('cmcCatalogPS','cmcProductCatalogSearchP','commerceTab');</value>
+      <webElementGuid>9ccc3847-f264-4fc6-9d87-13c38658f11f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Catálogo de productos</value>
+      <webElementGuid>47395ee7-b7f6-498d-974b-27c4c2619820</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navActionPopup_productNavItem&quot;)/ul[1]/li[1]/a[1]</value>
+      <webElementGuid>2adb84eb-69ae-412e-8625-426e6d9552ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=&quot;atg.commerce.csr.openPanelStackWithTabbedPanel('cmcCatalogPS','cmcProductCatalogSearchP','commerceTab');&quot;])[2]</value>
+      <webElementGuid>72ccef57-e26d-46e7-981d-c49e04d86d8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navActionPopup_productNavItem']/ul/li/a</value>
+      <webElementGuid>da142821-de5e-49f2-bab0-5b12ef53d728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Catálogo de productos')]</value>
+      <webElementGuid>b9c3c88f-dd75-4ee8-bdeb-279148e7cdfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Productos'])[1]/following::a[1]</value>
+      <webElementGuid>487c8a09-1b13-4c02-9800-c3bb23ca2903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar en catálogo'])[1]/following::a[2]</value>
+      <webElementGuid>0f8e301e-8741-4d67-927e-df303bb53d96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar caso'])[1]/preceding::a[3]</value>
+      <webElementGuid>18d7f383-32c2-4ba5-88c2-7318a2344251</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Caso'])[1]/preceding::a[6]</value>
+      <webElementGuid>47f9d3fe-ccee-4dfa-9a9e-28d5e030b1e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Catálogo de productos']/parent::*</value>
+      <webElementGuid>f637bb53-7f9e-4b26-a820-3c17be545ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[45]</value>
+      <webElementGuid>fb13809b-c5da-447f-945e-491322bc0611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div[3]/ul/li/a</value>
+      <webElementGuid>364e0b58-e44c-4611-935d-7a23ba1dc8c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Catálogo de productos' or . = 'Catálogo de productos')]</value>
+      <webElementGuid>b73cfd45-96f7-4c34-bb65-20a7577b80a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

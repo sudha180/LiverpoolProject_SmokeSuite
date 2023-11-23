@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System should not provide any option for the user to select Puntos BBVA as a default payment method.</description>
+   <name>TC011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50bbb966-5006-45fe-99d7-3cb5fbacb45a</testCaseGuid>
+</TestCaseEntity>

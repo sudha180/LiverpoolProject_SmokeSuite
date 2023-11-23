@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ms informacin</name>
+   <tag></tag>
+   <elementGuidId>7cc511a4-d14e-4567-a5e0-74fc99868c48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#protection</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='protection']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>84a41126-3ed6-4523-b7fc-daf45458f9a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>complementMoreText</value>
+      <webElementGuid>9a1c3025-a3a6-4997-9a8b-5cfd1aaaafaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>protection</value>
+      <webElementGuid>a6dc458e-54eb-4cf4-b0de-05e5203cde85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+				Más información
+				</value>
+      <webElementGuid>8e48eb27-5c30-4331-ad47-1df3f1fe74d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;protection&quot;)</value>
+      <webElementGuid>137ae5f3-4524-4f3a-b55a-006b352f0835</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='protection']</value>
+      <webElementGuid>ba86fc52-7b14-4f4f-8e21-90fc50061c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='serviceContent']/div/div[5]</value>
+      <webElementGuid>dea16e6f-a24e-4500-9017-38200bbf1a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No requiero protección celular'])[1]/following::div[1]</value>
+      <webElementGuid>7207972b-7b30-4971-9c65-6e29ac82507a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='US$1,769.00'])[1]/following::div[6]</value>
+      <webElementGuid>9e96bc96-b075-4fde-b7f4-b8eaceaecb12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/preceding::div[4]</value>
+      <webElementGuid>ee59bfb7-c11f-43d6-b4ba-8ad1216f51c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ofertas especiales y promociones'])[1]/preceding::div[8]</value>
+      <webElementGuid>93b5f8cb-0f6d-4969-ba61-486f6a55b5cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Más información']/parent::*</value>
+      <webElementGuid>fd8d6e4b-6e4b-4360-a95b-76333398c165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/div/div[5]</value>
+      <webElementGuid>38b6f31e-27db-4af7-ab93-190c6416ee28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'protection' and (text() = '
+				Más información
+				' or . = '
+				Más información
+				')]</value>
+      <webElementGuid>c03f41dd-221e-49f3-9944-629c148de7a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

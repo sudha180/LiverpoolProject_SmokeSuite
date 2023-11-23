@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify system will not display the Buy for gift table for PC service in cart page</description>
+   <name>TC_ExtendedWarranty3_verifyElemnetNotPresent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3bd1eb8-e6d3-4afb-be56-d1c2ed6508c2</testCaseGuid>
+</TestCaseEntity>

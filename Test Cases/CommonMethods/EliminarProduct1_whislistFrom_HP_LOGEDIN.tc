@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to eliminate product 1 from whislist</description>
+   <name>EliminarProduct1_whislistFrom_HP_LOGEDIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e81788da-e8ce-4e15-8213-7fc51eb43d69</testCaseGuid>
+</TestCaseEntity>

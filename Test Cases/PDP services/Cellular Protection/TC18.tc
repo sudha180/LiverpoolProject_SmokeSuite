@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the merchandise sku associated with PC service is listed in the wishlist</description>
+   <name>TC18</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1264eeb-e20f-462d-9945-3828cc64b36b</testCaseGuid>
+</TestCaseEntity>

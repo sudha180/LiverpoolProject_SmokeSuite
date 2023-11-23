@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify system will not display the Buy now button for PC service in opc page</description>
+   <name>TC23</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec91b289-dde9-4155-97e1-ffb9e94669ce</testCaseGuid>
+</TestCaseEntity>

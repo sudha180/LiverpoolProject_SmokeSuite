@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Apple iPhone 14 Pro Max 128 GB 6.7 pulga_dd0f3c</name>
+   <tag></tag>
+   <elementGuidId>8f9980b7-8a97-4330-9446-cc670f9de1b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#atg_commerce_csr_catalog_productName1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='atg_commerce_csr_catalog_productName1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>eeed1b20-b085-4afc-a40b-0bfb502a2fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>atg_commerce_csr_catalog_productName1</value>
+      <webElementGuid>f0c4587f-4d38-4324-8ad4-aebb57f24073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Apple iPhone 14 Pro Max 128 GB 6.7 pulgadas     Regalo Incluido</value>
+      <webElementGuid>082bbe58-63c9-4c43-9fb6-a1ffa42bf5c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;atg_commerce_csr_catalog_productName1&quot;)</value>
+      <webElementGuid>fed7cad5-e392-41f2-8ec9-74c73ccce598</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='atg_commerce_csr_catalog_productName1']</value>
+      <webElementGuid>6a1604b0-e3ed-4d75-a9ca-d283d179d93a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='atg_commerce_csr_catalog_addProductsByIdTr1']/td[4]</value>
+      <webElementGuid>87d8d628-71e5-4aef-948d-83b09b3f661c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Precio total'])[1]/following::td[4]</value>
+      <webElementGuid>a3d7e95d-7cf4-4848-8b92-aed20c5008f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Precio unitario'])[1]/following::td[4]</value>
+      <webElementGuid>5ed4ef6e-fcc1-4477-ae66-fa82c67f7644</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='En stock'])[1]/preceding::td[1]</value>
+      <webElementGuid>1d811224-9073-4bb9-96e2-c688d5cb3ef6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$11,069.00'])[1]/preceding::td[2]</value>
+      <webElementGuid>5dd9a0c4-46f2-46ab-b39e-5b4b5b8c9d26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Apple iPhone 14 Pro Max 128 GB 6.7 pulgadas']/parent::*</value>
+      <webElementGuid>d4a217fe-344e-4d86-8842-fe6ba9f7a88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]</value>
+      <webElementGuid>d2540710-0e77-4b20-a47c-d28e6cc96d75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = 'atg_commerce_csr_catalog_productName1' and (text() = ' Apple iPhone 14 Pro Max 128 GB 6.7 pulgadas     Regalo Incluido' or . = ' Apple iPhone 14 Pro Max 128 GB 6.7 pulgadas     Regalo Incluido')]</value>
+      <webElementGuid>156684ff-58e7-4633-a6e9-23ece36e09f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

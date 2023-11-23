@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the Buy for gift table is not displayed in cart page for the skus associated to Pc services</description>
+   <name>TC14</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4656125-4063-48ad-95e9-8e8aba2f191e</testCaseGuid>
+</TestCaseEntity>

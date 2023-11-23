@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System should display &quot;Puntos BBVA&quot; with a helper icon, on clicking the helper icon, a pop up window with static test for Puntos should be displayed</description>
+   <name>TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e75b5f6-b3b4-4a32-b021-3850b32ee8f7</testCaseGuid>
+</TestCaseEntity>

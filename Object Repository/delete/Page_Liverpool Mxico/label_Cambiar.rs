@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Cambiar</name>
+   <tag></tag>
+   <elementGuidId>11438e84-d374-4388-af6f-d09706a9a853</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.text-shutdown-card.cambiarLabelTxt.text-size-card</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='opc_section-PayMethod']/div/div[2]/button/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>03b38808-7edd-497b-9ee4-dc030608f5d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-shutdown-card cambiarLabelTxt text-size-card</value>
+      <webElementGuid>37d3a659-befd-456b-bec0-eb8db651f781</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cambiar</value>
+      <webElementGuid>9716ad08-2b88-40ea-9fd6-7464590f41fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_section-PayMethod&quot;)/div[@class=&quot;d-flex flex-row align-items-start justify-content-start pt-1 pl-2 pr-1&quot;]/div[@class=&quot;w-100&quot;]/button[@class=&quot;a-btn a-btn--onePageCheckout--deliveryAddress d-inline&quot;]/div[@class=&quot;a-box__accordionIcon float-right&quot;]/label[@class=&quot;text-shutdown-card cambiarLabelTxt text-size-card&quot;]</value>
+      <webElementGuid>4cd158b2-e0db-48b7-b0c7-71069b70b909</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_section-PayMethod']/div/div[2]/button/div/label</value>
+      <webElementGuid>97ef5288-456f-46ca-8b5c-a72e6dddb552</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*3290'])[1]/following::label[1]</value>
+      <webElementGuid>3a65b243-9eb3-450b-89c1-8b5b1b7376dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usar puntos BBVA'])[1]/preceding::label[1]</value>
+      <webElementGuid>66f562b6-efbb-40bb-b6db-2c9612b7eb1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MM/AA'])[1]/preceding::label[2]</value>
+      <webElementGuid>4eb7375d-ea07-4c64-a05b-97c9fff0085a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/div/label</value>
+      <webElementGuid>150d88d9-4675-4459-bdae-6be8d202b34e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Cambiar' or . = 'Cambiar')]</value>
+      <webElementGuid>9c2640f0-bb42-4bd6-97f9-badb01fd5e3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>794c8cae-108b-4c6e-96e7-c596e2022a69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id=&quot;input-update__name&quot; and @class='mdc-text-field__input a-material__input'])</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//div[@class='col-md-4']//input[@id='fullNameUser'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

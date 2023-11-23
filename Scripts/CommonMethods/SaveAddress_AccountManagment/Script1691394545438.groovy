@@ -23,7 +23,11 @@ GlobalVariable.TempAddress = name
 
 WebUI.setText(findTestObject('AccountManagement/AddressAliases_Account'), name)
 
-WebUI.setText(findTestObject('AccountManagement/PostalCode_Account'), '14000', FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('AccountManagement/PostalCode_Account'))
+
+WebUI.setText(findTestObject('AccountManagement/PostalCode_Account'), '21200', FailureHandling.OPTIONAL)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('AccountManagement/City_Account'), FailureHandling.OPTIONAL)
 

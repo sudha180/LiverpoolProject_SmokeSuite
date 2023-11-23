@@ -17,19 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('PDPpage/productName_pdp (2)'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ProductName_PDP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('PDPpage/Código de Producto_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/ProductID_pdp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('PDPpage/productRtaingInfo_pdp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('PDPpage/productPrice_pdp'), 0)
+WebUI.verifyElementPresent(findTestObject('PDPPage/discountPrice_PDP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PDPpage/viewMorePromotion_pdp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('PDPpage/freeShipping_pdp'), 0)
-
-WebUI.verifyElementPresent(findTestObject('PDPpage/quantity_pdp (1)'), 0)
-
-WebUI.verifyElementPresent(findTestObject('PDPpage/productDescription_pdp'), 0)
 

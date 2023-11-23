@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>On selecting the BBVA points checkbox, the DW section should be disabled, system should not allow the user to mix points and DW for the payment</description>
+   <name>TC028</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fadf5119-f305-4526-81cc-95b2f88f0982</testCaseGuid>
+</TestCaseEntity>

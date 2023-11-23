@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Jeans para Caballero Levis</name>
+   <tag></tag>
+   <elementGuidId>c3d113e9-ca3f-4f03-9d41-37f739809b3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.column-name > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick=&quot;showProductViewInSiteContext('25048300','LP_SITE_100','LP_SITE_100','0','0','');return false;&quot;])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5575c930-af1b-44d6-bd45-e99ccc7f0d36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>showProductViewInSiteContext('25048300','LP_SITE_100','LP_SITE_100','0','0','');return false;</value>
+      <webElementGuid>ffecbe36-ddd0-4dfd-ac01-228695075071</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>83ab8bcf-4967-4418-80c3-7921561af774</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>context</name>
+      <type>Main</type>
+      <value>/LP-DCS-CSR</value>
+      <webElementGuid>74b723d3-5db7-4451-b0d4-0c4e94705c04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jeans para Caballero Levi's</value>
+      <webElementGuid>d3072542-69ef-4d19-94f8-254be3e06ba0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;catalog-results&quot;)/div[@class=&quot;table&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;column-name&quot;]/a[1]</value>
+      <webElementGuid>d1956705-fe75-489c-9c53-e01b2058443d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=&quot;showProductViewInSiteContext('25048300','LP_SITE_100','LP_SITE_100','0','0','');return false;&quot;])[2]</value>
+      <webElementGuid>4894b8f5-5c41-4cad-a1d2-7224d5b59f9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='catalog-results']/div[2]/div/div[2]/a</value>
+      <webElementGuid>0ed1a2be-c706-4d42-b4a8-692990af4e68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='material'])[1]/following::a[37]</value>
+      <webElementGuid>5b33ab2d-22db-4cc8-a1d6-73f0f42237dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$775.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>71281511-b428-46d4-9a09-6a83e6f2986e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$542.50'])[1]/preceding::a[1]</value>
+      <webElementGuid>0c5be0a3-a874-4bfe-86ea-9ad465422147</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[520]</value>
+      <webElementGuid>dae4b9aa-a31a-44ba-baf1-5273356c314a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>4b95dec2-e739-4c02-b782-073d8c78e32d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = concat(&quot;Jeans para Caballero Levi&quot; , &quot;'&quot; , &quot;s&quot;) or . = concat(&quot;Jeans para Caballero Levi&quot; , &quot;'&quot; , &quot;s&quot;))]</value>
+      <webElementGuid>cd6c7f2d-a383-497a-ad14-a4dc747c69f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

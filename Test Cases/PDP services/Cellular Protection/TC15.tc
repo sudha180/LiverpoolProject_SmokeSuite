@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the Buy for gift table is not displayed in OPC page for the skus associated to Pc services</description>
+   <name>TC15</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37f8ebe7-6ecc-4bb3-90dc-2f317f423790</testCaseGuid>
+</TestCaseEntity>

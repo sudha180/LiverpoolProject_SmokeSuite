@@ -18,14 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-
 FullName = CustomKeywords.'customkeywords.myKeywords.randomString'()
 
 WebUI.setText(findTestObject('AccountManagement/FullNameUser_Account'), FullName)
 
-String cardnumber = '4111111' + RandomStringUtils.randomNumeric(9)
+String cardnumber = '4829433625182334'
 
-WebUI.setText(findTestObject('AccountManagement/CardNumber_Account'),cardnumber , FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('AccountManagement/CardNumber_Account'), cardnumber, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('AccountManagement/saved_Address_radioButton_AddCard_AM'))
 

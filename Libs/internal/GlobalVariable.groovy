@@ -12,7 +12,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object url
+    public static Object URL
      
     /**
      * <p></p>
@@ -28,6 +28,16 @@ public class GlobalVariable {
      * <p></p>
      */
     public static Object password
+     
+    /**
+     * <p></p>
+     */
+    public static Object username1
+     
+    /**
+     * <p></p>
+     */
+    public static Object password1
      
     /**
      * <p>Profile smoke : digital product 
@@ -163,7 +173,27 @@ Profile default : digital product </p>
     /**
      * <p></p>
      */
-    public static Object URL
+    public static Object URLQA2
+     
+    /**
+     * <p></p>
+     */
+    public static Object jeans
+     
+    /**
+     * <p></p>
+     */
+    public static Object rate
+     
+    /**
+     * <p></p>
+     */
+    public static Object colour
+     
+    /**
+     * <p></p>
+     */
+    public static Object rateCPandDP
      
     /**
      * <p></p>
@@ -175,16 +205,6 @@ Profile default : digital product </p>
 Profile default : pwaqa</p>
      */
     public static Object GIDcollection
-     
-    /**
-     * <p></p>
-     */
-    public static Object username1
-     
-    /**
-     * <p></p>
-     */
-    public static Object password1
      
     /**
      * <p></p>
@@ -493,10 +513,12 @@ Profile default : pwaqa</p>
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
-            url = selectedVariables['url']
+            URL = selectedVariables['URL']
             SLProduct = selectedVariables['SLProduct']
             username = selectedVariables['username']
             password = selectedVariables['password']
+            username1 = selectedVariables['username1']
+            password1 = selectedVariables['password1']
             digitalP = selectedVariables['digitalP']
             SLSearchTerm = selectedVariables['SLSearchTerm']
             minimumPurchaseProdut = selectedVariables['minimumPurchaseProdut']
@@ -523,11 +545,13 @@ Profile default : pwaqa</p>
             Sl_PLP_price = selectedVariables['Sl_PLP_price']
             uN = selectedVariables['uN']
             p = selectedVariables['p']
-            URL = selectedVariables['URL']
+            URLQA2 = selectedVariables['URLQA2']
+            jeans = selectedVariables['jeans']
+            rate = selectedVariables['rate']
+            colour = selectedVariables['colour']
+            rateCPandDP = selectedVariables['rateCPandDP']
             newuser = selectedVariables['newuser']
             GIDcollection = selectedVariables['GIDcollection']
-            username1 = selectedVariables['username1']
-            password1 = selectedVariables['password1']
             newUser = selectedVariables['newUser']
             newpassword = selectedVariables['newpassword']
             WrongUsername = selectedVariables['WrongUsername']

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the user can select the PC services in cart page</description>
+   <name>TC_PcServices1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae244c00-66d4-4fce-b09f-f323b4bbfb46</testCaseGuid>
+</TestCaseEntity>

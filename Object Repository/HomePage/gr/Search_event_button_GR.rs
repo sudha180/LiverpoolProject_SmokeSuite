@@ -6,11 +6,11 @@
    <elementGuidId>5caf5b1a-fdbd-4120-ae54-06cbc9cf550c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@class='btnSecondary'])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@class='btnSecondary btnExtraLarge'])</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

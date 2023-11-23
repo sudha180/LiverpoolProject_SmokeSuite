@@ -6,11 +6,11 @@
    <elementGuidId>990cfd63-85ff-4432-bb35-5feb3f351713</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@class='a-textField__input mdc-text-field__input'])[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//input[@class='mdc-text-field__input a-material__input'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

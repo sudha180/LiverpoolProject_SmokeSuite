@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Finalizar compra</name>
+   <tag></tag>
+   <elementGuidId>ef429560-6c8b-4bd0-b26f-97b6a74dc789</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#submitForOther</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='submitForOther']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>88f86ac2-99d8-410a-b3e7-11ea7142f418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-btn disabledWine</value>
+      <webElementGuid>9be5c8ea-9f4e-43e7-b764-405e7b1774ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submitForOther</value>
+      <webElementGuid>70ee88ce-e5fe-4b07-8ee1-91adc2a92dbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finalizar compra</value>
+      <webElementGuid>1e31716f-d8e7-4b73-afcd-c99f507b6622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;submitForOther&quot;)</value>
+      <webElementGuid>77132d4b-749c-4d3c-bb3c-c5ace4260aa8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='submitForOther']</value>
+      <webElementGuid>ef23c458-0f96-4977-ac29-64e5ffcede25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_container']/div[7]/div[2]/div/div[5]/div[2]/button</value>
+      <webElementGuid>cdb1e083-cb65-4df0-9098-4379276cc3f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Términos, Condiciones y Aviso de Privacidad'])[1]/following::button[1]</value>
+      <webElementGuid>a5bc4ba2-d3bc-4535-be84-9c6c205faed0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$83,908.48'])[2]/following::button[1]</value>
+      <webElementGuid>1161a3c7-af70-4336-b3dd-5aaccdabbd98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambios, devoluciones y cancelaciones'])[1]/preceding::button[1]</value>
+      <webElementGuid>3a213372-d54c-43d3-b124-695297a65ca8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preguntas frecuentes'])[1]/preceding::button[1]</value>
+      <webElementGuid>78a2b237-b2fc-4557-9218-570e51c5f71e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Finalizar compra']/parent::*</value>
+      <webElementGuid>23ac5f9d-1b60-49f2-b3a2-ca16612aa90d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/button</value>
+      <webElementGuid>cc0840e4-85b5-4e28-a0b3-a43702e95355</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'submitForOther' and (text() = 'Finalizar compra' or . = 'Finalizar compra')]</value>
+      <webElementGuid>32868d37-894e-4d87-8e86-84fc2a932da8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

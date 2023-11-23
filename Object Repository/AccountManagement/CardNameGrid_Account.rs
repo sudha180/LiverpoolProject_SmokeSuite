@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//p[@class='a-box_cardNumberDefault '])[2]</value>
+         <value>//p[contains(text(),'2334')]/ancestor::div[@class='m-box m-cardBox credit-cards  opc_cardadded']//p[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

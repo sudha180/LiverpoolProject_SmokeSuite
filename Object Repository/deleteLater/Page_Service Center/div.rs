@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div</name>
+   <tag></tag>
+   <elementGuidId>8f24f819-06f0-4717-b1e9-0c3eb5a81ae4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#navActionContainer_customerNavItem > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='navActionContainer_customerNavItem']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a8542b5b-1868-42e4-ab56-f73e4d22975a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navActionContainer_customerNavItem&quot;)/div[1]</value>
+      <webElementGuid>e597ca18-d8b7-4d0c-9338-358c3dd87468</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='navActionContainer_customerNavItem']/div</value>
+      <webElementGuid>9d9a2967-d6e7-4b4e-9b0d-b709b5a2b9ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar cliente'])[1]/following::div[1]</value>
+      <webElementGuid>3ec80876-dad0-4b1f-9cd1-63b1eb9bec5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lista de precios'])[1]/following::div[7]</value>
+      <webElementGuid>44b9d8e3-2cc2-4d22-b524-a4eedf31c405</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cliente'])[1]/preceding::div[1]</value>
+      <webElementGuid>5097886a-6f1b-4de7-80c9-e71f4bab815c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar órdenes'])[1]/preceding::div[3]</value>
+      <webElementGuid>2bbdd037-de56-4dca-a5d9-ff6933c269de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/a[3]/div</value>
+      <webElementGuid>d2e59120-6e2a-486f-8dd6-dbf6fb549762</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

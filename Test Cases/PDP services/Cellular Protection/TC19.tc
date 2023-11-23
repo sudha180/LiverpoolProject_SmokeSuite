@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the system navigation when user clicks on &quot;Ver opciones de compra&quot; button in wishlist page for sku associated with the PC service</description>
+   <name>TC19</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e09761fb-fcda-4724-be9d-62558295bc44</testCaseGuid>
+</TestCaseEntity>

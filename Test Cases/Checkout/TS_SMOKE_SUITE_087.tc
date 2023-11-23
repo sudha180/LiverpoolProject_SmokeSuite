@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To verify logged in user is able to place combination order for Softline and Bigticket item using Credit Card ,CIE and Paypal payment methods</description>
-   <name>TS_SMOKE_SUITE_087</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a00f0873-a392-49cc-ade4-11a368562b84</testCaseGuid>
-</TestCaseEntity>

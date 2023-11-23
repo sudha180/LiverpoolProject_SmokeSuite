@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_28 de octubre-07 de noviembre</name>
+   <tag></tag>
+   <elementGuidId>76e15ee1-4d77-415d-b5cb-186f60456516</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.product-list__product__date__black</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='order-confirmation-page']/div[4]/div/div[3]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa584122-5424-4a21-980c-7eae4f120ccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-list__product__date__black</value>
+      <webElementGuid>d4b865ff-9beb-4fcd-a198-ea6883c8ec42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>28 de octubre-07 de noviembre</value>
+      <webElementGuid>f8a8d040-4d43-46e3-80a4-c1b599359653</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;order-confirmation-page&quot;)/div[@class=&quot;m-box section-container&quot;]/div[@class=&quot;product-list-section&quot;]/div[@class=&quot;product-list__list&quot;]/div[@class=&quot;product-list__product&quot;]/div[@class=&quot;product-list__product__date__black&quot;]</value>
+      <webElementGuid>79036205-09d3-42e4-aa9e-ed2b854c903f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='order-confirmation-page']/div[4]/div/div[3]/div/div[3]</value>
+      <webElementGuid>03d53b67-15d8-4988-a064-59c5e69d88b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrega estimada:'])[1]/following::div[1]</value>
+      <webElementGuid>d42ae8c1-9eb8-4d65-8ce0-e038e94788cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No. de pedido:'])[2]/following::div[5]</value>
+      <webElementGuid>3632cebf-1547-459e-84d0-dfc67153944f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Te notificaremos cuando puedas pasar por tu artículo en el módulo de click &amp; collect'])[1]/preceding::div[1]</value>
+      <webElementGuid>7c818912-0c95-49dc-8b90-db432a063290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plan Superior de 2 años:'])[1]/preceding::div[3]</value>
+      <webElementGuid>3c5f5f94-7a52-4264-9811-991d3b9dfb92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='28 de octubre-07 de noviembre']/parent::*</value>
+      <webElementGuid>f9f4918a-3640-4315-8bf6-51ecff2a10a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[3]/div/div[3]</value>
+      <webElementGuid>389f6588-2241-4eb6-bfc5-b92d991ada9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '28 de octubre-07 de noviembre' or . = '28 de octubre-07 de noviembre')]</value>
+      <webElementGuid>026c1750-4ff6-4ad5-a30d-7d1289417d9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

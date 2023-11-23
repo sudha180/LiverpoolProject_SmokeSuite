@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_en monedero electrnico</name>
+   <tag></tag>
+   <elementGuidId>139e2693-c062-4cca-b7ba-7f47de1da68b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-product__productpromodescription</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='opc_promotion-modal']/div/div/div[2]/div/div/ul/li[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a0eb502c-b48c-4851-a17c-42ae8a17399b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-product__productpromodescription</value>
+      <webElementGuid>44e660fd-de88-407f-8cd4-af7183650ad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>en monedero electrónico.</value>
+      <webElementGuid>71663942-637b-47ea-bfba-60a08e1e580d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_promotion-modal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body pt-2&quot;]/div[@class=&quot;row m-checkout__promotionsWrapper&quot;]/div[@class=&quot;col-12 p-0&quot;]/ul[@class=&quot;a-checkout_promoList&quot;]/li[@class=&quot;a-checkout_promoListElement&quot;]/span[1]/span[@class=&quot;a-product__productpromodescription&quot;]</value>
+      <webElementGuid>1ef55679-504a-4254-92c7-cb043a9b29d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_promotion-modal']/div/div/div[2]/div/div/ul/li[2]/span/span</value>
+      <webElementGuid>aad98ee4-07a6-4e9e-a458-9c862b2d1ab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elige una promoción'])[7]/following::span[3]</value>
+      <webElementGuid>9d138687-b622-4d9e-ac1c-a93b40b3ef1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eliminar'])[14]/following::span[3]</value>
+      <webElementGuid>c726df40-132d-4d5f-81e3-415d37812b5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen de compra'])[1]/preceding::span[1]</value>
+      <webElementGuid>24be062d-7678-40cc-9fb6-e393a1ff4653</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tienes un cupón disponible en tu bolsa'])[2]/preceding::span[1]</value>
+      <webElementGuid>81005b9e-b4b5-4ffe-b9d7-432baf848c8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='en monedero electrónico.']/parent::*</value>
+      <webElementGuid>36c1c577-9eec-48e5-834b-48957372b0f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>ad573043-0f9a-446d-9bae-f7ffa7242072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'en monedero electrónico.' or . = 'en monedero electrónico.')]</value>
+      <webElementGuid>04bf82b2-2f50-4b63-8561-595ba982b81d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>cba801c6-64d7-4da3-9a2f-468503edc1b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='m-textField mdc-text-field mdc-text-field--outlined mdc-text-field--valid']//input[@name='cardNumber']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//input[@class='mdc-text-field__input a-material__input'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

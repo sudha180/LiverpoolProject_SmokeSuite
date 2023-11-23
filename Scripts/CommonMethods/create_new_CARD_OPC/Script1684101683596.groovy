@@ -25,7 +25,7 @@ WebUI.click(findTestObject('OPCPage/Payment_Method_Card_OPC'), FailureHandling.O
 'to set card as default card\r\n'
 WebUI.click(findTestObject('OPCPage/addnewcard_Popup_OPC'), FailureHandling.OPTIONAL)
 
-String cardnumber = '4111111' + RandomStringUtils.randomNumeric(9)
+String cardnumber = '49118488' + RandomStringUtils.randomNumeric(8)
 
 System.out.println(cardnumber)
 
@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('OPCPage/enterCardCVV_OPC'), '123')
 
 WebUI.click(findTestObject('OPCPage/selectAddress_Card_create_popup'))
 
-WebUI.click(findTestObject('OPCPage/AddCard_continue_POPup_OPC'))
+WebUI.click(findTestObject('OPCPage/Continue_OPC'))
 
 WebUI.delay(4)
 

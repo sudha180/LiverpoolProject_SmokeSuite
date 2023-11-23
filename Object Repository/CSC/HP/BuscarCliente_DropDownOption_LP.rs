@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BuscarCliente_DropDownOption_LP</name>
+   <tag></tag>
+   <elementGuidId>520dafcb-d771-4f60-acbf-30f17d4b4107</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#navActionPopup_customerNavItem > ul > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Buscar cliente')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>778732a2-06be-4328-b8f3-5ae7e528c8c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>323d2dab-50d0-41c0-a0cb-7fdf1291a517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>atgChangeTab(atg.service.framework.changeTab('customersTab'),null,'customerSearchPanels',null);</value>
+      <webElementGuid>e7ff1d5c-7f6c-4a48-b926-64ace05ee1ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buscar cliente</value>
+      <webElementGuid>bb1b9707-b863-4edc-a77d-649d656f31ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navActionPopup_customerNavItem&quot;)/ul[1]/li[1]/a[1]</value>
+      <webElementGuid>84c73e14-bb6e-414b-81c3-08a905c27d6d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=&quot;atgChangeTab(atg.service.framework.changeTab('customersTab'),null,'customerSearchPanels',null);&quot;])[2]</value>
+      <webElementGuid>6b12dc4b-b0e9-47bd-9a91-ab0e728562fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navActionPopup_customerNavItem']/ul/li/a</value>
+      <webElementGuid>c928e7a8-efc4-4306-8d36-2134c22f0c34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Buscar cliente')]</value>
+      <webElementGuid>ae0b0bef-9949-4ae4-b015-f78c6ddad3a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cliente'])[1]/following::a[1]</value>
+      <webElementGuid>c5524530-4244-4ae9-9815-c9a38c779f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar cliente'])[1]/following::a[3]</value>
+      <webElementGuid>f6b5ea04-23af-49a3-a8f4-6184109aee61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar órdenes'])[1]/preceding::a[4]</value>
+      <webElementGuid>b7232849-af64-4b50-a1c5-f0c52b414385</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orden'])[1]/preceding::a[7]</value>
+      <webElementGuid>137e05e4-6d37-44f1-96cb-930e832a7ae9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>b5bcc5ed-fcd5-476e-acce-98d2e5cec80a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/ul/li/a</value>
+      <webElementGuid>5acc453e-be73-4ad9-9d18-bec9280c8d6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Buscar cliente' or . = 'Buscar cliente')]</value>
+      <webElementGuid>b9d53fd3-fe53-4aa5-8719-669a5c695d1e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

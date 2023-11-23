@@ -6,8 +6,8 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx'</initValue>
-      <name>url</name>
+      <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
+      <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -16,13 +16,23 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'chenna4@mailinator.com'</initValue>
+      <initValue>'anusha.kondapaneni@zensar.com'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Chenna@123'</initValue>
+      <initValue>'87654321'</initValue>
       <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'chenna4@mailinator.com'</initValue>
+      <name>username1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chenna@123'</initValue>
+      <name>password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>digital product </description>
@@ -31,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'tag'</initValue>
+      <initValue>'vaso'</initValue>
       <name>SLSearchTerm</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'12000\r\n'</initValue>
+      <initValue>'21200'</initValue>
       <name>PostalCode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,7 +121,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://osit4a.liverpool.com.mx/tienda/oneCheckout'</initValue>
+      <initValue>'https://odtaqaa.liverpool.com.mx/tienda/oneCheckout'</initValue>
       <name>CartPageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -153,5 +163,30 @@
       <description></description>
       <initValue>'Test@12345'</initValue>
       <name>p</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
+      <name>URLQA2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jeans'</initValue>
+      <name>jeans</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'samsung'</initValue>
+      <name>rate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mac'</initValue>
+      <name>colour</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sony'</initValue>
+      <name>rateCPandDP</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

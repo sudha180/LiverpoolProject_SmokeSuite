@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the behaviour of the system   when the user recharges with the newly added BBVA card with puntos and does not use points for payment
+(only BBVA card )</description>
+   <name>TC025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4995f6f-2bc1-41d2-8a19-9da56057afe9</testCaseGuid>
+</TestCaseEntity>

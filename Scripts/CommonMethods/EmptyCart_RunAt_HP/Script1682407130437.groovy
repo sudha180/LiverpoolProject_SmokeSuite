@@ -36,7 +36,7 @@ WebUI.delay(2, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/bag_header_HP'), FailureHandling.OPTIONAL)
 
-List<WebElement> listElement = WebUI.findWebElements(findTestObject('CartPage/Product1_remove_cart'), 2)
+List<WebElement> listElement = WebUI.findWebElements(findTestObject('CartPage/Product1_remove_cart'),2)
 
 String noOfProducts = listElement.size()
 

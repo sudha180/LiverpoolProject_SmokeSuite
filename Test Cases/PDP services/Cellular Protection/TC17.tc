@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify system allows the user to move the sku associated to PC service to wishlist</description>
+   <name>TC17</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a909a209-2eed-4b98-af59-3d1f03c2196a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System should close the pop up window and user should be Mis Forma de pago page,</description>
+   <name>TC022</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8fb1d9a-4832-46f6-b1e3-849bb6813d76</testCaseGuid>
+</TestCaseEntity>

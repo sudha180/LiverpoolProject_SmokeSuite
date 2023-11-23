@@ -1,4 +1,4 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+/*import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -24,20 +24,23 @@ class NewTestListener {
 
 		WebUI.callTestCase(findTestCase('CommonMethods/close any pop up'), [:], FailureHandling.OPTIONAL)
 
-		WebUI.click(findTestObject('HomePage/Logo_hp'))
-
+		WebUI.click(findTestObject('HomePage/Logo_hp'), FailureHandling.OPTIONAL)
+		
+		if (WebUI.verifyElementNotPresent(findTestObject('HomePage/Logo_hp'),0) == true) {
+			WebUI.navigateToUrl('https://odtaqaa.liverpool.com.mx')
+		}
 	}
 
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://odtaqab.liverpool.com.mx')
+		WebUI.navigateToUrl('https://odtaqaa.liverpool.com.mx')
 	}
-	
+
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 
 		WebUI.closeBrowser('')
 	}
-}
+}*/

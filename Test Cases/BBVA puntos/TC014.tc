@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the behaviour of the system on the Air time Checkout page, when the guest(new) user adds the BBVA card that has entry in BIN table
+1. Guest user (new user)
+2. Login User with no card</description>
+   <name>TC014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9afa0e00-21c3-4ff2-a42f-3c57a25678fe</testCaseGuid>
+</TestCaseEntity>
