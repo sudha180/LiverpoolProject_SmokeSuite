@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqaa.liverpool.com.mx/tienda/home'</initValue>
+      <initValue>'https://odtaqab.liverpool.com.mx'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hcheruvu29@digisprint.com'</initValue>
+      <initValue>'chenna4@mailinator.com'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test@12345'</initValue>
+      <initValue>'Chenna@123'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -111,7 +111,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqaa.liverpool.com.mx/tienda/oneCheckout'</initValue>
+      <initValue>'https://osit4a.liverpool.com.mx/tienda/oneCheckout'</initValue>
       <name>CartPageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -143,5 +143,15 @@
       <description></description>
       <initValue>'ropa'</initValue>
       <name>Sl_PLP_price</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hcheruvu29@digisprint.com'</initValue>
+      <name>uN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test@12345'</initValue>
+      <name>p</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

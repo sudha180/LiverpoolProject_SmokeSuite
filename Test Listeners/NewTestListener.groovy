@@ -32,7 +32,7 @@ class NewTestListener {
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://odtaqaa.liverpool.com.mx/tienda/home')
+		WebUI.navigateToUrl('https://odtaqab.liverpool.com.mx')
 	}
 	
 	@AfterTestSuite

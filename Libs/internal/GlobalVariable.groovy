@@ -153,6 +153,16 @@ Profile default : digital product </p>
     /**
      * <p></p>
      */
+    public static Object uN
+     
+    /**
+     * <p></p>
+     */
+    public static Object p
+     
+    /**
+     * <p></p>
+     */
     public static Object URL
      
     /**
@@ -511,6 +521,8 @@ Profile default : pwaqa</p>
             name = selectedVariables['name']
             SL1 = selectedVariables['SL1']
             Sl_PLP_price = selectedVariables['Sl_PLP_price']
+            uN = selectedVariables['uN']
+            p = selectedVariables['p']
             URL = selectedVariables['URL']
             newuser = selectedVariables['newuser']
             GIDcollection = selectedVariables['GIDcollection']
