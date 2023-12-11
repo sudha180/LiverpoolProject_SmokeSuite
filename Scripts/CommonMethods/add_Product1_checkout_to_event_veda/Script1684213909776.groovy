@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('OPCPage/shop_For_Event_product1_OPC (1)'))
+WebUI.click(findTestObject('OPCPage/shop_For_Event_product1_OPC'))
 
 WebUI.setText(findTestObject('OPCPage/Enter_Event_Number_Eventpopup_OPC'), '56076579')
 

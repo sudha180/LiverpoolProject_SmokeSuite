@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>System should display Puntos BBVA on the top of the list  in  &quot;Otros metodos de pago&quot; sect</description>
+   <description>System should display a pop up box with the header as Pago con Puntos BBVA  and information about BBVA puntos with an image in the centre , along with close X button.</description>
    <name>TC012</name>
    <tag></tag>
    <comment></comment>

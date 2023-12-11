@@ -311,7 +311,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/productprice_opc'), 0)
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/totalPrice_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('OPCPage/promotionSection_opc (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('OPCPage/promotionSection_opc'), 0)
 
 not_run: WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Comprar para mesa de regalos_opc'), 0)
 
@@ -319,7 +319,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Mover a Wishlist_
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Eliminar_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('OPCPage/button_Cupones_opc (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('OPCPage/button_Cupones_opc'), 0)
 
 WebUI.click(findTestObject('OPCPage/label_Cambiar_payment_opc'))
 
@@ -331,7 +331,7 @@ WebUI.click(findTestObject('OPCPage/button_Continuar_payment_opc 1'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('OPCPage/button_Finalizar compra_opc (1)'))
+WebUI.click(findTestObject('OPCPage/button_Finalizar compra_opc'))
 
 WebUI.delay(3)
 

@@ -44,3 +44,5 @@ WebUI.click(findTestObject('AccountManagement/ATT/finalize_recharge_MyAccount'))
 'verify thank you page'
 WebUI.verifyElementPresent(findTestObject('ConfirmationPage/gracias_por_comprar_CP'), 0)
 
+Windows.startApplication('outlook')
+

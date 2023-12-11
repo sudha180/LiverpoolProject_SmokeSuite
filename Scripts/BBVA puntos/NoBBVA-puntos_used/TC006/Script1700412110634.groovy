@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.navigateToUrl('https://odtaqaa.potterybarnkids.com.mx/tienda/home')
+WebUI.navigateToUrl(GlobalVariable.GAP)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -35,9 +33,25 @@ WebUI.verifyElementPresent(findTestObject('AccountManagement/Otros métodos de p
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/Help_paymentMethod_AM'), 0)
 
-WebUI.click(findTestObject('AccountManagement/Help_paymentMethod_AM'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/MisTarjestra_AM'))
 
-WebUI.verifyElementVisible(findTestObject('OPCPage/BBVApuntosHelp_Header_POP_UP_AM'))
+WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'))
 
-WebUI.click(findTestObject('OPCPage/close_popup_OPC'))
+Cardname = CustomKeywords.'customkeywords.myKeywords.randomString'()
+
+WebUI.setText(findTestObject('AccountManagement/CardName_Account'), Cardname)
+
+WebUI.callTestCase(findTestCase('CommonMethods/AddCard_Account_AM_withPuntos'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
+
+CardName = WebUI.getText(findTestObject('AccountManagement/CardNameGrid_Account'))
+
+if (Cardname == CardName) {
+    println('Add Card Successful')
+} else {
+    KeywordUtil.markFailed('Card is not Added !')
+}
+
+WebUI.callTestCase(findTestCase('CommonMethods/DeletePuntosCard_AM'), [:], FailureHandling.STOP_ON_FAILURE)
 

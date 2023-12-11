@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if BBVA-Puntos section is available for the user in the &quot;Otros metodos de pago&quot; section in My payments page for Pottery Barn website</description>
+   <name>TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abec30cf-4cbd-4aa1-8a55-25e9282c1dbc</testCaseGuid>
+</TestCaseEntity>

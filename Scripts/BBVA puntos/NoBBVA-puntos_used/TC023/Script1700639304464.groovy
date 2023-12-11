@@ -75,3 +75,12 @@ WebUI.verifyElementPresent(findTestObject('ConfirmationPage/puntos_Remaining_CP'
 
 WebUI.verifyElementPresent(findTestObject('ConfirmationPage/puntos_Used_CP'), 0)
 
+'verify 0 puntos used'
+WebUI.verifyElementPresent(findTestObject('ConfirmationPage/Saldo_anterior_0_puntos_CP'), 0)
+
+'verify 0 puntos used'
+WebUI.verifyElementPresent(findTestObject('ConfirmationPage/Monto_utilizado_0_puntos_CP'), 0)
+
+'verify 0 puntos used'
+WebUI.verifyElementPresent(findTestObject('ConfirmationPage/Saldo_actual_0_puntos_CP'), 0)
+

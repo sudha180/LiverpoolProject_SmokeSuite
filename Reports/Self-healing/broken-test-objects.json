@@ -1,0 +1,154 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/delete/Page_Liverpool es parte de Mi vida/span_Iniciar sesin",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/header/div[4]/div[2]/div/div/div/div[5]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/delete/Page_Liverpool es parte de Mi vida/span_Iniciar sesin_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/Buscar1",
+      "brokenLocator": "//input[@id\u003d\u0027mainSearchbar\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": " #mainSearchbar",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/Buscar1_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/EnterUsername_LP",
+      "brokenLocator": "//input[@id\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/EnterUsername_LP_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OPCPage/Page_/TotalPrice_opc",
+      "brokenLocator": "(//div[@class\u003d\u0027m-breakdownExpenses__column--priceContainer\u0027]//p)[10]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cupones\u0027])[1]/following::p[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OPCPage/Page_/TotalPrice_opc_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/span_HolaUser_hp",
+      "brokenLocator": "//div[@class\u003d\u0027o-col col-lg-auto d-none d-lg-flex text-center order-lg-4 sessionMinWidth\u0027]//span[contains(text(),\u0027Hola\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mis Compras\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/span_HolaUser_hp_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PDPPage/Detail_PDP",
+      "brokenLocator": "//div[@class\u003d\u0027productDetailTab\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/div/section/div/main/div[2]/div[11]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/a_Mis_Pedido_hp",
+      "brokenLocator": "(//a[contains(text(),\u0027Mis Pedidos\u0027)])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Mis Compras\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/a_Mis_Pedido_hp_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/Tiendas_HP",
+      "brokenLocator": "(//a[@class\u003d\u0027a-header__strongLink m-ipadRightLink pl-3\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Tiendas\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/Tiendas_HP_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/Mis_Pedido_hp",
+      "brokenLocator": "(//a[contains(text(),\u0027Mis Pedidos\u0027)])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/header/div[4]/div[2]/div/div/div/div[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/Mis_Pedido_hp_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AccountManagement/span_Hola header_HP",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mi Cuenta\u0027])[1]/preceding::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mis Compras\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AccountManagement/span_Hola header_HP_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/Mis_Pedido_hp",
+      "brokenLocator": "(//a[contains(text(),\u0027Mis Pedidos\u0027)])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Mis Compras\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/Mis_Pedido_hp_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/FirstProduct_plp",
+      "brokenLocator": "(//article[@class\u003d\u0027d-flex ipod-d-block\u0027])[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/div/div/div/div[4]/main/div[2]/div/div/ul/li/a/div/figure/figcaption/article/h5",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/FirstProduct_plp_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AccountManagement/span_Hola header_HP",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mi Cuenta\u0027])[1]/preceding::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AccountManagement/span_Hola header_HP_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/span_HolaUser_hp",
+      "brokenLocator": "//div[@class\u003d\u0027o-col col-lg-auto d-none d-lg-flex text-center order-lg-4 sessionMinWidth\u0027]//span[contains(text(),\u0027Hola\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/span_HolaUser_hp_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OPCPage/street_addAddress_opc",
+      "brokenLocator": "//label[contains(text(),\u0027Calle:\u0027)]/ancestor::div[@class\u003d\u0027mdc-ripple-upgraded mdc-text-field--invalid\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027street\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OPCPage/street_addAddress_opc_attributes.png"
+    }
+  ]
+}

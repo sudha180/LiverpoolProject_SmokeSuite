@@ -25,6 +25,8 @@ WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/CreateNewAccount_LoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('OPCPage/close_popup_OPC'), FailureHandling.OPTIONAL)
+
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))

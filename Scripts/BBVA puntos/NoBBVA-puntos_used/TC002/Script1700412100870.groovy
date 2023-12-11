@@ -53,3 +53,5 @@ if (Cardname == CardName) {
     KeywordUtil.markFailed('Card is not Added !')
 }
 
+WebUI.callTestCase(findTestCase('CommonMethods/DeletePuntosCard_AM'), [:], FailureHandling.STOP_ON_FAILURE)
+

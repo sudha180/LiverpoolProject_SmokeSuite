@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cupones_opc</name>
+   <tag></tag>
+   <elementGuidId>58bc1a9a-a64d-4457-97c6-c8f6b4e87e79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='opc_buysummary']/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-btn.a-btn--onePageCheckout--deliveryAddress.d-inline.breakdown-expenses__coupons_button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>292cd006-30fc-4c08-b2cf-918981dc2246</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-btn a-btn--onePageCheckout--deliveryAddress d-inline breakdown-expenses__coupons_button</value>
+      <webElementGuid>140b6aec-f54c-4088-8a71-8cee435bdeed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cupones</value>
+      <webElementGuid>857aea93-3d72-45fa-9229-3c04d919b3c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opc_buysummary&quot;)/div[@class=&quot;m-breakdownExpense breakdown-expenses__coupons&quot;]/button[@class=&quot;a-btn a-btn--onePageCheckout--deliveryAddress d-inline breakdown-expenses__coupons_button&quot;]</value>
+      <webElementGuid>f8e47fd1-472c-4c08-bbca-13d2f58c0ae7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opc_buysummary']/div/button</value>
+      <webElementGuid>9be72777-a20d-489e-96d8-f992e6aab068</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resumen de compra'])[1]/following::button[1]</value>
+      <webElementGuid>c8bc2088-a4c2-4fce-b168-5de9bc07f8f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eliminar'])[2]/following::button[1]</value>
+      <webElementGuid>dd931216-a959-4953-bb5a-fba6ee3b5934</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirma tu compra'])[2]/preceding::button[1]</value>
+      <webElementGuid>8ac1ffa1-9545-42f5-958d-214ca03b3147</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>40f50d3c-da11-4ea2-8f68-55ce9c21fdfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Cupones' or . = 'Cupones')]</value>
+      <webElementGuid>452915fd-4fa0-4f2b-b4db-cbef7319c975</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

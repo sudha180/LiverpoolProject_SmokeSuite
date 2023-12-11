@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('OPCPage/GiftTable_Checkout'))
 
-WebUI.setText(findTestObject('OPCPage/SearchEventField_GRPopup (1)'), '56075997')
+WebUI.setText(findTestObject('OPCPage/SearchEventField_GRPopup'), '56075997')
 
 WebUI.click(findTestObject('OPCPage/FindGiftTable_Checkout'))
 
 WebUI.click(findTestObject('OPCPage/EventSelection_GRPopup'))
 
-WebUI.click(findTestObject('OPCPage/SelectPartyRadioButton_Checkout (1)'))
+WebUI.click(findTestObject('OPCPage/SelectPartyRadioButton_Checkout'))
 
 WebUI.click(findTestObject('OPCPage/InputTextAreaGiftTable_Checkout'))
 
 WebUI.setText(findTestObject('OPCPage/InputTextAreaGiftTable_Checkout'), 'Test')
 
-WebUI.click(findTestObject('OPCPage/sendMessageToCelebratedGiftTable_Checkout (1)'))
+WebUI.click(findTestObject('OPCPage/sendMessageToCelebratedGiftTable_Checkout'))
 

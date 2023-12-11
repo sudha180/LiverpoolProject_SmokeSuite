@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To verify user is able to place an order using BBVA points in the GAP website</description>
    <name>TC008</name>
    <tag></tag>
    <comment></comment>

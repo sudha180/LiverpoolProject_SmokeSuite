@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.GAP)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -35,8 +35,6 @@ WebUI.verifyElementPresent(findTestObject('AccountManagement/Help_paymentMethod_
 
 WebUI.click(findTestObject('AccountManagement/MisTarjestra_AM'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/DeletePuntosCard_AM'), [:], FailureHandling.OPTIONAL)
-
 WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'))
 
 Cardname = CustomKeywords.'customkeywords.myKeywords.randomString'()
@@ -47,11 +45,13 @@ WebUI.callTestCase(findTestCase('CommonMethods/AddCard_Account_AM_withPuntos'), 
 
 WebUI.waitForPageLoad(0)
 
-CardName = WebUI.getText(findTestObject('AccountManagement/PuntosCard2334_Name_AM'))
+CardName = WebUI.getText(findTestObject('AccountManagement/CardNameGrid_Account'))
 
 if (Cardname == CardName) {
     println('Add Card Successful')
 } else {
     KeywordUtil.markFailed('Card is not Added !')
 }
+
+WebUI.callTestCase(findTestCase('CommonMethods/DeletePuntosCard_AM'), [:], FailureHandling.STOP_ON_FAILURE)
 

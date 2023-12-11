@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
+      <initValue>'https://dtaqa.liverpool.com.mx'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -166,7 +166,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
+      <initValue>'https://odtaqab.liverpool.com.mx'</initValue>
       <name>URLQA2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -188,5 +188,15 @@
       <description></description>
       <initValue>'sony'</initValue>
       <name>rateCPandDP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dtaqa.potterybarnkids.com.mx/tienda'</initValue>
+      <name>PotteryBarn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dtaqa.gap.com.mx/tienda/home'</initValue>
+      <name>GAP</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

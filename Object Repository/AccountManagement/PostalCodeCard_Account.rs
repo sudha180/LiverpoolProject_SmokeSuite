@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='postalCode']</value>
+         <value>//label[contains(text(),'Código Postal')]/ancestor::div[@class='col-lg-3 mb-2']//input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -355,7 +355,7 @@ WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Mover a Wishlist_
 
 WebUI.verifyElementPresent(findTestObject('checkoutpage/button_Eliminar_opc'), 0)
 
-WebUI.verifyElementPresent(findTestObject('OPCPage/button_Cupones_opc (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('OPCPage/button_Cupones_opc'), 0)
 
 WebUI.click(findTestObject('checkoutpage/label_Cambiar_payment_opc'))
 

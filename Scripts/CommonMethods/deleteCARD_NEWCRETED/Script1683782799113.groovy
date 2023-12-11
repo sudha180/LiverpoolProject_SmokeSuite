@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'), FailureHandling.STOP_ON_FAILURE)
 
-a = WebUI.verifyElementPresent(findTestObject('OPCPage/selectCardOption_save_cardpopup_OPC (1)'),0)
+a = WebUI.verifyElementPresent(findTestObject('OPCPage/selectCardOption_save_cardpopup_OPC'),0)
 
 if(a != true) {
-WebUI.click(findTestObject('OPCPage/selecte_card _PAYmentChange_OPC (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OPCPage/selecte_card _PAYmentChange_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OPCPage/card_sharma_Option_OPC'), FailureHandling.STOP_ON_FAILURE)
 
@@ -32,6 +32,6 @@ WebUI.click(findTestObject('OPCPage/accept_deletion_card_OPC'))
 
 WebUI.click(findTestObject('OPCPage/card1_OPC'))
 
-WebUI.click(findTestObject('OPCPage/selectCardOption_save_cardpopup_OPC (1)'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OPCPage/selectCardOption_save_cardpopup_OPC'), FailureHandling.OPTIONAL)
 
 }

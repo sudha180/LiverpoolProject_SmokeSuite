@@ -21,7 +21,7 @@ WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'), FailureHandling.
 
 WebUI.click(findTestObject('OPCPage/paymentMethod_button1_OPC'))
 
-WebUI.click(findTestObject('OPCPage/selectCard1Option_cardpopup_OPC (1)'))
+WebUI.click(findTestObject('OPCPage/selectCard1Option_cardpopup_OPC'))
 
 WebUI.delay(1)
 

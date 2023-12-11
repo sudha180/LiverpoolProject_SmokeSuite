@@ -43,7 +43,7 @@ WebUI.click(findTestObject('OPCPage/changeADDRESS_OPC'))
 
 WebUI.click(findTestObject('OPCPage/clickAndCollect_OPC'))
 
-WebUI.verifyElementPresent(findTestObject('OPCPage/SeleccionUNA_Tienda(CNC)_OPC (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('OPCPage/SeleccionUNA_Tienda(CNC)_OPC'), 0)
 
 WebUI.closeBrowser()
 

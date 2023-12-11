@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>System should close the pop up window and user should be Mis Forma de pago page,</description>
+   <description>To verify  the user is able to close the pop up window</description>
    <name>TC013</name>
    <tag></tag>
    <comment></comment>

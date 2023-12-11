@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('OPCPage/promotionSection_opc (1)'))
+WebUI.click(findTestObject('OPCPage/promotionSection_opc'))
 
-WebUI.click(findTestObject('OPCPage/selectPromotion2InPromotionpopup_opc (1)'))
+WebUI.click(findTestObject('OPCPage/selectPromotion2InPromotionpopup_opc'))
 
 WebUI.verifyElementPresent(findTestObject('OPCPage/promotionUpdatedMessage_afterCardSelection (1)'), 0)
 

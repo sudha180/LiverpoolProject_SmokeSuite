@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/AccountManagement/span_Hola header_HP'))
 
-WebUI.click(findTestObject('Object Repository/AccountManagement/a_Mi tiempo aire (1)'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/AccountManagement/h1_Tiempo Aire_AM'), 0)
 

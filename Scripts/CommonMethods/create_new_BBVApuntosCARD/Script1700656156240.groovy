@@ -32,9 +32,9 @@ WebUI.setText(findTestObject('OPCPage/enterCardName_OPC'), 'vedant')
 
 not_run: WebUI.setText(findTestObject('OPCPage/newCard_expireDATE_POPup_Addcard_OPC'), '12/24')
 
-WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/PostalCodeCard_Account'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), GlobalVariable.PostalCode)
+WebUI.setText(findTestObject('AccountManagement/PostalCodeCard_Account'), GlobalVariable.PostalCode)
 
 WebUI.click(findTestObject('OPCPage/street_addAddress_opc'), FailureHandling.STOP_ON_FAILURE)
 
