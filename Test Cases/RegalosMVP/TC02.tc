@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify that the user is able to see the Regalos promotion banner with link on Home page</description>
    <name>TC02</name>
    <tag></tag>
    <comment></comment>

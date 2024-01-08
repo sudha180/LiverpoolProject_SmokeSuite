@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify that the user is able to access the Liverpool ecommerce site</description>
    <name>TC01</name>
    <tag></tag>
    <comment></comment>

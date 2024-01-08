@@ -21,12 +21,8 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.support.PageFactory as PageFactory
- 
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
-import com.kms.katalon.core.util.KeywordUtil
-import org.openqa.selenium.WebElement
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
@@ -34,15 +30,15 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vaso high ball'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('PLPPage/product_regalos_can_comprare_1_PLP'), 0)
-
-WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : '1028042856'], FailureHandling.STOP_ON_FAILURE)
 
 a = WebUI.getText(findTestObject('PDPPage/RegalosPromotionName1_PDP'))
-System.out.println(a)
 
+WebUI.click(findTestObject('PDPPage/Quantity_StickyBar_PDP'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('PDPPage/Quantity_StickyBar_PDP'), '65')
+
+System.out.println(a)
 
 /*
 System.setProperty('webdriver.chrome.driver', 'C:\\PATH\\chromedriver_win32\\chromedriver.exe') 
@@ -61,17 +57,45 @@ System.setProperty('webdriver.chrome.driver', 'C:\\PATH\\chromedriver_win32\\chr
  * 
  * }
  */
-
 WebDriver driver = DriverFactory.getWebDriver()
-int j=1
 
-List<WebElement> elements = driver.findElements(By.xpath('//ul[@class="header_position_change mt-2 ml-0 p-0 list-content"]/li'))
+List<WebElement> pdpelements = driver.findElements(By.xpath('//ul[@class="header_position_change mt-2 ml-0 p-0 list-content"]/li'))
 
-
-for (int i = 0;  i < elements.size(); ++i) {
-	KeywordUtil.logInfo(elements.size())
-	KeywordUtil.logInfo(elements.print('REGALO POR MONTO - Compra Min $1000.00 - 50% DE DESCUENTO'))
-	KeywordUtil.logInfo(elements.get(i).toString())
-	 System.out.println(elements)
-	j=j+1
+for (WebElement link : pdpelements) {
+    System.out.println(link.getText())
 }
+
+List<WebElement> pdpList = new ArrayList<String>()
+
+for (WebElement link : pdpelements) {
+    pdpList.add(link.getText())
+}
+
+WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
+
+WebUI.click(findTestObject('HomePage/bag_header_HP'))
+
+WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
+
+WebUI.click(findTestObject('OPCPage/promotionSection_opc'))
+
+List<WebElement> checkoutelements = driver.findElements(By.xpath('//ul[@class="a-checkout_promoList"]/li'))
+
+for (WebElement link : checkoutelements) {
+    System.out.println(link.getText())
+}
+
+List<WebElement> checkoutList = new ArrayList<String>()
+
+for (WebElement link : checkoutelements) {
+    checkoutList.add(link.getText())
+}
+
+if (checkoutList.contains(pdpList)) {
+    System.out.println('The lists are equal')
+} else {
+    System.out.println('The lists are not equal')
+}
+
+List<WebElement> discountelements = driver.findElements(By.xpath('//ul[@class="a-checkout_promoList"]//strong'))
+

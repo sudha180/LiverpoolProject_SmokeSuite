@@ -35,19 +35,21 @@ WebUI.click(findTestObject('HomePage/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
-WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'))
 
 WebUI.click(findTestObject('OPCPage/paymentMethod_button1_OPC'))
 
 WebUI.click(findTestObject('OPCPage/card2_OPC'))
 
-WebUI.verifyElementText(findTestObject('OPCPage/PuntosCard_yellowtext_CardPopUP_OPC'), 'Pago con puntos BBVA disponible')
-
-def css_color = WebUI.getCSSValue(findTestObject('OPCPage/PuntosCard_yellowtext_CardPopUP_OPC'), 'color')
-
-WebUI.verifyEqual(css_color, 'rgba(236, 158, 0, 1)')
+WebUI.verifyElementNotPresent(findTestObject('OPCPage/PuntosCard_yellowtext_CardPopUPcard2_OPC'), 0)
 
 WebUI.setText(findTestObject('OPCPage/enterCardCVV_OPC'), '243')
 
 WebUI.setText(findTestObject('OPCPage/enterCardExpire_OPC'), '1226')
+
+WebUI.click(findTestObject('OPCPage/Continue_OPC'))
+
+WebUI.verifyElementNotPresent(findTestObject('OPCPage/UsePuntosCheckbox_OPC'), 0)
+
+WebUI.click(findTestObject('OPCPage/Final_comparar_OPC'))
 

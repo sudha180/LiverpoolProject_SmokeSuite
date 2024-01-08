@@ -149,6 +149,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/OPCPage/street_addAddress_opc_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/HomePage/EnterPassword_LP",
+      "brokenLocator": "//input[@id\u003d\u0027password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/HomePage/EnterPassword_LP_position.png"
     }
   ]
 }

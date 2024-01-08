@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify the display and functionality of Regalo con compra section at each item level on Shopping cart page</description>
    <name>TC09</name>
    <tag></tag>
    <comment></comment>

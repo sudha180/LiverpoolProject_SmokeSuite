@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>RegalosPromotionName1_PDP</name>
+   <description>the option to select</description>
+   <name>card2_OPC</name>
    <tag></tag>
-   <elementGuidId>6bc5bd9c-49b5-4694-9972-759be47b796e</elementGuidId>
+   <elementGuidId>17f4851c-b923-4ae6-8272-c84ae4921779</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class=&quot;header_position_change mt-2 ml-0 p-0 list-content&quot;]//li[1]</value>
+         <value>//div[@class='o-loggedUserCardInfo d-block']//label[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

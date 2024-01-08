@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>RegalosPromotionName1_PDP</name>
+   <description>select card option from card select pop-up</description>
+   <name>selectCard2Option_cardpopup_OPC</name>
    <tag></tag>
-   <elementGuidId>6bc5bd9c-49b5-4694-9972-759be47b796e</elementGuidId>
+   <elementGuidId>92cff627-a7da-415a-a9b7-c8bd01c81192</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class=&quot;header_position_change mt-2 ml-0 p-0 list-content&quot;]//li[1]</value>
+         <value>(//input[@name='billingCreditCard'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

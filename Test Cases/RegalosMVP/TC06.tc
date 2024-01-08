@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify the display and functionality of Regalo con compra section on PDP</description>
    <name>TC06</name>
    <tag></tag>
    <comment></comment>

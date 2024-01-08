@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify the display and functionality of Ver detalles de regalos link under Ofertas y promociones section on PDP</description>
    <name>TC07</name>
    <tag></tag>
    <comment></comment>

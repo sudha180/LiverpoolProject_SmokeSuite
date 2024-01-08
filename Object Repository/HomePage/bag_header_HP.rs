@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='a-header__bag']</value>
+         <value>(//div[@class='o-col col-lg-auto col-3 text-lg-center text-right order-3 order-lg-5']//button)[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

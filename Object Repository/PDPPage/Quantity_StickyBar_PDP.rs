@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RegalosPromotionName1_PDP</name>
+   <name>Quantity_StickyBar_PDP</name>
    <tag></tag>
-   <elementGuidId>6bc5bd9c-49b5-4694-9972-759be47b796e</elementGuidId>
+   <elementGuidId>63cfd1c9-e40b-49cb-906a-83c1c239a76e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class=&quot;header_position_change mt-2 ml-0 p-0 list-content&quot;]//li[1]</value>
+         <value>(//input[@class='a-stickyBar__inputQty  m-stickyBarPdp__inputQty'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

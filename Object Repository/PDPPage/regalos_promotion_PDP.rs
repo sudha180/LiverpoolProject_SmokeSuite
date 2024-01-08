@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class='header_position_change mt-2 ml-0 p-0 list-content']//li/p</value>
+         <value>//ul[@class='header_position_change mt-2 ml-0 p-0 list-content']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify that the user is able to filter the products based on Regalo con compra promotion configuration when user selects the Artículos con regalo checkbox under the Regalo incluido section on PLP</description>
    <name>TC05</name>
    <tag></tag>
    <comment></comment>
